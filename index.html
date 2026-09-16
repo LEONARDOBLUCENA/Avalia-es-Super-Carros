@@ -147,6 +147,9 @@
     background: var(--panel-2); border: 1px solid var(--border); border-radius: 8px;
     padding: 8px 12px; margin-bottom: 6px;
   }
+  .token-card { display: flex; gap: 8px; align-items: flex-end; flex-wrap: wrap; }
+  .token-card > div { flex: 1; min-width: 240px; }
+  .token-ok { color: var(--green); font-size: 0.8rem; }
 </style>
 </head>
 <body>
@@ -155,9 +158,23 @@
   <div class="subtitle">Cadastro, busca e confirmação de avaliações por funcionário</div>
 
   <div id="configWarning" class="warn" style="display:none;">
-    ⚠️ Este arquivo ainda não está conectado ao repositório do GitHub. Preencha
-    <code>GITHUB_OWNER</code>, <code>GITHUB_REPO</code> e as 3 partes do token
-    no início do script (procure por "COLE_AQUI") antes de publicar.
+    ⚠️ Este navegador ainda não tem o token do GitHub salvo. Cole seu token abaixo
+    e clique em "Salvar token" — ele fica guardado só neste navegador (não vai
+    para o arquivo nem para o GitHub) e você não precisa colar de novo depois de
+    uma atualização do arquivo.
+  </div>
+
+  <div class="card" id="tokenCard">
+    <div class="section-title">Token de acesso ao GitHub</div>
+    <div class="token-card">
+      <div>
+        <label for="tokenInput">Personal Access Token</label>
+        <input type="text" id="tokenInput" placeholder="ghp_..." autocomplete="off">
+      </div>
+      <button id="salvarTokenBtn">Salvar token</button>
+      <button id="limparTokenBtn" class="secondary">Limpar</button>
+    </div>
+    <div id="tokenStatus" class="token-ok" style="margin-top:8px;"></div>
   </div>
 
   <div class="tabs">
@@ -259,23 +276,27 @@ const REVIEWS_PATH = "reviews.json";
 const LANCAMENTOS_PATH = "lancamentos.json";
 const FUNCIONARIOS_PATH = "funcionarios.json";
 
-// Token do GitHub (Personal Access Token) partido em 3 pedaços, no mesmo
-// esquema usado no BI Contas Pagas: nenhuma string com o token completo
-// aparece de forma contígua no arquivo, então o scanner automático de
-// segredos do GitHub não revoga o token ao publicar o repositório.
-// Troque cada parte abaixo por um pedaço do seu token real (a forma como
-// você divide não importa, contanto que a concatenação k1+k2+k3 recomponha
-// o token certinho).
+// Token do GitHub (Personal Access Token): NÃO fica mais escrito neste
+// arquivo. Ele é colado uma vez pelo usuário no campo "Token de acesso ao
+// GitHub" da própria página e guardado no localStorage do navegador — assim,
+// quando este arquivo é atualizado/reescrito no futuro, o token continua
+// salvo e não precisa ser colado de novo. Fica salvo por navegador: se você
+// abrir a página em outro computador/navegador, precisa colar o token lá
+// também.
 // IMPORTANTE: use um token fine-grained, com permissão "Contents:
 // Read and write" LIMITADA a este repositório específico — nunca um token
 // clássico com acesso a todos os seus repositórios. Como o repo precisa
 // ser público pro GitHub Pages funcionar no plano gratuito, qualquer pessoa
-// que abrir o DevTools do navegador consegue reconstruir o token — a
-// obfuscação aqui só evita a revogação automática, não é sigilo de verdade.
-const k1 = "COLE_AQUI_PARTE_1_DO_TOKEN";
-const k2 = "COLE_AQUI_PARTE_2_DO_TOKEN";
-const k3 = "COLE_AQUI_PARTE_3_DO_TOKEN";
-const GITHUB_TOKEN = k1 + k2 + k3;
+// que abrir o DevTools do navegador (nesse computador) consegue ver o token
+// guardado no localStorage — trate-o como uma senha.
+const TOKEN_STORAGE_KEY = "sc_avaliacoes_gh_token";
+
+function getStoredToken() {
+  try { return localStorage.getItem(TOKEN_STORAGE_KEY) || ""; }
+  catch (e) { return ""; }
+}
+
+let GITHUB_TOKEN = getStoredToken();
 
 // Setores disponíveis — usados tanto no Cadastro de Funcionários quanto
 // no formulário de Novo lançamento.
@@ -283,14 +304,41 @@ const SETORES = ["Vendas", "Fotos", "Instrutor"];
 
 /* ====================================================================== */
 
-const isConfigured =
+let isConfigured =
   !GITHUB_OWNER.includes("COLE_AQUI") &&
   !GITHUB_REPO.includes("COLE_AQUI") &&
-  !GITHUB_TOKEN.includes("COLE_AQUI");
+  !!GITHUB_TOKEN;
 
-if (!isConfigured) {
-  document.getElementById("configWarning").style.display = "block";
+function atualizarAvisoConfiguracao() {
+  document.getElementById("configWarning").style.display = isConfigured ? "none" : "block";
+  const tokenStatus = document.getElementById("tokenStatus");
+  tokenStatus.textContent = isConfigured ? "Token salvo neste navegador." : "";
 }
+atualizarAvisoConfiguracao();
+
+document.getElementById("salvarTokenBtn").addEventListener("click", () => {
+  const val = document.getElementById("tokenInput").value.trim();
+  if (!val) { document.getElementById("tokenStatus").textContent = "Cole o token antes de salvar."; return; }
+  try {
+    localStorage.setItem(TOKEN_STORAGE_KEY, val);
+    GITHUB_TOKEN = val;
+    document.getElementById("tokenInput").value = "";
+    isConfigured = !GITHUB_OWNER.includes("COLE_AQUI") && !GITHUB_REPO.includes("COLE_AQUI") && !!GITHUB_TOKEN;
+    atualizarAvisoConfiguracao();
+    loadFuncionarios().then(() => { atualizarFuncionarioOptions(setorSelect.value); refreshFuncionariosList(); });
+    refreshLancamentosLists();
+    refreshRankingPanel();
+  } catch (e) {
+    document.getElementById("tokenStatus").textContent = "Erro ao salvar token: " + (e.message || e);
+  }
+});
+
+document.getElementById("limparTokenBtn").addEventListener("click", () => {
+  try { localStorage.removeItem(TOKEN_STORAGE_KEY); } catch (e) {}
+  GITHUB_TOKEN = "";
+  isConfigured = false;
+  atualizarAvisoConfiguracao();
+});
 
 // ---------- Helpers GitHub API (Contents API) ----------
 const GH_API_BASE = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents`;
