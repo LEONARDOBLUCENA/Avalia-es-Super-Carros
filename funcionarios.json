@@ -40,5 +40,11 @@
     "nome": "Renata",
     "setor": "Fotos",
     "created_at": "2026-09-16T19:18:04.378Z"
+  },
+  {
+    "id": "fd22b617-6712-4726-9179-ba4c42e8e2b5",
+    "nome": "Eduarda",
+    "setor": "Fotos",
+    "created_at": "2026-09-16T19:18:14.234Z"
   }
 ]
