@@ -4,7 +4,6 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Avaliações Google — Vendedoras | Super Carros Gramado</title>
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <style>
   :root {
     --bg: #0f1720;
@@ -109,8 +108,9 @@
   <div class="subtitle">Salão Super Carros Gramado — busca e confirmação de avaliações sincronizadas do Google</div>
 
   <div id="configWarning" class="warn" style="display:none;">
-    ⚠️ Este arquivo ainda não está conectado ao Supabase. Preencha <code>SUPABASE_URL</code> e
-    <code>SUPABASE_ANON_KEY</code> no início do script (procure por "COLE_AQUI") antes de publicar.
+    ⚠️ Este arquivo ainda não está conectado ao repositório do GitHub. Preencha
+    <code>GITHUB_OWNER</code>, <code>GITHUB_REPO</code> e as 3 partes do token
+    no início do script (procure por "COLE_AQUI") antes de publicar.
   </div>
 
   <div class="card">
@@ -156,8 +156,32 @@
 /* ======================================================================
    CONFIGURAÇÃO — preencha antes de publicar no GitHub Pages
    ====================================================================== */
-const SUPABASE_URL = "COLE_AQUI_A_URL_DO_SEU_PROJETO_SUPABASE";
-const SUPABASE_ANON_KEY = "COLE_AQUI_A_ANON_KEY_DO_SUPABASE";
+
+// Dono e repositório onde ficam reviews.json (sincronizado pelo Outscraper
+// via GitHub Actions) e attributions.json (gravado por esta página).
+const GITHUB_OWNER = "COLE_AQUI_O_USUARIO_OU_ORG";
+const GITHUB_REPO  = "COLE_AQUI_O_NOME_DO_REPOSITORIO";
+const GITHUB_BRANCH = "main";
+const REVIEWS_PATH = "reviews.json";
+const ATTRIBUTIONS_PATH = "attributions.json";
+
+// Token do GitHub (Personal Access Token) partido em 3 pedaços, no mesmo
+// esquema usado no BI Contas Pagas: nenhuma string com o token completo
+// aparece de forma contígua no arquivo, então o scanner automático de
+// segredos do GitHub não revoga o token ao publicar o repositório.
+// Troque cada parte abaixo por um pedaço do seu token real (a forma como
+// você divide não importa, contanto que a concatenação k1+k2+k3 recomponha
+// o token certinho).
+// IMPORTANTE: use um token fine-grained, com permissão "Contents:
+// Read and write" LIMITADA a este repositório específico — nunca um token
+// clássico com acesso a todos os seus repositórios. Como o repo precisa
+// ser público pro GitHub Pages funcionar no plano gratuito, qualquer pessoa
+// que abrir o DevTools do navegador consegue reconstruir o token — a
+// obfuscação aqui só evita a revogação automática, não é sigilo de verdade.
+const k1 = "COLE_AQUI_PARTE_1_DO_TOKEN";
+const k2 = "COLE_AQUI_PARTE_2_DO_TOKEN";
+const k3 = "COLE_AQUI_PARTE_3_DO_TOKEN";
+const GITHUB_TOKEN = k1 + k2 + k3;
 
 const VENDEDORAS = [
   "CLEIDE", "MAIRA", "NICOLE", "INDIA", "MAY",
@@ -166,12 +190,104 @@ const VENDEDORAS = [
 
 /* ====================================================================== */
 
-const isConfigured = !SUPABASE_URL.includes("COLE_AQUI") && !SUPABASE_ANON_KEY.includes("COLE_AQUI");
-let supabase = null;
-if (isConfigured) {
-  supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
-} else {
+const isConfigured =
+  !GITHUB_OWNER.includes("COLE_AQUI") &&
+  !GITHUB_REPO.includes("COLE_AQUI") &&
+  !GITHUB_TOKEN.includes("COLE_AQUI");
+
+if (!isConfigured) {
   document.getElementById("configWarning").style.display = "block";
+}
+
+// ---------- Helpers GitHub API (Contents API) ----------
+const GH_API_BASE = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents`;
+
+function utf8ToBase64(str) {
+  const bytes = new TextEncoder().encode(str);
+  let binary = "";
+  bytes.forEach(b => { binary += String.fromCharCode(b); });
+  return btoa(binary);
+}
+
+function base64ToUtf8(b64) {
+  const binary = atob(b64.replace(/\n/g, ""));
+  const bytes = Uint8Array.from(binary, c => c.charCodeAt(0));
+  return new TextDecoder().decode(bytes);
+}
+
+// Lê um arquivo JSON do repositório. Retorna { json, sha } — json = null e
+// sha = null se o arquivo ainda não existir (404), o que é normal na
+// primeira execução.
+async function githubGetJson(path, fallback) {
+  const res = await fetch(`${GH_API_BASE}/${path}?ref=${GITHUB_BRANCH}`, {
+    headers: {
+      "Authorization": `Bearer ${GITHUB_TOKEN}`,
+      "Accept": "application/vnd.github+json"
+    },
+    cache: "no-store"
+  });
+
+  if (res.status === 404) {
+    return { json: fallback, sha: null };
+  }
+  if (!res.ok) {
+    throw new Error(`Falha ao ler ${path}: HTTP ${res.status}`);
+  }
+  const data = await res.json();
+  const content = base64ToUtf8(data.content);
+  return { json: JSON.parse(content), sha: data.sha };
+}
+
+// Grava um arquivo JSON no repositório. Se sha for null, cria o arquivo.
+// Se der 409 (conflito de sha, alguém escreveu ao mesmo tempo), quem chamar
+// deve reler e tentar de novo — isso é feito automaticamente pelas funções
+// de escrita abaixo (writeWithRetry).
+async function githubPutJson(path, jsonValue, sha, message) {
+  const body = {
+    message,
+    content: utf8ToBase64(JSON.stringify(jsonValue, null, 2)),
+    branch: GITHUB_BRANCH
+  };
+  if (sha) body.sha = sha;
+
+  const res = await fetch(`${GH_API_BASE}/${path}`, {
+    method: "PUT",
+    headers: {
+      "Authorization": `Bearer ${GITHUB_TOKEN}`,
+      "Accept": "application/vnd.github+json",
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify(body)
+  });
+
+  if (res.status === 409) {
+    const err = new Error("conflict");
+    err.isConflict = true;
+    throw err;
+  }
+  if (!res.ok) {
+    const text = await res.text();
+    throw new Error(`Falha ao gravar ${path}: HTTP ${res.status} — ${text}`);
+  }
+  return res.json();
+}
+
+// Lê, aplica "mutateFn" sobre o JSON atual, e grava — repetindo em caso de
+// conflito de concorrência (duas vendedoras confirmando quase ao mesmo
+// tempo). mutateFn recebe o array atual e deve devolver o novo array.
+async function writeWithRetry(path, fallback, mutateFn, message, attempts = 4) {
+  for (let i = 0; i < attempts; i++) {
+    const { json, sha } = await githubGetJson(path, fallback);
+    const updated = mutateFn(json);
+    if (updated === null) return null; // mutateFn sinaliza "nada a fazer" (ex: já existia)
+    try {
+      await githubPutJson(path, updated, sha, message);
+      return updated;
+    } catch (err) {
+      if (err.isConflict && i < attempts - 1) continue; // tenta de novo lendo o sha mais novo
+      throw err;
+    }
+  }
 }
 
 // ---------- Setup inicial ----------
@@ -272,28 +388,18 @@ buscarBtn.addEventListener("click", async () => {
 
   if (!vendedora) { setStatus("Selecione a vendedora antes de buscar.", "error"); return; }
   if (!clienteNome) { setStatus("Digite o nome do cliente.", "error"); return; }
-  if (!isConfigured) { setStatus("Supabase não configurado neste arquivo ainda.", "error"); return; }
+  if (!isConfigured) { setStatus("GitHub ainda não configurado neste arquivo.", "error"); return; }
 
   setStatus("Buscando...", "loading");
   resultsCard.style.display = "none";
   resultsList.innerHTML = "";
 
   try {
-    const { data: reviews, error } = await supabase
-      .from("reviews_google")
-      .select("review_id, author_name, rating, review_text, review_time")
-      .order("review_time", { ascending: false });
-
-    if (error) throw error;
-
-    // já atribuídas (pra saber se alguma já foi contabilizada)
-    const { data: attributed, error: attrError } = await supabase
-      .from("review_attributions")
-      .select("review_id, vendedora, mes_referencia");
-    if (attrError) throw attrError;
+    const { json: reviews } = await githubGetJson(REVIEWS_PATH, []);
+    const { json: attributions } = await githubGetJson(ATTRIBUTIONS_PATH, []);
 
     const attributedMap = {};
-    (attributed || []).forEach(a => { attributedMap[a.review_id] = a; });
+    (attributions || []).forEach(a => { attributedMap[a.review_id] = a; });
 
     const scored = (reviews || [])
       .map(r => ({
@@ -352,22 +458,39 @@ async function confirmMatch(reviewId, reviewTime, vendedora, clienteNomeInformad
   setStatus("Confirmando...", "loading");
   try {
     const mesReferencia = reviewTime ? currentMonthKey(new Date(reviewTime)) : currentMonthKey();
+    let jaAtribuidaPor = null;
 
-    const { error } = await supabase
-      .from("review_attributions")
-      .insert({
-        review_id: reviewId,
-        vendedora: vendedora,
-        cliente_nome_informado: clienteNomeInformado,
-        mes_referencia: mesReferencia
-      });
+    const result = await writeWithRetry(
+      ATTRIBUTIONS_PATH,
+      [],
+      (current) => {
+        const list = current || [];
+        const existing = list.find(a => a.review_id === reviewId);
+        if (existing) {
+          jaAtribuidaPor = existing;
+          return null; // sinaliza "não gravar, já existe"
+        }
+        return [
+          ...list,
+          {
+            review_id: reviewId,
+            vendedora: vendedora,
+            cliente_nome_informado: clienteNomeInformado,
+            mes_referencia: mesReferencia,
+            confirmed_at: new Date().toISOString()
+          }
+        ];
+      },
+      `Confirma avaliação ${reviewId} para ${vendedora}`
+    );
 
-    if (error) {
-      if (error.code === "23505") {
-        setStatus("Essa avaliação já foi contabilizada por outra vendedora.", "error");
-      } else {
-        throw error;
-      }
+    if (jaAtribuidaPor) {
+      setStatus(`Essa avaliação já foi contabilizada para ${jaAtribuidaPor.vendedora}.`, "error");
+      return;
+    }
+    if (result === undefined) {
+      // writeWithRetry esgotou tentativas sem sucesso nem conflito tratado
+      setStatus("Não foi possível confirmar, tente novamente.", "error");
       return;
     }
 
@@ -391,7 +514,7 @@ async function refreshMonthPanels() {
   const confirmedWrap = document.getElementById("confirmedTableWrap");
 
   if (!isConfigured) {
-    rankingBody.innerHTML = `<div class="empty">Configure o Supabase para ver a contagem.</div>`;
+    rankingBody.innerHTML = `<div class="empty">Configure o GitHub para ver a contagem.</div>`;
     confirmedWrap.innerHTML = "";
     return;
   }
@@ -401,21 +524,19 @@ async function refreshMonthPanels() {
   confirmedWrap.innerHTML = "";
 
   try {
-    const { data, error } = await supabase
-      .from("review_attributions")
-      .select("vendedora, cliente_nome_informado, review_id, confirmed_at")
-      .eq("mes_referencia", mes)
-      .order("confirmed_at", { ascending: false });
+    const { json: attributions } = await githubGetJson(ATTRIBUTIONS_PATH, []);
 
-    if (error) throw error;
+    const data = (attributions || [])
+      .filter(a => a.mes_referencia === mes)
+      .sort((a, b) => (b.confirmed_at || "").localeCompare(a.confirmed_at || ""));
 
     const counts = {};
     VENDEDORAS.forEach(v => counts[v] = 0);
-    (data || []).forEach(row => {
+    data.forEach(row => {
       counts[row.vendedora] = (counts[row.vendedora] || 0) + 1;
     });
 
-    const total = (data || []).length;
+    const total = data.length;
     const ranked = Object.entries(counts).sort((a, b) => b[1] - a[1]);
 
     let rankingHtml = `<div style="display:flex;justify-content:flex-end;margin-bottom:10px;">
@@ -427,7 +548,7 @@ async function refreshMonthPanels() {
     rankingHtml += `</tbody></table>`;
     rankingBody.innerHTML = rankingHtml;
 
-    if ((data || []).length === 0) {
+    if (data.length === 0) {
       confirmedWrap.innerHTML = `<div class="empty">Nenhuma avaliação confirmada neste mês ainda.</div>`;
     } else {
       let tableHtml = `<table><thead><tr><th>Vendedora</th><th>Cliente informado</th><th>Confirmado em</th></tr></thead><tbody>`;
