@@ -23,11 +23,11 @@
     "id": "214569eb-eba2-42b9-a5b2-e4374db4db58",
     "vendedora": "MAIRA",
     "cliente_nome_informado": "MayDja Benicio",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KWU1rUkVOSGRMWW5WRFoyOW1ZbXhEU2pSNU5XYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-16T14:50:59.743Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-16T16:55:02.616Z"
   },
   {
     "id": "96192df3-70ac-4432-8989-b090a3a0713b",
