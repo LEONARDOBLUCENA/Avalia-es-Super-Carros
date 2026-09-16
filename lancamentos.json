@@ -1,15 +1,5 @@
 [
   {
-    "id": "1d0114cc-008a-416e-b863-1848ff225dd0",
-    "vendedora": "CLEIDE",
-    "cliente_nome_informado": "Alex Souza",
-    "status": "confirmado",
-    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25wSWFYSm5iamQzVEhWdlZrTnVWRVpLVTNkcFZYYxAB",
-    "mes_referencia": "2026-09",
-    "created_at": "2026-09-16T14:45:04.002Z",
-    "confirmed_at": "2026-09-16T16:55:53.776Z"
-  },
-  {
     "id": "214569eb-eba2-42b9-a5b2-e4374db4db58",
     "vendedora": "MAIRA",
     "cliente_nome_informado": "MayDja Benicio",
