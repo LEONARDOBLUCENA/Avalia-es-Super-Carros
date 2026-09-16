@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Avaliações Google — Vendedoras | Super Carros Gramado</title>
+<title>Avaliações Google — Super Carros Gramado</title>
 <style>
   :root {
     --bg: #0f1720;
@@ -26,9 +26,25 @@
     color: var(--text);
     padding: 16px;
   }
-  .wrap { max-width: 920px; margin: 0 auto; }
+  .wrap { max-width: 960px; margin: 0 auto; }
   h1 { font-size: 1.3rem; margin: 0 0 4px; }
-  .subtitle { color: var(--muted); font-size: 0.85rem; margin-bottom: 20px; }
+  .subtitle { color: var(--muted); font-size: 0.85rem; margin-bottom: 16px; }
+  .tabs { display: flex; gap: 8px; margin-bottom: 18px; border-bottom: 1px solid var(--border); }
+  .tab-btn {
+    background: transparent;
+    color: var(--muted);
+    border: none;
+    border-bottom: 2px solid transparent;
+    border-radius: 0;
+    padding: 10px 4px;
+    margin-right: 16px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .tab-btn.active { color: var(--text); border-bottom-color: var(--accent); }
+  .tab-panel { display: none; }
+  .tab-panel.active { display: block; }
   .card {
     background: var(--panel);
     border: 1px solid var(--border);
@@ -70,8 +86,9 @@
   button:hover { opacity: 0.9; }
   button:disabled { opacity: 0.5; cursor: not-allowed; }
   button.secondary { background: var(--panel-2); border: 1px solid var(--border); }
+  button.danger { background: var(--red); }
   button.small { padding: 6px 12px; font-size: 0.8rem; }
-  .btn-row { margin-top: 14px; }
+  .btn-row { margin-top: 14px; display: flex; gap: 8px; flex-wrap: wrap; }
   .lancamento-item {
     background: var(--panel-2);
     border: 1px solid var(--border);
@@ -82,6 +99,7 @@
   .lancamento-item.confirmado { border-color: var(--green); }
   .lancamento-head { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; }
   .lancamento-info { font-weight: 600; }
+  .lancamento-sub { font-size: 0.78rem; color: var(--muted); }
   .lancamento-meta { font-size: 0.78rem; color: var(--muted); margin-top: 2px; }
   .results-area { margin-top: 12px; border-top: 1px dashed var(--border); padding-top: 12px; }
   .result-item {
@@ -102,6 +120,7 @@
   .badge.taken { color: var(--red); border-color: var(--red); }
   .badge.confirmed { color: var(--green); border-color: var(--green); }
   .badge.pending { color: var(--yellow); border-color: var(--yellow); }
+  .badge.setor { color: var(--accent); border-color: var(--accent); }
   table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
   th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--border); }
   th { color: var(--muted); font-weight: 600; font-size: 0.75rem; text-transform: uppercase; }
@@ -113,16 +132,27 @@
   #statusMsg.ok { color: var(--green); }
   #statusMsg.error { color: var(--red); }
   #statusMsg.loading { color: var(--muted); }
+  #funcStatusMsg { font-size: 0.85rem; margin-top: 10px; min-height: 18px; }
+  #funcStatusMsg.ok { color: var(--green); }
+  #funcStatusMsg.error { color: var(--red); }
+  #funcStatusMsg.loading { color: var(--muted); }
   .row-status { font-size: 0.85rem; margin-top: 8px; min-height: 16px; }
   .row-status.ok { color: var(--green); }
   .row-status.error { color: var(--red); }
   .row-status.loading { color: var(--muted); }
+  .edit-form { display: flex; flex-direction: column; gap: 10px; margin-top: 10px; }
+  .funcionario-group-title { font-size: 0.8rem; color: var(--muted); text-transform: uppercase; margin: 16px 0 8px; }
+  .funcionario-row {
+    display: flex; justify-content: space-between; align-items: center;
+    background: var(--panel-2); border: 1px solid var(--border); border-radius: 8px;
+    padding: 8px 12px; margin-bottom: 6px;
+  }
 </style>
 </head>
 <body>
 <div class="wrap">
-  <h1>Avaliações Google — Contagem por Vendedora</h1>
-  <div class="subtitle">Salão Super Carros Gramado — cadastro, busca e confirmação de avaliações</div>
+  <h1>Avaliações Google — Super Carros Gramado</h1>
+  <div class="subtitle">Cadastro, busca e confirmação de avaliações por funcionário</div>
 
   <div id="configWarning" class="warn" style="display:none;">
     ⚠️ Este arquivo ainda não está conectado ao repositório do GitHub. Preencha
@@ -130,38 +160,88 @@
     no início do script (procure por "COLE_AQUI") antes de publicar.
   </div>
 
-  <div class="card">
-    <div class="section-title">Novo lançamento</div>
-    <div class="row">
-      <div>
-        <label for="vendedoraSelect">Vendedora</label>
-        <select id="vendedoraSelect">
-          <option value="">Selecione...</option>
-        </select>
-      </div>
-      <div>
-        <label for="clienteInput">Nome do cliente</label>
-        <input type="text" id="clienteInput" placeholder="Ex: Maria Silva" autocomplete="off">
-      </div>
-    </div>
-    <div class="btn-row">
-      <button id="processarBtn">Processar</button>
-    </div>
-    <div id="statusMsg"></div>
+  <div class="tabs">
+    <button class="tab-btn active" data-tab="avaliacoes">Avaliações</button>
+    <button class="tab-btn" data-tab="funcionarios">Cadastro de Funcionários</button>
   </div>
 
-  <div class="card">
-    <div class="section-title">Lista de lançamentos</div>
-    <div id="lancamentosList"></div>
+  <!-- ========================= ABA: AVALIAÇÕES ========================= -->
+  <div class="tab-panel active" id="tab-avaliacoes">
+
+    <div class="card">
+      <div class="section-title">Novo lançamento</div>
+      <div class="row">
+        <div>
+          <label for="setorSelect">Setor</label>
+          <select id="setorSelect">
+            <option value="">Selecione...</option>
+          </select>
+        </div>
+        <div>
+          <label for="funcionarioSelect">Funcionário</label>
+          <select id="funcionarioSelect">
+            <option value="">Selecione o setor primeiro</option>
+          </select>
+        </div>
+        <div>
+          <label for="clienteInput">Nome do cliente</label>
+          <input type="text" id="clienteInput" placeholder="Ex: Maria Silva" autocomplete="off">
+        </div>
+      </div>
+      <div class="btn-row">
+        <button id="processarBtn">Processar</button>
+      </div>
+      <div id="statusMsg"></div>
+    </div>
+
+    <div class="card">
+      <div class="section-title">Lista de lançamentos (pendentes)</div>
+      <div id="lancamentosPendentesList"></div>
+    </div>
+
+    <div class="card">
+      <div class="section-title">Confirmados</div>
+      <div id="lancamentosConfirmadosList"></div>
+    </div>
+
+    <div class="card">
+      <div class="section-title">
+        <span>Contagem do mês</span>
+        <select id="monthSelect" class="month-select"></select>
+      </div>
+      <div id="rankingBody"></div>
+    </div>
+
   </div>
 
-  <div class="card">
-    <div class="section-title">
-      <span>Contagem do mês</span>
-      <select id="monthSelect" class="month-select"></select>
+  <!-- ===================== ABA: CADASTRO DE FUNCIONÁRIOS ===================== -->
+  <div class="tab-panel" id="tab-funcionarios">
+
+    <div class="card">
+      <div class="section-title">Novo funcionário</div>
+      <div class="row">
+        <div>
+          <label for="setorFuncionarioSelect">Setor</label>
+          <select id="setorFuncionarioSelect"></select>
+        </div>
+        <div>
+          <label for="nomeFuncionarioInput">Nome do funcionário</label>
+          <input type="text" id="nomeFuncionarioInput" placeholder="Ex: João Pedro" autocomplete="off">
+        </div>
+      </div>
+      <div class="btn-row">
+        <button id="adicionarFuncionarioBtn">Adicionar</button>
+      </div>
+      <div id="funcStatusMsg"></div>
     </div>
-    <div id="rankingBody"></div>
+
+    <div class="card">
+      <div class="section-title">Funcionários cadastrados</div>
+      <div id="funcionariosList"></div>
+    </div>
+
   </div>
+
 </div>
 
 <script>
@@ -170,13 +250,14 @@
    ====================================================================== */
 
 // Dono e repositório onde ficam reviews.json (sincronizado pelo Outscraper
-// via GitHub Actions) e lancamentos.json (cadastro + confirmação, gravado
-// por esta página).
+// via GitHub Actions), lancamentos.json e funcionarios.json (gravados por
+// esta página).
 const GITHUB_OWNER = "leonardoblucena";
 const GITHUB_REPO  = "Avalia-es-Super-Carros";
 const GITHUB_BRANCH = "main";
 const REVIEWS_PATH = "reviews.json";
 const LANCAMENTOS_PATH = "lancamentos.json";
+const FUNCIONARIOS_PATH = "funcionarios.json";
 
 // Token do GitHub (Personal Access Token) partido em 3 pedaços, no mesmo
 // esquema usado no BI Contas Pagas: nenhuma string com o token completo
@@ -191,15 +272,14 @@ const LANCAMENTOS_PATH = "lancamentos.json";
 // ser público pro GitHub Pages funcionar no plano gratuito, qualquer pessoa
 // que abrir o DevTools do navegador consegue reconstruir o token — a
 // obfuscação aqui só evita a revogação automática, não é sigilo de verdade.
-const k1 = "ghp_mdCCAQi0HCV";
-const k2 = "jReVxfa9J1T056y";
-const k3 = "17yl3DMuO6";
+const k1 = "COLE_AQUI_PARTE_1_DO_TOKEN";
+const k2 = "COLE_AQUI_PARTE_2_DO_TOKEN";
+const k3 = "COLE_AQUI_PARTE_3_DO_TOKEN";
 const GITHUB_TOKEN = k1 + k2 + k3;
 
-const VENDEDORAS = [
-  "CLEIDE", "MAIRA", "NICOLE", "INDIA", "MAY",
-  "DUDA", "LOHANE", "LETICIA", "RENATA"
-];
+// Setores disponíveis — usados tanto no Cadastro de Funcionários quanto
+// no formulário de Novo lançamento.
+const SETORES = ["Vendas", "Fotos", "Instrutor"];
 
 /* ====================================================================== */
 
@@ -228,9 +308,6 @@ function base64ToUtf8(b64) {
   return new TextDecoder().decode(bytes);
 }
 
-// Lê um arquivo JSON do repositório. Retorna { json, sha } — json = fallback
-// e sha = null se o arquivo ainda não existir (404), o que é normal na
-// primeira execução.
 async function githubGetJson(path, fallback) {
   const res = await fetch(`${GH_API_BASE}/${path}?ref=${GITHUB_BRANCH}`, {
     headers: {
@@ -251,9 +328,6 @@ async function githubGetJson(path, fallback) {
   return { json: JSON.parse(content), sha: data.sha };
 }
 
-// Grava um arquivo JSON no repositório. Se sha for null, cria o arquivo.
-// Em caso de 409 (conflito, alguém escreveu ao mesmo tempo) lança um erro
-// marcado com isConflict — writeWithRetry cuida de tentar de novo.
 async function githubPutJson(path, jsonValue, sha, message) {
   const body = {
     message,
@@ -284,10 +358,6 @@ async function githubPutJson(path, jsonValue, sha, message) {
   return res.json();
 }
 
-// Lê, aplica "mutateFn" sobre o JSON atual, e grava — repetindo em caso de
-// conflito de concorrência (duas vendedoras mexendo quase ao mesmo tempo).
-// mutateFn recebe o array atual e deve devolver o novo array, ou null para
-// sinalizar "não gravar nada" (ex: já existia).
 async function writeWithRetry(path, fallback, mutateFn, message, attempts = 4) {
   for (let i = 0; i < attempts; i++) {
     const { json, sha } = await githubGetJson(path, fallback);
@@ -308,17 +378,26 @@ function genId() {
   return `${Date.now()}-${Math.random().toString(36).substring(2, 10)}`;
 }
 
-// ---------- Setup inicial ----------
-const vendedoraSelect = document.getElementById("vendedoraSelect");
-VENDEDORAS.forEach(v => {
-  const opt = document.createElement("option");
-  opt.value = v;
-  opt.textContent = v;
-  vendedoraSelect.appendChild(opt);
+function escapeHtml(str) {
+  const div = document.createElement("div");
+  div.textContent = str == null ? "" : String(str);
+  return div.innerHTML;
+}
+
+// ---------- Abas ----------
+document.querySelectorAll(".tab-btn").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
+    document.querySelectorAll(".tab-panel").forEach(p => p.classList.remove("active"));
+    btn.classList.add("active");
+    document.getElementById(`tab-${btn.dataset.tab}`).classList.add("active");
+    if (btn.dataset.tab === "avaliacoes") {
+      loadFuncionarios().then(() => populateSetorFuncionarioFilter());
+    }
+  });
 });
 
 function currentMonthKey(date = new Date()) {
-  // Referência de mês no fuso America/Sao_Paulo, formato YYYY-MM
   const fmt = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Sao_Paulo", year: "numeric", month: "2-digit" });
   const parts = fmt.formatToParts(date);
   const y = parts.find(p => p.type === "year").value;
@@ -335,18 +414,14 @@ function monthLabel(key) {
 const monthSelect = document.getElementById("monthSelect");
 (function populateMonths() {
   const now = new Date();
-  const options = [];
   for (let i = 0; i < 12; i++) {
     const d = new Date(now.getFullYear(), now.getMonth() - i, 1);
     const key = currentMonthKey(d);
-    options.push(key);
-  }
-  options.forEach(key => {
     const opt = document.createElement("option");
     opt.value = key;
     opt.textContent = monthLabel(key);
     monthSelect.appendChild(opt);
-  });
+  }
   monthSelect.value = currentMonthKey();
 })();
 monthSelect.addEventListener("change", refreshRankingPanel);
@@ -355,7 +430,7 @@ monthSelect.addEventListener("change", refreshRankingPanel);
 function normalize(str) {
   return (str || "")
     .toString()
-    .normalize("NFD").replace(/[̀-ͯ]/g, "") // remove acentos
+    .normalize("NFD").replace(/[̀-ͯ]/g, "")
     .toLowerCase()
     .replace(/[^a-z0-9\s]/g, "")
     .replace(/\s+/g, " ")
@@ -389,7 +464,170 @@ function includesToken(a, b) {
   return na.includes(nb) || nb.includes(na);
 }
 
-// ---------- Novo lançamento (cadastro) ----------
+/* ============================================================
+   CADASTRO DE FUNCIONÁRIOS
+   ============================================================ */
+
+const setorFuncionarioSelect = document.getElementById("setorFuncionarioSelect");
+SETORES.forEach(s => {
+  const opt = document.createElement("option");
+  opt.value = s;
+  opt.textContent = s;
+  setorFuncionarioSelect.appendChild(opt);
+});
+
+const adicionarFuncionarioBtn = document.getElementById("adicionarFuncionarioBtn");
+const funcStatusMsg = document.getElementById("funcStatusMsg");
+
+function setFuncStatus(msg, type) {
+  funcStatusMsg.textContent = msg || "";
+  funcStatusMsg.className = type || "";
+}
+
+adicionarFuncionarioBtn.addEventListener("click", async () => {
+  const setor = setorFuncionarioSelect.value;
+  const nome = document.getElementById("nomeFuncionarioInput").value.trim();
+
+  if (!setor) { setFuncStatus("Selecione o setor.", "error"); return; }
+  if (!nome) { setFuncStatus("Digite o nome do funcionário.", "error"); return; }
+  if (!isConfigured) { setFuncStatus("GitHub ainda não configurado neste arquivo.", "error"); return; }
+
+  adicionarFuncionarioBtn.disabled = true;
+  setFuncStatus("Adicionando...", "loading");
+
+  try {
+    const novoFuncionario = { id: genId(), nome, setor, created_at: new Date().toISOString() };
+
+    await writeWithRetry(
+      FUNCIONARIOS_PATH,
+      [],
+      (current) => [...(current || []), novoFuncionario],
+      `Novo funcionário: ${nome} (${setor})`
+    );
+
+    document.getElementById("nomeFuncionarioInput").value = "";
+    setFuncStatus(`"${nome}" adicionado ao setor ${setor}.`, "ok");
+    await loadFuncionarios();
+    refreshFuncionariosList();
+
+  } catch (err) {
+    console.error(err);
+    setFuncStatus("Erro ao adicionar: " + (err.message || err), "error");
+  } finally {
+    adicionarFuncionarioBtn.disabled = false;
+  }
+});
+
+async function refreshFuncionariosList() {
+  const el = document.getElementById("funcionariosList");
+  if (!isConfigured) {
+    el.innerHTML = `<div class="empty">Configure o GitHub para ver os funcionários.</div>`;
+    return;
+  }
+  el.innerHTML = `<div class="empty">Carregando...</div>`;
+
+  try {
+    const { json: funcionarios } = await githubGetJson(FUNCIONARIOS_PATH, []);
+    if (!funcionarios || funcionarios.length === 0) {
+      el.innerHTML = `<div class="empty">Nenhum funcionário cadastrado ainda.</div>`;
+      return;
+    }
+
+    el.innerHTML = "";
+    SETORES.forEach(setor => {
+      const doSetor = funcionarios.filter(f => f.setor === setor).sort((a, b) => (a.nome || "").localeCompare(b.nome || ""));
+      if (doSetor.length === 0) return;
+
+      const title = document.createElement("div");
+      title.className = "funcionario-group-title";
+      title.textContent = setor;
+      el.appendChild(title);
+
+      doSetor.forEach(f => {
+        const row = document.createElement("div");
+        row.className = "funcionario-row";
+        row.innerHTML = `<span>${escapeHtml(f.nome)}</span>`;
+        const delBtn = document.createElement("button");
+        delBtn.className = "small danger";
+        delBtn.textContent = "Excluir";
+        delBtn.addEventListener("click", () => removerFuncionario(f.id, f.nome));
+        row.appendChild(delBtn);
+        el.appendChild(row);
+      });
+    });
+
+  } catch (err) {
+    console.error(err);
+    el.innerHTML = `<div class="empty">Erro ao carregar: ${err.message || err}</div>`;
+  }
+}
+
+async function removerFuncionario(id, nome) {
+  if (!confirm(`Excluir "${nome}" do cadastro de funcionários?`)) return;
+  try {
+    await writeWithRetry(
+      FUNCIONARIOS_PATH,
+      [],
+      (current) => (current || []).filter(f => f.id !== id),
+      `Remove funcionário ${nome}`
+    );
+    await loadFuncionarios();
+    refreshFuncionariosList();
+  } catch (err) {
+    console.error(err);
+    alert("Erro ao excluir: " + (err.message || err));
+  }
+}
+
+/* ============================================================
+   NOVO LANÇAMENTO — setor + funcionário (puxado do cadastro)
+   ============================================================ */
+
+let funcionariosCache = [];
+
+async function loadFuncionarios() {
+  if (!isConfigured) return;
+  const { json } = await githubGetJson(FUNCIONARIOS_PATH, []);
+  funcionariosCache = json || [];
+}
+
+const setorSelect = document.getElementById("setorSelect");
+const funcionarioSelect = document.getElementById("funcionarioSelect");
+
+SETORES.forEach(s => {
+  const opt = document.createElement("option");
+  opt.value = s;
+  opt.textContent = s;
+  setorSelect.appendChild(opt);
+});
+
+function populateSetorFuncionarioFilter() {
+  const setorAtual = setorSelect.value;
+  atualizarFuncionarioOptions(setorAtual);
+}
+
+function atualizarFuncionarioOptions(setor) {
+  funcionarioSelect.innerHTML = "";
+  if (!setor) {
+    funcionarioSelect.innerHTML = `<option value="">Selecione o setor primeiro</option>`;
+    return;
+  }
+  const doSetor = funcionariosCache.filter(f => f.setor === setor).sort((a, b) => (a.nome || "").localeCompare(b.nome || ""));
+  if (doSetor.length === 0) {
+    funcionarioSelect.innerHTML = `<option value="">Nenhum funcionário nesse setor ainda</option>`;
+    return;
+  }
+  funcionarioSelect.innerHTML = `<option value="">Selecione...</option>`;
+  doSetor.forEach(f => {
+    const opt = document.createElement("option");
+    opt.value = f.nome;
+    opt.textContent = f.nome;
+    funcionarioSelect.appendChild(opt);
+  });
+}
+
+setorSelect.addEventListener("change", () => atualizarFuncionarioOptions(setorSelect.value));
+
 const processarBtn = document.getElementById("processarBtn");
 const statusMsg = document.getElementById("statusMsg");
 
@@ -399,10 +637,12 @@ function setStatus(msg, type) {
 }
 
 processarBtn.addEventListener("click", async () => {
-  const vendedora = vendedoraSelect.value;
+  const setor = setorSelect.value;
+  const vendedora = funcionarioSelect.value; // mantém o nome do campo "vendedora" nos dados p/ compatibilidade
   const clienteNome = document.getElementById("clienteInput").value.trim();
 
-  if (!vendedora) { setStatus("Selecione a vendedora antes de processar.", "error"); return; }
+  if (!setor) { setStatus("Selecione o setor.", "error"); return; }
+  if (!vendedora) { setStatus("Selecione o funcionário.", "error"); return; }
   if (!clienteNome) { setStatus("Digite o nome do cliente.", "error"); return; }
   if (!isConfigured) { setStatus("GitHub ainda não configurado neste arquivo.", "error"); return; }
 
@@ -412,6 +652,7 @@ processarBtn.addEventListener("click", async () => {
   try {
     const novoLancamento = {
       id: genId(),
+      setor: setor,
       vendedora: vendedora,
       cliente_nome_informado: clienteNome,
       status: "pendente",
@@ -430,7 +671,7 @@ processarBtn.addEventListener("click", async () => {
 
     document.getElementById("clienteInput").value = "";
     setStatus(`Lançamento de "${clienteNome}" adicionado à lista para ${vendedora}.`, "ok");
-    refreshLancamentosList();
+    refreshLancamentosLists();
     refreshRankingPanel();
 
   } catch (err) {
@@ -441,76 +682,213 @@ processarBtn.addEventListener("click", async () => {
   }
 });
 
-// ---------- Lista de lançamentos ----------
-const lancamentosList = document.getElementById("lancamentosList");
+/* ============================================================
+   LISTAS DE LANÇAMENTOS (pendentes / confirmados)
+   ============================================================ */
 
-async function refreshLancamentosList() {
+let editingLancamentoId = null;
+const pendentesEl = document.getElementById("lancamentosPendentesList");
+const confirmadosEl = document.getElementById("lancamentosConfirmadosList");
+
+async function refreshLancamentosLists() {
   if (!isConfigured) {
-    lancamentosList.innerHTML = `<div class="empty">Configure o GitHub para ver os lançamentos.</div>`;
+    pendentesEl.innerHTML = `<div class="empty">Configure o GitHub para ver os lançamentos.</div>`;
+    confirmadosEl.innerHTML = "";
     return;
   }
 
-  lancamentosList.innerHTML = `<div class="empty">Carregando...</div>`;
+  pendentesEl.innerHTML = `<div class="empty">Carregando...</div>`;
+  confirmadosEl.innerHTML = `<div class="empty">Carregando...</div>`;
 
   try {
     const { json: lancamentos } = await githubGetJson(LANCAMENTOS_PATH, []);
+    const todos = lancamentos || [];
 
-    const ordenados = [...(lancamentos || [])].sort((a, b) => {
-      if (a.status !== b.status) return a.status === "pendente" ? -1 : 1;
-      return (b.created_at || "").localeCompare(a.created_at || "");
-    });
+    const pendentes = todos
+      .filter(l => l.status !== "confirmado")
+      .sort((a, b) => (b.created_at || "").localeCompare(a.created_at || ""));
 
-    if (ordenados.length === 0) {
-      lancamentosList.innerHTML = `<div class="empty">Nenhum lançamento cadastrado ainda.</div>`;
-      return;
-    }
+    const confirmados = todos
+      .filter(l => l.status === "confirmado")
+      .sort((a, b) => (b.confirmed_at || "").localeCompare(a.confirmed_at || ""));
 
-    lancamentosList.innerHTML = "";
-    ordenados.forEach(l => renderLancamentoRow(l));
+    pendentesEl.innerHTML = pendentes.length === 0
+      ? `<div class="empty">Nenhum lançamento pendente.</div>`
+      : "";
+    pendentes.forEach(l => renderPendenteRow(l));
+
+    confirmadosEl.innerHTML = confirmados.length === 0
+      ? `<div class="empty">Nenhuma avaliação confirmada ainda.</div>`
+      : "";
+    confirmados.forEach(l => renderConfirmadoRow(l));
 
   } catch (err) {
     console.error(err);
-    lancamentosList.innerHTML = `<div class="empty">Erro ao carregar: ${err.message || err}</div>`;
+    pendentesEl.innerHTML = `<div class="empty">Erro ao carregar: ${err.message || err}</div>`;
+    confirmadosEl.innerHTML = "";
   }
 }
 
-function renderLancamentoRow(lancamento) {
+function renderPendenteRow(lancamento) {
   const div = document.createElement("div");
-  div.className = "lancamento-item" + (lancamento.status === "confirmado" ? " confirmado" : "");
+  div.className = "lancamento-item";
   div.id = `lancamento-${lancamento.id}`;
 
+  if (editingLancamentoId === lancamento.id) {
+    renderPendenteEditForm(div, lancamento);
+    pendentesEl.appendChild(div);
+    return;
+  }
+
   const criadoEm = lancamento.created_at ? new Date(lancamento.created_at).toLocaleString("pt-BR") : "-";
-
-  const statusBadge = lancamento.status === "confirmado"
-    ? `<span class="badge confirmed">Confirmado${lancamento.mes_referencia ? " — " + monthLabel(lancamento.mes_referencia) : ""}</span>`
-    : `<span class="badge pending">Pendente</span>`;
-
-  const acao = lancamento.status === "confirmado"
-    ? ""
-    : `<button class="small" data-action="buscar">Buscar Avaliação</button>`;
+  const setorBadge = lancamento.setor ? `<span class="badge setor">${escapeHtml(lancamento.setor)}</span>` : "";
 
   div.innerHTML = `
     <div class="lancamento-head">
       <div>
-        <div class="lancamento-info">${lancamento.cliente_nome_informado} — ${lancamento.vendedora}</div>
+        <div class="lancamento-info">${escapeHtml(lancamento.cliente_nome_informado)} — ${escapeHtml(lancamento.vendedora)}</div>
         <div class="lancamento-meta">Cadastrado em ${criadoEm}</div>
       </div>
-      <div style="display:flex;align-items:center;gap:10px;">
-        ${statusBadge}
-        ${acao}
+      <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+        ${setorBadge}
+        <span class="badge pending">Pendente</span>
+        <button class="small" data-action="buscar">Buscar Avaliação</button>
+        <button class="small secondary" data-action="editar">Editar</button>
+        <button class="small danger" data-action="excluir">Excluir</button>
       </div>
     </div>
     <div class="row-status" id="rowstatus-${lancamento.id}"></div>
     <div class="results-area" id="results-${lancamento.id}" style="display:none;"></div>
   `;
 
-  const buscarBtn = div.querySelector('[data-action="buscar"]');
-  if (buscarBtn) {
-    buscarBtn.addEventListener("click", () => buscarAvaliacaoParaLancamento(lancamento, buscarBtn));
-  }
+  div.querySelector('[data-action="buscar"]').addEventListener("click", (e) => buscarAvaliacaoParaLancamento(lancamento, e.target));
+  div.querySelector('[data-action="editar"]').addEventListener("click", () => { editingLancamentoId = lancamento.id; refreshLancamentosLists(); });
+  div.querySelector('[data-action="excluir"]').addEventListener("click", () => excluirLancamento(lancamento));
 
-  lancamentosList.appendChild(div);
+  pendentesEl.appendChild(div);
 }
+
+function renderPendenteEditForm(div, lancamento) {
+  const setorAtual = lancamento.setor || "";
+  const setorOptions = SETORES.map(s => `<option value="${s}" ${s === setorAtual ? "selected" : ""}>${s}</option>`).join("");
+
+  div.innerHTML = `
+    <div class="edit-form">
+      <div class="row">
+        <div>
+          <label>Setor</label>
+          <select data-field="setor">
+            <option value="">Selecione...</option>
+            ${setorOptions}
+          </select>
+        </div>
+        <div>
+          <label>Funcionário</label>
+          <select data-field="funcionario"></select>
+        </div>
+        <div>
+          <label>Nome do cliente</label>
+          <input type="text" data-field="cliente" value="${escapeHtml(lancamento.cliente_nome_informado)}">
+        </div>
+      </div>
+      <div class="btn-row">
+        <button class="small" data-action="salvar">Salvar</button>
+        <button class="small secondary" data-action="cancelar">Cancelar</button>
+      </div>
+    </div>
+  `;
+
+  const setorFieldEl = div.querySelector('[data-field="setor"]');
+  const funcFieldEl = div.querySelector('[data-field="funcionario"]');
+
+  function fillFuncOptions(setor, selecionado) {
+    const doSetor = funcionariosCache.filter(f => f.setor === setor).sort((a, b) => (a.nome || "").localeCompare(b.nome || ""));
+    funcFieldEl.innerHTML = `<option value="">Selecione...</option>` +
+      doSetor.map(f => `<option value="${escapeHtml(f.nome)}" ${f.nome === selecionado ? "selected" : ""}>${escapeHtml(f.nome)}</option>`).join("");
+  }
+  fillFuncOptions(setorAtual, lancamento.vendedora);
+  setorFieldEl.addEventListener("change", () => fillFuncOptions(setorFieldEl.value, null));
+
+  div.querySelector('[data-action="salvar"]').addEventListener("click", () => {
+    const novoSetor = setorFieldEl.value;
+    const novoFuncionario = funcFieldEl.value;
+    const novoCliente = div.querySelector('[data-field="cliente"]').value.trim();
+    if (!novoSetor || !novoFuncionario || !novoCliente) {
+      alert("Preencha setor, funcionário e nome do cliente.");
+      return;
+    }
+    salvarEdicaoLancamento(lancamento.id, novoSetor, novoFuncionario, novoCliente);
+  });
+  div.querySelector('[data-action="cancelar"]').addEventListener("click", () => {
+    editingLancamentoId = null;
+    refreshLancamentosLists();
+  });
+}
+
+async function salvarEdicaoLancamento(id, setor, funcionario, clienteNome) {
+  try {
+    await writeWithRetry(
+      LANCAMENTOS_PATH,
+      [],
+      (current) => (current || []).map(l => l.id === id
+        ? { ...l, setor, vendedora: funcionario, cliente_nome_informado: clienteNome }
+        : l
+      ),
+      `Edita lançamento ${id}`
+    );
+    editingLancamentoId = null;
+    refreshLancamentosLists();
+  } catch (err) {
+    console.error(err);
+    alert("Erro ao salvar: " + (err.message || err));
+  }
+}
+
+async function excluirLancamento(lancamento) {
+  if (!confirm(`Excluir o lançamento de "${lancamento.cliente_nome_informado}"?`)) return;
+  try {
+    await writeWithRetry(
+      LANCAMENTOS_PATH,
+      [],
+      (current) => (current || []).filter(l => l.id !== lancamento.id),
+      `Exclui lançamento ${lancamento.id}`
+    );
+    refreshLancamentosLists();
+    refreshRankingPanel();
+  } catch (err) {
+    console.error(err);
+    alert("Erro ao excluir: " + (err.message || err));
+  }
+}
+
+function renderConfirmadoRow(lancamento) {
+  const div = document.createElement("div");
+  div.className = "lancamento-item confirmado";
+
+  const confirmadoEm = lancamento.confirmed_at ? new Date(lancamento.confirmed_at).toLocaleString("pt-BR") : "-";
+  const setorBadge = lancamento.setor ? `<span class="badge setor">${escapeHtml(lancamento.setor)}</span>` : "";
+
+  div.innerHTML = `
+    <div class="lancamento-head">
+      <div>
+        <div class="lancamento-info">${escapeHtml(lancamento.cliente_nome_informado)} — ${escapeHtml(lancamento.vendedora)}</div>
+        <div class="lancamento-meta">Confirmado em ${confirmadoEm}${lancamento.mes_referencia ? " · Mês ref.: " + monthLabel(lancamento.mes_referencia) : ""}</div>
+      </div>
+      <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+        ${setorBadge}
+        <span class="badge confirmed">Confirmado</span>
+        <button class="small danger" data-action="excluir">Excluir</button>
+      </div>
+    </div>
+  `;
+
+  div.querySelector('[data-action="excluir"]').addEventListener("click", () => excluirLancamento(lancamento));
+  confirmadosEl.appendChild(div);
+}
+
+/* ============================================================
+   BUSCA E CONFIRMAÇÃO DE AVALIAÇÃO
+   ============================================================ */
 
 function setRowStatus(lancamentoId, msg, type) {
   const el = document.getElementById(`rowstatus-${lancamentoId}`);
@@ -565,13 +943,13 @@ async function buscarAvaliacaoParaLancamento(lancamento, btnEl) {
 
       item.innerHTML = `
         <div class="result-head">
-          <div class="result-name">${r.author_name}</div>
+          <div class="result-name">${escapeHtml(r.author_name)}</div>
           <span class="result-score">similaridade ${scorePct}%</span>
         </div>
         <div class="result-meta"><span class="stars">${stars}</span> · ${dataFmt}</div>
-        <div class="result-text">${r.review_text ? r.review_text.substring(0, 220) : "(sem texto)"}</div>
+        <div class="result-text">${r.review_text ? escapeHtml(r.review_text.substring(0, 220)) : "(sem texto)"}</div>
         ${already
-          ? `<span class="badge taken">Já contabilizada para ${already.vendedora}${already.mes_referencia ? " (" + monthLabel(already.mes_referencia) + ")" : ""}</span>`
+          ? `<span class="badge taken">Já contabilizada para ${escapeHtml(already.vendedora)}${already.mes_referencia ? " (" + monthLabel(already.mes_referencia) + ")" : ""}</span>`
           : `<button class="small" data-review-id="${r.review_id}">Confirmar</button>`
         }
       `;
@@ -630,8 +1008,7 @@ async function confirmarLancamento(lancamento, review, itemEl) {
       return;
     }
 
-    setRowStatus(lancamento.id, `Confirmado para ${lancamento.vendedora} (${monthLabel(mesReferencia)}).`, "ok");
-    refreshLancamentosList();
+    refreshLancamentosLists();
     refreshRankingPanel();
 
   } catch (err) {
@@ -640,7 +1017,10 @@ async function confirmarLancamento(lancamento, review, itemEl) {
   }
 }
 
-// ---------- Painel de contagem mensal ----------
+/* ============================================================
+   PAINEL DE CONTAGEM MENSAL
+   ============================================================ */
+
 async function refreshRankingPanel() {
   const rankingBody = document.getElementById("rankingBody");
 
@@ -658,21 +1038,27 @@ async function refreshRankingPanel() {
     const confirmadosDoMes = (lancamentos || []).filter(l => l.status === "confirmado" && l.mes_referencia === mes);
 
     const counts = {};
-    VENDEDORAS.forEach(v => counts[v] = 0);
     confirmadosDoMes.forEach(l => {
-      counts[l.vendedora] = (counts[l.vendedora] || 0) + 1;
+      const key = l.vendedora || "(sem nome)";
+      if (!counts[key]) counts[key] = { total: 0, setor: l.setor || "" };
+      counts[key].total += 1;
     });
 
     const total = confirmadosDoMes.length;
-    const ranked = Object.entries(counts).sort((a, b) => b[1] - a[1]);
+    const ranked = Object.entries(counts).sort((a, b) => b[1].total - a[1].total);
 
     let html = `<div style="display:flex;justify-content:flex-end;margin-bottom:10px;">
-      <span class="total-pill">${total} avaliação(ões) no mês</span></div>
-      <table><thead><tr><th>Vendedora</th><th>Avaliações</th></tr></thead><tbody>`;
-    ranked.forEach(([v, c]) => {
-      html += `<tr><td>${v}</td><td>${c}</td></tr>`;
-    });
-    html += `</tbody></table>`;
+      <span class="total-pill">${total} avaliação(ões) no mês</span></div>`;
+
+    if (ranked.length === 0) {
+      html += `<div class="empty">Nenhuma avaliação confirmada nesse mês.</div>`;
+    } else {
+      html += `<table><thead><tr><th>Funcionário</th><th>Setor</th><th>Avaliações</th></tr></thead><tbody>`;
+      ranked.forEach(([nome, info]) => {
+        html += `<tr><td>${escapeHtml(nome)}</td><td>${escapeHtml(info.setor)}</td><td>${info.total}</td></tr>`;
+      });
+      html += `</tbody></table>`;
+    }
     rankingBody.innerHTML = html;
 
   } catch (err) {
@@ -681,8 +1067,17 @@ async function refreshRankingPanel() {
   }
 }
 
-refreshLancamentosList();
-refreshRankingPanel();
+/* ============================================================
+   INICIALIZAÇÃO
+   ============================================================ */
+
+(async function init() {
+  await loadFuncionarios();
+  atualizarFuncionarioOptions(setorSelect.value);
+  refreshFuncionariosList();
+  refreshLancamentosLists();
+  refreshRankingPanel();
+})();
 </script>
 </body>
 </html>
