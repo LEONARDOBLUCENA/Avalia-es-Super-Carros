@@ -76,7 +76,17 @@
     min-width: 0;
     padding: 26px 28px 60px;
   }
-  .main-inner { max-width: 900px; }
+  .main-inner { max-width: 1200px; }
+
+  /* -------- Layout de duas colunas (conteúdo + KPIs à direita) -------- */
+  .tab-content-grid { display: flex; gap: 20px; align-items: flex-start; }
+  .col-main { flex: 2; min-width: 0; }
+  .col-kpi { flex: 1; min-width: 260px; position: sticky; top: 26px; }
+  .kpi-card .row > div { min-width: 0; }
+  @media (max-width: 900px) {
+    .tab-content-grid { flex-direction: column; }
+    .col-kpi { position: static; width: 100%; }
+  }
   .page-title { font-size: 1.25rem; margin: 0 0 4px; }
   .page-subtitle { color: var(--muted); font-size: 0.85rem; margin-bottom: 20px; }
 
@@ -261,42 +271,55 @@
         <h2 class="page-title">Avaliações Fotos</h2>
         <div class="page-subtitle">Cadastro, busca e confirmação de avaliações da equipe de Fotos</div>
 
-        <div class="card">
-          <div class="section-title">Novo lançamento</div>
-          <div class="row">
-            <div>
-              <label for="funcionarioSelect">Funcionário (Fotos)</label>
-              <select id="funcionarioSelect">
-                <option value="">Selecione...</option>
-              </select>
+        <div class="tab-content-grid">
+          <div class="col-main">
+            <div class="card">
+              <div class="section-title">Novo lançamento</div>
+              <div class="row">
+                <div>
+                  <label for="funcionarioSelect">Funcionário (Fotos)</label>
+                  <select id="funcionarioSelect">
+                    <option value="">Selecione...</option>
+                  </select>
+                </div>
+                <div>
+                  <label for="clienteInput">Nome do cliente</label>
+                  <input type="text" id="clienteInput" placeholder="Ex: Maria Silva" autocomplete="off">
+                </div>
+              </div>
+              <div class="btn-row">
+                <button id="processarBtn">Processar</button>
+              </div>
+              <div id="statusMsg"></div>
             </div>
-            <div>
-              <label for="clienteInput">Nome do cliente</label>
-              <input type="text" id="clienteInput" placeholder="Ex: Maria Silva" autocomplete="off">
+
+            <div class="card">
+              <div class="section-title">Lista de lançamentos (pendentes)</div>
+              <div id="lancamentosPendentesList"></div>
+            </div>
+
+            <div class="card">
+              <div class="section-title">Confirmados</div>
+              <div id="lancamentosConfirmadosList"></div>
             </div>
           </div>
-          <div class="btn-row">
-            <button id="processarBtn">Processar</button>
+
+          <div class="col-kpi">
+            <div class="card kpi-card">
+              <div class="section-title">Contagem</div>
+              <div class="row">
+                <div>
+                  <label for="mesSelectFotos">Mês</label>
+                  <select id="mesSelectFotos"></select>
+                </div>
+                <div>
+                  <label for="anoSelectFotos">Ano</label>
+                  <select id="anoSelectFotos"></select>
+                </div>
+              </div>
+              <div id="rankingBody" style="margin-top:14px;"></div>
+            </div>
           </div>
-          <div id="statusMsg"></div>
-        </div>
-
-        <div class="card">
-          <div class="section-title">Lista de lançamentos (pendentes)</div>
-          <div id="lancamentosPendentesList"></div>
-        </div>
-
-        <div class="card">
-          <div class="section-title">Confirmados</div>
-          <div id="lancamentosConfirmadosList"></div>
-        </div>
-
-        <div class="card">
-          <div class="section-title">
-            <span>Contagem do mês</span>
-            <select id="monthSelect" class="month-select"></select>
-          </div>
-          <div id="rankingBody"></div>
         </div>
       </div>
 
@@ -305,22 +328,35 @@
         <h2 class="page-title">Avaliação Instrutores</h2>
         <div class="page-subtitle">Busca menções a cada instrutor no texto das avaliações do Google</div>
 
-        <div class="card">
-          <div class="section-title">Instrutores cadastrados</div>
-          <div id="instrutoresList"></div>
-        </div>
+        <div class="tab-content-grid">
+          <div class="col-main">
+            <div class="card">
+              <div class="section-title">Instrutores cadastrados</div>
+              <div id="instrutoresList"></div>
+            </div>
 
-        <div class="card">
-          <div class="section-title">Elogios confirmados</div>
-          <div id="mencoesConfirmadasList"></div>
-        </div>
-
-        <div class="card">
-          <div class="section-title">
-            <span>Contagem do mês</span>
-            <select id="monthSelectInstrutores" class="month-select"></select>
+            <div class="card">
+              <div class="section-title">Elogios confirmados</div>
+              <div id="mencoesConfirmadasList"></div>
+            </div>
           </div>
-          <div id="rankingInstrutoresBody"></div>
+
+          <div class="col-kpi">
+            <div class="card kpi-card">
+              <div class="section-title">Contagem</div>
+              <div class="row">
+                <div>
+                  <label for="mesSelectInstrutores">Mês</label>
+                  <select id="mesSelectInstrutores"></select>
+                </div>
+                <div>
+                  <label for="anoSelectInstrutores">Ano</label>
+                  <select id="anoSelectInstrutores"></select>
+                </div>
+              </div>
+              <div id="rankingInstrutoresBody" style="margin-top:14px;"></div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -601,24 +637,40 @@ function monthLabel(key) {
   return `${nomes[parseInt(m, 10) - 1]}/${y}`;
 }
 
-function populateMonthSelect(selectEl, onChange) {
+// Filtros de Mês + Ano separados (em vez de um único combo com os últimos
+// 12 meses) — assim dá pra consultar qualquer mês/ano, não só o último ano.
+const NOMES_MES = ["Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"];
+
+function populateMesAnoSelects(mesEl, anoEl, onChange, anosParaTras = 5) {
   const now = new Date();
-  for (let i = 0; i < 12; i++) {
-    const d = new Date(now.getFullYear(), now.getMonth() - i, 1);
-    const key = currentMonthKey(d);
+  NOMES_MES.forEach((nome, i) => {
     const opt = document.createElement("option");
-    opt.value = key;
-    opt.textContent = monthLabel(key);
-    selectEl.appendChild(opt);
+    opt.value = String(i + 1).padStart(2, "0");
+    opt.textContent = nome;
+    mesEl.appendChild(opt);
+  });
+  const anoAtual = now.getFullYear();
+  for (let y = anoAtual; y >= anoAtual - anosParaTras; y--) {
+    const opt = document.createElement("option");
+    opt.value = String(y);
+    opt.textContent = String(y);
+    anoEl.appendChild(opt);
   }
-  selectEl.value = currentMonthKey();
-  selectEl.addEventListener("change", onChange);
+  mesEl.value = String(now.getMonth() + 1).padStart(2, "0");
+  anoEl.value = String(anoAtual);
+  mesEl.addEventListener("change", onChange);
+  anoEl.addEventListener("change", onChange);
 }
 
-const monthSelect = document.getElementById("monthSelect");
-const monthSelectInstrutores = document.getElementById("monthSelectInstrutores");
-populateMonthSelect(monthSelect, refreshRankingPanel);
-populateMonthSelect(monthSelectInstrutores, refreshRankingInstrutores);
+const mesSelectFotos = document.getElementById("mesSelectFotos");
+const anoSelectFotos = document.getElementById("anoSelectFotos");
+const mesSelectInstrutores = document.getElementById("mesSelectInstrutores");
+const anoSelectInstrutores = document.getElementById("anoSelectInstrutores");
+populateMesAnoSelects(mesSelectFotos, anoSelectFotos, refreshRankingPanel);
+populateMesAnoSelects(mesSelectInstrutores, anoSelectInstrutores, refreshRankingInstrutores);
+
+function getMonthKeyFotos() { return `${anoSelectFotos.value}-${mesSelectFotos.value}`; }
+function getMonthKeyInstrutores() { return `${anoSelectInstrutores.value}-${mesSelectInstrutores.value}`; }
 
 // ---------- Normalização e score de similaridade (bigramas de Dice) ----------
 function normalize(str) {
@@ -1197,7 +1249,7 @@ async function refreshRankingPanel() {
     return;
   }
 
-  const mes = monthSelect.value;
+  const mes = getMonthKeyFotos();
   rankingBody.innerHTML = `<div class="empty">Carregando...</div>`;
 
   try {
@@ -1474,7 +1526,7 @@ async function refreshRankingInstrutores() {
     return;
   }
 
-  const mes = monthSelectInstrutores.value;
+  const mes = getMonthKeyInstrutores();
   rankingBody.innerHTML = `<div class="empty">Carregando...</div>`;
 
   try {
