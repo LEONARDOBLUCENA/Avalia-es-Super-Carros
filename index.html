@@ -603,10 +603,6 @@ function escapeHtml(str) {
   return div.innerHTML;
 }
 
-function escapeRegExp(str) {
-  return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-}
-
 // ---------- Navegação (abas na barra lateral) ----------
 document.querySelectorAll(".nav-btn[data-tab]").forEach(btn => {
   btn.addEventListener("click", () => {
@@ -712,19 +708,70 @@ function includesToken(a, b) {
 
 // Score de menção: procura o nome do instrutor dentro do TEXTO da
 // avaliação (diferente do fluxo de Fotos, que compara com o nome de quem
-// avaliou). Nome completo aparecendo no texto = match forte (1.0);
-// primeiro nome aparecendo como palavra isolada = match mais fraco (0.7).
+// avaliou).
+// - Nome completo aparecendo literalmente no texto = match forte (1.0).
+// - Caso contrário, compara (por bigramas de Dice, igual à busca de Fotos)
+//   o primeiro nome do instrutor contra cada palavra do texto, e o nome
+//   completo contra cada janela de palavras do mesmo tamanho — isso pega
+//   escrita errada/parecida (ex.: "Brayan" x "Braian", "Matheus" x "Mateus").
+// - Bônus de apelido/forma abreviada: se a palavra do texto é o começo do
+//   nome do instrutor ou vice-versa (ex.: "Gil" pra "Gilvane"), conta como
+//   correspondência razoável mesmo sem ser parecida letra a letra.
+// - Reforço de contexto: quando a palavra imediatamente antes é "instrutor"
+//   ou "instrutora", aceitamos uma correspondência mais fraca ali, porque o
+//   texto já está claramente introduzindo o nome de alguém.
+const MENTION_FUZZY_THRESHOLD = 0.6;
+const MENTION_CONTEXT_THRESHOLD = 0.55; // logo depois de "instrutor"/"instrutora"
+
+function wordScore(nameWord, textWord) {
+  if (nameWord === textWord) return 1;
+  let score = diceScore(nameWord, textWord);
+  if (textWord.length >= 3 && nameWord.length >= 3) {
+    if (nameWord.startsWith(textWord) || textWord.startsWith(nameWord.substring(0, 3))) {
+      score = Math.max(score, 0.65);
+    }
+  }
+  return score;
+}
+
 function mentionScore(instrutorNome, reviewText) {
   const normText = normalize(reviewText);
   const normName = normalize(instrutorNome);
   if (!normText || !normName) return 0;
   if (normText.includes(normName)) return 1;
-  const firstName = normName.split(" ")[0];
-  if (firstName.length >= 3) {
-    const re = new RegExp(`(^|\\s)${escapeRegExp(firstName)}(\\s|$)`);
-    if (re.test(normText)) return 0.7;
-  }
-  return 0;
+
+  const nameWords = normName.split(" ");
+  const primeiroNome = nameWords[0];
+  const textWords = normText.split(" ").filter(w => w.length >= 3);
+  if (primeiroNome.length < 3 || textWords.length === 0) return 0;
+
+  // Palavra logo depois de "instrutor"/"instrutora" no texto já filtrado
+  // (stopwords curtas como "o"/"a" já foram removidas, então aqui o índice
+  // seguinte já cai direto no nome, mesmo em "instrutor o Fernando").
+  const contextIndexes = new Set();
+  textWords.forEach((w, i) => {
+    if ((w === "instrutor" || w === "instrutora") && i + 1 < textWords.length) {
+      contextIndexes.add(i + 1);
+    }
+  });
+
+  const windowSize = nameWords.length;
+  let best = 0;
+
+  textWords.forEach((word, i) => {
+    const limiar = contextIndexes.has(i) ? MENTION_CONTEXT_THRESHOLD : MENTION_FUZZY_THRESHOLD;
+
+    const scorePrimeiroNome = wordScore(primeiroNome, word);
+    if (scorePrimeiroNome >= limiar && scorePrimeiroNome > best) best = scorePrimeiroNome;
+
+    if (windowSize > 1 && i + windowSize <= textWords.length) {
+      const janela = textWords.slice(i, i + windowSize).join(" ");
+      const scoreNomeCompleto = diceScore(normName, janela);
+      if (scoreNomeCompleto >= limiar && scoreNomeCompleto > best) best = scoreNomeCompleto;
+    }
+  });
+
+  return best;
 }
 
 /* ============================================================
