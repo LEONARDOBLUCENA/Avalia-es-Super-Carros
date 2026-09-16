@@ -4,7 +4,15 @@ on:
   schedule:
     # Todo dia às 07:00 (horário de Brasília = UTC-3 -> 10:00 UTC)
     - cron: "0 10 * * *"
-  workflow_dispatch: {}   # permite rodar manualmente pela aba "Actions" do GitHub
+  workflow_dispatch:   # permite rodar manualmente pela aba "Actions" do GitHub
+    inputs:
+      backfill_limit:
+        description: >-
+          Backfill manual (opcional): quantidade de avaliações mais recentes
+          para buscar do zero, ignorando o que já foi sincronizado. Deixe em
+          branco para uma sincronização normal (só o que é novo).
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -26,7 +34,11 @@ jobs:
           OUTSCRAPER_API_KEY: ${{ secrets.OUTSCRAPER_API_KEY }}
           PLACE_QUERY: ${{ vars.PLACE_QUERY }}
           REVIEWS_PATH: reviews.json
-          REVIEWS_LIMIT: "150"
+          # Rodada agendada (todo dia): usa 150 e sincronização incremental
+          # normal. Rodada manual com "backfill_limit" preenchido: busca
+          # essa quantidade mais recente do zero, ignorando o cutoff.
+          REVIEWS_LIMIT: ${{ github.event.inputs.backfill_limit || '150' }}
+          IGNORE_CUTOFF: ${{ github.event.inputs.backfill_limit != '' && 'true' || 'false' }}
           # Troque para "true" temporariamente se precisar depurar o
           # formato da resposta do Outscraper nos logs do Actions.
           DEBUG: "false"
