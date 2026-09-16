@@ -4,19 +4,22 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Avaliações Google — Super Carros Gramado</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.47.0/dist/tabler-icons.min.css">
 <style>
   :root {
     --bg: #0f1720;
-    --panel: #1a2532;
-    --panel-2: #212f3f;
-    --border: #2d3d4f;
+    --panel: #161f2b;
+    --panel-2: #1e2a38;
+    --border: #2a3a4c;
     --text: #e8edf2;
-    --muted: #93a3b3;
+    --muted: #8fa1b3;
     --accent: #3b82f6;
+    --accent-2: #60a5fa;
     --green: #16a34a;
     --green-bg: #0f2b1a;
     --red: #ef4444;
     --yellow: #eab308;
+    --sidebar-w: 240px;
   }
   * { box-sizing: border-box; }
   body {
@@ -24,27 +27,62 @@
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
     background: var(--bg);
     color: var(--text);
-    padding: 16px;
   }
-  .wrap { max-width: 960px; margin: 0 auto; }
-  h1 { font-size: 1.3rem; margin: 0 0 4px; }
-  .subtitle { color: var(--muted); font-size: 0.85rem; margin-bottom: 16px; }
-  .tabs { display: flex; gap: 8px; margin-bottom: 18px; border-bottom: 1px solid var(--border); }
-  .tab-btn {
+  .app-shell { display: flex; min-height: 100vh; }
+
+  /* -------- Sidebar -------- */
+  .sidebar {
+    width: var(--sidebar-w);
+    flex-shrink: 0;
+    background: var(--panel);
+    border-right: 1px solid var(--border);
+    padding: 22px 14px;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+  }
+  .sidebar-brand { padding: 0 8px 20px; }
+  .sidebar-brand h1 { font-size: 1.05rem; margin: 0 0 4px; line-height: 1.25; }
+  .sidebar-brand .subtitle { color: var(--muted); font-size: 0.78rem; }
+  .sidebar-nav { display: flex; flex-direction: column; gap: 4px; flex: 1; }
+  .nav-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    text-align: left;
     background: transparent;
     color: var(--muted);
     border: none;
-    border-bottom: 2px solid transparent;
-    border-radius: 0;
-    padding: 10px 4px;
-    margin-right: 16px;
-    font-size: 0.95rem;
+    border-radius: 10px;
+    padding: 11px 12px;
+    font-size: 0.9rem;
     font-weight: 600;
     cursor: pointer;
   }
-  .tab-btn.active { color: var(--text); border-bottom-color: var(--accent); }
+  .nav-btn i { font-size: 1.15rem; }
+  .nav-btn:hover { background: var(--panel-2); color: var(--text); }
+  .nav-btn.active { background: var(--accent); color: #fff; }
+  .sidebar-foot { border-top: 1px solid var(--border); padding-top: 12px; margin-top: 12px; }
+  .sidebar-foot .nav-btn { color: var(--muted); font-size: 0.82rem; }
+  .config-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--red); margin-left: auto; }
+  .config-dot.ok { background: var(--green); }
+
+  /* -------- Main content -------- */
+  .main {
+    flex: 1;
+    min-width: 0;
+    padding: 26px 28px 60px;
+  }
+  .main-inner { max-width: 900px; }
+  .page-title { font-size: 1.25rem; margin: 0 0 4px; }
+  .page-subtitle { color: var(--muted); font-size: 0.85rem; margin-bottom: 20px; }
+
   .tab-panel { display: none; }
   .tab-panel.active { display: block; }
+
   .card {
     background: var(--panel);
     border: 1px solid var(--border);
@@ -60,7 +98,14 @@
     padding: 12px 14px;
     font-size: 0.85rem;
     margin-bottom: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
   }
+  .warn button { flex-shrink: 0; }
+
   label { display: block; font-size: 0.8rem; color: var(--muted); margin-bottom: 6px; }
   select, input[type="text"] {
     width: 100%;
@@ -79,28 +124,31 @@
     border: none;
     border-radius: 8px;
     padding: 10px 18px;
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     cursor: pointer;
     font-weight: 600;
   }
   button:hover { opacity: 0.9; }
   button:disabled { opacity: 0.5; cursor: not-allowed; }
-  button.secondary { background: var(--panel-2); border: 1px solid var(--border); }
+  button.secondary { background: var(--panel-2); border: 1px solid var(--border); color: var(--text); }
   button.danger { background: var(--red); }
-  button.small { padding: 6px 12px; font-size: 0.8rem; }
+  button.small { padding: 6px 12px; font-size: 0.78rem; }
   .btn-row { margin-top: 14px; display: flex; gap: 8px; flex-wrap: wrap; }
-  .lancamento-item {
+
+  .lancamento-item, .instrutor-item {
     background: var(--panel-2);
     border: 1px solid var(--border);
     border-radius: 10px;
     padding: 12px 14px;
     margin-bottom: 10px;
   }
-  .lancamento-item.confirmado { border-color: var(--green); }
-  .lancamento-head { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; }
-  .lancamento-info { font-weight: 600; }
+  .lancamento-item.confirmado, .mencao-item { border-color: var(--green); }
+  .lancamento-head, .instrutor-head, .mencao-head {
+    display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap;
+  }
+  .lancamento-info, .instrutor-nome { font-weight: 600; }
   .lancamento-sub { font-size: 0.78rem; color: var(--muted); }
-  .lancamento-meta { font-size: 0.78rem; color: var(--muted); margin-top: 2px; }
+  .lancamento-meta, .mencao-meta { font-size: 0.78rem; color: var(--muted); margin-top: 2px; }
   .results-area { margin-top: 12px; border-top: 1px dashed var(--border); padding-top: 12px; }
   .result-item {
     background: var(--panel);
@@ -109,7 +157,7 @@
     padding: 12px 14px;
     margin-bottom: 10px;
   }
-  .result-item.taken { opacity: 0.6; }
+  .result-item.taken { opacity: 0.55; }
   .result-head { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; }
   .result-name { font-weight: 600; }
   .result-score { font-size: 0.75rem; color: var(--muted); }
@@ -120,169 +168,235 @@
   .badge.taken { color: var(--red); border-color: var(--red); }
   .badge.confirmed { color: var(--green); border-color: var(--green); }
   .badge.pending { color: var(--yellow); border-color: var(--yellow); }
-  .badge.setor { color: var(--accent); border-color: var(--accent); }
+  .badge.setor { color: var(--accent-2); border-color: var(--accent); }
   table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
   th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--border); }
-  th { color: var(--muted); font-weight: 600; font-size: 0.75rem; text-transform: uppercase; }
+  th { color: var(--muted); font-weight: 600; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.02em; }
   .empty { color: var(--muted); font-size: 0.85rem; padding: 10px 0; }
   .month-select { max-width: 200px; }
   .section-title { font-size: 0.95rem; font-weight: 600; margin: 0 0 12px; display: flex; justify-content: space-between; align-items: center; }
   .total-pill { background: var(--accent); color: white; font-size: 0.75rem; padding: 3px 10px; border-radius: 999px; }
-  #statusMsg { font-size: 0.85rem; margin-top: 10px; min-height: 18px; }
-  #statusMsg.ok { color: var(--green); }
-  #statusMsg.error { color: var(--red); }
-  #statusMsg.loading { color: var(--muted); }
-  #funcStatusMsg { font-size: 0.85rem; margin-top: 10px; min-height: 18px; }
-  #funcStatusMsg.ok { color: var(--green); }
-  #funcStatusMsg.error { color: var(--red); }
-  #funcStatusMsg.loading { color: var(--muted); }
+  #statusMsg, #funcStatusMsg { font-size: 0.85rem; margin-top: 10px; min-height: 18px; }
+  #statusMsg.ok, #funcStatusMsg.ok { color: var(--green); }
+  #statusMsg.error, #funcStatusMsg.error { color: var(--red); }
+  #statusMsg.loading, #funcStatusMsg.loading { color: var(--muted); }
   .row-status { font-size: 0.85rem; margin-top: 8px; min-height: 16px; }
   .row-status.ok { color: var(--green); }
   .row-status.error { color: var(--red); }
   .row-status.loading { color: var(--muted); }
   .edit-form { display: flex; flex-direction: column; gap: 10px; margin-top: 10px; }
-  .funcionario-group-title { font-size: 0.8rem; color: var(--muted); text-transform: uppercase; margin: 16px 0 8px; }
+  .funcionario-group-title { font-size: 0.78rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.03em; margin: 16px 0 8px; }
   .funcionario-row {
     display: flex; justify-content: space-between; align-items: center;
     background: var(--panel-2); border: 1px solid var(--border); border-radius: 8px;
     padding: 8px 12px; margin-bottom: 6px;
   }
-  .token-card { display: flex; gap: 8px; align-items: flex-end; flex-wrap: wrap; }
-  .token-card > div { flex: 1; min-width: 240px; }
-  .token-ok { color: var(--green); font-size: 0.8rem; }
+
+  /* -------- Painel de token (oculto por padrão) -------- */
+  #tokenPanel {
+    position: fixed;
+    inset: 0;
+    background: rgba(6, 10, 16, 0.6);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 50;
+    padding: 16px;
+  }
+  #tokenPanel.open { display: flex; }
+  .token-modal {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 22px;
+    width: 100%;
+    max-width: 440px;
+  }
+  .token-modal h2 { font-size: 1rem; margin: 0 0 6px; }
+  .token-modal p { color: var(--muted); font-size: 0.82rem; margin: 0 0 16px; line-height: 1.5; }
+  .token-ok { color: var(--green); font-size: 0.8rem; margin-top: 8px; }
+
+  @media (max-width: 760px) {
+    .app-shell { flex-direction: column; }
+    .sidebar { width: 100%; height: auto; position: relative; flex-direction: row; align-items: center; padding: 12px 14px; gap: 12px; }
+    .sidebar-brand { padding: 0; flex-shrink: 0; }
+    .sidebar-brand .subtitle { display: none; }
+    .sidebar-nav { flex-direction: row; overflow-x: auto; flex: 1; }
+    .nav-btn { white-space: nowrap; }
+    .sidebar-foot { border-top: none; border-left: 1px solid var(--border); padding: 0 0 0 12px; margin: 0; }
+    .main { padding: 18px 16px 48px; }
+  }
 </style>
 </head>
 <body>
-<div class="wrap">
-  <h1>Avaliações Google — Super Carros Gramado</h1>
-  <div class="subtitle">Cadastro, busca e confirmação de avaliações por funcionário</div>
+<div class="app-shell">
 
-  <div id="configWarning" class="warn" style="display:none;">
-    ⚠️ Este navegador ainda não tem o token do GitHub salvo. Cole seu token abaixo
-    e clique em "Salvar token" — ele fica guardado só neste navegador (não vai
-    para o arquivo nem para o GitHub) e você não precisa colar de novo depois de
-    uma atualização do arquivo.
-  </div>
+  <!-- ============================ SIDEBAR ============================ -->
+  <aside class="sidebar">
+    <div class="sidebar-brand">
+      <h1>Avaliações Google</h1>
+      <div class="subtitle">Super Carros Gramado</div>
+    </div>
+    <nav class="sidebar-nav">
+      <button class="nav-btn active" data-tab="fotos"><i class="ti ti-camera"></i> Avaliações Fotos</button>
+      <button class="nav-btn" data-tab="instrutores"><i class="ti ti-steering-wheel"></i> Avaliação Instrutores</button>
+      <button class="nav-btn" data-tab="funcionarios"><i class="ti ti-users"></i> Cadastro de Funcionários</button>
+    </nav>
+    <div class="sidebar-foot">
+      <button class="nav-btn" id="abrirTokenBtn"><i class="ti ti-key"></i> Token do GitHub <span id="configDot" class="config-dot"></span></button>
+    </div>
+  </aside>
 
-  <div class="card" id="tokenCard">
-    <div class="section-title">Token de acesso ao GitHub</div>
-    <div class="token-card">
-      <div>
-        <label for="tokenInput">Personal Access Token</label>
-        <input type="text" id="tokenInput" placeholder="ghp_..." autocomplete="off">
+  <!-- ============================ CONTEÚDO ============================ -->
+  <main class="main">
+    <div class="main-inner">
+
+      <div id="configWarning" class="warn" style="display:none;">
+        <span>⚠️ Este navegador ainda não tem o token do GitHub salvo. Configure para carregar os dados.</span>
+        <button class="small" id="configurarAgoraBtn">Configurar token</button>
       </div>
+
+      <!-- ========================= ABA: AVALIAÇÕES FOTOS ========================= -->
+      <div class="tab-panel active" id="tab-fotos">
+        <h2 class="page-title">Avaliações Fotos</h2>
+        <div class="page-subtitle">Cadastro, busca e confirmação de avaliações da equipe de Fotos</div>
+
+        <div class="card">
+          <div class="section-title">Novo lançamento</div>
+          <div class="row">
+            <div>
+              <label for="funcionarioSelect">Funcionário (Fotos)</label>
+              <select id="funcionarioSelect">
+                <option value="">Selecione...</option>
+              </select>
+            </div>
+            <div>
+              <label for="clienteInput">Nome do cliente</label>
+              <input type="text" id="clienteInput" placeholder="Ex: Maria Silva" autocomplete="off">
+            </div>
+          </div>
+          <div class="btn-row">
+            <button id="processarBtn">Processar</button>
+          </div>
+          <div id="statusMsg"></div>
+        </div>
+
+        <div class="card">
+          <div class="section-title">Lista de lançamentos (pendentes)</div>
+          <div id="lancamentosPendentesList"></div>
+        </div>
+
+        <div class="card">
+          <div class="section-title">Confirmados</div>
+          <div id="lancamentosConfirmadosList"></div>
+        </div>
+
+        <div class="card">
+          <div class="section-title">
+            <span>Contagem do mês</span>
+            <select id="monthSelect" class="month-select"></select>
+          </div>
+          <div id="rankingBody"></div>
+        </div>
+      </div>
+
+      <!-- ========================= ABA: AVALIAÇÃO INSTRUTORES ========================= -->
+      <div class="tab-panel" id="tab-instrutores">
+        <h2 class="page-title">Avaliação Instrutores</h2>
+        <div class="page-subtitle">Busca menções a cada instrutor no texto das avaliações do Google</div>
+
+        <div class="card">
+          <div class="section-title">Instrutores cadastrados</div>
+          <div id="instrutoresList"></div>
+        </div>
+
+        <div class="card">
+          <div class="section-title">Elogios confirmados</div>
+          <div id="mencoesConfirmadasList"></div>
+        </div>
+
+        <div class="card">
+          <div class="section-title">
+            <span>Contagem do mês</span>
+            <select id="monthSelectInstrutores" class="month-select"></select>
+          </div>
+          <div id="rankingInstrutoresBody"></div>
+        </div>
+      </div>
+
+      <!-- ===================== ABA: CADASTRO DE FUNCIONÁRIOS ===================== -->
+      <div class="tab-panel" id="tab-funcionarios">
+        <h2 class="page-title">Cadastro de Funcionários</h2>
+        <div class="page-subtitle">Setores: Fotos e Instrutor</div>
+
+        <div class="card">
+          <div class="section-title">Novo funcionário</div>
+          <div class="row">
+            <div>
+              <label for="setorFuncionarioSelect">Setor</label>
+              <select id="setorFuncionarioSelect"></select>
+            </div>
+            <div>
+              <label for="nomeFuncionarioInput">Nome do funcionário</label>
+              <input type="text" id="nomeFuncionarioInput" placeholder="Ex: João Pedro" autocomplete="off">
+            </div>
+          </div>
+          <div class="btn-row">
+            <button id="adicionarFuncionarioBtn">Adicionar</button>
+          </div>
+          <div id="funcStatusMsg"></div>
+        </div>
+
+        <div class="card">
+          <div class="section-title">Funcionários cadastrados</div>
+          <div id="funcionariosList"></div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+</div>
+
+<!-- ============================ MODAL: TOKEN ============================ -->
+<div id="tokenPanel">
+  <div class="token-modal">
+    <h2>Token de acesso ao GitHub</h2>
+    <p>Cole seu Personal Access Token e clique em salvar. Ele fica guardado só neste
+      navegador (localStorage) — nunca é escrito no arquivo nem no GitHub — então
+      atualizações futuras deste arquivo não vão pedir o token de novo neste
+      computador.</p>
+    <label for="tokenInput">Personal Access Token</label>
+    <input type="text" id="tokenInput" placeholder="ghp_..." autocomplete="off">
+    <div class="btn-row">
       <button id="salvarTokenBtn">Salvar token</button>
       <button id="limparTokenBtn" class="secondary">Limpar</button>
+      <button id="fecharTokenBtn" class="secondary">Fechar</button>
     </div>
-    <div id="tokenStatus" class="token-ok" style="margin-top:8px;"></div>
+    <div id="tokenStatus" class="token-ok"></div>
   </div>
-
-  <div class="tabs">
-    <button class="tab-btn active" data-tab="avaliacoes">Avaliações</button>
-    <button class="tab-btn" data-tab="funcionarios">Cadastro de Funcionários</button>
-  </div>
-
-  <!-- ========================= ABA: AVALIAÇÕES ========================= -->
-  <div class="tab-panel active" id="tab-avaliacoes">
-
-    <div class="card">
-      <div class="section-title">Novo lançamento</div>
-      <div class="row">
-        <div>
-          <label for="setorSelect">Setor</label>
-          <select id="setorSelect">
-            <option value="">Selecione...</option>
-          </select>
-        </div>
-        <div>
-          <label for="funcionarioSelect">Funcionário</label>
-          <select id="funcionarioSelect">
-            <option value="">Selecione o setor primeiro</option>
-          </select>
-        </div>
-        <div>
-          <label for="clienteInput">Nome do cliente</label>
-          <input type="text" id="clienteInput" placeholder="Ex: Maria Silva" autocomplete="off">
-        </div>
-      </div>
-      <div class="btn-row">
-        <button id="processarBtn">Processar</button>
-      </div>
-      <div id="statusMsg"></div>
-    </div>
-
-    <div class="card">
-      <div class="section-title">Lista de lançamentos (pendentes)</div>
-      <div id="lancamentosPendentesList"></div>
-    </div>
-
-    <div class="card">
-      <div class="section-title">Confirmados</div>
-      <div id="lancamentosConfirmadosList"></div>
-    </div>
-
-    <div class="card">
-      <div class="section-title">
-        <span>Contagem do mês</span>
-        <select id="monthSelect" class="month-select"></select>
-      </div>
-      <div id="rankingBody"></div>
-    </div>
-
-  </div>
-
-  <!-- ===================== ABA: CADASTRO DE FUNCIONÁRIOS ===================== -->
-  <div class="tab-panel" id="tab-funcionarios">
-
-    <div class="card">
-      <div class="section-title">Novo funcionário</div>
-      <div class="row">
-        <div>
-          <label for="setorFuncionarioSelect">Setor</label>
-          <select id="setorFuncionarioSelect"></select>
-        </div>
-        <div>
-          <label for="nomeFuncionarioInput">Nome do funcionário</label>
-          <input type="text" id="nomeFuncionarioInput" placeholder="Ex: João Pedro" autocomplete="off">
-        </div>
-      </div>
-      <div class="btn-row">
-        <button id="adicionarFuncionarioBtn">Adicionar</button>
-      </div>
-      <div id="funcStatusMsg"></div>
-    </div>
-
-    <div class="card">
-      <div class="section-title">Funcionários cadastrados</div>
-      <div id="funcionariosList"></div>
-    </div>
-
-  </div>
-
 </div>
 
 <script>
 /* ======================================================================
-   CONFIGURAÇÃO — preencha antes de publicar no GitHub Pages
+   CONFIGURAÇÃO
    ====================================================================== */
 
 // Dono e repositório onde ficam reviews.json (sincronizado pelo Outscraper
-// via GitHub Actions), lancamentos.json e funcionarios.json (gravados por
-// esta página).
+// via GitHub Actions), lancamentos.json, funcionarios.json e
+// mencoes_instrutores.json (gravados por esta página).
 const GITHUB_OWNER = "leonardoblucena";
 const GITHUB_REPO  = "Avalia-es-Super-Carros";
 const GITHUB_BRANCH = "main";
 const REVIEWS_PATH = "reviews.json";
 const LANCAMENTOS_PATH = "lancamentos.json";
 const FUNCIONARIOS_PATH = "funcionarios.json";
+const MENCOES_PATH = "mencoes_instrutores.json";
 
-// Token do GitHub (Personal Access Token): NÃO fica mais escrito neste
-// arquivo. Ele é colado uma vez pelo usuário no campo "Token de acesso ao
-// GitHub" da própria página e guardado no localStorage do navegador — assim,
-// quando este arquivo é atualizado/reescrito no futuro, o token continua
-// salvo e não precisa ser colado de novo. Fica salvo por navegador: se você
-// abrir a página em outro computador/navegador, precisa colar o token lá
-// também.
+// Token do GitHub (Personal Access Token): NÃO fica escrito neste arquivo.
+// É colado uma vez pelo usuário no modal "Token do GitHub" (barra lateral)
+// e guardado no localStorage do navegador — assim, quando este arquivo for
+// atualizado/reescrito no futuro, o token continua salvo e não precisa ser
+// colado de novo. É salvo por navegador/computador.
 // IMPORTANTE: use um token fine-grained, com permissão "Contents:
 // Read and write" LIMITADA a este repositório específico — nunca um token
 // clássico com acesso a todos os seus repositórios. Como o repo precisa
@@ -298,9 +412,8 @@ function getStoredToken() {
 
 let GITHUB_TOKEN = getStoredToken();
 
-// Setores disponíveis — usados tanto no Cadastro de Funcionários quanto
-// no formulário de Novo lançamento.
-const SETORES = ["Vendas", "Fotos", "Instrutor"];
+// Setores em uso hoje na ferramenta (Vendas fica de fora por enquanto).
+const SETORES = ["Fotos", "Instrutor"];
 
 /* ====================================================================== */
 
@@ -310,11 +423,23 @@ let isConfigured =
   !!GITHUB_TOKEN;
 
 function atualizarAvisoConfiguracao() {
-  document.getElementById("configWarning").style.display = isConfigured ? "none" : "block";
+  document.getElementById("configWarning").style.display = isConfigured ? "none" : "flex";
+  const dot = document.getElementById("configDot");
+  dot.classList.toggle("ok", isConfigured);
   const tokenStatus = document.getElementById("tokenStatus");
   tokenStatus.textContent = isConfigured ? "Token salvo neste navegador." : "";
 }
 atualizarAvisoConfiguracao();
+
+// ---------- Modal do token ----------
+const tokenPanel = document.getElementById("tokenPanel");
+function abrirTokenPanel() { tokenPanel.classList.add("open"); }
+function fecharTokenPanel() { tokenPanel.classList.remove("open"); }
+
+document.getElementById("abrirTokenBtn").addEventListener("click", abrirTokenPanel);
+document.getElementById("configurarAgoraBtn").addEventListener("click", abrirTokenPanel);
+document.getElementById("fecharTokenBtn").addEventListener("click", fecharTokenPanel);
+tokenPanel.addEventListener("click", (e) => { if (e.target === tokenPanel) fecharTokenPanel(); });
 
 document.getElementById("salvarTokenBtn").addEventListener("click", () => {
   const val = document.getElementById("tokenInput").value.trim();
@@ -325,9 +450,7 @@ document.getElementById("salvarTokenBtn").addEventListener("click", () => {
     document.getElementById("tokenInput").value = "";
     isConfigured = !GITHUB_OWNER.includes("COLE_AQUI") && !GITHUB_REPO.includes("COLE_AQUI") && !!GITHUB_TOKEN;
     atualizarAvisoConfiguracao();
-    loadFuncionarios().then(() => { atualizarFuncionarioOptions(setorSelect.value); refreshFuncionariosList(); });
-    refreshLancamentosLists();
-    refreshRankingPanel();
+    recarregarTudo();
   } catch (e) {
     document.getElementById("tokenStatus").textContent = "Erro ao salvar token: " + (e.message || e);
   }
@@ -339,6 +462,18 @@ document.getElementById("limparTokenBtn").addEventListener("click", () => {
   isConfigured = false;
   atualizarAvisoConfiguracao();
 });
+
+function recarregarTudo() {
+  loadFuncionarios().then(() => {
+    atualizarFuncionarioOptionsFotos();
+    refreshFuncionariosList();
+    refreshInstrutoresList();
+  });
+  refreshLancamentosLists();
+  refreshRankingPanel();
+  refreshMencoesConfirmadasList();
+  refreshRankingInstrutores();
+}
 
 // ---------- Helpers GitHub API (Contents API) ----------
 const GH_API_BASE = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents`;
@@ -432,15 +567,22 @@ function escapeHtml(str) {
   return div.innerHTML;
 }
 
-// ---------- Abas ----------
-document.querySelectorAll(".tab-btn").forEach(btn => {
+function escapeRegExp(str) {
+  return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+// ---------- Navegação (abas na barra lateral) ----------
+document.querySelectorAll(".nav-btn[data-tab]").forEach(btn => {
   btn.addEventListener("click", () => {
-    document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
+    document.querySelectorAll(".nav-btn[data-tab]").forEach(b => b.classList.remove("active"));
     document.querySelectorAll(".tab-panel").forEach(p => p.classList.remove("active"));
     btn.classList.add("active");
     document.getElementById(`tab-${btn.dataset.tab}`).classList.add("active");
-    if (btn.dataset.tab === "avaliacoes") {
-      loadFuncionarios().then(() => populateSetorFuncionarioFilter());
+    if (btn.dataset.tab === "fotos" || btn.dataset.tab === "instrutores") {
+      loadFuncionarios().then(() => {
+        atualizarFuncionarioOptionsFotos();
+        refreshInstrutoresList();
+      });
     }
   });
 });
@@ -459,8 +601,7 @@ function monthLabel(key) {
   return `${nomes[parseInt(m, 10) - 1]}/${y}`;
 }
 
-const monthSelect = document.getElementById("monthSelect");
-(function populateMonths() {
+function populateMonthSelect(selectEl, onChange) {
   const now = new Date();
   for (let i = 0; i < 12; i++) {
     const d = new Date(now.getFullYear(), now.getMonth() - i, 1);
@@ -468,11 +609,16 @@ const monthSelect = document.getElementById("monthSelect");
     const opt = document.createElement("option");
     opt.value = key;
     opt.textContent = monthLabel(key);
-    monthSelect.appendChild(opt);
+    selectEl.appendChild(opt);
   }
-  monthSelect.value = currentMonthKey();
-})();
-monthSelect.addEventListener("change", refreshRankingPanel);
+  selectEl.value = currentMonthKey();
+  selectEl.addEventListener("change", onChange);
+}
+
+const monthSelect = document.getElementById("monthSelect");
+const monthSelectInstrutores = document.getElementById("monthSelectInstrutores");
+populateMonthSelect(monthSelect, refreshRankingPanel);
+populateMonthSelect(monthSelectInstrutores, refreshRankingInstrutores);
 
 // ---------- Normalização e score de similaridade (bigramas de Dice) ----------
 function normalize(str) {
@@ -512,6 +658,23 @@ function includesToken(a, b) {
   return na.includes(nb) || nb.includes(na);
 }
 
+// Score de menção: procura o nome do instrutor dentro do TEXTO da
+// avaliação (diferente do fluxo de Fotos, que compara com o nome de quem
+// avaliou). Nome completo aparecendo no texto = match forte (1.0);
+// primeiro nome aparecendo como palavra isolada = match mais fraco (0.7).
+function mentionScore(instrutorNome, reviewText) {
+  const normText = normalize(reviewText);
+  const normName = normalize(instrutorNome);
+  if (!normText || !normName) return 0;
+  if (normText.includes(normName)) return 1;
+  const firstName = normName.split(" ")[0];
+  if (firstName.length >= 3) {
+    const re = new RegExp(`(^|\\s)${escapeRegExp(firstName)}(\\s|$)`);
+    if (re.test(normText)) return 0.7;
+  }
+  return 0;
+}
+
 /* ============================================================
    CADASTRO DE FUNCIONÁRIOS
    ============================================================ */
@@ -538,7 +701,7 @@ adicionarFuncionarioBtn.addEventListener("click", async () => {
 
   if (!setor) { setFuncStatus("Selecione o setor.", "error"); return; }
   if (!nome) { setFuncStatus("Digite o nome do funcionário.", "error"); return; }
-  if (!isConfigured) { setFuncStatus("GitHub ainda não configurado neste arquivo.", "error"); return; }
+  if (!isConfigured) { setFuncStatus("GitHub ainda não configurado neste navegador.", "error"); return; }
 
   adicionarFuncionarioBtn.disabled = true;
   setFuncStatus("Adicionando...", "loading");
@@ -557,6 +720,8 @@ adicionarFuncionarioBtn.addEventListener("click", async () => {
     setFuncStatus(`"${nome}" adicionado ao setor ${setor}.`, "ok");
     await loadFuncionarios();
     refreshFuncionariosList();
+    atualizarFuncionarioOptionsFotos();
+    refreshInstrutoresList();
 
   } catch (err) {
     console.error(err);
@@ -569,7 +734,7 @@ adicionarFuncionarioBtn.addEventListener("click", async () => {
 async function refreshFuncionariosList() {
   const el = document.getElementById("funcionariosList");
   if (!isConfigured) {
-    el.innerHTML = `<div class="empty">Configure o GitHub para ver os funcionários.</div>`;
+    el.innerHTML = `<div class="empty">Configure o token do GitHub para ver os funcionários.</div>`;
     return;
   }
   el.innerHTML = `<div class="empty">Carregando...</div>`;
@@ -621,6 +786,8 @@ async function removerFuncionario(id, nome) {
     );
     await loadFuncionarios();
     refreshFuncionariosList();
+    atualizarFuncionarioOptionsFotos();
+    refreshInstrutoresList();
   } catch (err) {
     console.error(err);
     alert("Erro ao excluir: " + (err.message || err));
@@ -628,7 +795,7 @@ async function removerFuncionario(id, nome) {
 }
 
 /* ============================================================
-   NOVO LANÇAMENTO — setor + funcionário (puxado do cadastro)
+   ABA FOTOS — NOVO LANÇAMENTO (funcionário puxado do cadastro)
    ============================================================ */
 
 let funcionariosCache = [];
@@ -639,42 +806,17 @@ async function loadFuncionarios() {
   funcionariosCache = json || [];
 }
 
-const setorSelect = document.getElementById("setorSelect");
 const funcionarioSelect = document.getElementById("funcionarioSelect");
 
-SETORES.forEach(s => {
-  const opt = document.createElement("option");
-  opt.value = s;
-  opt.textContent = s;
-  setorSelect.appendChild(opt);
-});
-
-function populateSetorFuncionarioFilter() {
-  const setorAtual = setorSelect.value;
-  atualizarFuncionarioOptions(setorAtual);
-}
-
-function atualizarFuncionarioOptions(setor) {
-  funcionarioSelect.innerHTML = "";
-  if (!setor) {
-    funcionarioSelect.innerHTML = `<option value="">Selecione o setor primeiro</option>`;
+function atualizarFuncionarioOptionsFotos() {
+  const doFotos = funcionariosCache.filter(f => f.setor === "Fotos").sort((a, b) => (a.nome || "").localeCompare(b.nome || ""));
+  if (doFotos.length === 0) {
+    funcionarioSelect.innerHTML = `<option value="">Nenhum funcionário cadastrado no setor Fotos ainda</option>`;
     return;
   }
-  const doSetor = funcionariosCache.filter(f => f.setor === setor).sort((a, b) => (a.nome || "").localeCompare(b.nome || ""));
-  if (doSetor.length === 0) {
-    funcionarioSelect.innerHTML = `<option value="">Nenhum funcionário nesse setor ainda</option>`;
-    return;
-  }
-  funcionarioSelect.innerHTML = `<option value="">Selecione...</option>`;
-  doSetor.forEach(f => {
-    const opt = document.createElement("option");
-    opt.value = f.nome;
-    opt.textContent = f.nome;
-    funcionarioSelect.appendChild(opt);
-  });
+  funcionarioSelect.innerHTML = `<option value="">Selecione...</option>` +
+    doFotos.map(f => `<option value="${escapeHtml(f.nome)}">${escapeHtml(f.nome)}</option>`).join("");
 }
-
-setorSelect.addEventListener("change", () => atualizarFuncionarioOptions(setorSelect.value));
 
 const processarBtn = document.getElementById("processarBtn");
 const statusMsg = document.getElementById("statusMsg");
@@ -685,14 +827,12 @@ function setStatus(msg, type) {
 }
 
 processarBtn.addEventListener("click", async () => {
-  const setor = setorSelect.value;
   const vendedora = funcionarioSelect.value; // mantém o nome do campo "vendedora" nos dados p/ compatibilidade
   const clienteNome = document.getElementById("clienteInput").value.trim();
 
-  if (!setor) { setStatus("Selecione o setor.", "error"); return; }
   if (!vendedora) { setStatus("Selecione o funcionário.", "error"); return; }
   if (!clienteNome) { setStatus("Digite o nome do cliente.", "error"); return; }
-  if (!isConfigured) { setStatus("GitHub ainda não configurado neste arquivo.", "error"); return; }
+  if (!isConfigured) { setStatus("GitHub ainda não configurado neste navegador.", "error"); return; }
 
   processarBtn.disabled = true;
   setStatus("Processando...", "loading");
@@ -700,7 +840,7 @@ processarBtn.addEventListener("click", async () => {
   try {
     const novoLancamento = {
       id: genId(),
-      setor: setor,
+      setor: "Fotos",
       vendedora: vendedora,
       cliente_nome_informado: clienteNome,
       status: "pendente",
@@ -731,7 +871,7 @@ processarBtn.addEventListener("click", async () => {
 });
 
 /* ============================================================
-   LISTAS DE LANÇAMENTOS (pendentes / confirmados)
+   LISTAS DE LANÇAMENTOS (pendentes / confirmados) — Fotos
    ============================================================ */
 
 let editingLancamentoId = null;
@@ -740,7 +880,7 @@ const confirmadosEl = document.getElementById("lancamentosConfirmadosList");
 
 async function refreshLancamentosLists() {
   if (!isConfigured) {
-    pendentesEl.innerHTML = `<div class="empty">Configure o GitHub para ver os lançamentos.</div>`;
+    pendentesEl.innerHTML = `<div class="empty">Configure o token do GitHub para ver os lançamentos.</div>`;
     confirmadosEl.innerHTML = "";
     return;
   }
@@ -789,7 +929,6 @@ function renderPendenteRow(lancamento) {
   }
 
   const criadoEm = lancamento.created_at ? new Date(lancamento.created_at).toLocaleString("pt-BR") : "-";
-  const setorBadge = lancamento.setor ? `<span class="badge setor">${escapeHtml(lancamento.setor)}</span>` : "";
 
   div.innerHTML = `
     <div class="lancamento-head">
@@ -798,7 +937,6 @@ function renderPendenteRow(lancamento) {
         <div class="lancamento-meta">Cadastrado em ${criadoEm}</div>
       </div>
       <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
-        ${setorBadge}
         <span class="badge pending">Pendente</span>
         <button class="small" data-action="buscar">Buscar Avaliação</button>
         <button class="small secondary" data-action="editar">Editar</button>
@@ -817,22 +955,18 @@ function renderPendenteRow(lancamento) {
 }
 
 function renderPendenteEditForm(div, lancamento) {
-  const setorAtual = lancamento.setor || "";
-  const setorOptions = SETORES.map(s => `<option value="${s}" ${s === setorAtual ? "selected" : ""}>${s}</option>`).join("");
+  const doFotos = funcionariosCache.filter(f => f.setor === "Fotos").sort((a, b) => (a.nome || "").localeCompare(b.nome || ""));
+  const funcOptions = doFotos.map(f => `<option value="${escapeHtml(f.nome)}" ${f.nome === lancamento.vendedora ? "selected" : ""}>${escapeHtml(f.nome)}</option>`).join("");
 
   div.innerHTML = `
     <div class="edit-form">
       <div class="row">
         <div>
-          <label>Setor</label>
-          <select data-field="setor">
-            <option value="">Selecione...</option>
-            ${setorOptions}
-          </select>
-        </div>
-        <div>
           <label>Funcionário</label>
-          <select data-field="funcionario"></select>
+          <select data-field="funcionario">
+            <option value="">Selecione...</option>
+            ${funcOptions}
+          </select>
         </div>
         <div>
           <label>Nome do cliente</label>
@@ -846,26 +980,14 @@ function renderPendenteEditForm(div, lancamento) {
     </div>
   `;
 
-  const setorFieldEl = div.querySelector('[data-field="setor"]');
-  const funcFieldEl = div.querySelector('[data-field="funcionario"]');
-
-  function fillFuncOptions(setor, selecionado) {
-    const doSetor = funcionariosCache.filter(f => f.setor === setor).sort((a, b) => (a.nome || "").localeCompare(b.nome || ""));
-    funcFieldEl.innerHTML = `<option value="">Selecione...</option>` +
-      doSetor.map(f => `<option value="${escapeHtml(f.nome)}" ${f.nome === selecionado ? "selected" : ""}>${escapeHtml(f.nome)}</option>`).join("");
-  }
-  fillFuncOptions(setorAtual, lancamento.vendedora);
-  setorFieldEl.addEventListener("change", () => fillFuncOptions(setorFieldEl.value, null));
-
   div.querySelector('[data-action="salvar"]').addEventListener("click", () => {
-    const novoSetor = setorFieldEl.value;
-    const novoFuncionario = funcFieldEl.value;
+    const novoFuncionario = div.querySelector('[data-field="funcionario"]').value;
     const novoCliente = div.querySelector('[data-field="cliente"]').value.trim();
-    if (!novoSetor || !novoFuncionario || !novoCliente) {
-      alert("Preencha setor, funcionário e nome do cliente.");
+    if (!novoFuncionario || !novoCliente) {
+      alert("Preencha funcionário e nome do cliente.");
       return;
     }
-    salvarEdicaoLancamento(lancamento.id, novoSetor, novoFuncionario, novoCliente);
+    salvarEdicaoLancamento(lancamento.id, novoFuncionario, novoCliente);
   });
   div.querySelector('[data-action="cancelar"]').addEventListener("click", () => {
     editingLancamentoId = null;
@@ -873,13 +995,13 @@ function renderPendenteEditForm(div, lancamento) {
   });
 }
 
-async function salvarEdicaoLancamento(id, setor, funcionario, clienteNome) {
+async function salvarEdicaoLancamento(id, funcionario, clienteNome) {
   try {
     await writeWithRetry(
       LANCAMENTOS_PATH,
       [],
       (current) => (current || []).map(l => l.id === id
-        ? { ...l, setor, vendedora: funcionario, cliente_nome_informado: clienteNome }
+        ? { ...l, vendedora: funcionario, cliente_nome_informado: clienteNome }
         : l
       ),
       `Edita lançamento ${id}`
@@ -914,7 +1036,6 @@ function renderConfirmadoRow(lancamento) {
   div.className = "lancamento-item confirmado";
 
   const confirmadoEm = lancamento.confirmed_at ? new Date(lancamento.confirmed_at).toLocaleString("pt-BR") : "-";
-  const setorBadge = lancamento.setor ? `<span class="badge setor">${escapeHtml(lancamento.setor)}</span>` : "";
 
   div.innerHTML = `
     <div class="lancamento-head">
@@ -923,7 +1044,6 @@ function renderConfirmadoRow(lancamento) {
         <div class="lancamento-meta">Confirmado em ${confirmadoEm}${lancamento.mes_referencia ? " · Mês ref.: " + monthLabel(lancamento.mes_referencia) : ""}</div>
       </div>
       <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
-        ${setorBadge}
         <span class="badge confirmed">Confirmado</span>
         <button class="small danger" data-action="excluir">Excluir</button>
       </div>
@@ -935,7 +1055,7 @@ function renderConfirmadoRow(lancamento) {
 }
 
 /* ============================================================
-   BUSCA E CONFIRMAÇÃO DE AVALIAÇÃO
+   BUSCA E CONFIRMAÇÃO DE AVALIAÇÃO — Fotos (compara com autor)
    ============================================================ */
 
 function setRowStatus(lancamentoId, msg, type) {
@@ -1066,14 +1186,14 @@ async function confirmarLancamento(lancamento, review, itemEl) {
 }
 
 /* ============================================================
-   PAINEL DE CONTAGEM MENSAL
+   PAINEL DE CONTAGEM MENSAL — Fotos
    ============================================================ */
 
 async function refreshRankingPanel() {
   const rankingBody = document.getElementById("rankingBody");
 
   if (!isConfigured) {
-    rankingBody.innerHTML = `<div class="empty">Configure o GitHub para ver a contagem.</div>`;
+    rankingBody.innerHTML = `<div class="empty">Configure o token do GitHub para ver a contagem.</div>`;
     return;
   }
 
@@ -1088,12 +1208,11 @@ async function refreshRankingPanel() {
     const counts = {};
     confirmadosDoMes.forEach(l => {
       const key = l.vendedora || "(sem nome)";
-      if (!counts[key]) counts[key] = { total: 0, setor: l.setor || "" };
-      counts[key].total += 1;
+      counts[key] = (counts[key] || 0) + 1;
     });
 
     const total = confirmadosDoMes.length;
-    const ranked = Object.entries(counts).sort((a, b) => b[1].total - a[1].total);
+    const ranked = Object.entries(counts).sort((a, b) => b[1] - a[1]);
 
     let html = `<div style="display:flex;justify-content:flex-end;margin-bottom:10px;">
       <span class="total-pill">${total} avaliação(ões) no mês</span></div>`;
@@ -1101,9 +1220,286 @@ async function refreshRankingPanel() {
     if (ranked.length === 0) {
       html += `<div class="empty">Nenhuma avaliação confirmada nesse mês.</div>`;
     } else {
-      html += `<table><thead><tr><th>Funcionário</th><th>Setor</th><th>Avaliações</th></tr></thead><tbody>`;
-      ranked.forEach(([nome, info]) => {
-        html += `<tr><td>${escapeHtml(nome)}</td><td>${escapeHtml(info.setor)}</td><td>${info.total}</td></tr>`;
+      html += `<table><thead><tr><th>Funcionário</th><th>Avaliações</th></tr></thead><tbody>`;
+      ranked.forEach(([nome, total]) => {
+        html += `<tr><td>${escapeHtml(nome)}</td><td>${total}</td></tr>`;
+      });
+      html += `</tbody></table>`;
+    }
+    rankingBody.innerHTML = html;
+
+  } catch (err) {
+    console.error(err);
+    rankingBody.innerHTML = `<div class="empty">Erro ao carregar: ${err.message || err}</div>`;
+  }
+}
+
+/* ============================================================
+   ABA INSTRUTORES — lista + busca de menções no texto das avaliações
+   ============================================================ */
+
+const instrutoresListEl = document.getElementById("instrutoresList");
+
+function refreshInstrutoresList() {
+  if (!isConfigured) {
+    instrutoresListEl.innerHTML = `<div class="empty">Configure o token do GitHub para ver os instrutores.</div>`;
+    return;
+  }
+  const instrutores = funcionariosCache.filter(f => f.setor === "Instrutor").sort((a, b) => (a.nome || "").localeCompare(b.nome || ""));
+  if (instrutores.length === 0) {
+    instrutoresListEl.innerHTML = `<div class="empty">Nenhum instrutor cadastrado ainda. Cadastre em "Cadastro de Funcionários" (setor Instrutor).</div>`;
+    return;
+  }
+
+  instrutoresListEl.innerHTML = "";
+  instrutores.forEach(instrutor => {
+    const div = document.createElement("div");
+    div.className = "instrutor-item";
+    div.id = `instrutor-${instrutor.id}`;
+    div.innerHTML = `
+      <div class="instrutor-head">
+        <div class="instrutor-nome">${escapeHtml(instrutor.nome)}</div>
+        <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+          <button class="small" data-action="buscar">Buscar avaliações</button>
+        </div>
+      </div>
+      <div class="row-status" id="rowstatus-instrutor-${instrutor.id}"></div>
+      <div class="results-area" id="results-instrutor-${instrutor.id}" style="display:none;"></div>
+    `;
+    div.querySelector('[data-action="buscar"]').addEventListener("click", (e) => buscarMencoesParaInstrutor(instrutor, e.target));
+    instrutoresListEl.appendChild(div);
+  });
+}
+
+function setRowStatusInstrutor(instrutorId, msg, type) {
+  const el = document.getElementById(`rowstatus-instrutor-${instrutorId}`);
+  if (!el) return;
+  el.textContent = msg || "";
+  el.className = "row-status " + (type || "");
+}
+
+async function buscarMencoesParaInstrutor(instrutor, btnEl) {
+  const resultsArea = document.getElementById(`results-instrutor-${instrutor.id}`);
+  if (!isConfigured) { setRowStatusInstrutor(instrutor.id, "GitHub ainda não configurado.", "error"); return; }
+
+  btnEl.disabled = true;
+  setRowStatusInstrutor(instrutor.id, "Buscando menções no texto das avaliações...", "loading");
+  resultsArea.style.display = "none";
+  resultsArea.innerHTML = "";
+
+  try {
+    const { json: reviews } = await githubGetJson(REVIEWS_PATH, []);
+    const { json: mencoesAtuais } = await githubGetJson(MENCOES_PATH, []);
+
+    const jaConfirmadasParaEsseInstrutor = new Set(
+      (mencoesAtuais || [])
+        .filter(m => m.instrutor_nome === instrutor.nome)
+        .map(m => m.review_id)
+    );
+
+    const scored = (reviews || [])
+      .map(r => ({ ...r, score: mentionScore(instrutor.nome, r.review_text) }))
+      .filter(r => r.score > 0)
+      .sort((a, b) => b.score - a.score);
+
+    if (scored.length === 0) {
+      setRowStatusInstrutor(instrutor.id, "Nenhuma menção encontrada no texto das avaliações para esse nome.", "error");
+      return;
+    }
+
+    setRowStatusInstrutor(instrutor.id, `${scored.length} menção(ões) encontrada(s). Confira e confirme os elogios de verdade.`, "ok");
+    resultsArea.style.display = "block";
+
+    scored.forEach(r => {
+      const jaConfirmada = jaConfirmadasParaEsseInstrutor.has(r.review_id);
+      const item = document.createElement("div");
+      item.className = "result-item" + (jaConfirmada ? " taken" : "");
+
+      const stars = "★".repeat(r.rating || 0) + "☆".repeat(5 - (r.rating || 0));
+      const dataFmt = r.review_time ? new Date(r.review_time).toLocaleDateString("pt-BR") : "data desconhecida";
+      const scorePct = Math.round(r.score * 100);
+
+      item.innerHTML = `
+        <div class="result-head">
+          <div class="result-name">${escapeHtml(r.author_name)}</div>
+          <span class="result-score">correspondência ${scorePct}%</span>
+        </div>
+        <div class="result-meta"><span class="stars">${stars}</span> · ${dataFmt}</div>
+        <div class="result-text">${r.review_text ? escapeHtml(r.review_text.substring(0, 260)) : "(sem texto)"}</div>
+        ${jaConfirmada
+          ? `<span class="badge taken">Já confirmada como elogio para ${escapeHtml(instrutor.nome)}</span>`
+          : `<button class="small" data-review-id="${r.review_id}">Confirmar elogio</button>`
+        }
+      `;
+
+      if (!jaConfirmada) {
+        const confirmBtn = item.querySelector("button");
+        confirmBtn.addEventListener("click", () => confirmarMencaoInstrutor(instrutor, r, item));
+      }
+
+      resultsArea.appendChild(item);
+    });
+
+  } catch (err) {
+    console.error(err);
+    setRowStatusInstrutor(instrutor.id, "Erro ao buscar: " + (err.message || err), "error");
+  } finally {
+    btnEl.disabled = false;
+  }
+}
+
+// Diferente do fluxo de Fotos: a mesma avaliação PODE ser confirmada para
+// mais de um instrutor (se o cliente citar dois nomes no mesmo comentário).
+// A trava é só contra duplicar o mesmo par (instrutor + avaliação).
+async function confirmarMencaoInstrutor(instrutor, review, itemEl) {
+  setRowStatusInstrutor(instrutor.id, "Confirmando...", "loading");
+  let jaExistia = false;
+
+  try {
+    const mesReferencia = review.review_time ? currentMonthKey(new Date(review.review_time)) : currentMonthKey();
+
+    const updated = await writeWithRetry(
+      MENCOES_PATH,
+      [],
+      (current) => {
+        const list = current || [];
+        const duplicada = list.find(m => m.instrutor_nome === instrutor.nome && m.review_id === review.review_id);
+        if (duplicada) { jaExistia = true; return null; }
+
+        const novaMencao = {
+          id: genId(),
+          instrutor_nome: instrutor.nome,
+          review_id: review.review_id,
+          review_author_name: review.author_name || "",
+          review_text_snippet: (review.review_text || "").substring(0, 260),
+          mes_referencia: mesReferencia,
+          confirmed_at: new Date().toISOString()
+        };
+        return [...list, novaMencao];
+      },
+      `Confirma elogio a ${instrutor.nome} -> avaliação ${review.review_id}`
+    );
+
+    if (jaExistia) {
+      setRowStatusInstrutor(instrutor.id, "Essa avaliação já estava confirmada para esse instrutor.", "error");
+      return;
+    }
+    if (updated === undefined) {
+      setRowStatusInstrutor(instrutor.id, "Não foi possível confirmar, tente novamente.", "error");
+      return;
+    }
+
+    buscarMencoesParaInstrutor(instrutor, document.querySelector(`#instrutor-${instrutor.id} [data-action="buscar"]`));
+    refreshMencoesConfirmadasList();
+    refreshRankingInstrutores();
+
+  } catch (err) {
+    console.error(err);
+    setRowStatusInstrutor(instrutor.id, "Erro ao confirmar: " + (err.message || err), "error");
+  }
+}
+
+/* ============================================================
+   ELOGIOS CONFIRMADOS — Instrutores
+   ============================================================ */
+
+async function refreshMencoesConfirmadasList() {
+  const el = document.getElementById("mencoesConfirmadasList");
+  if (!isConfigured) {
+    el.innerHTML = `<div class="empty">Configure o token do GitHub para ver os elogios confirmados.</div>`;
+    return;
+  }
+  el.innerHTML = `<div class="empty">Carregando...</div>`;
+
+  try {
+    const { json: mencoes } = await githubGetJson(MENCOES_PATH, []);
+    const ordenadas = (mencoes || []).sort((a, b) => (b.confirmed_at || "").localeCompare(a.confirmed_at || ""));
+
+    if (ordenadas.length === 0) {
+      el.innerHTML = `<div class="empty">Nenhum elogio confirmado ainda.</div>`;
+      return;
+    }
+
+    el.innerHTML = "";
+    ordenadas.forEach(m => {
+      const div = document.createElement("div");
+      div.className = "lancamento-item mencao-item";
+      const confirmadoEm = m.confirmed_at ? new Date(m.confirmed_at).toLocaleString("pt-BR") : "-";
+      div.innerHTML = `
+        <div class="mencao-head">
+          <div>
+            <div class="lancamento-info">${escapeHtml(m.instrutor_nome)} <span style="color:var(--muted);font-weight:400;">— citado por ${escapeHtml(m.review_author_name || "desconhecido")}</span></div>
+            <div class="mencao-meta">Confirmado em ${confirmadoEm}${m.mes_referencia ? " · Mês ref.: " + monthLabel(m.mes_referencia) : ""}</div>
+            ${m.review_text_snippet ? `<div class="result-text" style="margin-top:8px;">${escapeHtml(m.review_text_snippet)}</div>` : ""}
+          </div>
+          <button class="small danger" data-action="excluir">Excluir</button>
+        </div>
+      `;
+      div.querySelector('[data-action="excluir"]').addEventListener("click", () => excluirMencaoInstrutor(m));
+      el.appendChild(div);
+    });
+
+  } catch (err) {
+    console.error(err);
+    el.innerHTML = `<div class="empty">Erro ao carregar: ${err.message || err}</div>`;
+  }
+}
+
+async function excluirMencaoInstrutor(mencao) {
+  if (!confirm(`Excluir o elogio confirmado para "${mencao.instrutor_nome}"?`)) return;
+  try {
+    await writeWithRetry(
+      MENCOES_PATH,
+      [],
+      (current) => (current || []).filter(m => m.id !== mencao.id),
+      `Exclui elogio ${mencao.id}`
+    );
+    refreshMencoesConfirmadasList();
+    refreshRankingInstrutores();
+  } catch (err) {
+    console.error(err);
+    alert("Erro ao excluir: " + (err.message || err));
+  }
+}
+
+/* ============================================================
+   PAINEL DE CONTAGEM MENSAL — Instrutores
+   ============================================================ */
+
+async function refreshRankingInstrutores() {
+  const rankingBody = document.getElementById("rankingInstrutoresBody");
+
+  if (!isConfigured) {
+    rankingBody.innerHTML = `<div class="empty">Configure o token do GitHub para ver a contagem.</div>`;
+    return;
+  }
+
+  const mes = monthSelectInstrutores.value;
+  rankingBody.innerHTML = `<div class="empty">Carregando...</div>`;
+
+  try {
+    const { json: mencoes } = await githubGetJson(MENCOES_PATH, []);
+
+    const doMes = (mencoes || []).filter(m => m.mes_referencia === mes);
+
+    const counts = {};
+    doMes.forEach(m => {
+      const key = m.instrutor_nome || "(sem nome)";
+      counts[key] = (counts[key] || 0) + 1;
+    });
+
+    const total = doMes.length;
+    const ranked = Object.entries(counts).sort((a, b) => b[1] - a[1]);
+
+    let html = `<div style="display:flex;justify-content:flex-end;margin-bottom:10px;">
+      <span class="total-pill">${total} elogio(s) no mês</span></div>`;
+
+    if (ranked.length === 0) {
+      html += `<div class="empty">Nenhum elogio confirmado nesse mês.</div>`;
+    } else {
+      html += `<table><thead><tr><th>Instrutor</th><th>Elogios</th></tr></thead><tbody>`;
+      ranked.forEach(([nome, total]) => {
+        html += `<tr><td>${escapeHtml(nome)}</td><td>${total}</td></tr>`;
       });
       html += `</tbody></table>`;
     }
@@ -1121,10 +1517,13 @@ async function refreshRankingPanel() {
 
 (async function init() {
   await loadFuncionarios();
-  atualizarFuncionarioOptions(setorSelect.value);
+  atualizarFuncionarioOptionsFotos();
   refreshFuncionariosList();
+  refreshInstrutoresList();
   refreshLancamentosLists();
   refreshRankingPanel();
+  refreshMencoesConfirmadasList();
+  refreshRankingInstrutores();
 })();
 </script>
 </body>
