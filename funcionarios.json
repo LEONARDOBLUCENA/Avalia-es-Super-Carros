@@ -70,5 +70,11 @@
     "nome": "Matheus Pimmel",
     "setor": "Instrutor",
     "created_at": "2026-09-16T19:18:50.155Z"
+  },
+  {
+    "id": "d19b14e0-2bc2-4bb9-8883-2a93f5d36861",
+    "nome": "Matheus Port",
+    "setor": "Instrutor",
+    "created_at": "2026-09-16T19:18:57.058Z"
   }
 ]
