@@ -1,0 +1,45 @@
+name: Sincronizar avaliações do Google
+
+on:
+  schedule:
+    # Todo dia às 07:00 (horário de Brasília = UTC-3 -> 10:00 UTC)
+    - cron: "0 10 * * *"
+  workflow_dispatch: {}   # permite rodar manualmente pela aba "Actions" do GitHub
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Rodar sincronização com o Outscraper
+        env:
+          OUTSCRAPER_API_KEY: ${{ secrets.OUTSCRAPER_API_KEY }}
+          PLACE_QUERY: ${{ vars.PLACE_QUERY }}
+          REVIEWS_PATH: reviews.json
+          REVIEWS_LIMIT: "150"
+          # Troque para "true" temporariamente se precisar depurar o
+          # formato da resposta do Outscraper nos logs do Actions.
+          DEBUG: "false"
+        run: node scripts/sync-reviews.mjs
+
+      - name: Commitar reviews.json se houve mudança
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- reviews.json; then
+            git add reviews.json
+            git commit -m "Sincroniza avaliações do Google [automático]"
+            git push
+          else
+            echo "Nenhuma avaliação nova — nada para commitar."
+          fi
