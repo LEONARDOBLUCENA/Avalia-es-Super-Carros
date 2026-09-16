@@ -46,5 +46,11 @@
     "nome": "Eduarda",
     "setor": "Fotos",
     "created_at": "2026-09-16T19:18:14.234Z"
+  },
+  {
+    "id": "ae481098-ed8e-4ea8-b070-d4c655a9eaaf",
+    "nome": "Fernando",
+    "setor": "Instrutor",
+    "created_at": "2026-09-16T19:18:25.539Z"
   }
 ]
