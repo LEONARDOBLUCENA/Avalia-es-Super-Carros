@@ -8,5 +8,15 @@
     "mes_referencia": null,
     "created_at": "2026-09-16T14:44:27.331Z",
     "confirmed_at": null
+  },
+  {
+    "id": "1d0114cc-008a-416e-b863-1848ff225dd0",
+    "vendedora": "CLEIDE",
+    "cliente_nome_informado": "Alex Souza",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-16T14:45:04.002Z",
+    "confirmed_at": null
   }
 ]
