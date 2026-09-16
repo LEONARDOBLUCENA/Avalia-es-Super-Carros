@@ -36,8 +36,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if ! git diff --quiet -- reviews.json; then
-            git add reviews.json
+          git add reviews.json
+          if ! git diff --cached --quiet; then
             git commit -m "Sincroniza avaliações do Google [automático]"
             git push
           else
