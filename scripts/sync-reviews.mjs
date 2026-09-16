@@ -19,6 +19,13 @@ const REVIEWS_PATH = process.env.REVIEWS_PATH || "reviews.json";
 const REVIEWS_LIMIT = parseInt(process.env.REVIEWS_LIMIT || "150", 10);
 const DEBUG = process.env.DEBUG === "true";
 
+// Backfill manual: quando IGNORE_CUTOFF=true, ignora a data de corte e busca
+// as REVIEWS_LIMIT avaliações mais recentes do zero (mesmo se já existirem
+// avaliações sincronizadas). Usado só quando alguém dispara o workflow
+// manualmente preenchendo "backfill_limit" — a rodada agendada de todo dia
+// nunca liga essa opção, então o consumo diário automático continua igual.
+const IGNORE_CUTOFF = process.env.IGNORE_CUTOFF === "true";
+
 if (!OUTSCRAPER_API_KEY) {
   console.error("Faltou o secret OUTSCRAPER_API_KEY.");
   process.exit(1);
@@ -149,7 +156,9 @@ async function main() {
   // cutoff: pega a mais recente já sincronizada, com 2 dias de folga
   // (evita perder avaliações por causa de fuso/latência da API)
   let cutoffUnixSeconds = null;
-  if (existing.length > 0) {
+  if (IGNORE_CUTOFF) {
+    console.log(`Backfill manual: ignorando cutoff, buscando as ${REVIEWS_LIMIT} avaliações mais recentes do zero.`);
+  } else if (existing.length > 0) {
     const maxTime = existing
       .map(r => (r.review_time ? new Date(r.review_time).getTime() : 0))
       .reduce((a, b) => Math.max(a, b), 0);
