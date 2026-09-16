@@ -106,5 +106,11 @@
     "nome": "Gilvane",
     "setor": "Instrutor",
     "created_at": "2026-09-16T19:19:24.011Z"
+  },
+  {
+    "id": "5af5843f-3368-4d2c-be06-6d62736f9c52",
+    "nome": "Eliezer",
+    "setor": "Instrutor",
+    "created_at": "2026-09-16T19:19:30.258Z"
   }
 ]
