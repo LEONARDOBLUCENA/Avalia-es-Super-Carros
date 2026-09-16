@@ -1,5 +1,19 @@
 [
   {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25odmNXWkVja05QYUhKbFgweHpkRXRTYUd0RVlXYxAB",
+    "author_name": "Thalia Miranda",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-16T18:19:43.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tScVRGUkxNRWhJVDNsTlRYSnhZV3BFTTNaNGJGRRAB",
+    "author_name": "Mariele Volpi",
+    "rating": 5,
+    "review_text": "Fui super bem atendida! A Maia foi muito atenciosa, prestativa e querida. Além de me ajudar, me indicou umas pastilhas para garganta, rsrs! Um atendimento realmente diferenciado! ❤️",
+    "review_time": "2026-09-16T16:56:03.000Z"
+  },
+  {
     "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xoUU4zaEpTelpOYmtVd1JFc3dhazAwYmxoM01tYxAB",
     "author_name": "Paloma Andrade",
     "rating": 4,
@@ -12,6 +26,27 @@
     "rating": 5,
     "review_text": "",
     "review_time": "2026-09-16T16:26:39.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25kTGFITm1PRWhUVm05V2NUQmpkekUzVlRWYU4xRRAB",
+    "author_name": "Flavio Manzon",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-16T15:50:33.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2paUFdVWmpVRE53UjBJMVUzY3dRelZRWDBOd01WRRAB",
+    "author_name": "Agatha Brito",
+    "rating": 5,
+    "review_text": "Muitos carros legais. Meu filho pequeno gostou muito",
+    "review_time": "2026-09-16T15:50:04.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25Cd1IyMUpVR013TWtSNVIyRnlOMll4Y0RKQ2QyYxAB",
+    "author_name": "Mkelvin Slima",
+    "rating": 5,
+    "review_text": "Tudo ótimo rolezeira de Corvette ótima",
+    "review_time": "2026-09-16T15:30:52.000Z"
   },
   {
     "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xNMGJYWlljR0ZQVjB0dGRXWkplR3RHWlV3dFkwRRAB",
