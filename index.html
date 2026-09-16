@@ -714,9 +714,17 @@ function includesToken(a, b) {
 //   o primeiro nome do instrutor contra cada palavra do texto, e o nome
 //   completo contra cada janela de palavras do mesmo tamanho — isso pega
 //   escrita errada/parecida (ex.: "Brayan" x "Braian", "Matheus" x "Mateus").
-// - Bônus de apelido/forma abreviada: se a palavra do texto é o começo do
-//   nome do instrutor ou vice-versa (ex.: "Gil" pra "Gilvane"), conta como
-//   correspondência razoável mesmo sem ser parecida letra a letra.
+// - Bônus de apelido/forma abreviada: só quando a palavra do texto é MENOR
+//   que o nome do instrutor E é o começo dele (ex.: "Gil" é o começo de
+//   "Gilvane") — de propósito só nessa direção. Aceitar também o caminho
+//   inverso (nome do instrutor sendo início de uma palavra maior do texto)
+//   gerava falso positivo, ex.: "Brayan" batendo com "braços" só porque os
+//   dois começam com "bra".
+// - Fora esse caso de apelido, só comparamos por semelhança (bigramas de
+//   Dice, pega erro de digitação como "Brayan" x "Braian") quando as duas
+//   palavras começam com a mesma letra — sem essa trava, nomes bem curtos
+//   podem coincidir por acaso com outra palavra sem relação nenhuma (ex.:
+//   "Brayan" e "Mayara" têm as mesmas letras em outra ordem e batiam).
 // - Reforço de contexto: quando a palavra imediatamente antes é "instrutor"
 //   ou "instrutora", aceitamos uma correspondência mais fraca ali, porque o
 //   texto já está claramente introduzindo o nome de alguém.
@@ -725,13 +733,11 @@ const MENTION_CONTEXT_THRESHOLD = 0.55; // logo depois de "instrutor"/"instrutor
 
 function wordScore(nameWord, textWord) {
   if (nameWord === textWord) return 1;
-  let score = diceScore(nameWord, textWord);
-  if (textWord.length >= 3 && nameWord.length >= 3) {
-    if (nameWord.startsWith(textWord) || textWord.startsWith(nameWord.substring(0, 3))) {
-      score = Math.max(score, 0.65);
-    }
+  if (textWord.length >= 3 && textWord.length < nameWord.length && nameWord.startsWith(textWord)) {
+    return 0.65;
   }
-  return score;
+  if (nameWord[0] !== textWord[0]) return 0;
+  return diceScore(nameWord, textWord);
 }
 
 function mentionScore(instrutorNome, reviewText) {
@@ -766,8 +772,10 @@ function mentionScore(instrutorNome, reviewText) {
 
     if (windowSize > 1 && i + windowSize <= textWords.length) {
       const janela = textWords.slice(i, i + windowSize).join(" ");
-      const scoreNomeCompleto = diceScore(normName, janela);
-      if (scoreNomeCompleto >= limiar && scoreNomeCompleto > best) best = scoreNomeCompleto;
+      if (janela[0] === normName[0]) {
+        const scoreNomeCompleto = diceScore(normName, janela);
+        if (scoreNomeCompleto >= limiar && scoreNomeCompleto > best) best = scoreNomeCompleto;
+      }
     }
   });
 
