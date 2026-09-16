@@ -70,15 +70,27 @@
   button:hover { opacity: 0.9; }
   button:disabled { opacity: 0.5; cursor: not-allowed; }
   button.secondary { background: var(--panel-2); border: 1px solid var(--border); }
+  button.small { padding: 6px 12px; font-size: 0.8rem; }
   .btn-row { margin-top: 14px; }
-  .result-item {
+  .lancamento-item {
     background: var(--panel-2);
     border: 1px solid var(--border);
     border-radius: 10px;
     padding: 12px 14px;
     margin-bottom: 10px;
   }
-  .result-item.confirmed { background: var(--green-bg); border-color: var(--green); }
+  .lancamento-item.confirmado { border-color: var(--green); }
+  .lancamento-head { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; }
+  .lancamento-info { font-weight: 600; }
+  .lancamento-meta { font-size: 0.78rem; color: var(--muted); margin-top: 2px; }
+  .results-area { margin-top: 12px; border-top: 1px dashed var(--border); padding-top: 12px; }
+  .result-item {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 12px 14px;
+    margin-bottom: 10px;
+  }
   .result-item.taken { opacity: 0.6; }
   .result-head { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; }
   .result-name { font-weight: 600; }
@@ -89,6 +101,7 @@
   .badge { font-size: 0.72rem; padding: 2px 8px; border-radius: 999px; background: var(--panel); border: 1px solid var(--border); color: var(--muted); }
   .badge.taken { color: var(--red); border-color: var(--red); }
   .badge.confirmed { color: var(--green); border-color: var(--green); }
+  .badge.pending { color: var(--yellow); border-color: var(--yellow); }
   table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
   th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--border); }
   th { color: var(--muted); font-weight: 600; font-size: 0.75rem; text-transform: uppercase; }
@@ -100,12 +113,16 @@
   #statusMsg.ok { color: var(--green); }
   #statusMsg.error { color: var(--red); }
   #statusMsg.loading { color: var(--muted); }
+  .row-status { font-size: 0.85rem; margin-top: 8px; min-height: 16px; }
+  .row-status.ok { color: var(--green); }
+  .row-status.error { color: var(--red); }
+  .row-status.loading { color: var(--muted); }
 </style>
 </head>
 <body>
 <div class="wrap">
   <h1>Avaliações Google — Contagem por Vendedora</h1>
-  <div class="subtitle">Salão Super Carros Gramado — busca e confirmação de avaliações sincronizadas do Google</div>
+  <div class="subtitle">Salão Super Carros Gramado — cadastro, busca e confirmação de avaliações</div>
 
   <div id="configWarning" class="warn" style="display:none;">
     ⚠️ Este arquivo ainda não está conectado ao repositório do GitHub. Preencha
@@ -114,7 +131,7 @@
   </div>
 
   <div class="card">
-    <div class="section-title">Buscar avaliação</div>
+    <div class="section-title">Novo lançamento</div>
     <div class="row">
       <div>
         <label for="vendedoraSelect">Vendedora</label>
@@ -128,14 +145,14 @@
       </div>
     </div>
     <div class="btn-row">
-      <button id="buscarBtn">Buscar avaliação</button>
+      <button id="processarBtn">Processar</button>
     </div>
     <div id="statusMsg"></div>
   </div>
 
-  <div class="card" id="resultsCard" style="display:none;">
-    <div class="section-title">Resultados encontrados</div>
-    <div id="resultsList"></div>
+  <div class="card">
+    <div class="section-title">Lista de lançamentos</div>
+    <div id="lancamentosList"></div>
   </div>
 
   <div class="card">
@@ -145,11 +162,6 @@
     </div>
     <div id="rankingBody"></div>
   </div>
-
-  <div class="card">
-    <div class="section-title">Avaliações confirmadas no mês</div>
-    <div id="confirmedTableWrap"></div>
-  </div>
 </div>
 
 <script>
@@ -158,12 +170,13 @@
    ====================================================================== */
 
 // Dono e repositório onde ficam reviews.json (sincronizado pelo Outscraper
-// via GitHub Actions) e attributions.json (gravado por esta página).
+// via GitHub Actions) e lancamentos.json (cadastro + confirmação, gravado
+// por esta página).
 const GITHUB_OWNER = "leonardoblucena";
 const GITHUB_REPO  = "Avalia-es-Super-Carros";
 const GITHUB_BRANCH = "main";
 const REVIEWS_PATH = "reviews.json";
-const ATTRIBUTIONS_PATH = "attributions.json";
+const LANCAMENTOS_PATH = "lancamentos.json";
 
 // Token do GitHub (Personal Access Token) partido em 3 pedaços, no mesmo
 // esquema usado no BI Contas Pagas: nenhuma string com o token completo
@@ -178,9 +191,9 @@ const ATTRIBUTIONS_PATH = "attributions.json";
 // ser público pro GitHub Pages funcionar no plano gratuito, qualquer pessoa
 // que abrir o DevTools do navegador consegue reconstruir o token — a
 // obfuscação aqui só evita a revogação automática, não é sigilo de verdade.
-const k1 = "github_pat_11CDUM6SI0ZUFLylCMMdxM";
-const k2 = "_KLWJtqogbfaoTtcMaZeBto1YEnRHvvSSXKPDM";
-const k3 = "2XirFBOQ6GUFT0AuLlh2T";
+const k1 = "COLE_AQUI_PARTE_1_DO_TOKEN";
+const k2 = "COLE_AQUI_PARTE_2_DO_TOKEN";
+const k3 = "COLE_AQUI_PARTE_3_DO_TOKEN";
 const GITHUB_TOKEN = k1 + k2 + k3;
 
 const VENDEDORAS = [
@@ -215,8 +228,8 @@ function base64ToUtf8(b64) {
   return new TextDecoder().decode(bytes);
 }
 
-// Lê um arquivo JSON do repositório. Retorna { json, sha } — json = null e
-// sha = null se o arquivo ainda não existir (404), o que é normal na
+// Lê um arquivo JSON do repositório. Retorna { json, sha } — json = fallback
+// e sha = null se o arquivo ainda não existir (404), o que é normal na
 // primeira execução.
 async function githubGetJson(path, fallback) {
   const res = await fetch(`${GH_API_BASE}/${path}?ref=${GITHUB_BRANCH}`, {
@@ -239,9 +252,8 @@ async function githubGetJson(path, fallback) {
 }
 
 // Grava um arquivo JSON no repositório. Se sha for null, cria o arquivo.
-// Se der 409 (conflito de sha, alguém escreveu ao mesmo tempo), quem chamar
-// deve reler e tentar de novo — isso é feito automaticamente pelas funções
-// de escrita abaixo (writeWithRetry).
+// Em caso de 409 (conflito, alguém escreveu ao mesmo tempo) lança um erro
+// marcado com isConflict — writeWithRetry cuida de tentar de novo.
 async function githubPutJson(path, jsonValue, sha, message) {
   const body = {
     message,
@@ -273,21 +285,27 @@ async function githubPutJson(path, jsonValue, sha, message) {
 }
 
 // Lê, aplica "mutateFn" sobre o JSON atual, e grava — repetindo em caso de
-// conflito de concorrência (duas vendedoras confirmando quase ao mesmo
-// tempo). mutateFn recebe o array atual e deve devolver o novo array.
+// conflito de concorrência (duas vendedoras mexendo quase ao mesmo tempo).
+// mutateFn recebe o array atual e deve devolver o novo array, ou null para
+// sinalizar "não gravar nada" (ex: já existia).
 async function writeWithRetry(path, fallback, mutateFn, message, attempts = 4) {
   for (let i = 0; i < attempts; i++) {
     const { json, sha } = await githubGetJson(path, fallback);
     const updated = mutateFn(json);
-    if (updated === null) return null; // mutateFn sinaliza "nada a fazer" (ex: já existia)
+    if (updated === null) return null;
     try {
       await githubPutJson(path, updated, sha, message);
       return updated;
     } catch (err) {
-      if (err.isConflict && i < attempts - 1) continue; // tenta de novo lendo o sha mais novo
+      if (err.isConflict && i < attempts - 1) continue;
       throw err;
     }
   }
+}
+
+function genId() {
+  if (window.crypto && window.crypto.randomUUID) return window.crypto.randomUUID();
+  return `${Date.now()}-${Math.random().toString(36).substring(2, 10)}`;
 }
 
 // ---------- Setup inicial ----------
@@ -331,7 +349,7 @@ const monthSelect = document.getElementById("monthSelect");
   });
   monthSelect.value = currentMonthKey();
 })();
-monthSelect.addEventListener("change", refreshMonthPanels);
+monthSelect.addEventListener("change", refreshRankingPanel);
 
 // ---------- Normalização e score de similaridade (bigramas de Dice) ----------
 function normalize(str) {
@@ -371,63 +389,181 @@ function includesToken(a, b) {
   return na.includes(nb) || nb.includes(na);
 }
 
-// ---------- Busca ----------
-const buscarBtn = document.getElementById("buscarBtn");
+// ---------- Novo lançamento (cadastro) ----------
+const processarBtn = document.getElementById("processarBtn");
 const statusMsg = document.getElementById("statusMsg");
-const resultsCard = document.getElementById("resultsCard");
-const resultsList = document.getElementById("resultsList");
 
 function setStatus(msg, type) {
   statusMsg.textContent = msg || "";
   statusMsg.className = type || "";
 }
 
-buscarBtn.addEventListener("click", async () => {
+processarBtn.addEventListener("click", async () => {
   const vendedora = vendedoraSelect.value;
   const clienteNome = document.getElementById("clienteInput").value.trim();
 
-  if (!vendedora) { setStatus("Selecione a vendedora antes de buscar.", "error"); return; }
+  if (!vendedora) { setStatus("Selecione a vendedora antes de processar.", "error"); return; }
   if (!clienteNome) { setStatus("Digite o nome do cliente.", "error"); return; }
   if (!isConfigured) { setStatus("GitHub ainda não configurado neste arquivo.", "error"); return; }
 
-  setStatus("Buscando...", "loading");
-  resultsCard.style.display = "none";
-  resultsList.innerHTML = "";
+  processarBtn.disabled = true;
+  setStatus("Processando...", "loading");
+
+  try {
+    const novoLancamento = {
+      id: genId(),
+      vendedora: vendedora,
+      cliente_nome_informado: clienteNome,
+      status: "pendente",
+      review_id: null,
+      mes_referencia: null,
+      created_at: new Date().toISOString(),
+      confirmed_at: null
+    };
+
+    await writeWithRetry(
+      LANCAMENTOS_PATH,
+      [],
+      (current) => [...(current || []), novoLancamento],
+      `Novo lançamento: ${clienteNome} (${vendedora})`
+    );
+
+    document.getElementById("clienteInput").value = "";
+    setStatus(`Lançamento de "${clienteNome}" adicionado à lista para ${vendedora}.`, "ok");
+    refreshLancamentosList();
+    refreshRankingPanel();
+
+  } catch (err) {
+    console.error(err);
+    setStatus("Erro ao processar: " + (err.message || err), "error");
+  } finally {
+    processarBtn.disabled = false;
+  }
+});
+
+// ---------- Lista de lançamentos ----------
+const lancamentosList = document.getElementById("lancamentosList");
+
+async function refreshLancamentosList() {
+  if (!isConfigured) {
+    lancamentosList.innerHTML = `<div class="empty">Configure o GitHub para ver os lançamentos.</div>`;
+    return;
+  }
+
+  lancamentosList.innerHTML = `<div class="empty">Carregando...</div>`;
+
+  try {
+    const { json: lancamentos } = await githubGetJson(LANCAMENTOS_PATH, []);
+
+    const ordenados = [...(lancamentos || [])].sort((a, b) => {
+      if (a.status !== b.status) return a.status === "pendente" ? -1 : 1;
+      return (b.created_at || "").localeCompare(a.created_at || "");
+    });
+
+    if (ordenados.length === 0) {
+      lancamentosList.innerHTML = `<div class="empty">Nenhum lançamento cadastrado ainda.</div>`;
+      return;
+    }
+
+    lancamentosList.innerHTML = "";
+    ordenados.forEach(l => renderLancamentoRow(l));
+
+  } catch (err) {
+    console.error(err);
+    lancamentosList.innerHTML = `<div class="empty">Erro ao carregar: ${err.message || err}</div>`;
+  }
+}
+
+function renderLancamentoRow(lancamento) {
+  const div = document.createElement("div");
+  div.className = "lancamento-item" + (lancamento.status === "confirmado" ? " confirmado" : "");
+  div.id = `lancamento-${lancamento.id}`;
+
+  const criadoEm = lancamento.created_at ? new Date(lancamento.created_at).toLocaleString("pt-BR") : "-";
+
+  const statusBadge = lancamento.status === "confirmado"
+    ? `<span class="badge confirmed">Confirmado${lancamento.mes_referencia ? " — " + monthLabel(lancamento.mes_referencia) : ""}</span>`
+    : `<span class="badge pending">Pendente</span>`;
+
+  const acao = lancamento.status === "confirmado"
+    ? ""
+    : `<button class="small" data-action="buscar">Buscar Avaliação</button>`;
+
+  div.innerHTML = `
+    <div class="lancamento-head">
+      <div>
+        <div class="lancamento-info">${lancamento.cliente_nome_informado} — ${lancamento.vendedora}</div>
+        <div class="lancamento-meta">Cadastrado em ${criadoEm}</div>
+      </div>
+      <div style="display:flex;align-items:center;gap:10px;">
+        ${statusBadge}
+        ${acao}
+      </div>
+    </div>
+    <div class="row-status" id="rowstatus-${lancamento.id}"></div>
+    <div class="results-area" id="results-${lancamento.id}" style="display:none;"></div>
+  `;
+
+  const buscarBtn = div.querySelector('[data-action="buscar"]');
+  if (buscarBtn) {
+    buscarBtn.addEventListener("click", () => buscarAvaliacaoParaLancamento(lancamento, buscarBtn));
+  }
+
+  lancamentosList.appendChild(div);
+}
+
+function setRowStatus(lancamentoId, msg, type) {
+  const el = document.getElementById(`rowstatus-${lancamentoId}`);
+  if (!el) return;
+  el.textContent = msg || "";
+  el.className = "row-status " + (type || "");
+}
+
+async function buscarAvaliacaoParaLancamento(lancamento, btnEl) {
+  const resultsArea = document.getElementById(`results-${lancamento.id}`);
+  if (!isConfigured) { setRowStatus(lancamento.id, "GitHub ainda não configurado.", "error"); return; }
+
+  btnEl.disabled = true;
+  setRowStatus(lancamento.id, "Buscando...", "loading");
+  resultsArea.style.display = "none";
+  resultsArea.innerHTML = "";
 
   try {
     const { json: reviews } = await githubGetJson(REVIEWS_PATH, []);
-    const { json: attributions } = await githubGetJson(ATTRIBUTIONS_PATH, []);
+    const { json: lancamentosAtuais } = await githubGetJson(LANCAMENTOS_PATH, []);
 
-    const attributedMap = {};
-    (attributions || []).forEach(a => { attributedMap[a.review_id] = a; });
+    const takenReviewIds = {};
+    (lancamentosAtuais || []).forEach(l => {
+      if (l.status === "confirmado" && l.review_id) takenReviewIds[l.review_id] = l;
+    });
 
     const scored = (reviews || [])
       .map(r => ({
         ...r,
-        score: Math.max(diceScore(clienteNome, r.author_name), includesToken(clienteNome, r.author_name) ? 0.8 : 0)
+        score: Math.max(diceScore(lancamento.cliente_nome_informado, r.author_name), includesToken(lancamento.cliente_nome_informado, r.author_name) ? 0.8 : 0)
       }))
       .filter(r => r.score >= 0.35)
       .sort((a, b) => b.score - a.score)
       .slice(0, 8);
 
     if (scored.length === 0) {
-      setStatus("Nenhuma avaliação parecida encontrada para esse nome.", "error");
+      setRowStatus(lancamento.id, "Nenhuma avaliação parecida encontrada para esse nome ainda.", "error");
       return;
     }
 
-    setStatus(`${scored.length} resultado(s) encontrado(s). Confira e confirme o correto.`, "ok");
-    resultsCard.style.display = "block";
+    setRowStatus(lancamento.id, `${scored.length} resultado(s) encontrado(s). Confira e confirme o correto.`, "ok");
+    resultsArea.style.display = "block";
 
     scored.forEach(r => {
-      const already = attributedMap[r.review_id];
-      const div = document.createElement("div");
-      div.className = "result-item" + (already ? " taken" : "");
+      const already = takenReviewIds[r.review_id];
+      const item = document.createElement("div");
+      item.className = "result-item" + (already ? " taken" : "");
 
       const stars = "★".repeat(r.rating || 0) + "☆".repeat(5 - (r.rating || 0));
       const dataFmt = r.review_time ? new Date(r.review_time).toLocaleDateString("pt-BR") : "data desconhecida";
       const scorePct = Math.round(r.score * 100);
 
-      div.innerHTML = `
+      item.innerHTML = `
         <div class="result-head">
           <div class="result-name">${r.author_name}</div>
           <span class="result-score">similaridade ${scorePct}%</span>
@@ -435,130 +571,109 @@ buscarBtn.addEventListener("click", async () => {
         <div class="result-meta"><span class="stars">${stars}</span> · ${dataFmt}</div>
         <div class="result-text">${r.review_text ? r.review_text.substring(0, 220) : "(sem texto)"}</div>
         ${already
-          ? `<span class="badge taken">Já contabilizada para ${already.vendedora} (${monthLabel(already.mes_referencia)})</span>`
-          : `<button data-review-id="${r.review_id}" data-review-time="${r.review_time || ""}">Confirmar como ${clienteNome}</button>`
+          ? `<span class="badge taken">Já contabilizada para ${already.vendedora}${already.mes_referencia ? " (" + monthLabel(already.mes_referencia) + ")" : ""}</span>`
+          : `<button class="small" data-review-id="${r.review_id}">Confirmar</button>`
         }
       `;
 
       if (!already) {
-        const btn = div.querySelector("button");
-        btn.addEventListener("click", () => confirmMatch(r.review_id, r.review_time, vendedora, clienteNome, div));
+        const confirmBtn = item.querySelector("button");
+        confirmBtn.addEventListener("click", () => confirmarLancamento(lancamento, r, item));
       }
 
-      resultsList.appendChild(div);
+      resultsArea.appendChild(item);
     });
 
   } catch (err) {
     console.error(err);
-    setStatus("Erro ao buscar: " + (err.message || err), "error");
-  }
-});
-
-async function confirmMatch(reviewId, reviewTime, vendedora, clienteNomeInformado, itemEl) {
-  setStatus("Confirmando...", "loading");
-  try {
-    const mesReferencia = reviewTime ? currentMonthKey(new Date(reviewTime)) : currentMonthKey();
-    let jaAtribuidaPor = null;
-
-    const result = await writeWithRetry(
-      ATTRIBUTIONS_PATH,
-      [],
-      (current) => {
-        const list = current || [];
-        const existing = list.find(a => a.review_id === reviewId);
-        if (existing) {
-          jaAtribuidaPor = existing;
-          return null; // sinaliza "não gravar, já existe"
-        }
-        return [
-          ...list,
-          {
-            review_id: reviewId,
-            vendedora: vendedora,
-            cliente_nome_informado: clienteNomeInformado,
-            mes_referencia: mesReferencia,
-            confirmed_at: new Date().toISOString()
-          }
-        ];
-      },
-      `Confirma avaliação ${reviewId} para ${vendedora}`
-    );
-
-    if (jaAtribuidaPor) {
-      setStatus(`Essa avaliação já foi contabilizada para ${jaAtribuidaPor.vendedora}.`, "error");
-      return;
-    }
-    if (result === undefined) {
-      // writeWithRetry esgotou tentativas sem sucesso nem conflito tratado
-      setStatus("Não foi possível confirmar, tente novamente.", "error");
-      return;
-    }
-
-    itemEl.classList.add("confirmed");
-    const btn = itemEl.querySelector("button");
-    if (btn) {
-      btn.outerHTML = `<span class="badge confirmed">Confirmada para ${vendedora}</span>`;
-    }
-    setStatus(`Avaliação contabilizada para ${vendedora} (${monthLabel(mesReferencia)}).`, "ok");
-    refreshMonthPanels();
-
-  } catch (err) {
-    console.error(err);
-    setStatus("Erro ao confirmar: " + (err.message || err), "error");
+    setRowStatus(lancamento.id, "Erro ao buscar: " + (err.message || err), "error");
+  } finally {
+    btnEl.disabled = false;
   }
 }
 
-// ---------- Painéis de contagem mensal ----------
-async function refreshMonthPanels() {
+async function confirmarLancamento(lancamento, review, itemEl) {
+  setRowStatus(lancamento.id, "Confirmando...", "loading");
+  let jaTomada = null;
+
+  try {
+    const mesReferencia = review.review_time ? currentMonthKey(new Date(review.review_time)) : currentMonthKey();
+
+    const updated = await writeWithRetry(
+      LANCAMENTOS_PATH,
+      [],
+      (current) => {
+        const list = current || [];
+        const reviewJaUsada = list.find(l => l.status === "confirmado" && l.review_id === review.review_id);
+        if (reviewJaUsada) { jaTomada = reviewJaUsada; return null; }
+
+        return list.map(l => l.id === lancamento.id
+          ? {
+              ...l,
+              status: "confirmado",
+              review_id: review.review_id,
+              mes_referencia: mesReferencia,
+              confirmed_at: new Date().toISOString()
+            }
+          : l
+        );
+      },
+      `Confirma lançamento ${lancamento.id} -> avaliação ${review.review_id}`
+    );
+
+    if (jaTomada) {
+      setRowStatus(lancamento.id, `Essa avaliação já foi contabilizada para ${jaTomada.vendedora}.`, "error");
+      return;
+    }
+    if (updated === undefined) {
+      setRowStatus(lancamento.id, "Não foi possível confirmar, tente novamente.", "error");
+      return;
+    }
+
+    setRowStatus(lancamento.id, `Confirmado para ${lancamento.vendedora} (${monthLabel(mesReferencia)}).`, "ok");
+    refreshLancamentosList();
+    refreshRankingPanel();
+
+  } catch (err) {
+    console.error(err);
+    setRowStatus(lancamento.id, "Erro ao confirmar: " + (err.message || err), "error");
+  }
+}
+
+// ---------- Painel de contagem mensal ----------
+async function refreshRankingPanel() {
   const rankingBody = document.getElementById("rankingBody");
-  const confirmedWrap = document.getElementById("confirmedTableWrap");
 
   if (!isConfigured) {
     rankingBody.innerHTML = `<div class="empty">Configure o GitHub para ver a contagem.</div>`;
-    confirmedWrap.innerHTML = "";
     return;
   }
 
   const mes = monthSelect.value;
   rankingBody.innerHTML = `<div class="empty">Carregando...</div>`;
-  confirmedWrap.innerHTML = "";
 
   try {
-    const { json: attributions } = await githubGetJson(ATTRIBUTIONS_PATH, []);
+    const { json: lancamentos } = await githubGetJson(LANCAMENTOS_PATH, []);
 
-    const data = (attributions || [])
-      .filter(a => a.mes_referencia === mes)
-      .sort((a, b) => (b.confirmed_at || "").localeCompare(a.confirmed_at || ""));
+    const confirmadosDoMes = (lancamentos || []).filter(l => l.status === "confirmado" && l.mes_referencia === mes);
 
     const counts = {};
     VENDEDORAS.forEach(v => counts[v] = 0);
-    data.forEach(row => {
-      counts[row.vendedora] = (counts[row.vendedora] || 0) + 1;
+    confirmadosDoMes.forEach(l => {
+      counts[l.vendedora] = (counts[l.vendedora] || 0) + 1;
     });
 
-    const total = data.length;
+    const total = confirmadosDoMes.length;
     const ranked = Object.entries(counts).sort((a, b) => b[1] - a[1]);
 
-    let rankingHtml = `<div style="display:flex;justify-content:flex-end;margin-bottom:10px;">
+    let html = `<div style="display:flex;justify-content:flex-end;margin-bottom:10px;">
       <span class="total-pill">${total} avaliação(ões) no mês</span></div>
       <table><thead><tr><th>Vendedora</th><th>Avaliações</th></tr></thead><tbody>`;
     ranked.forEach(([v, c]) => {
-      rankingHtml += `<tr><td>${v}</td><td>${c}</td></tr>`;
+      html += `<tr><td>${v}</td><td>${c}</td></tr>`;
     });
-    rankingHtml += `</tbody></table>`;
-    rankingBody.innerHTML = rankingHtml;
-
-    if (data.length === 0) {
-      confirmedWrap.innerHTML = `<div class="empty">Nenhuma avaliação confirmada neste mês ainda.</div>`;
-    } else {
-      let tableHtml = `<table><thead><tr><th>Vendedora</th><th>Cliente informado</th><th>Confirmado em</th></tr></thead><tbody>`;
-      data.forEach(row => {
-        const dt = row.confirmed_at ? new Date(row.confirmed_at).toLocaleString("pt-BR") : "-";
-        tableHtml += `<tr><td>${row.vendedora}</td><td>${row.cliente_nome_informado}</td><td>${dt}</td></tr>`;
-      });
-      tableHtml += `</tbody></table>`;
-      confirmedWrap.innerHTML = tableHtml;
-    }
+    html += `</tbody></table>`;
+    rankingBody.innerHTML = html;
 
   } catch (err) {
     console.error(err);
@@ -566,7 +681,8 @@ async function refreshMonthPanels() {
   }
 }
 
-refreshMonthPanels();
+refreshLancamentosList();
+refreshRankingPanel();
 </script>
 </body>
 </html>
