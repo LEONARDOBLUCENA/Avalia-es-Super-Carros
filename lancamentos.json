@@ -119,5 +119,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-17T17:26:30.269Z",
     "confirmed_at": null
+  },
+  {
+    "id": "9a9288e4-1f84-4009-9c82-a13f54a22e60",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Agatha Brito",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-17T17:26:48.878Z",
+    "confirmed_at": null
   }
 ]
