@@ -202,8 +202,8 @@
     padding: 8px 12px; margin-bottom: 6px;
   }
 
-  /* -------- Painel de token (oculto por padrão) -------- */
-  #tokenPanel {
+  /* -------- Painéis em modal (ocultos por padrão) -------- */
+  #tokenPanel, #adminPanel {
     position: fixed;
     inset: 0;
     background: rgba(6, 10, 16, 0.6);
@@ -213,7 +213,7 @@
     z-index: 50;
     padding: 16px;
   }
-  #tokenPanel.open { display: flex; }
+  #tokenPanel.open, #adminPanel.open { display: flex; }
   .token-modal {
     background: var(--panel);
     border: 1px solid var(--border);
@@ -412,6 +412,21 @@
   </div>
 </div>
 
+<!-- ============================ MODAL: SENHA DE ADMINISTRAÇÃO ============================ -->
+<div id="adminPanel">
+  <div class="token-modal">
+    <h2>Autorização necessária</h2>
+    <p>Buscar avaliação é uma ação restrita à administração. Digite a senha para continuar.</p>
+    <label for="adminSenhaInput">Senha</label>
+    <input type="password" id="adminSenhaInput" placeholder="••••••••" autocomplete="off">
+    <div class="btn-row">
+      <button id="adminConfirmarBtn">Confirmar</button>
+      <button id="adminCancelarBtn" class="secondary">Cancelar</button>
+    </div>
+    <div id="adminSenhaStatus" class="token-ok"></div>
+  </div>
+</div>
+
 <script>
 /* ======================================================================
    CONFIGURAÇÃO
@@ -498,6 +513,74 @@ document.getElementById("limparTokenBtn").addEventListener("click", () => {
   isConfigured = false;
   atualizarAvisoConfiguracao();
 });
+
+// ---------- Senha de administração (só pra "Buscar avaliação/avaliações") ----------
+// Restringe quem pode DISPARAR a busca contra as avaliações do Google —
+// não é uma senha de acesso à página inteira, nem protege dado sensível de
+// verdade (é só um hash comparado no navegador, visível pra quem abrir o
+// código-fonte), serve pra travar o clique casual de quem não é
+// administração. Depois de acertar uma vez, vale pro resto da aba aberta
+// (sessionStorage), sem precisar digitar de novo a cada busca.
+const ADMIN_PASSWORD_HASH = "fc6df9b2ca9896e5d6225ef3913c1cba279f82bca9eea6d3926fa54b7c8b3d17";
+const ADMIN_SESSION_KEY = "sc_avaliacoes_admin_ok";
+
+async function sha256Hex(texto) {
+  const bytes = new TextEncoder().encode(texto);
+  const digest = await crypto.subtle.digest("SHA-256", bytes);
+  return Array.from(new Uint8Array(digest)).map(b => b.toString(16).padStart(2, "0")).join("");
+}
+
+const adminPanel = document.getElementById("adminPanel");
+const adminSenhaInput = document.getElementById("adminSenhaInput");
+const adminSenhaStatus = document.getElementById("adminSenhaStatus");
+let adminPendingResolve = null;
+
+function abrirAdminPanel() {
+  adminSenhaInput.value = "";
+  adminSenhaStatus.textContent = "";
+  adminPanel.classList.add("open");
+  adminSenhaInput.focus();
+}
+function fecharAdminPanel() { adminPanel.classList.remove("open"); }
+
+// Retorna true se já autorizado nesta sessão/aba, ou se o usuário acabou de
+// digitar a senha certa; false se cancelou ou errou. Toda ação que exige
+// senha deve dar "await" nisso antes de continuar.
+function requireAdminPassword() {
+  try {
+    if (sessionStorage.getItem(ADMIN_SESSION_KEY) === "1") return Promise.resolve(true);
+  } catch (e) { /* sessionStorage indisponível: pede a senha normalmente */ }
+
+  return new Promise((resolve) => {
+    adminPendingResolve = resolve;
+    abrirAdminPanel();
+  });
+}
+
+async function confirmarSenhaAdmin() {
+  const senha = adminSenhaInput.value;
+  if (!senha) { adminSenhaStatus.textContent = "Digite a senha."; return; }
+  const hash = await sha256Hex(senha);
+  if (hash !== ADMIN_PASSWORD_HASH) {
+    adminSenhaStatus.textContent = "Senha incorreta.";
+    adminSenhaInput.value = "";
+    adminSenhaInput.focus();
+    return;
+  }
+  try { sessionStorage.setItem(ADMIN_SESSION_KEY, "1"); } catch (e) { /* segue sem persistir */ }
+  fecharAdminPanel();
+  if (adminPendingResolve) { adminPendingResolve(true); adminPendingResolve = null; }
+}
+
+function cancelarSenhaAdmin() {
+  fecharAdminPanel();
+  if (adminPendingResolve) { adminPendingResolve(false); adminPendingResolve = null; }
+}
+
+document.getElementById("adminConfirmarBtn").addEventListener("click", confirmarSenhaAdmin);
+document.getElementById("adminCancelarBtn").addEventListener("click", cancelarSenhaAdmin);
+adminSenhaInput.addEventListener("keydown", (e) => { if (e.key === "Enter") confirmarSenhaAdmin(); });
+adminPanel.addEventListener("click", (e) => { if (e.target === adminPanel) cancelarSenhaAdmin(); });
 
 function recarregarTudo() {
   loadFuncionarios().then(() => {
@@ -1173,6 +1256,9 @@ function setRowStatus(lancamentoId, msg, type) {
 }
 
 async function buscarAvaliacaoParaLancamento(lancamento, btnEl) {
+  const autorizado = await requireAdminPassword();
+  if (!autorizado) return;
+
   const resultsArea = document.getElementById(`results-${lancamento.id}`);
   if (!isConfigured) { setRowStatus(lancamento.id, "GitHub ainda não configurado.", "error"); return; }
 
@@ -1386,6 +1472,9 @@ function setRowStatusInstrutor(instrutorId, msg, type) {
 }
 
 async function buscarMencoesParaInstrutor(instrutor, btnEl) {
+  const autorizado = await requireAdminPassword();
+  if (!autorizado) return;
+
   const resultsArea = document.getElementById(`results-instrutor-${instrutor.id}`);
   if (!isConfigured) { setRowStatusInstrutor(instrutor.id, "GitHub ainda não configurado.", "error"); return; }
 
