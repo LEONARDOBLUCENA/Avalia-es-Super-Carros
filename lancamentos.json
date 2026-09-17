@@ -427,5 +427,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-17T19:32:12.013Z",
     "confirmed_at": null
+  },
+  {
+    "id": "fef2396d-7bc6-4051-88ef-e5032f14a63d",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Mundo da Gaby",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-17T19:32:27.989Z",
+    "confirmed_at": null
   }
 ]
