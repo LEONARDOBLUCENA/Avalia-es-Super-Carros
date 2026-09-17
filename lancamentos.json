@@ -350,5 +350,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-17T18:38:06.736Z",
     "confirmed_at": null
+  },
+  {
+    "id": "d3c0aa80-219a-4dd8-87df-5eb132a357af",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Bruna rosa",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-17T19:29:30.209Z",
+    "confirmed_at": null
   }
 ]
