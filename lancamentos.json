@@ -548,5 +548,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-17T20:23:06.962Z",
     "confirmed_at": null
+  },
+  {
+    "id": "d92693d2-e47e-4c82-ad04-da16ca0076b5",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Taynarinha Sousa",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-17T21:06:30.270Z",
+    "confirmed_at": null
   }
 ]
