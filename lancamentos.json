@@ -350,5 +350,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-17T18:27:32.096Z",
     "confirmed_at": null
+  },
+  {
+    "id": "761c9dbb-5c19-41f4-bcf3-23e8cc3b7b86",
+    "setor": "Fotos",
+    "vendedora": "Maíra",
+    "cliente_nome_informado": "mireli",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-17T18:27:44.937Z",
+    "confirmed_at": null
   }
 ]
