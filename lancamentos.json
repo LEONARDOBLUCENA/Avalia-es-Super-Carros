@@ -394,5 +394,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-17T19:30:48.445Z",
     "confirmed_at": null
+  },
+  {
+    "id": "c5c07409-8f3d-49e5-a012-70852a0729be",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Jeane fonseca",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-17T19:31:00.020Z",
+    "confirmed_at": null
   }
 ]
