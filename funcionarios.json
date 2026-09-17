@@ -106,5 +106,11 @@
     "nome": "Fernanda",
     "setor": "Fotos",
     "created_at": "2026-09-17T17:44:01.414Z"
+  },
+  {
+    "id": "d2f798df-0e8f-4d4e-917f-8deaffcbb368",
+    "nome": "Kaleu",
+    "setor": "Instrutor",
+    "created_at": "2026-09-17T17:57:08.652Z"
   }
 ]
