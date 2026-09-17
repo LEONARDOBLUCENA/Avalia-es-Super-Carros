@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "id": "3edaf9b8-4a69-4019-8f83-9e7239784f87",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "joao marcos",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-17T14:38:58.802Z",
+    "confirmed_at": null
+  }
+]
