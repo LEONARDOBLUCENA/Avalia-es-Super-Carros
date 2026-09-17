@@ -4,10 +4,10 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "joao marcos",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xkRlZsOVRWemxsU0ZwRU9TMDRRV2R0VkMxaVFuYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-17T14:38:58.802Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-17T14:39:18.879Z"
   }
 ]
