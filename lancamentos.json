@@ -319,17 +319,6 @@
     "confirmed_at": null
   },
   {
-    "id": "d108c65a-c7fc-4cd0-91f1-86c1729ca471",
-    "setor": "Fotos",
-    "vendedora": "Maíra",
-    "cliente_nome_informado": "mir",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
-    "created_at": "2026-09-17T18:27:32.096Z",
-    "confirmed_at": null
-  },
-  {
     "id": "a0358d7f-a87b-4963-91b0-e269eae0d184",
     "setor": "Fotos",
     "vendedora": "Lohane",
