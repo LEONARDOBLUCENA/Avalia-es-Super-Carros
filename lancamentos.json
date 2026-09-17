@@ -339,5 +339,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-17T18:27:32.096Z",
     "confirmed_at": null
+  },
+  {
+    "id": "a0358d7f-a87b-4963-91b0-e269eae0d184",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Lívia Alves",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-17T18:38:06.736Z",
+    "confirmed_at": null
   }
 ]
