@@ -20,5 +20,16 @@
     "mes_referencia": "2026-09",
     "created_at": "2026-09-17T14:29:50.464Z",
     "confirmed_at": "2026-09-17T14:29:59.608Z"
+  },
+  {
+    "id": "8493dd5b-e3cb-4717-972c-3df9deca8916",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Hortencia Da Silva",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-17T14:31:47.601Z",
+    "confirmed_at": null
   }
 ]
