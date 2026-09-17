@@ -174,5 +174,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-17T17:27:53.424Z",
     "confirmed_at": null
+  },
+  {
+    "id": "91a52065-b929-4c1b-adbc-3b163f9c7ecc",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Tayane Silva",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-17T17:28:12.469Z",
+    "confirmed_at": null
   }
 ]
