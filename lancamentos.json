@@ -163,5 +163,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-17T17:27:28.213Z",
     "confirmed_at": null
+  },
+  {
+    "id": "bae27289-2f06-4d19-b376-d6b369e8dc6a",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Francine Wilke Fagundes",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-17T17:27:53.424Z",
+    "confirmed_at": null
   }
 ]
