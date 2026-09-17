@@ -229,5 +229,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-17T17:29:35.990Z",
     "confirmed_at": null
+  },
+  {
+    "id": "32eb0c70-9962-47c4-b959-5ac7c6a6fa4e",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Roseli Oliveira",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-17T17:29:49.073Z",
+    "confirmed_at": null
   }
 ]
