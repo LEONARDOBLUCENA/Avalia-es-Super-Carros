@@ -97,5 +97,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-17T16:46:43.261Z",
     "confirmed_at": null
+  },
+  {
+    "id": "ed6226aa-310b-4420-ab43-e9f7b8937084",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "VANESSA LUANA",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-17T17:14:31.424Z",
+    "confirmed_at": null
   }
 ]
