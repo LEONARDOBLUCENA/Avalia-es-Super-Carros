@@ -1,16 +1,5 @@
 [
   {
-    "id": "4d640c5d-c286-4d02-b99c-e916f049c748",
-    "setor": "Fotos",
-    "vendedora": "Cleide",
-    "cliente_nome_informado": "jose",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
-    "created_at": "2026-09-17T15:39:32.413Z",
-    "confirmed_at": null
-  },
-  {
     "id": "3e40cca3-39ac-4d34-b7aa-a22c3fbdce18",
     "setor": "Fotos",
     "vendedora": "Cleide",
