@@ -482,5 +482,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-17T19:34:53.815Z",
     "confirmed_at": null
+  },
+  {
+    "id": "0cd45975-574b-4ba6-8424-097de4af06ef",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Gilvandro lazareno pontes da silva junior pontes",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-17T19:35:02.062Z",
+    "confirmed_at": null
   }
 ]
