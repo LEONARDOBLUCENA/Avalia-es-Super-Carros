@@ -196,5 +196,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-17T17:28:39.281Z",
     "confirmed_at": null
+  },
+  {
+    "id": "d9badd8f-201a-4455-be90-3003410c8840",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Filipe MG",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-17T17:28:50.601Z",
+    "confirmed_at": null
   }
 ]
