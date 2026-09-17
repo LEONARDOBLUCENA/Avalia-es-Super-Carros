@@ -9,5 +9,16 @@
     "mes_referencia": "2026-09",
     "created_at": "2026-09-17T14:26:36.261Z",
     "confirmed_at": "2026-09-17T14:26:58.869Z"
+  },
+  {
+    "id": "037a13c7-ca16-41e5-ba5c-a1e89944a885",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Andre Goettert",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-17T14:28:41.435Z",
+    "confirmed_at": null
   }
 ]
