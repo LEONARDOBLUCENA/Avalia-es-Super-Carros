@@ -207,5 +207,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-17T17:28:50.601Z",
     "confirmed_at": null
+  },
+  {
+    "id": "a5897694-6fc3-4c47-96d2-b921c9d7233c",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Douglas Henrique Araujo",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-17T17:29:22.896Z",
+    "confirmed_at": null
   }
 ]
