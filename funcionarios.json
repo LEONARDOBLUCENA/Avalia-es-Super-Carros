@@ -94,5 +94,11 @@
     "nome": "Maíra",
     "setor": "Fotos",
     "created_at": "2026-09-17T14:49:53.268Z"
+  },
+  {
+    "id": "eab8cca1-d16a-4dc6-b4ea-f677f44c84e6",
+    "nome": "Gustavo Trein",
+    "setor": "Instrutor",
+    "created_at": "2026-09-17T14:51:53.121Z"
   }
 ]
