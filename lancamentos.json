@@ -9,5 +9,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-17T14:42:11.025Z",
     "confirmed_at": null
+  },
+  {
+    "id": "2c9e43f4-d680-4e5d-87e8-7b98e3935387",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "marcos palmeira",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-17T14:42:29.032Z",
+    "confirmed_at": null
   }
 ]
