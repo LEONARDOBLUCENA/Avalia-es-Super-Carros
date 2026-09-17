@@ -152,5 +152,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-17T17:27:17.652Z",
     "confirmed_at": null
+  },
+  {
+    "id": "082beefc-65e8-4b0a-8302-2cc5a1234c0d",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Alex Sandro Machado",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-17T17:27:28.213Z",
+    "confirmed_at": null
   }
 ]
