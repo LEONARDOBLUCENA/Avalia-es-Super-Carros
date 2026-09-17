@@ -471,5 +471,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-17T19:33:48.845Z",
     "confirmed_at": null
+  },
+  {
+    "id": "631022e2-2899-4e35-bc99-b96df2bd68df",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Lauany pureza",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-17T19:34:06.026Z",
+    "confirmed_at": null
   }
 ]
