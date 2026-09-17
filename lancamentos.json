@@ -273,5 +273,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-17T17:31:09.855Z",
     "confirmed_at": null
+  },
+  {
+    "id": "4b22c380-73d4-4e69-92b4-276f8d53b21e",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Karim Mateus",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-17T17:32:03.468Z",
+    "confirmed_at": null
   }
 ]
