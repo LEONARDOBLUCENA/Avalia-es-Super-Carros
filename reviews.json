@@ -1,5 +1,54 @@
 [
   {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201a1QyTndZa0pFWTFaMGFXTmpiM281Y0RCb1dsRRAB",
+    "author_name": "Ana Beatriz Bin",
+    "rating": 5,
+    "review_text": "Atendimento maravilhoso desde a recepção, fotógrafos, todos. Passeio de excelência.. fotos encantadoras!",
+    "review_time": "2026-09-17T14:29:05.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25aSWJVdExWV0pzUVRabU5EUkZWRWxPY3kxRlZsRRAB",
+    "author_name": "Daniel Victor Mesquita Primeiro",
+    "rating": 5,
+    "review_text": "Ótima experiência!",
+    "review_time": "2026-09-17T14:28:42.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pSNFdXOHlkekJyTjAxSVlXY3dVVnBUUlV4UGEzYxAB",
+    "author_name": "VANESSA LUANA",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-17T14:06:42.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tSQlNWRjJabUpZVTFaclNrcFdVVWxpVUZObFdrRRAB",
+    "author_name": "Ivan sousa Amaro",
+    "rating": 5,
+    "review_text": "Gostei muito, voltaria outras vezes com certeza",
+    "review_time": "2026-09-17T10:53:15.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pGbVJsOTRTamhUYWxWTFpuTjZjMWxGTW5SYWRYYxAB",
+    "author_name": "BR Metaverso",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-16T21:29:00.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21SaGNqVkpkV0l6V0dkQ09YRXpSbWN5VEhob05HYxAB",
+    "author_name": "Alex Sandro Machado",
+    "rating": 5,
+    "review_text": "Destaque ao piloto Bruno, esse faz a diferença,  um abraço do Papai Noel Brasil",
+    "review_time": "2026-09-16T21:16:11.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WV2JYUkdVR1pOWVZGZlZWcERTbTFTVlVwT2NtYxAB",
+    "author_name": "Tayane Silva",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-16T20:34:51.000Z"
+  },
+  {
     "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poUlpteHpkRnBKUkZrd1QxWk5WR1psYTBsdWExRRAB",
     "author_name": "Francine Wilke Fagundes",
     "rating": 5,
