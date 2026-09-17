@@ -185,5 +185,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-17T17:28:12.469Z",
     "confirmed_at": null
+  },
+  {
+    "id": "340d36d1-1822-46e7-a01d-9c917a88e29f",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Ivan sousa Amaro",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-17T17:28:39.281Z",
+    "confirmed_at": null
   }
 ]
