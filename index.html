@@ -416,7 +416,7 @@
 <div id="adminPanel">
   <div class="token-modal">
     <h2>Autorização necessária</h2>
-    <p>Buscar avaliação é uma ação restrita à administração. Digite a senha para continuar.</p>
+    <p>Buscar, editar ou excluir um lançamento é uma ação restrita à administração. Digite a senha para continuar.</p>
     <label for="adminSenhaInput">Senha</label>
     <input type="password" id="adminSenhaInput" placeholder="••••••••" autocomplete="off">
     <div class="btn-row">
@@ -514,13 +514,13 @@ document.getElementById("limparTokenBtn").addEventListener("click", () => {
   atualizarAvisoConfiguracao();
 });
 
-// ---------- Senha de administração (só pra "Buscar avaliação/avaliações") ----------
-// Restringe quem pode DISPARAR a busca contra as avaliações do Google —
+// ---------- Senha de administração ----------
+// Restringe quem pode buscar avaliação, editar ou excluir um lançamento —
 // não é uma senha de acesso à página inteira, nem protege dado sensível de
 // verdade (é só um hash comparado no navegador, visível pra quem abrir o
 // código-fonte), serve pra travar o clique casual de quem não é
 // administração. Depois de acertar uma vez, vale pro resto da aba aberta
-// (sessionStorage), sem precisar digitar de novo a cada busca.
+// (sessionStorage), sem precisar digitar de novo a cada ação.
 const ADMIN_PASSWORD_HASH = "fc6df9b2ca9896e5d6225ef3913c1cba279f82bca9eea6d3926fa54b7c8b3d17";
 const ADMIN_SESSION_KEY = "sc_avaliacoes_admin_ok";
 
@@ -1138,7 +1138,12 @@ function renderPendenteRow(lancamento) {
   `;
 
   div.querySelector('[data-action="buscar"]').addEventListener("click", (e) => buscarAvaliacaoParaLancamento(lancamento, e.target));
-  div.querySelector('[data-action="editar"]').addEventListener("click", () => { editingLancamentoId = lancamento.id; refreshLancamentosLists(); });
+  div.querySelector('[data-action="editar"]').addEventListener("click", async () => {
+    const autorizado = await requireAdminPassword();
+    if (!autorizado) return;
+    editingLancamentoId = lancamento.id;
+    refreshLancamentosLists();
+  });
   div.querySelector('[data-action="excluir"]').addEventListener("click", () => excluirLancamento(lancamento));
 
   pendentesEl.appendChild(div);
@@ -1205,6 +1210,8 @@ async function salvarEdicaoLancamento(id, funcionario, clienteNome) {
 }
 
 async function excluirLancamento(lancamento) {
+  const autorizado = await requireAdminPassword();
+  if (!autorizado) return;
   if (!confirm(`Excluir o lançamento de "${lancamento.cliente_nome_informado}"?`)) return;
   try {
     await writeWithRetry(
