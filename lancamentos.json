@@ -515,5 +515,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-17T19:35:33.363Z",
     "confirmed_at": null
+  },
+  {
+    "id": "adae7216-b76e-405b-ba04-4105d0915c01",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Ana Beatriz bin",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-17T19:35:43.849Z",
+    "confirmed_at": null
   }
 ]
