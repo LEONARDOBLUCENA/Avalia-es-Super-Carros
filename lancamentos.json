@@ -383,5 +383,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-17T19:30:13.559Z",
     "confirmed_at": null
+  },
+  {
+    "id": "50724e43-8c69-460b-8096-f5b29938fbd6",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Lucas Gabriel saraiva de souza",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-17T19:30:48.445Z",
+    "confirmed_at": null
   }
 ]
