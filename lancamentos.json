@@ -317,5 +317,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-17T18:25:10.786Z",
     "confirmed_at": null
+  },
+  {
+    "id": "cd6d7c99-85fd-44f5-bd1e-a496247c64f9",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Danyelle Vitor",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-17T18:25:54.600Z",
+    "confirmed_at": null
   }
 ]
