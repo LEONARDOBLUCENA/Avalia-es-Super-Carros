@@ -100,5 +100,11 @@
     "nome": "Gustavo",
     "setor": "Instrutor",
     "created_at": "2026-09-16T19:19:43.730Z"
+  },
+  {
+    "id": "0acb0664-3573-4fbf-baa2-f762d5583814",
+    "nome": "Fernando Bonato",
+    "setor": "Instrutor",
+    "created_at": "2026-09-17T14:48:18.067Z"
   }
 ]
