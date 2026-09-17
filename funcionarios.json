@@ -94,5 +94,11 @@
     "nome": "Gustavo Trein",
     "setor": "Instrutor",
     "created_at": "2026-09-17T14:51:53.121Z"
+  },
+  {
+    "id": "4db5cd52-d16a-4f7f-92aa-c7148eb0b04a",
+    "nome": "Cleide",
+    "setor": "Fotos",
+    "created_at": "2026-09-17T15:49:00.415Z"
   }
 ]
