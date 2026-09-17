@@ -526,5 +526,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-17T19:36:11.206Z",
     "confirmed_at": null
+  },
+  {
+    "id": "c0fb552b-cdbc-4a7d-bdd3-fcea6508018c",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Josiane nicacio",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-17T20:12:31.375Z",
+    "confirmed_at": null
   }
 ]
