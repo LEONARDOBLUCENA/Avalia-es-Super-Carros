@@ -240,5 +240,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-17T17:29:49.073Z",
     "confirmed_at": null
+  },
+  {
+    "id": "83fa3322-2263-4ea4-af0b-3d4a588e75e9",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Paula Guarnieri",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-17T17:30:31.998Z",
+    "confirmed_at": null
   }
 ]
