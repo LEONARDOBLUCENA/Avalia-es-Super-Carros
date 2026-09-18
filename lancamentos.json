@@ -422,11 +422,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Daniel Victor mesquita primeiro",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25aSWJVdExWV0pzUVRabU5EUkZWRWxPY3kxRlZsRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-17T19:35:33.363Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-18T19:04:20.268Z"
   },
   {
     "id": "adae7216-b76e-405b-ba04-4105d0915c01",
