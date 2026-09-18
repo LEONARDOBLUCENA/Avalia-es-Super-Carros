@@ -724,16 +724,5 @@
     "mes_referencia": null,
     "created_at": "2026-09-18T17:42:46.905Z",
     "confirmed_at": null
-  },
-  {
-    "id": "876b461b-22eb-4e7b-81db-a5209f0d652b",
-    "setor": "Fotos",
-    "vendedora": "Cleide",
-    "cliente_nome_informado": "Jeniffer duarte",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
-    "created_at": "2026-09-18T17:44:18.697Z",
-    "confirmed_at": null
   }
 ]
