@@ -224,11 +224,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Alessandro Bergamin",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tOR1NsUjVjV1Y2VFVWeE9ERnVVR3hMYW1wc1kxRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-17T18:25:10.786Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-18T18:59:43.435Z"
   },
   {
     "id": "cd6d7c99-85fd-44f5-bd1e-a496247c64f9",
