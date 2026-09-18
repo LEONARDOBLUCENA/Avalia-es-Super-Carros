@@ -268,11 +268,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Gibadrone",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT20wMk4xbHdUV3cxYzFWMU5rMTNabmsyWmxKNlRVRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-17T19:29:58.035Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-18T19:00:33.334Z"
   },
   {
     "id": "82f950b9-ad9d-409d-b66c-c5a33973e843",
