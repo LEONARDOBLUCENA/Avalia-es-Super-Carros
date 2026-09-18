@@ -691,5 +691,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-18T22:47:16.663Z",
     "confirmed_at": null
+  },
+  {
+    "id": "cb70952c-43aa-4cbf-8ef2-b9e88c1dd6fc",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Renata Almeida",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-18T22:47:28.956Z",
+    "confirmed_at": null
   }
 ]
