@@ -59,11 +59,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Alex Sandro Machado",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21SaGNqVkpkV0l6V0dkQ09YRXpSbWN5VEhob05HYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-17T17:27:28.213Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-18T18:55:56.768Z"
   },
   {
     "id": "bae27289-2f06-4d19-b376-d6b369e8dc6a",
