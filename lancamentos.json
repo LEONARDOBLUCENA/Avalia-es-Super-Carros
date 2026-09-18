@@ -680,5 +680,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-18T22:46:28.273Z",
     "confirmed_at": null
+  },
+  {
+    "id": "c5444a17-d691-42be-9d75-2cb63e70db70",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Mayara Godoy",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-18T22:47:16.663Z",
+    "confirmed_at": null
   }
 ]
