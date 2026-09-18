@@ -444,11 +444,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Josiane nicacio",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2paSE5Gb3hMV3cxUlVjMVZqSlJVbE5LY0dkeFNYYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-17T20:12:31.375Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-18T19:05:01.610Z"
   },
   {
     "id": "7554a05d-3b5d-4810-a023-7abc9907f770",
