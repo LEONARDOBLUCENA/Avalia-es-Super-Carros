@@ -669,5 +669,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-18T22:46:13.818Z",
     "confirmed_at": null
+  },
+  {
+    "id": "c952a536-5a11-45af-89f0-489c1782067b",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Júlia Lima",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-18T22:46:28.273Z",
+    "confirmed_at": null
   }
 ]
