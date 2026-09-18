@@ -235,11 +235,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Danyelle Vitor",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2psV00zcE1hRWhQVWswelZuVklUVEZuUVVSSVNIYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-17T18:25:54.600Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-18T18:59:57.852Z"
   },
   {
     "id": "a0358d7f-a87b-4963-91b0-e269eae0d184",
