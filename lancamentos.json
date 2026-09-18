@@ -312,11 +312,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Francisco Carlos",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25kYVJrUnpSMnBOTmtOb2VFNUJka3czWTBGclVIYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-17T19:31:08.818Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-18T19:01:13.469Z"
   },
   {
     "id": "1b9359b6-f287-4b6e-a1d5-3e76e94d5dbc",
