@@ -202,11 +202,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Pastora Maria do Carmo! Santos",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xORmRYcDRNMmxaWkU5RFJHOXNYekJVYVdvelIxRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-17T17:32:36.170Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-18T18:59:28.266Z"
   },
   {
     "id": "e2e844f4-4671-44f2-9b16-d2390e2fbffb",
