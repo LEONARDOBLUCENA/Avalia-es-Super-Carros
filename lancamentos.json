@@ -180,11 +180,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Karim Mateus",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xsVmNVaHZYemhIWWxKSldsWndWMlpmVFVNd01YYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-17T17:32:03.468Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-18T18:59:08.590Z"
   },
   {
     "id": "1edbf6f3-ec52-432f-944c-5ea530fa964b",
