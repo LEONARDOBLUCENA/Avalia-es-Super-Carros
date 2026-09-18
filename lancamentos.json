@@ -636,5 +636,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-18T14:43:26.636Z",
     "confirmed_at": null
+  },
+  {
+    "id": "b2a23595-1099-4ca7-9600-c9621b4c1bac",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Niro Santos",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-18T16:12:36.710Z",
+    "confirmed_at": null
   }
 ]
