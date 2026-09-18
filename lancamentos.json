@@ -147,11 +147,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Paula Guarnieri",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21sb1prVm5WVWxLUm10dmFuUnBPVUZNVlhoRGVYYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-17T17:30:31.998Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-18T18:57:31.646Z"
   },
   {
     "id": "02b8bb02-479a-4204-b7e8-ce4d28028240",
