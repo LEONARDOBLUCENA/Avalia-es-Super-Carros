@@ -466,11 +466,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Taynarinha Sousa",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xZNVRYVTNiV1JtT0ZwYWNWSnVXVFI1WXpoM1RHYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-17T21:06:30.270Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-18T19:05:14.794Z"
   },
   {
     "id": "a87ac1ef-ee15-4141-8a6b-b0d15e41cd6f",
