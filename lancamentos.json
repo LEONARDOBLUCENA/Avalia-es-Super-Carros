@@ -213,11 +213,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Monica Pimenta",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25OTUxYWXRXVVJaY0haNE5rSkJSbTVZVlc5RFRXYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-17T17:56:38.924Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-18T18:59:34.733Z"
   },
   {
     "id": "9db7e8f6-2801-4d30-8198-c9654549e4f0",
