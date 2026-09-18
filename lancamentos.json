@@ -70,11 +70,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Francine Wilke Fagundes",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poUlpteHpkRnBKUkZrd1QxWk5WR1psYTBsdWExRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-17T17:27:53.424Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-18T18:56:21.625Z"
   },
   {
     "id": "91a52065-b929-4c1b-adbc-3b163f9c7ecc",
