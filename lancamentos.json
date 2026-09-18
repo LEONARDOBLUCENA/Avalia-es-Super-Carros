@@ -636,5 +636,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-18T20:35:10.062Z",
     "confirmed_at": null
+  },
+  {
+    "id": "cdca2ad1-1dd1-42bd-a0bc-4347b808c3d6",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Luana strapasson",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-18T20:35:33.093Z",
+    "confirmed_at": null
   }
 ]
