@@ -433,11 +433,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Ana Beatriz bin",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201a1QyTndZa0pFWTFaMGFXTmpiM281Y0RCb1dsRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-17T19:35:43.849Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-18T19:04:28.407Z"
   },
   {
     "id": "6f8e6b06-65e7-49c6-9cd6-5422083d0410",
