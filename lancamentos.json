@@ -488,11 +488,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "João Ribeiro",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25ad1NsZGFYMUZYVlcxS1oxWkRkM2d5WDBzNGJXYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-18T13:06:39.844Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-18T19:13:26.769Z"
   },
   {
     "id": "56ab13c9-0b1b-4858-be7f-5cade3ca24d8",
