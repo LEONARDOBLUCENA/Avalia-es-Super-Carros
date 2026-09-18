@@ -15,11 +15,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Ygor Rodrigues",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5TlVGSmZUUzFLVlc1cVpYRkNXWEJCWlhaM1pYYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-17T17:26:30.269Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-18T18:55:08.418Z"
   },
   {
     "id": "9a9288e4-1f84-4009-9c82-a13f54a22e60",
