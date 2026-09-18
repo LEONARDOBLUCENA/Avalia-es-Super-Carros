@@ -713,16 +713,5 @@
     "mes_referencia": null,
     "created_at": "2026-09-18T17:42:31.081Z",
     "confirmed_at": null
-  },
-  {
-    "id": "832875e0-ae6a-4c61-bd09-fa2fef6479f4",
-    "setor": "Fotos",
-    "vendedora": "Cleide",
-    "cliente_nome_informado": "Gualberto agamez",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
-    "created_at": "2026-09-18T17:42:46.905Z",
-    "confirmed_at": null
   }
 ]
