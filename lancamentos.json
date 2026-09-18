@@ -103,11 +103,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Filipe MG",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WeFVUWnBNMFUzZFUxT2RURlBMV2xNTkRoNFJrRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-17T17:28:50.601Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-18T18:56:54.125Z"
   },
   {
     "id": "a5897694-6fc3-4c47-96d2-b921c9d7233c",
