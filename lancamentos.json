@@ -158,11 +158,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Reginaldo Fernandes da Silva",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21oTGNtcFFPRlo1YlhaNFpYSlFSbEJxYzNaTFkyYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-17T17:30:52.807Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-18T18:57:40.694Z"
   },
   {
     "id": "7cdf0e98-701b-47fe-86ac-3cbef4c09cf7",
