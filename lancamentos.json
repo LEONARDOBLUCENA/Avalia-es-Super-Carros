@@ -279,11 +279,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Weslei N",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0VE1XbG1WMEpuYUUxTmNFUk5PVmRwZG5SU01VRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-17T19:30:13.559Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-18T19:00:42.491Z"
   },
   {
     "id": "50724e43-8c69-460b-8096-f5b29938fbd6",
