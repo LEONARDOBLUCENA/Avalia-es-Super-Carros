@@ -620,10 +620,10 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Tamires sales",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKRlRVOUdRWFZHTkVWaVFsbFVaekYyVTNobU5rRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-18T17:42:31.081Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-18T19:50:19.638Z"
   }
 ]
