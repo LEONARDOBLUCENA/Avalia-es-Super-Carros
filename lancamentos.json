@@ -614,5 +614,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-18T14:26:45.991Z",
     "confirmed_at": null
+  },
+  {
+    "id": "66fea774-e013-44d0-a01c-06e5ee0d18ae",
+    "setor": "Fotos",
+    "vendedora": "Fernanda",
+    "cliente_nome_informado": "Aline Jenyffer de Jesus Borges Ferreira",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-18T14:30:21.229Z",
+    "confirmed_at": null
   }
 ]
