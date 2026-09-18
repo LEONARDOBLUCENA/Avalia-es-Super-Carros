@@ -559,5 +559,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-17T21:06:30.270Z",
     "confirmed_at": null
+  },
+  {
+    "id": "a87ac1ef-ee15-4141-8a6b-b0d15e41cd6f",
+    "setor": "Fotos",
+    "vendedora": "Fernanda",
+    "cliente_nome_informado": "Maydja Benicio",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-18T12:06:43.537Z",
+    "confirmed_at": null
   }
 ]
