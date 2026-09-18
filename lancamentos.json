@@ -81,11 +81,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Tayane Silva",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WV2JYUkdVR1pOWVZGZlZWcERTbTFTVlVwT2NtYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-17T17:28:12.469Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-18T18:56:38.152Z"
   },
   {
     "id": "340d36d1-1822-46e7-a01d-9c917a88e29f",
