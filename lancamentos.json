@@ -411,11 +411,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Barbara moraes",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xSWVYyaEtVRXBJWm1KNmExRnhaRU51TmpBMVdGRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-17T19:35:17.601Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-18T19:04:10.701Z"
   },
   {
     "id": "31d9836a-86c6-4ba5-92ac-e78feb1387c3",
