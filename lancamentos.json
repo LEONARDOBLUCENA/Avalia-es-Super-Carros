@@ -702,5 +702,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-18T22:47:28.956Z",
     "confirmed_at": null
+  },
+  {
+    "id": "ebb8c24c-4c05-4331-b0ea-8d624b100da8",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Lucas Silva Rodrigues",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-18T22:47:54.304Z",
+    "confirmed_at": null
   }
 ]
