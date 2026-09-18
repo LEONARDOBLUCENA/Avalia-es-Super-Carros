@@ -609,11 +609,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Kauã pereira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25Nek1tcDRYM2hoZUVVNGQyOXdjSE5CZG1sWWJVRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-18T17:42:19.978Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-18T19:11:19.503Z"
   },
   {
     "id": "38c0d07b-585e-44e6-8207-ceeaf1ca4b91",
