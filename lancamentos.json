@@ -911,5 +911,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-19T16:02:16.319Z",
     "confirmed_at": null
+  },
+  {
+    "id": "37e4d8ac-6283-4ca4-8e6e-0baa5fb93f0c",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Camila Rubin lazzari",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-19T16:19:55.342Z",
+    "confirmed_at": null
   }
 ]
