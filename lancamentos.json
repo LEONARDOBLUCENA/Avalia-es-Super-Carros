@@ -812,5 +812,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-19T15:14:58.768Z",
     "confirmed_at": null
+  },
+  {
+    "id": "26d14867-b5fe-40e6-bede-1fad2ebbd84b",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Ellerson fagundes",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-19T15:15:23.181Z",
+    "confirmed_at": null
   }
 ]
