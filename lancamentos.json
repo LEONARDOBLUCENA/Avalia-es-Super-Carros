@@ -779,5 +779,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-19T14:26:33.348Z",
     "confirmed_at": null
+  },
+  {
+    "id": "73ca9f0f-5542-49da-b163-995bf28ebefa",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Vinícius Santos",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-19T14:41:26.789Z",
+    "confirmed_at": null
   }
 ]
