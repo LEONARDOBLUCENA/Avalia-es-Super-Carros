@@ -735,5 +735,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-19T14:02:57.088Z",
     "confirmed_at": null
+  },
+  {
+    "id": "a64fd7a9-ab90-4480-b62d-1ce228a56c0b",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Ricardo Muller",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-19T14:07:51.029Z",
+    "confirmed_at": null
   }
 ]
