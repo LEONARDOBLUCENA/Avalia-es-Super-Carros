@@ -790,5 +790,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-19T14:41:26.789Z",
     "confirmed_at": null
+  },
+  {
+    "id": "408a9277-3f71-42fa-99b9-6f67b7e78b1a",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Kássia santos",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-19T14:41:50.584Z",
+    "confirmed_at": null
   }
 ]
