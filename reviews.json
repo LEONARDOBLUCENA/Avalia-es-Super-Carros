@@ -1,5 +1,131 @@
 [
   {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205RmVtMUlaR3BhY0RCT2VteEtaREo0Y0hWNE5WRRAB",
+    "author_name": "Mauricio Quadros",
+    "rating": 5,
+    "review_text": "Top de mais super incrível",
+    "review_time": "2026-09-18T22:37:06.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tOTlIzTmpVM0pIU0dkMlFUVXRaV0kwTFdWM1YyYxAB",
+    "author_name": "Ruth Campos",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-18T21:21:38.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT20xNGNXRlVWV0ozYkdORFluZElkREJSWld4TFUwRRAB",
+    "author_name": "Renata Almeida",
+    "rating": 5,
+    "review_text": "Amei, muito top",
+    "review_time": "2026-09-18T20:48:42.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKdVdrWjNiR0pIZWpKVWJETjBYMVI2VjBkaVluYxAB",
+    "author_name": "Gustavo",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-18T20:36:35.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WemNVb3lPRzVNTjFnMVdIa3hjeTFSTmpkS1ZFRRAB",
+    "author_name": "Luana Strapasson",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-18T20:35:11.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25OaVoybEtNSFYzUWxVeVdIZHlVbHBpY2pKa2NFRRAB",
+    "author_name": "Mayara Godoy",
+    "rating": 4,
+    "review_text": "",
+    "review_time": "2026-09-18T20:16:36.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tzelRtbDNPWGw2UVVOc05XeFdRMHRaUmpneFYzYxAB",
+    "author_name": "Júlia Lima",
+    "rating": 5,
+    "review_text": "O espaço é muito bacana! Fomos bem orientadas nas fotos e bem atendidas pela Lorraine!",
+    "review_time": "2026-09-18T18:25:27.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21VMldtTnlPRXN6ZG05eU1sSjJZVTVZVkc0d1lYYxAB",
+    "author_name": "Hemilly Marques",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-18T18:04:41.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKUlRrcDZXbVpYVTFFemNGZHFOVEpsYTJzd1YzYxAB",
+    "author_name": "Jeniffer Duarte",
+    "rating": 5,
+    "review_text": "Atendimento ótimo",
+    "review_time": "2026-09-18T17:44:28.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pWalEzRnphbXB0Wlc5SFYweHBSRlpQWW1VeWMxRRAB",
+    "author_name": "Gualberto Agamez",
+    "rating": 5,
+    "review_text": "Muito bom mesmo...",
+    "review_time": "2026-09-18T17:42:54.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKd2RXSnJUSGRMVmpWdmFtVmhUMFZ5VmkwNExYYxAB",
+    "author_name": "Tamires Sales",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-18T17:42:29.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xaTk1GSllNVVUxUkhsdVdHbFpORzlwWTI4eGJVRRAB",
+    "author_name": "Kauã Pereira",
+    "rating": 5,
+    "review_text": "Experiência surreal",
+    "review_time": "2026-09-18T17:42:14.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWdmJFRXRWRzlKVEdabFNGbEJNVWxSUlhwUmVVRRAB",
+    "author_name": "Stefani Rodrigues",
+    "rating": 5,
+    "review_text": "Experiência incrivél, funcionário maravilhosos!",
+    "review_time": "2026-09-18T17:06:40.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1c00waGFaMVl0UkdoYVlUVktWM2wyZERCRVZYYxAB",
+    "author_name": "Jose Rocha",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-18T16:17:23.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21GdVYyZHFMVTk1ZEhCMmFVcHdZazQ0VkZoUFRHYxAB",
+    "author_name": "Alyne Rocha",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-18T16:16:54.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5dlpsSXRSWFJIUm10SmJuQlBjbE15ZDNCeVdGRRAB",
+    "author_name": "NIRO SANTOS",
+    "rating": 5,
+    "review_text": "Experiência incrível",
+    "review_time": "2026-09-18T16:11:46.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2twYU1FaFJZVUpXZWxkRU1EZEROVE4yUzFZM2RFRRAB",
+    "author_name": "My House Camboriú",
+    "rating": 5,
+    "review_text": "Foi incrível o passeio, o instrutor Eliezer super atencioso e querido. Amei a experiência ❤️✨",
+    "review_time": "2026-09-18T15:35:45.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25CVVJUVkZkRmxCUVhCSWMzRjRVa1F3WW5KMmJXYxAB",
+    "author_name": "Kenedy Joanderson",
+    "rating": 5,
+    "review_text": "Exatamente atendimento, experiências incríveis",
+    "review_time": "2026-09-18T14:25:55.000Z"
+  },
+  {
     "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21aM1RVcFJabHB1TVVSV01sbHNjRXg2TW5aUFNIYxAB",
     "author_name": "Lauro De Oliveira Gomes",
     "rating": 5,
