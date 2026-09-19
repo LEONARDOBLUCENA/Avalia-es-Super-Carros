@@ -966,5 +966,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-19T16:49:57.799Z",
     "confirmed_at": null
+  },
+  {
+    "id": "2a7c1935-6bff-4687-b6c3-0326336c47ca",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "gelcir pizetta",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-19T16:50:20.915Z",
+    "confirmed_at": null
   }
 ]
