@@ -867,5 +867,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-19T15:45:40.916Z",
     "confirmed_at": null
+  },
+  {
+    "id": "0048f89b-664e-4ea3-9715-e0d088ee6d8e",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Cedenir da Rosa",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-19T15:51:27.207Z",
+    "confirmed_at": null
   }
 ]
