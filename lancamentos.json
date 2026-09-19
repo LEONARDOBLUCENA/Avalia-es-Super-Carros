@@ -823,5 +823,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-19T15:15:23.181Z",
     "confirmed_at": null
+  },
+  {
+    "id": "c3c7ac1a-a2ad-45d3-a80f-4b551f53621d",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Claudio dorigon",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-19T15:29:04.995Z",
+    "confirmed_at": null
   }
 ]
