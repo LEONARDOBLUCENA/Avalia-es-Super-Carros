@@ -1109,5 +1109,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-19T19:46:34.108Z",
     "confirmed_at": null
+  },
+  {
+    "id": "ed7f830f-e93c-42af-abe2-b0e18043fe39",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Angelica Arboite",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-19T19:46:52.450Z",
+    "confirmed_at": null
   }
 ]
