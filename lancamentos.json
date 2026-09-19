@@ -746,5 +746,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-19T14:07:51.029Z",
     "confirmed_at": null
+  },
+  {
+    "id": "f5c0a654-f74f-4b47-926c-a71383c8b03f",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Sandra Muller",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-19T14:08:05.943Z",
+    "confirmed_at": null
   }
 ]
