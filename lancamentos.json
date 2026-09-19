@@ -1098,5 +1098,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-19T18:52:37.703Z",
     "confirmed_at": null
+  },
+  {
+    "id": "bd4f230d-585d-42e2-80e0-7e7f2447c5cc",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Victor Fraga",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-19T19:46:34.108Z",
+    "confirmed_at": null
   }
 ]
