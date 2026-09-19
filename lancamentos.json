@@ -988,5 +988,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-19T16:50:38.285Z",
     "confirmed_at": null
+  },
+  {
+    "id": "3c3b2a6e-20ed-42c7-9b79-9a29dca96a82",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Saimon Pizetta",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-19T16:50:48.189Z",
+    "confirmed_at": null
   }
 ]
