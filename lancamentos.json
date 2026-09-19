@@ -1120,5 +1120,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-19T19:46:52.450Z",
     "confirmed_at": null
+  },
+  {
+    "id": "acfc9ba1-58ec-44ea-ba75-dcaab66bc968",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "David w moretti",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-19T20:03:11.492Z",
+    "confirmed_at": null
   }
 ]
