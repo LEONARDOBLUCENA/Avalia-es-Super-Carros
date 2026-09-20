@@ -1241,5 +1241,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-20T14:52:07.133Z",
     "confirmed_at": null
+  },
+  {
+    "id": "6294f6ee-33ae-42f5-8890-9eee0806c1b2",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Thainá Silva",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-20T15:06:38.108Z",
+    "confirmed_at": null
   }
 ]
