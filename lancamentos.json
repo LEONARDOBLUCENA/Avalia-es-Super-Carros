@@ -1395,5 +1395,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-20T18:37:26.675Z",
     "confirmed_at": null
+  },
+  {
+    "id": "00d629a1-493f-4dd8-bab8-14f842d39c16",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Alzira chaves",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-20T19:01:43.295Z",
+    "confirmed_at": null
   }
 ]
