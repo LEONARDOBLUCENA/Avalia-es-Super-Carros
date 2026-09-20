@@ -1373,5 +1373,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-20T17:01:11.785Z",
     "confirmed_at": null
+  },
+  {
+    "id": "10999d6a-538f-40ea-9bfa-e2b5833be3c9",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Renta batista",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-20T17:01:22.809Z",
+    "confirmed_at": null
   }
 ]
