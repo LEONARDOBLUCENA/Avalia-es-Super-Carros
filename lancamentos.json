@@ -1274,5 +1274,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-20T15:40:43.745Z",
     "confirmed_at": null
+  },
+  {
+    "id": "fcba4bb2-e6dc-4cf4-9f63-cf0d3e5b3ec0",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Maria Eduarda Lucas",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-20T15:41:39.974Z",
+    "confirmed_at": null
   }
 ]
