@@ -1384,5 +1384,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-20T17:01:22.809Z",
     "confirmed_at": null
+  },
+  {
+    "id": "58d0315c-59ac-4dc3-865a-5704f1c56e69",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Brian marasco",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-20T18:37:26.675Z",
+    "confirmed_at": null
   }
 ]
