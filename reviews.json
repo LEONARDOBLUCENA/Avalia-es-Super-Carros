@@ -1,5 +1,264 @@
 [
   {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKbVVsUm5XWEZRTW1Wc01FMDBVbmhTVWxrMVRVRRAB",
+    "author_name": "Bruno Turibio",
+    "rating": 5,
+    "review_text": "Ótima experiência e o profissional Thales 66 aumentou ainda mais a experiência, um ótimo profissional",
+    "review_time": "2026-09-20T13:44:48.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25wamRtMHlSREJDY0RkSk5GUkRVVXg0UVdZNGMzYxAB",
+    "author_name": "Alan J. S. Campos",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-20T13:33:17.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKbFNGWlRTVTEzYUd4S1V6aHlPRVZ5ZFhJdE5IYxAB",
+    "author_name": "Ednete Noronha",
+    "rating": 4,
+    "review_text": "",
+    "review_time": "2026-09-20T13:04:39.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT210NWNGRldSbEV0U0VFeVRIVlZRbVp1WW10c2VXYxAB",
+    "author_name": "Ellen Sena Bello",
+    "rating": 5,
+    "review_text": "Atração obrigatória para quem ama carros. Muito legal poder visitar a exposição, os simuladores e principalmente o passeio pela avenida.",
+    "review_time": "2026-09-20T12:59:11.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGdVNFaFhlVlJ5YW1vdGRub3lSbHA0WldOV05GRRAB",
+    "author_name": "Kamila Giffoni",
+    "rating": 3,
+    "review_text": "Promete muito e entrega pouco. O ingresso optado por nós incluía apenas a visitação e - a todo momento - éramos abordados pra adquirir mais uma experiência (foto temática, simulador ou passeio carro).<br>Atendimento desorganizado, deixou a desejar.",
+    "review_time": "2026-09-20T05:14:52.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2psWloxZzBXVE4xYmxwME1rbFVhSFUwZURkNGRtYxAB",
+    "author_name": "Leticia Dorea",
+    "rating": 5,
+    "review_text": "Maravilhosa a experiência! Vale muito a pena.",
+    "review_time": "2026-09-19T20:19:51.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKYWRWODVRV1oxVWpCSVRrSXlVakpTVDBveFpuYxAB",
+    "author_name": "Henrique Souza",
+    "rating": 5,
+    "review_text": "Ótima",
+    "review_time": "2026-09-19T20:04:15.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25vMFNtOVFRV2d6Y1VOTGQxSk9iV2huUkZNeWNsRRAB",
+    "author_name": "david w moretti",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-19T20:03:12.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xScFZ5MU1kbFpFU0hSclkzbFViSEJMU1VSbWFVRRAB",
+    "author_name": "Victor fraga",
+    "rating": 5,
+    "review_text": "Muito bom",
+    "review_time": "2026-09-19T19:21:35.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21sME5FdFZWRmxrY0hkeWFrTXdZakJUZWxsb1pXYxAB",
+    "author_name": "Angelica Arboite",
+    "rating": 5,
+    "review_text": "Atendimento maravilhoso",
+    "review_time": "2026-09-19T19:21:02.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25GUVQxbHllRVZHTURBeVgxY3RlbEJHUWtoQ1lsRRAB",
+    "author_name": "Vinícius Ferreira Gonçalves de Meneses - TEM",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-19T18:52:39.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2toZlprNWhjSGd3T1RaTE4yOUZNVFZRUjJzM1kzYxAB",
+    "author_name": "Camila",
+    "rating": 5,
+    "review_text": "Muy buena atención de parte de Lohane.<br>Nos ayudó mucho en la selección de fotos.",
+    "review_time": "2026-09-19T18:34:39.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25CcVMzWnRiRmd3Vm5ock4ydERURnBHTmprelNWRRAB",
+    "author_name": "Sebastián Muñoz",
+    "rating": 5,
+    "review_text": "Muy buena atención gracias por la atención",
+    "review_time": "2026-09-19T18:32:18.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25oalZ6ZDFXakl4VERGbWFscEVjMVpGTVRGdFJtYxAB",
+    "author_name": "Luiz Miguel Messias",
+    "rating": 5,
+    "review_text": "Foi muita resenha. O atendente explica bem. Os carros são incríveis. E  o fotografo é de primeira",
+    "review_time": "2026-09-19T18:14:40.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2taRWRGbEJSVE5PVldkb05UaDJSRUZYUm05MU4zYxAB",
+    "author_name": "Com Doces Gourmet",
+    "rating": 5,
+    "review_text": "Experiência maravilhosa. Super indico. Atendimento muito bom. Fomos atendidos por Lohane muito atenciosa.",
+    "review_time": "2026-09-19T18:11:49.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tWTlQzUnhaMUpEU2pWQk9EUnRZbVF6UXpCUFNFRRAB",
+    "author_name": "Gabriel Gonçalves",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-19T17:28:00.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xnNE5GQkNaWFp3TXkxUUxTMVVkRkpCWmxOdFJXYxAB",
+    "author_name": "Raíssa Vargas",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-19T16:45:05.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21weE1GVjFTRGxRVEhJeVNGQm9jWG8zTTBOcmRHYxAB",
+    "author_name": "Josué Oliveira",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-19T16:43:46.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25OMlNGWjVXV1J6WVRORlJsSjFNVVJXTUdKQldWRRAB",
+    "author_name": "Simone Silva",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-19T16:42:13.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kxM2NUbHZWVzl5TFROM1JrTlpNazltVjBsQlVFRRAB",
+    "author_name": "Saimon Pizetta",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-19T16:38:02.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21nMFdETkZVazAxVUVFM09ETm9PV3RVTm01d04yYxAB",
+    "author_name": "Samuel Pizetta",
+    "rating": 5,
+    "review_text": "Atendimento muito bom, carros em ótima qualidade, tudo perfeito",
+    "review_time": "2026-09-19T16:38:00.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21sSGJ6aHlhMUV3TkdGdGNGUm9Ta1ZrZUVGRmVtYxAB",
+    "author_name": "gelcir pizetta",
+    "rating": 5,
+    "review_text": "Muito bem recebidos,super indico",
+    "review_time": "2026-09-19T16:25:41.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xOaVFsRm1TVU5MYzJOWmFIQldXVmR1WlVoWFZuYxAB",
+    "author_name": "Jéssica Rubin Lazzari",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-19T16:20:20.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCSFkzcENURnBzUjJad1ZUWkhOV0Z0YkRjeVJGRRAB",
+    "author_name": "Camila Rubin Lazzari",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-19T16:19:58.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGMlRGTjZlVlJoY1Vob2FsOVJhMHBPV1c1NVJtYxAB",
+    "author_name": "Laura Goettems",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-19T16:06:10.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xad1pGRkthVTlyVkhoSWNFMU1SRGw1YjNGeGFHYxAB",
+    "author_name": "gabriela rosa",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-19T15:51:44.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xZeGIyWkxWbE5xTkVsUlZsbElXVXB1Y1VacmVsRRAB",
+    "author_name": "cedenir da rosa",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-19T15:51:27.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1TFpFWTFNV1J6VjBNemQweHBOaTF1YW1NNVpHYxAB",
+    "author_name": "Edmilson Caetano",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-19T15:45:42.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pkc1dsTXhUVmxyV1RoME1tVTJlVlpNV0dSQ1RIYxAB",
+    "author_name": "Rhayane Mariana Araújo",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-19T15:43:20.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xsVlJpMTNRVjlWY2pSdFRqZHBRazFWWXpSdFYwRRAB",
+    "author_name": "Gisy Gisy",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-19T15:31:32.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21Jd1dEZG5OVUZIU0RKV2FtbE9Oa3MzYlRSVlQwRRAB",
+    "author_name": "Cláudio Dorigon",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-19T15:29:20.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pRNWNrZENhM0ZZYkdobVl6ZGliMFJJY1hsV2NuYxAB",
+    "author_name": "Éllerson Fagundes",
+    "rating": 5,
+    "review_text": "Espaço muito legal!",
+    "review_time": "2026-09-19T15:14:10.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pFeVNVdFdSV0pXTlZCc1FrSmxVMHh1UWxCQ0xXYxAB",
+    "author_name": "Augusto Stürmer Caye",
+    "rating": 5,
+    "review_text": "Experiência muito boa",
+    "review_time": "2026-09-19T15:14:07.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t4aWRtaHNibmhmV2s0NE0zSjRlVXB2YWtoRFlsRRAB",
+    "author_name": "Joyce Cristina",
+    "rating": 4,
+    "review_text": "Espaço bem organizado com super carros, atendimento muito bom dos funcionários.<br>Ganhamos uma foto digital gratuita.<br>E fizemos a simulação foi bem legal.",
+    "review_time": "2026-09-19T15:07:48.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0S2EwVk9TbXA2TUV4ME1FMW9kbk5sYjJzNU5tYxAB",
+    "author_name": "Ricardo Muller",
+    "rating": 5,
+    "review_text": "Muito show. Vale à pena.",
+    "review_time": "2026-09-19T14:00:00.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21VMFJWRjBlbXBvTnpsR1NVMWFaa0kyU0VsYVpIYxAB",
+    "author_name": "Rita Pedruzzi",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-19T13:59:05.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xkM1NuTldaRU51TUhSak1UWjFiV2d0VlhCMWFIYxAB",
+    "author_name": "Sandra Muller",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-19T13:59:05.000Z"
+  },
+  {
     "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205RmVtMUlaR3BhY0RCT2VteEtaREo0Y0hWNE5WRRAB",
     "author_name": "Mauricio Quadros",
     "rating": 5,
