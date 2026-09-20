@@ -1219,5 +1219,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-20T14:41:21.353Z",
     "confirmed_at": null
+  },
+  {
+    "id": "ef1aa509-3d69-4804-9110-988506e7a82d",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Matheus braga",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-20T14:50:25.560Z",
+    "confirmed_at": null
   }
 ]
