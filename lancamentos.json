@@ -1208,5 +1208,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-20T13:35:10.505Z",
     "confirmed_at": null
+  },
+  {
+    "id": "2b9351c6-240d-4073-a9a3-62b414796a18",
+    "setor": "Fotos",
+    "vendedora": "Maíra",
+    "cliente_nome_informado": "Alexandre loraschi",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-20T14:41:21.353Z",
+    "confirmed_at": null
   }
 ]
