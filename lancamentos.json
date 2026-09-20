@@ -1285,5 +1285,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-20T15:41:39.974Z",
     "confirmed_at": null
+  },
+  {
+    "id": "56f55eae-9cf0-44a7-88b7-7644c36168b5",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Claudia penã",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-20T16:02:47.255Z",
+    "confirmed_at": null
   }
 ]
