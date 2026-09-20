@@ -1472,5 +1472,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-20T19:10:54.661Z",
     "confirmed_at": null
+  },
+  {
+    "id": "88b5d271-65be-4cba-a941-bd0908303000",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "jean marcel",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-20T19:33:18.721Z",
+    "confirmed_at": null
   }
 ]
