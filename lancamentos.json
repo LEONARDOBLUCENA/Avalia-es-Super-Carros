@@ -1318,5 +1318,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-20T16:21:20.357Z",
     "confirmed_at": null
+  },
+  {
+    "id": "511ab410-731a-49fe-9c78-a47941dea769",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Karine varela",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-20T16:35:33.318Z",
+    "confirmed_at": null
   }
 ]
