@@ -1186,5 +1186,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-20T12:38:16.270Z",
     "confirmed_at": null
+  },
+  {
+    "id": "9f788f31-11bc-4e13-b6c5-073a0e49b23c",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Ednete Noronha",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-20T13:06:00.387Z",
+    "confirmed_at": null
   }
 ]
