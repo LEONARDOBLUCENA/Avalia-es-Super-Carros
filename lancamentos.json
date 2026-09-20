@@ -1505,5 +1505,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-20T21:50:41.814Z",
     "confirmed_at": null
+  },
+  {
+    "id": "11f2ead0-3955-48c0-ba1c-e4ddebc014aa",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Alexandra Martins dos santos",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-20T21:53:36.917Z",
+    "confirmed_at": null
   }
 ]
