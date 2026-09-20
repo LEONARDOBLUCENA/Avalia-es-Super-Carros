@@ -1483,5 +1483,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-20T19:33:18.721Z",
     "confirmed_at": null
+  },
+  {
+    "id": "43c401a3-8288-4d5a-a494-040f71aef36b",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Larissa Soares",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-20T20:32:56.487Z",
+    "confirmed_at": null
   }
 ]
