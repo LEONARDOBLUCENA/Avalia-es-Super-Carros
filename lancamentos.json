@@ -1428,5 +1428,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-20T19:06:57.355Z",
     "confirmed_at": null
+  },
+  {
+    "id": "9a45b586-1b1c-4e82-bab2-c56378ae5b52",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Mayse Quaresma",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-20T19:08:20.267Z",
+    "confirmed_at": null
   }
 ]
