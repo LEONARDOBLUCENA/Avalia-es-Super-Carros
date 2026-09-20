@@ -1351,5 +1351,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-20T17:00:36.554Z",
     "confirmed_at": null
+  },
+  {
+    "id": "a377ab6f-4e3d-464d-bca4-4538987cb81f",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Leilane Silva de Araújo",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-20T17:00:37.771Z",
+    "confirmed_at": null
   }
 ]
