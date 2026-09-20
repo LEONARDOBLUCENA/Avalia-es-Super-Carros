@@ -1450,5 +1450,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-20T19:08:54.125Z",
     "confirmed_at": null
+  },
+  {
+    "id": "27175c9f-14ee-491b-9037-da2ee84abbd4",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Alexandre Loraschi",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-20T19:09:27.025Z",
+    "confirmed_at": null
   }
 ]
