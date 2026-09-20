@@ -1417,5 +1417,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-20T19:06:24.225Z",
     "confirmed_at": null
+  },
+  {
+    "id": "3320b3ec-fecb-4250-8558-03edf3c0a1c2",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Eduarda Goncalves Ferreira Puente",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-20T19:06:57.355Z",
+    "confirmed_at": null
   }
 ]
