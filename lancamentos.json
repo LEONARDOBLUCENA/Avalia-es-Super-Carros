@@ -1197,5 +1197,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-20T13:06:00.387Z",
     "confirmed_at": null
+  },
+  {
+    "id": "fc0f8743-55dc-4ac8-b331-e6fd05025212",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Alan J. S. Campos",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-20T13:35:10.505Z",
+    "confirmed_at": null
   }
 ]
