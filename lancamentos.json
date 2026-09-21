@@ -1637,5 +1637,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-21T16:53:22.823Z",
     "confirmed_at": null
+  },
+  {
+    "id": "30bab2bb-5fe4-46a7-a448-f63a779aefbd",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Isabela Rodrigues",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-21T17:07:35.219Z",
+    "confirmed_at": null
   }
 ]
