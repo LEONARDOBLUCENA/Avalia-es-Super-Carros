@@ -1648,5 +1648,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-21T17:07:35.219Z",
     "confirmed_at": null
+  },
+  {
+    "id": "a7b40db1-405e-4d05-ad9f-a03e9abbbda9",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Eduardo hornburg",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-21T17:56:00.445Z",
+    "confirmed_at": null
   }
 ]
