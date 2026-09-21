@@ -1560,5 +1560,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-21T15:52:56.072Z",
     "confirmed_at": null
+  },
+  {
+    "id": "e0596eee-404f-4ebd-8e5b-08382a744bc7",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Yuri Felix",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-21T15:53:10.214Z",
+    "confirmed_at": null
   }
 ]
