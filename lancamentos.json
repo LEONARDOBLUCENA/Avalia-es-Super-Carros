@@ -1516,5 +1516,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-20T21:53:36.917Z",
     "confirmed_at": null
+  },
+  {
+    "id": "87f0a748-5cfc-478a-97de-df2bf7af51d4",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Kellry anjos",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-21T13:08:21.015Z",
+    "confirmed_at": null
   }
 ]
