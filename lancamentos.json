@@ -1538,5 +1538,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-21T13:08:59.329Z",
     "confirmed_at": null
+  },
+  {
+    "id": "a7461b4a-bc04-40fb-8551-d44f5c1ff034",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Ricardo Ramos",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-21T15:52:29.366Z",
+    "confirmed_at": null
   }
 ]
