@@ -1527,5 +1527,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-21T13:08:21.015Z",
     "confirmed_at": null
+  },
+  {
+    "id": "2afff228-e394-4164-9cdd-f897a3d8e486",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Italo Alencar",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-21T13:08:59.329Z",
+    "confirmed_at": null
   }
 ]
