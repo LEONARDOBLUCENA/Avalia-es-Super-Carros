@@ -1681,5 +1681,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-21T18:05:03.821Z",
     "confirmed_at": null
+  },
+  {
+    "id": "815c1524-e11e-407a-b671-32d76b9f714c",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Daniely Gonçalves",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-21T19:31:23.224Z",
+    "confirmed_at": null
   }
 ]
