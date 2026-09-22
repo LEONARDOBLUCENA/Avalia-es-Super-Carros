@@ -1293,11 +1293,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Leilane Silva de Araújo",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKMFZtWldjRUZoZGxaakxXOTNWVWhSV0ZwM1ZIYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-20T17:00:37.771Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-22T19:30:54.730Z"
   },
   {
     "id": "5d06bf44-3f80-4da2-ac47-03c2c11df706",
