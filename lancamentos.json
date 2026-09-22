@@ -996,11 +996,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Luiz Miguel Messias",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25oalZ6ZDFXakl4VERGbWFscEVjMVpGTVRGdFJtYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-19T18:43:58.147Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-22T19:32:17.798Z"
   },
   {
     "id": "0e3bd512-956c-427f-9a76-e3c7d29c8a5e",
