@@ -1791,5 +1791,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-22T17:09:52.086Z",
     "confirmed_at": null
+  },
+  {
+    "id": "60eb3075-cdc6-4e81-b24a-f30761ccbaec",
+    "setor": "Fotos",
+    "vendedora": "Fernanda",
+    "cliente_nome_informado": "Sool Alvees",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-22T18:26:08.570Z",
+    "confirmed_at": null
   }
 ]
