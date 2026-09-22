@@ -919,11 +919,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "gelcir pizetta",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21sSGJ6aHlhMUV3TkdGdGNGUm9Ta1ZrZUVGRmVtYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-19T16:50:20.915Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-22T19:35:16.907Z"
   },
   {
     "id": "f35ba210-f6b9-4663-a983-c93b62d0f825",
