@@ -1632,11 +1632,11 @@
     "setor": "Fotos",
     "vendedora": "Fernanda",
     "cliente_nome_informado": "Mkelvin Slima",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25Cd1IyMUpVR013TWtSNVIyRnlOMll4Y0RKQ2QyYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-22T12:43:38.165Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-22T14:45:29.616Z"
   },
   {
     "id": "f2efbfdb-a846-47b8-9fe9-9caa1cf3ecf5",
