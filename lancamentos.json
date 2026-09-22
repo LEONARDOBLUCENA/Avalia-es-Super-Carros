@@ -1467,11 +1467,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Larissa Soares",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pFdGVXTjNhVXhyUzBoMk1UWXhPVXhIU21sb2FXYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-20T20:32:56.487Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-22T14:47:40.223Z"
   },
   {
     "id": "78413c36-43a6-4e90-ab88-f0298ac3e599",
