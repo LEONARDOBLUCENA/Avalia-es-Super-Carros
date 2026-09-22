@@ -985,11 +985,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Com Doces Gourmet",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2taRWRGbEJSVE5PVldkb05UaDJSRUZYUm05MU4zYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-19T18:43:24.441Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-22T19:36:52.964Z"
   },
   {
     "id": "2d00502e-5be5-43e2-b3d1-ef5a132c17ad",
