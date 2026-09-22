@@ -598,11 +598,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Luana strapasson",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WemNVb3lPRzVNTjFnMVdIa3hjeTFSTmpkS1ZFRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-18T20:35:33.093Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-22T14:50:08.561Z"
   },
   {
     "id": "78cd7e9a-b2dc-41b0-b38e-299debf99ebf",
