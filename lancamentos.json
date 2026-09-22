@@ -1269,11 +1269,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Carina francieli",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kweVkzTXpNM0ZYYURKRU4yNVNRVVpZVm1SSlFVRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-20T16:21:20.357Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-22T15:02:55.410Z"
   },
   {
     "id": "511ab410-731a-49fe-9c78-a47941dea769",
