@@ -1661,17 +1661,6 @@
     "confirmed_at": null
   },
   {
-    "id": "64be8f07-a42c-461e-8048-f6ee8bfe7f1e",
-    "setor": "Fotos",
-    "vendedora": "Lohane",
-    "cliente_nome_informado": "Laura Fabiana Leite Martinez",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
-    "created_at": "2026-09-21T19:38:11.538Z",
-    "confirmed_at": null
-  },
-  {
     "id": "f658941a-c72f-4fec-8c65-3f7331a16fc5",
     "setor": "Fotos",
     "vendedora": "Cleide",
