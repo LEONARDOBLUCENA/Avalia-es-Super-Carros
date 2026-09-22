@@ -1584,17 +1584,6 @@
     "confirmed_at": null
   },
   {
-    "id": "d6b8e7be-3a5f-4b7b-9ffe-864e9de62d91",
-    "setor": "Fotos",
-    "vendedora": "Cleide",
-    "cliente_nome_informado": "Mi mika",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
-    "created_at": "2026-09-21T17:56:10.479Z",
-    "confirmed_at": null
-  },
-  {
     "id": "891aab94-bbb7-44cd-a2b1-7b615abdf59d",
     "setor": "Fotos",
     "vendedora": "Lohane",
