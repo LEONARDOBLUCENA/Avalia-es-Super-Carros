@@ -1216,11 +1216,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Matheus sfair",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGUVVXZG5VR0pIYVVKSmRUQjZlRGQ0TURJNFlWRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-20T15:40:43.745Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-22T19:32:10.404Z"
   },
   {
     "id": "fcba4bb2-e6dc-4cf4-9f63-cf0d3e5b3ec0",
