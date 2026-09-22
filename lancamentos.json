@@ -1346,11 +1346,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Alzira chaves",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KSExVZFFkR3BwYkdaaVRUbGhkQzFMWVZKbFkwRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-20T19:01:43.295Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-22T15:03:20.169Z"
   },
   {
     "id": "a1c0cdcd-02e2-444f-9a91-97b1dec44b29",
