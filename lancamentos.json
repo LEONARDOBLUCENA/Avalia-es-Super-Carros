@@ -1205,11 +1205,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "João Gabriel",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tsb1pWTkdlREJYT1hsb1JIbE1jbWh1U21jMk5YYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-20T15:06:48.717Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-22T19:36:59.518Z"
   },
   {
     "id": "46af6fd5-6f02-471d-a057-5fc864dffc60",
