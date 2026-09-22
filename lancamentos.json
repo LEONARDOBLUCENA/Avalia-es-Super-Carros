@@ -741,11 +741,13 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Kássia santos",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-09-19T14:41:50.584Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-09-22T19:29:35.828Z",
+    "rejected_review_id": "Ci9DQUlRQUNvZENodHljRjlvT25wdlVuaFdMVWw2V2psMFpVWnVZekZXT0VOZk5IYxAB"
   },
   {
     "id": "2ca998e9-c6ae-44d0-862c-abc8bb57523a",
