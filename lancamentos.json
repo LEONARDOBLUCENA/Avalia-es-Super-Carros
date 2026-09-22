@@ -1007,11 +1007,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Camila",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2toZlprNWhjSGd3T1RaTE4yOUZNVFZRUjJzM1kzYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-19T18:44:10.107Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-22T19:43:26.471Z"
   },
   {
     "id": "62b16abd-1483-428a-a7df-a40043b31f69",
