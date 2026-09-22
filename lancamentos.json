@@ -1128,11 +1128,13 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Teste",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-09-20T12:38:16.270Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-09-22T19:44:19.630Z",
+    "rejected_review_id": "Ci9DQUlRQUNvZENodHljRjlvT21odmJtVjJkRFYwZDJKaGR6WXlVVlpFTW5VdGEyYxAB"
   },
   {
     "id": "9f788f31-11bc-4e13-b6c5-073a0e49b23c",
