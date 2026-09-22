@@ -807,11 +807,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Edmilson Caetano",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1TFpFWTFNV1J6VjBNemQweHBOaTF1YW1NNVpHYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-19T15:45:40.916Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-22T19:15:28.709Z"
   },
   {
     "id": "0048f89b-664e-4ea3-9715-e0d088ee6d8e",
