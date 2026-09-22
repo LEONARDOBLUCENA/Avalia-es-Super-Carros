@@ -974,11 +974,13 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Gustavo Neri drop",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-09-19T18:31:47.096Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-09-22T20:04:10.689Z",
+    "rejected_review_id": null
   },
   {
     "id": "37878584-92f0-43eb-bb92-69462a6c98d4",
