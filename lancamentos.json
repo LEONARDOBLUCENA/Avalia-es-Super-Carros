@@ -1093,11 +1093,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Henrique souza",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKYWRWODVRV1oxVWpCSVRrSXlVakpTVDBveFpuYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-19T20:04:03.029Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-22T15:05:19.763Z"
   },
   {
     "id": "d233e44e-00ba-4304-acac-b1d5981823c7",
