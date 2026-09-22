@@ -510,11 +510,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Kenedy joanderson",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25CVVJUVkZkRmxCUVhCSWMzRjRVa1F3WW5KMmJXYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-18T14:26:45.991Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-22T14:49:04.797Z"
   },
   {
     "id": "b2a23595-1099-4ca7-9600-c9621b4c1bac",
