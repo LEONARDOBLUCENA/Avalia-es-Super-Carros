@@ -1747,5 +1747,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-22T15:58:08.375Z",
     "confirmed_at": null
+  },
+  {
+    "id": "f999a1e0-56c5-47bf-b6dc-164289225186",
+    "setor": "Fotos",
+    "vendedora": "Indianara",
+    "cliente_nome_informado": "Damian Piriz",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-22T15:58:27.920Z",
+    "confirmed_at": null
   }
 ]
