@@ -697,11 +697,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Ricardo Muller",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0S2EwVk9TbXA2TUV4ME1FMW9kbk5sYjJzNU5tYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-19T14:07:51.029Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-22T18:45:31.546Z"
   },
   {
     "id": "f5c0a654-f74f-4b47-926c-a71383c8b03f",
