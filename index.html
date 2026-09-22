@@ -252,6 +252,7 @@
       <button class="nav-btn active" data-tab="fotos"><i class="ti ti-camera"></i> Avaliações Fotos</button>
       <button class="nav-btn" data-tab="instrutores"><i class="ti ti-steering-wheel"></i> Avaliação Instrutores</button>
       <button class="nav-btn" data-tab="funcionarios"><i class="ti ti-users"></i> Cadastro de Funcionários</button>
+      <button class="nav-btn" data-tab="rejeitados"><i class="ti ti-x"></i> Rejeitados</button>
     </nav>
     <div class="sidebar-foot">
       <button class="nav-btn" id="abrirTokenBtn"><i class="ti ti-key"></i> Token do GitHub <span id="configDot" class="config-dot"></span></button>
@@ -296,6 +297,15 @@
             </div>
 
             <div class="card">
+              <div class="row">
+                <div>
+                  <label for="filtroFuncionarioFotos">Filtrar por funcionário</label>
+                  <select id="filtroFuncionarioFotos"><option value="">Todos os funcionários</option></select>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
               <div class="section-title">Lista de lançamentos (pendentes)</div>
               <div id="lancamentosPendentesList"></div>
             </div>
@@ -332,6 +342,15 @@
 
         <div class="tab-content-grid">
           <div class="col-main">
+            <div class="card">
+              <div class="row">
+                <div>
+                  <label for="filtroFuncionarioInstrutores">Filtrar por instrutor</label>
+                  <select id="filtroFuncionarioInstrutores"><option value="">Todos os instrutores</option></select>
+                </div>
+              </div>
+            </div>
+
             <div class="card">
               <div class="section-title">Instrutores cadastrados</div>
               <div id="instrutoresList"></div>
@@ -391,6 +410,22 @@
         </div>
       </div>
 
+      <!-- ========================= ABA: REJEITADOS ========================= -->
+      <div class="tab-panel" id="tab-rejeitados">
+        <h2 class="page-title">Rejeitados</h2>
+        <div class="page-subtitle">Lançamentos e menções descartados nas buscas — acesso restrito à administração</div>
+
+        <div class="card">
+          <div class="section-title">Lançamentos rejeitados (Fotos)</div>
+          <div id="rejeitadosFotosList"></div>
+        </div>
+
+        <div class="card">
+          <div class="section-title">Menções rejeitadas (Instrutores)</div>
+          <div id="rejeitadosInstrutoresList"></div>
+        </div>
+      </div>
+
     </div>
   </main>
 </div>
@@ -444,6 +479,7 @@ const REVIEWS_PATH = "reviews.json";
 const LANCAMENTOS_PATH = "lancamentos.json";
 const FUNCIONARIOS_PATH = "funcionarios.json";
 const MENCOES_PATH = "mencoes_instrutores.json";
+const MENCOES_REJEITADAS_PATH = "mencoes_rejeitadas_instrutores.json";
 
 // Token do GitHub (Personal Access Token): NÃO fica escrito neste arquivo.
 // É colado uma vez pelo usuário no modal "Token do GitHub" (barra lateral)
@@ -715,6 +751,8 @@ function recarregarTudo() {
   refreshRankingPanel();
   refreshMencoesConfirmadasList();
   refreshRankingInstrutores();
+  refreshRejeitadosFotosList();
+  refreshRejeitadosInstrutoresList();
 }
 
 // ---------- Helpers GitHub API (Contents API) ----------
@@ -810,8 +848,14 @@ function escapeHtml(str) {
 }
 
 // ---------- Navegação (abas na barra lateral) ----------
+// A aba "Rejeitados" é restrita à administração, igual Buscar/Editar/Excluir:
+// pede a senha antes de trocar de aba (se cancelar, a troca não acontece).
 document.querySelectorAll(".nav-btn[data-tab]").forEach(btn => {
-  btn.addEventListener("click", () => {
+  btn.addEventListener("click", async () => {
+    if (btn.dataset.tab === "rejeitados") {
+      const autorizado = await requireAdminPassword();
+      if (!autorizado) return;
+    }
     document.querySelectorAll(".nav-btn[data-tab]").forEach(b => b.classList.remove("active"));
     document.querySelectorAll(".tab-panel").forEach(p => p.classList.remove("active"));
     btn.classList.add("active");
@@ -821,6 +865,10 @@ document.querySelectorAll(".nav-btn[data-tab]").forEach(btn => {
         atualizarFuncionarioOptionsFotos();
         refreshInstrutoresList();
       });
+    }
+    if (btn.dataset.tab === "rejeitados") {
+      refreshRejeitadosFotosList();
+      refreshRejeitadosInstrutoresList();
     }
   });
 });
@@ -1120,16 +1168,27 @@ async function loadFuncionarios() {
 }
 
 const funcionarioSelect = document.getElementById("funcionarioSelect");
+const filtroFuncionarioFotos = document.getElementById("filtroFuncionarioFotos");
 
 function atualizarFuncionarioOptionsFotos() {
   const doFotos = funcionariosCache.filter(f => f.setor === "Fotos").sort((a, b) => (a.nome || "").localeCompare(b.nome || ""));
+
   if (doFotos.length === 0) {
     funcionarioSelect.innerHTML = `<option value="">Nenhum funcionário cadastrado no setor Fotos ainda</option>`;
-    return;
+  } else {
+    funcionarioSelect.innerHTML = `<option value="">Selecione...</option>` +
+      doFotos.map(f => `<option value="${escapeHtml(f.nome)}">${escapeHtml(f.nome)}</option>`).join("");
   }
-  funcionarioSelect.innerHTML = `<option value="">Selecione...</option>` +
+
+  // Filtro de funcionário (lista de lançamentos) — mantém a seleção atual ao
+  // repopular, se aquele funcionário ainda existir no cadastro.
+  const selecaoAtual = filtroFuncionarioFotos.value;
+  filtroFuncionarioFotos.innerHTML = `<option value="">Todos os funcionários</option>` +
     doFotos.map(f => `<option value="${escapeHtml(f.nome)}">${escapeHtml(f.nome)}</option>`).join("");
+  if (doFotos.some(f => f.nome === selecaoAtual)) filtroFuncionarioFotos.value = selecaoAtual;
 }
+
+filtroFuncionarioFotos.addEventListener("change", refreshLancamentosLists);
 
 const processarBtn = document.getElementById("processarBtn");
 const statusMsg = document.getElementById("statusMsg");
@@ -1203,10 +1262,11 @@ async function refreshLancamentosLists() {
 
   try {
     const { json: lancamentos } = await githubGetJson(LANCAMENTOS_PATH, []);
-    const todos = lancamentos || [];
+    const funcionarioFiltrado = filtroFuncionarioFotos.value;
+    const todos = (lancamentos || []).filter(l => !funcionarioFiltrado || l.vendedora === funcionarioFiltrado);
 
     const pendentes = todos
-      .filter(l => l.status !== "confirmado")
+      .filter(l => l.status !== "confirmado" && l.status !== "rejeitado")
       .sort((a, b) => (b.created_at || "").localeCompare(a.created_at || ""));
 
     const confirmados = todos
@@ -1441,13 +1501,13 @@ async function buscarAvaliacaoParaLancamento(lancamento, btnEl) {
         <div class="result-text">${r.review_text ? escapeHtml(r.review_text.substring(0, 220)) : "(sem texto)"}</div>
         ${already
           ? `<span class="badge taken">Já contabilizada para ${escapeHtml(already.vendedora)}${already.mes_referencia ? " (" + monthLabel(already.mes_referencia) + ")" : ""}</span>`
-          : `<button class="small" data-review-id="${r.review_id}">Confirmar</button>`
+          : `<div style="display:flex;gap:8px;"><button class="small" data-action="confirmar">Confirmar</button><button class="small danger" data-action="rejeitar">Rejeitar</button></div>`
         }
       `;
 
       if (!already) {
-        const confirmBtn = item.querySelector("button");
-        confirmBtn.addEventListener("click", () => confirmarLancamento(lancamento, r, item));
+        item.querySelector('[data-action="confirmar"]').addEventListener("click", () => confirmarLancamento(lancamento, r, item));
+        item.querySelector('[data-action="rejeitar"]').addEventListener("click", () => rejeitarLancamento(lancamento, r));
       }
 
       resultsArea.appendChild(item);
@@ -1508,6 +1568,32 @@ async function confirmarLancamento(lancamento, review, itemEl) {
   }
 }
 
+// Rejeitar tira o LANÇAMENTO INTEIRO da lista de pendentes (não só aquela
+// avaliação candidata) e manda pra aba Rejeitados — de lá dá pra reabrir
+// (volta a pendente, pra buscar de novo) ou excluir de vez.
+async function rejeitarLancamento(lancamento, review) {
+  const autorizado = await requireAdminPassword();
+  if (!autorizado) return;
+  if (!confirm(`Rejeitar o lançamento de "${lancamento.cliente_nome_informado}"? Ele vai para a aba Rejeitados.`)) return;
+
+  try {
+    await writeWithRetry(
+      LANCAMENTOS_PATH,
+      [],
+      (current) => (current || []).map(l => l.id === lancamento.id
+        ? { ...l, status: "rejeitado", rejected_at: new Date().toISOString(), rejected_review_id: review ? review.review_id : null }
+        : l
+      ),
+      `Rejeita lançamento ${lancamento.id}`
+    );
+    refreshLancamentosLists();
+    refreshRankingPanel();
+  } catch (err) {
+    console.error(err);
+    alert("Erro ao rejeitar: " + (err.message || err));
+  }
+}
+
 /* ============================================================
    PAINEL DE CONTAGEM MENSAL — Fotos
    ============================================================ */
@@ -1562,15 +1648,30 @@ async function refreshRankingPanel() {
    ============================================================ */
 
 const instrutoresListEl = document.getElementById("instrutoresList");
+const filtroFuncionarioInstrutores = document.getElementById("filtroFuncionarioInstrutores");
+
+function atualizarFiltroInstrutores(instrutoresCadastrados) {
+  const selecaoAtual = filtroFuncionarioInstrutores.value;
+  filtroFuncionarioInstrutores.innerHTML = `<option value="">Todos os instrutores</option>` +
+    instrutoresCadastrados.map(f => `<option value="${escapeHtml(f.nome)}">${escapeHtml(f.nome)}</option>`).join("");
+  if (instrutoresCadastrados.some(f => f.nome === selecaoAtual)) filtroFuncionarioInstrutores.value = selecaoAtual;
+}
 
 function refreshInstrutoresList() {
   if (!isConfigured) {
     instrutoresListEl.innerHTML = `<div class="empty">Configure o token do GitHub para ver os instrutores.</div>`;
     return;
   }
-  const instrutores = funcionariosCache.filter(f => f.setor === "Instrutor").sort((a, b) => (a.nome || "").localeCompare(b.nome || ""));
+  const todosInstrutores = funcionariosCache.filter(f => f.setor === "Instrutor").sort((a, b) => (a.nome || "").localeCompare(b.nome || ""));
+  atualizarFiltroInstrutores(todosInstrutores);
+
+  const filtro = filtroFuncionarioInstrutores.value;
+  const instrutores = todosInstrutores.filter(f => !filtro || f.nome === filtro);
+
   if (instrutores.length === 0) {
-    instrutoresListEl.innerHTML = `<div class="empty">Nenhum instrutor cadastrado ainda. Cadastre em "Cadastro de Funcionários" (setor Instrutor).</div>`;
+    instrutoresListEl.innerHTML = todosInstrutores.length === 0
+      ? `<div class="empty">Nenhum instrutor cadastrado ainda. Cadastre em "Cadastro de Funcionários" (setor Instrutor).</div>`
+      : `<div class="empty">Nenhum instrutor encontrado para esse filtro.</div>`;
     return;
   }
 
@@ -1594,6 +1695,11 @@ function refreshInstrutoresList() {
   });
 }
 
+filtroFuncionarioInstrutores.addEventListener("change", () => {
+  refreshInstrutoresList();
+  refreshMencoesConfirmadasList();
+});
+
 function setRowStatusInstrutor(instrutorId, msg, type) {
   const el = document.getElementById(`rowstatus-instrutor-${instrutorId}`);
   if (!el) return;
@@ -1616,6 +1722,7 @@ async function buscarMencoesParaInstrutor(instrutor, btnEl) {
   try {
     const { json: reviews } = await githubGetJson(REVIEWS_PATH, []);
     const { json: mencoesAtuais } = await githubGetJson(MENCOES_PATH, []);
+    const { json: rejeitadasAtuais } = await githubGetJson(MENCOES_REJEITADAS_PATH, []);
 
     const jaConfirmadasParaEsseInstrutor = new Set(
       (mencoesAtuais || [])
@@ -1623,9 +1730,17 @@ async function buscarMencoesParaInstrutor(instrutor, btnEl) {
         .map(m => m.review_id)
     );
 
+    // Avaliações já rejeitadas pra esse instrutor não voltam a aparecer como
+    // candidatas aqui — ficam só na aba Rejeitados, até alguém "Reabrir".
+    const jaRejeitadasParaEsseInstrutor = new Set(
+      (rejeitadasAtuais || [])
+        .filter(m => m.instrutor_nome === instrutor.nome)
+        .map(m => m.review_id)
+    );
+
     const scored = (reviews || [])
       .map(r => ({ ...r, score: mentionScore(instrutor.nome, r.review_text) }))
-      .filter(r => r.score > 0)
+      .filter(r => r.score > 0 && !jaRejeitadasParaEsseInstrutor.has(r.review_id))
       .sort((a, b) => b.score - a.score);
 
     if (scored.length === 0) {
@@ -1654,13 +1769,13 @@ async function buscarMencoesParaInstrutor(instrutor, btnEl) {
         <div class="result-text">${r.review_text ? escapeHtml(r.review_text.substring(0, 260)) : "(sem texto)"}</div>
         ${jaConfirmada
           ? `<span class="badge taken">Já confirmada como elogio para ${escapeHtml(instrutor.nome)}</span>`
-          : `<button class="small" data-review-id="${r.review_id}">Confirmar elogio</button>`
+          : `<div style="display:flex;gap:8px;"><button class="small" data-action="confirmar">Confirmar elogio</button><button class="small danger" data-action="rejeitar">Rejeitar</button></div>`
         }
       `;
 
       if (!jaConfirmada) {
-        const confirmBtn = item.querySelector("button");
-        confirmBtn.addEventListener("click", () => confirmarMencaoInstrutor(instrutor, r, item));
+        item.querySelector('[data-action="confirmar"]').addEventListener("click", () => confirmarMencaoInstrutor(instrutor, r, item));
+        item.querySelector('[data-action="rejeitar"]').addEventListener("click", () => rejeitarMencaoInstrutor(instrutor, r));
       }
 
       resultsArea.appendChild(item);
@@ -1725,6 +1840,44 @@ async function confirmarMencaoInstrutor(instrutor, review, itemEl) {
   }
 }
 
+// Diferente de rejeitar um lançamento de Fotos (que não tem um "cadastro"
+// separado do resultado da busca), aqui o instrutor continua sempre listado
+// — rejeitar só marca ESSA avaliação específica como descartada pra ESSE
+// instrutor, pra não voltar a aparecer como candidata nas próximas buscas.
+async function rejeitarMencaoInstrutor(instrutor, review) {
+  const autorizado = await requireAdminPassword();
+  if (!autorizado) return;
+
+  setRowStatusInstrutor(instrutor.id, "Rejeitando...", "loading");
+  try {
+    await writeWithRetry(
+      MENCOES_REJEITADAS_PATH,
+      [],
+      (current) => {
+        const list = current || [];
+        const duplicada = list.find(m => m.instrutor_nome === instrutor.nome && m.review_id === review.review_id);
+        if (duplicada) return null;
+
+        const novaRejeicao = {
+          id: genId(),
+          instrutor_nome: instrutor.nome,
+          review_id: review.review_id,
+          review_author_name: review.author_name || "",
+          review_text_snippet: (review.review_text || "").substring(0, 260),
+          rejected_at: new Date().toISOString()
+        };
+        return [...list, novaRejeicao];
+      },
+      `Rejeita menção a ${instrutor.nome} -> avaliação ${review.review_id}`
+    );
+
+    buscarMencoesParaInstrutor(instrutor, document.querySelector(`#instrutor-${instrutor.id} [data-action="buscar"]`));
+  } catch (err) {
+    console.error(err);
+    setRowStatusInstrutor(instrutor.id, "Erro ao rejeitar: " + (err.message || err), "error");
+  }
+}
+
 /* ============================================================
    ELOGIOS CONFIRMADOS — Instrutores
    ============================================================ */
@@ -1739,10 +1892,15 @@ async function refreshMencoesConfirmadasList() {
 
   try {
     const { json: mencoes } = await githubGetJson(MENCOES_PATH, []);
-    const ordenadas = (mencoes || []).sort((a, b) => (b.confirmed_at || "").localeCompare(a.confirmed_at || ""));
+    const filtro = filtroFuncionarioInstrutores.value;
+    const ordenadas = (mencoes || [])
+      .filter(m => !filtro || m.instrutor_nome === filtro)
+      .sort((a, b) => (b.confirmed_at || "").localeCompare(a.confirmed_at || ""));
 
     if (ordenadas.length === 0) {
-      el.innerHTML = `<div class="empty">Nenhum elogio confirmado ainda.</div>`;
+      el.innerHTML = filtro
+        ? `<div class="empty">Nenhum elogio confirmado para esse instrutor ainda.</div>`
+        : `<div class="empty">Nenhum elogio confirmado ainda.</div>`;
       return;
     }
 
@@ -1834,6 +1992,143 @@ async function refreshRankingInstrutores() {
   } catch (err) {
     console.error(err);
     rankingBody.innerHTML = `<div class="empty">Erro ao carregar: ${err.message || err}</div>`;
+  }
+}
+
+/* ============================================================
+   ABA REJEITADOS — lançamentos de Fotos + menções de Instrutores
+   ============================================================ */
+
+async function refreshRejeitadosFotosList() {
+  const el = document.getElementById("rejeitadosFotosList");
+  if (!isConfigured) {
+    el.innerHTML = `<div class="empty">Configure o token do GitHub para ver os rejeitados.</div>`;
+    return;
+  }
+  el.innerHTML = `<div class="empty">Carregando...</div>`;
+
+  try {
+    const { json: lancamentos } = await githubGetJson(LANCAMENTOS_PATH, []);
+    const rejeitados = (lancamentos || [])
+      .filter(l => l.status === "rejeitado")
+      .sort((a, b) => (b.rejected_at || "").localeCompare(a.rejected_at || ""));
+
+    if (rejeitados.length === 0) {
+      el.innerHTML = `<div class="empty">Nenhum lançamento de Fotos rejeitado.</div>`;
+      return;
+    }
+
+    el.innerHTML = "";
+    rejeitados.forEach(l => {
+      const div = document.createElement("div");
+      div.className = "lancamento-item";
+      const rejeitadoEm = l.rejected_at ? new Date(l.rejected_at).toLocaleString("pt-BR") : "-";
+      div.innerHTML = `
+        <div class="lancamento-head">
+          <div>
+            <div class="lancamento-info">${escapeHtml(l.cliente_nome_informado)} — ${escapeHtml(l.vendedora)}</div>
+            <div class="lancamento-meta">Rejeitado em ${rejeitadoEm}</div>
+          </div>
+          <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+            <span class="badge" style="color:var(--red);border-color:var(--red);">Rejeitado</span>
+            <button class="small secondary" data-action="reabrir">Reabrir</button>
+            <button class="small danger" data-action="excluir">Excluir</button>
+          </div>
+        </div>
+      `;
+      div.querySelector('[data-action="reabrir"]').addEventListener("click", () => reabrirLancamentoRejeitado(l));
+      div.querySelector('[data-action="excluir"]').addEventListener("click", () => excluirLancamento(l).then(refreshRejeitadosFotosList));
+      el.appendChild(div);
+    });
+
+  } catch (err) {
+    console.error(err);
+    el.innerHTML = `<div class="empty">Erro ao carregar: ${err.message || err}</div>`;
+  }
+}
+
+async function reabrirLancamentoRejeitado(lancamento) {
+  const autorizado = await requireAdminPassword();
+  if (!autorizado) return;
+
+  try {
+    await writeWithRetry(
+      LANCAMENTOS_PATH,
+      [],
+      (current) => (current || []).map(l => l.id === lancamento.id
+        ? { ...l, status: "pendente", rejected_at: null, rejected_review_id: null }
+        : l
+      ),
+      `Reabre lançamento rejeitado ${lancamento.id}`
+    );
+    refreshRejeitadosFotosList();
+    refreshLancamentosLists();
+    refreshRankingPanel();
+  } catch (err) {
+    console.error(err);
+    alert("Erro ao reabrir: " + (err.message || err));
+  }
+}
+
+async function refreshRejeitadosInstrutoresList() {
+  const el = document.getElementById("rejeitadosInstrutoresList");
+  if (!isConfigured) {
+    el.innerHTML = `<div class="empty">Configure o token do GitHub para ver os rejeitados.</div>`;
+    return;
+  }
+  el.innerHTML = `<div class="empty">Carregando...</div>`;
+
+  try {
+    const { json: rejeitadas } = await githubGetJson(MENCOES_REJEITADAS_PATH, []);
+    const ordenadas = (rejeitadas || []).sort((a, b) => (b.rejected_at || "").localeCompare(a.rejected_at || ""));
+
+    if (ordenadas.length === 0) {
+      el.innerHTML = `<div class="empty">Nenhuma menção de Instrutores rejeitada.</div>`;
+      return;
+    }
+
+    el.innerHTML = "";
+    ordenadas.forEach(m => {
+      const div = document.createElement("div");
+      div.className = "lancamento-item mencao-item";
+      const rejeitadoEm = m.rejected_at ? new Date(m.rejected_at).toLocaleString("pt-BR") : "-";
+      div.innerHTML = `
+        <div class="mencao-head">
+          <div>
+            <div class="lancamento-info">${escapeHtml(m.instrutor_nome)} <span style="color:var(--muted);font-weight:400;">— citado por ${escapeHtml(m.review_author_name || "desconhecido")}</span></div>
+            <div class="mencao-meta">Rejeitado em ${rejeitadoEm}</div>
+            ${m.review_text_snippet ? `<div class="result-text" style="margin-top:8px;">${escapeHtml(m.review_text_snippet)}</div>` : ""}
+          </div>
+          <button class="small secondary" data-action="reabrir">Reabrir</button>
+        </div>
+      `;
+      div.querySelector('[data-action="reabrir"]').addEventListener("click", () => reabrirMencaoRejeitada(m));
+      el.appendChild(div);
+    });
+
+  } catch (err) {
+    console.error(err);
+    el.innerHTML = `<div class="empty">Erro ao carregar: ${err.message || err}</div>`;
+  }
+}
+
+// "Reabrir" aqui remove o registro de rejeitada — a avaliação volta a poder
+// aparecer como candidata na próxima busca desse instrutor.
+async function reabrirMencaoRejeitada(mencao) {
+  const autorizado = await requireAdminPassword();
+  if (!autorizado) return;
+
+  try {
+    await writeWithRetry(
+      MENCOES_REJEITADAS_PATH,
+      [],
+      (current) => (current || []).filter(m => m.id !== mencao.id),
+      `Reabre menção rejeitada ${mencao.id}`
+    );
+    refreshRejeitadosInstrutoresList();
+  } catch (err) {
+    console.error(err);
+    alert("Erro ao reabrir: " + (err.message || err));
   }
 }
 
