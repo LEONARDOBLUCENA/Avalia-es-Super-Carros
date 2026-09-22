@@ -752,11 +752,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Augusto sturmer cayer",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pFeVNVdFdSV0pXTlZCc1FrSmxVMHh1UWxCQ0xXYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-19T15:14:58.768Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-22T19:13:23.892Z"
   },
   {
     "id": "26d14867-b5fe-40e6-bede-1fad2ebbd84b",
