@@ -561,17 +561,6 @@
     "confirmed_at": "2026-09-22T14:49:32.863Z"
   },
   {
-    "id": "307eafa4-0a27-4dc8-8f36-68e040a2ef9d",
-    "setor": "Fotos",
-    "vendedora": "Cleide",
-    "cliente_nome_informado": "Humberto junior",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
-    "created_at": "2026-09-18T17:09:20.100Z",
-    "confirmed_at": null
-  },
-  {
     "id": "2a2de374-c15e-49a9-8c5a-2eca100161e2",
     "setor": "Fotos",
     "vendedora": "Cleide",
