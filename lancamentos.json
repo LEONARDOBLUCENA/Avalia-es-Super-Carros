@@ -855,11 +855,13 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Adriane maciel",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-09-19T16:02:16.319Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-09-22T20:05:55.872Z",
+    "rejected_review_id": null
   },
   {
     "id": "37e4d8ac-6283-4ca4-8e6e-0baa5fb93f0c",
