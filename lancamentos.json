@@ -1758,5 +1758,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-22T15:58:27.920Z",
     "confirmed_at": null
+  },
+  {
+    "id": "b239730a-d72c-4132-8a1a-b5659da54388",
+    "setor": "Fotos",
+    "vendedora": "Indianara",
+    "cliente_nome_informado": "Bruno Gomes",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-22T15:58:38.631Z",
+    "confirmed_at": null
   }
 ]
