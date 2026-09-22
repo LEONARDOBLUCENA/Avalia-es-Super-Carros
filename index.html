@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Avaliações Google — Super Carros Gramado</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.47.0/dist/tabler-icons.min.css">
+<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
 <style>
   :root {
     --bg: #0f1720;
@@ -254,6 +255,7 @@
     </nav>
     <div class="sidebar-foot">
       <button class="nav-btn" id="abrirTokenBtn"><i class="ti ti-key"></i> Token do GitHub <span id="configDot" class="config-dot"></span></button>
+      <button class="nav-btn" id="backupBtn"><i class="ti ti-download"></i> Backup de dados</button>
     </div>
   </aside>
 
@@ -306,7 +308,7 @@
 
           <div class="col-kpi">
             <div class="card kpi-card">
-              <div class="section-title">Contagem</div>
+              <div class="section-title">Contagem <button class="small secondary" id="exportarExcelFotosBtn"><i class="ti ti-file-spreadsheet"></i> Exportar Excel</button></div>
               <div class="row">
                 <div>
                   <label for="mesSelectFotos">Mês</label>
@@ -343,7 +345,7 @@
 
           <div class="col-kpi">
             <div class="card kpi-card">
-              <div class="section-title">Contagem</div>
+              <div class="section-title">Contagem <button class="small secondary" id="exportarExcelInstrutoresBtn"><i class="ti ti-file-spreadsheet"></i> Exportar Excel</button></div>
               <div class="row">
                 <div>
                   <label for="mesSelectInstrutores">Mês</label>
@@ -581,6 +583,127 @@ document.getElementById("adminConfirmarBtn").addEventListener("click", confirmar
 document.getElementById("adminCancelarBtn").addEventListener("click", cancelarSenhaAdmin);
 adminSenhaInput.addEventListener("keydown", (e) => { if (e.key === "Enter") confirmarSenhaAdmin(); });
 adminPanel.addEventListener("click", (e) => { if (e.target === adminPanel) cancelarSenhaAdmin(); });
+
+// ---------- Backup de dados (baixa um JSON com tudo) ----------
+// Junta os 4 arquivos usados pela ferramenta (reviews.json, lancamentos.json,
+// funcionarios.json e mencoes_instrutores.json) num único arquivo .json pra
+// download local — é só uma cópia de segurança, não altera nada no GitHub.
+async function fazerBackupDados() {
+  if (!isConfigured) { alert("Configure o token do GitHub antes de fazer o backup."); return; }
+  const backupBtn = document.getElementById("backupBtn");
+  backupBtn.disabled = true;
+  try {
+    const [reviews, lancamentos, funcionarios, mencoes] = await Promise.all([
+      githubGetJson(REVIEWS_PATH, []),
+      githubGetJson(LANCAMENTOS_PATH, []),
+      githubGetJson(FUNCIONARIOS_PATH, []),
+      githubGetJson(MENCOES_PATH, [])
+    ]);
+
+    const backup = {
+      gerado_em: new Date().toISOString(),
+      reviews: reviews.json,
+      lancamentos: lancamentos.json,
+      funcionarios: funcionarios.json,
+      mencoes_instrutores: mencoes.json
+    };
+
+    const dataFmt = new Date().toISOString().substring(0, 10);
+    baixarArquivo(
+      JSON.stringify(backup, null, 2),
+      `backup_avaliacoes_super_carros_${dataFmt}.json`,
+      "application/json"
+    );
+
+  } catch (err) {
+    console.error(err);
+    alert("Erro ao gerar backup: " + (err.message || err));
+  } finally {
+    backupBtn.disabled = false;
+  }
+}
+
+function baixarArquivo(conteudo, nomeArquivo, mimeType) {
+  const blob = new Blob([conteudo], { type: mimeType });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = nomeArquivo;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  URL.revokeObjectURL(url);
+}
+
+document.getElementById("backupBtn").addEventListener("click", fazerBackupDados);
+
+// ---------- Exportar para Excel (Fotos e Instrutores) ----------
+// Exporta os itens CONFIRMADOS (o que entra na contagem oficial), de todos os
+// meses/anos, ignorando o filtro de Mês/Ano selecionado na tela — a lista
+// completa fica mais útil fora da ferramenta do que só o recorte do mês.
+function exportarLinhasExcel(linhas, nomeArquivo, nomeAba) {
+  if (!linhas || linhas.length === 0) {
+    alert("Não há dados confirmados para exportar ainda.");
+    return;
+  }
+  const ws = XLSX.utils.json_to_sheet(linhas);
+  const wb = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(wb, ws, nomeAba.substring(0, 31));
+  XLSX.writeFile(wb, nomeArquivo);
+}
+
+async function exportarLancamentosExcel() {
+  if (!isConfigured) { alert("Configure o token do GitHub antes de exportar."); return; }
+  const btn = document.getElementById("exportarExcelFotosBtn");
+  btn.disabled = true;
+  try {
+    const { json: lancamentos } = await githubGetJson(LANCAMENTOS_PATH, []);
+    const linhas = (lancamentos || [])
+      .filter(l => l.status === "confirmado")
+      .sort((a, b) => (b.confirmed_at || "").localeCompare(a.confirmed_at || ""))
+      .map(l => ({
+        "Cliente": l.cliente_nome_informado || "",
+        "Funcionário": l.vendedora || "",
+        "Mês de referência": l.mes_referencia ? monthLabel(l.mes_referencia) : "",
+        "Confirmado em": l.confirmed_at ? new Date(l.confirmed_at).toLocaleString("pt-BR") : "",
+        "Review ID": l.review_id || ""
+      }));
+    exportarLinhasExcel(linhas, "avaliacoes_fotos_confirmadas.xlsx", "Avaliações Fotos");
+  } catch (err) {
+    console.error(err);
+    alert("Erro ao exportar: " + (err.message || err));
+  } finally {
+    btn.disabled = false;
+  }
+}
+
+async function exportarMencoesExcel() {
+  if (!isConfigured) { alert("Configure o token do GitHub antes de exportar."); return; }
+  const btn = document.getElementById("exportarExcelInstrutoresBtn");
+  btn.disabled = true;
+  try {
+    const { json: mencoes } = await githubGetJson(MENCOES_PATH, []);
+    const linhas = (mencoes || [])
+      .sort((a, b) => (b.confirmed_at || "").localeCompare(a.confirmed_at || ""))
+      .map(m => ({
+        "Instrutor": m.instrutor_nome || "",
+        "Citado por": m.review_author_name || "",
+        "Mês de referência": m.mes_referencia ? monthLabel(m.mes_referencia) : "",
+        "Confirmado em": m.confirmed_at ? new Date(m.confirmed_at).toLocaleString("pt-BR") : "",
+        "Trecho da avaliação": m.review_text_snippet || "",
+        "Review ID": m.review_id || ""
+      }));
+    exportarLinhasExcel(linhas, "avaliacoes_instrutores_confirmadas.xlsx", "Avaliação Instrutores");
+  } catch (err) {
+    console.error(err);
+    alert("Erro ao exportar: " + (err.message || err));
+  } finally {
+    btn.disabled = false;
+  }
+}
+
+document.getElementById("exportarExcelFotosBtn").addEventListener("click", exportarLancamentosExcel);
+document.getElementById("exportarExcelInstrutoresBtn").addEventListener("click", exportarMencoesExcel);
 
 function recarregarTudo() {
   loadFuncionarios().then(() => {
