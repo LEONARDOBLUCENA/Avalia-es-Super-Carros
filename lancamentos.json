@@ -1703,5 +1703,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-22T15:29:41.143Z",
     "confirmed_at": null
+  },
+  {
+    "id": "410f57f5-d803-4f18-b68c-6f8ff63e0439",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Renato guilhermon",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-22T15:29:53.628Z",
+    "confirmed_at": null
   }
 ]
