@@ -642,11 +642,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Mayara Godoy",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25OaVoybEtNSFYzUWxVeVdIZHlVbHBpY2pKa2NFRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-18T22:47:16.663Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-22T14:50:46.782Z"
   },
   {
     "id": "cb70952c-43aa-4cbf-8ef2-b9e88c1dd6fc",
