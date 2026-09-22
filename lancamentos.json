@@ -886,11 +886,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Simone Silva",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25OMlNGWjVXV1J6WVRORlJsSjFNVVJXTUdKQldWRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-19T16:42:21.374Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-22T19:32:03.644Z"
   },
   {
     "id": "26456de5-bd4c-4a45-aa0f-32efa8e0bb99",
