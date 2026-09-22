@@ -1714,5 +1714,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-22T15:29:53.628Z",
     "confirmed_at": null
+  },
+  {
+    "id": "942aea5e-ab77-45b1-bcf1-e63307960c08",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Bruno gomes",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-22T15:55:20.318Z",
+    "confirmed_at": null
   }
 ]
