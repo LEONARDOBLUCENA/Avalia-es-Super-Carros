@@ -1522,11 +1522,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Ricardo Ramos",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t4WVFrODVZV0pHU1hnMlEzZ3lTM1k0WjNveU5GRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-21T15:52:29.366Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-22T13:38:30.119Z"
   },
   {
     "id": "b3908a07-465f-457c-9893-26c7983064f4",
