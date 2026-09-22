@@ -1302,11 +1302,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Manasses lima",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pWYWNHRnphV2RoTlcxQ2JucFhVbXRoZERKUVNHYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-20T17:01:11.785Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-22T19:15:53.571Z"
   },
   {
     "id": "10999d6a-538f-40ea-9bfa-e2b5833be3c9",
