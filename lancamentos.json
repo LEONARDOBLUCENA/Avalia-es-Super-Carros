@@ -1802,5 +1802,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-22T18:26:08.570Z",
     "confirmed_at": null
+  },
+  {
+    "id": "f3c1c0c2-0ba6-4bb5-a47a-49603e635b75",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Mariana frutos",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-22T18:32:07.011Z",
+    "confirmed_at": null
   }
 ]
