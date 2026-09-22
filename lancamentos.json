@@ -539,17 +539,6 @@
     "confirmed_at": null
   },
   {
-    "id": "ff1429cd-a63f-480e-a9cd-b2b08168c2ed",
-    "setor": "Fotos",
-    "vendedora": "Cleide",
-    "cliente_nome_informado": "Renan Viana",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
-    "created_at": "2026-09-18T14:43:26.636Z",
-    "confirmed_at": null
-  },
-  {
     "id": "b2a23595-1099-4ca7-9600-c9621b4c1bac",
     "setor": "Fotos",
     "vendedora": "Mayara",
