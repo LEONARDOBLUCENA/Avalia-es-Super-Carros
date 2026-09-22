@@ -719,11 +719,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Joyce Cristina",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t4aWRtaHNibmhmV2s0NE0zSjRlVXB2YWtoRFlsRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-19T14:09:11.087Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-22T18:45:45.450Z"
   },
   {
     "id": "26081143-30ce-4fba-b8e5-8ca5d0a78a3d",
