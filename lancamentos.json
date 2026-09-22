@@ -1073,11 +1073,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "David w moretti",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25vMFNtOVFRV2d6Y1VOTGQxSk9iV2huUkZNeWNsRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-19T20:03:11.492Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-22T19:32:33.179Z"
   },
   {
     "id": "dea47224-1557-4a7d-8c06-83eda58e6412",
