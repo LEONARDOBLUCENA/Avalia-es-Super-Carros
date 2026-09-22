@@ -1562,17 +1562,6 @@
     "confirmed_at": null
   },
   {
-    "id": "4ebf6994-97ab-4b53-ab2a-2f1c45a310a8",
-    "setor": "Fotos",
-    "vendedora": "Cleide",
-    "cliente_nome_informado": "Isabela Oliveira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
-    "created_at": "2026-09-21T16:10:56.495Z",
-    "confirmed_at": null
-  },
-  {
     "id": "fdbeb06f-f224-440c-a35b-45c7900fea4d",
     "setor": "Fotos",
     "vendedora": "Lohane",
