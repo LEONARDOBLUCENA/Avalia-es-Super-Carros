@@ -1368,11 +1368,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Eduarda Goncalves Ferreira Puente",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21GWlJuSktTbll4WVVVdFozUlZhVUpCY1V0UlMwRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-20T19:06:57.355Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-22T15:03:13.613Z"
   },
   {
     "id": "9a45b586-1b1c-4e82-bab2-c56378ae5b52",
