@@ -686,11 +686,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Rita Pedruzzi",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21VMFJWRjBlbXBvTnpsR1NVMWFaa0kyU0VsYVpIYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-19T14:02:57.088Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-22T18:45:17.433Z"
   },
   {
     "id": "a64fd7a9-ab90-4480-b62d-1ce228a56c0b",
