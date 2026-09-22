@@ -1801,5 +1801,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-22T19:25:26.663Z",
     "confirmed_at": null
+  },
+  {
+    "id": "75424457-4e5a-45f3-9ea1-fc46dac80325",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Vitoria Rocha",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-22T19:45:53.498Z",
+    "confirmed_at": null
   }
 ]
