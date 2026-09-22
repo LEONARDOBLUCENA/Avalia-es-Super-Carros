@@ -963,11 +963,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Gabriel Gonçalves",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tWTlQzUnhaMUpEU2pWQk9EUnRZbVF6UXpCUFNFRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-19T17:29:20.629Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-22T19:36:26.059Z"
   },
   {
     "id": "7b919ef7-bb21-42dc-b44c-4abbc4981b44",
