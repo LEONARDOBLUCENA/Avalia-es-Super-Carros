@@ -1828,5 +1828,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-22T20:19:03.475Z",
     "confirmed_at": null
+  },
+  {
+    "id": "b50a7f25-5f6a-4b1f-91d1-17653c414866",
+    "setor": "Fotos",
+    "vendedora": "Indianara",
+    "cliente_nome_informado": "Tarsis Silva",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-22T20:19:46.113Z",
+    "confirmed_at": null
   }
 ]
