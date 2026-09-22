@@ -842,11 +842,13 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Neilson dutra",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-09-19T16:02:09.007Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-09-22T20:04:47.498Z",
+    "rejected_review_id": null
   },
   {
     "id": "4dddebf8-3477-4a55-804b-4f58c290dca8",
