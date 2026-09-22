@@ -1692,5 +1692,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-22T14:41:36.135Z",
     "confirmed_at": null
+  },
+  {
+    "id": "015e4bb0-1f71-4389-b0c7-1d01e7f9a0f1",
+    "setor": "Fotos",
+    "vendedora": "Fernanda",
+    "cliente_nome_informado": "pamella ribeiro",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-22T14:59:52.252Z",
+    "confirmed_at": null
   }
 ]
