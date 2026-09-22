@@ -1445,11 +1445,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Anderson Guimaraes",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT214RVpUaG1MV0o2Vm1oR2MxcElWSGRQVW1oVlkxRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-20T19:10:54.661Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-22T14:48:11.823Z"
   },
   {
     "id": "88b5d271-65be-4cba-a941-bd0908303000",
