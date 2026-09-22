@@ -1174,11 +1174,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Matheus braga",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pWNU9IQlZSRzk0YVdOQlMydENaRmRLWlhGUWJrRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-20T14:50:25.560Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-22T19:44:39.939Z"
   },
   {
     "id": "11b96565-990e-4b58-945e-123ed285c649",
