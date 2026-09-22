@@ -1599,11 +1599,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Marlene Aires De Brito Santos",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2psSlFUZERkVzk1WTI1WU5uSlZZazVrTTFWRGEyYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-21T21:22:41.833Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-22T14:45:50.077Z"
   },
   {
     "id": "8e7cbaa7-ac1e-4b73-b45f-90bf1962b1bf",
