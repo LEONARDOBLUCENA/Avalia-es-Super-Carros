@@ -421,6 +421,11 @@
         </div>
 
         <div class="card">
+          <div class="section-title">Candidatos de avaliação rejeitados (Fotos)</div>
+          <div id="rejeitadosCandidatosFotosList"></div>
+        </div>
+
+        <div class="card">
           <div class="section-title">Menções rejeitadas (Instrutores)</div>
           <div id="rejeitadosInstrutoresList"></div>
         </div>
@@ -480,6 +485,7 @@ const LANCAMENTOS_PATH = "lancamentos.json";
 const FUNCIONARIOS_PATH = "funcionarios.json";
 const MENCOES_PATH = "mencoes_instrutores.json";
 const MENCOES_REJEITADAS_PATH = "mencoes_rejeitadas_instrutores.json";
+const LANCAMENTOS_REJEICOES_PATH = "lancamentos_rejeicoes_candidatos.json";
 
 // Token do GitHub (Personal Access Token): NÃO fica escrito neste arquivo.
 // É colado uma vez pelo usuário no modal "Token do GitHub" (barra lateral)
@@ -752,6 +758,7 @@ function recarregarTudo() {
   refreshMencoesConfirmadasList();
   refreshRankingInstrutores();
   refreshRejeitadosFotosList();
+  refreshRejeitadosCandidatosFotosList();
   refreshRejeitadosInstrutoresList();
 }
 
@@ -868,6 +875,7 @@ document.querySelectorAll(".nav-btn[data-tab]").forEach(btn => {
     }
     if (btn.dataset.tab === "rejeitados") {
       refreshRejeitadosFotosList();
+      refreshRejeitadosCandidatosFotosList();
       refreshRejeitadosInstrutoresList();
     }
   });
@@ -1460,18 +1468,29 @@ async function buscarAvaliacaoParaLancamento(lancamento, btnEl) {
   try {
     const { json: reviews } = await githubGetJson(REVIEWS_PATH, []);
     const { json: lancamentosAtuais } = await githubGetJson(LANCAMENTOS_PATH, []);
+    const { json: candidatosRejeitados } = await githubGetJson(LANCAMENTOS_REJEICOES_PATH, []);
 
     const takenReviewIds = {};
     (lancamentosAtuais || []).forEach(l => {
       if (l.status === "confirmado" && l.review_id) takenReviewIds[l.review_id] = l;
     });
 
+    // Candidatos já rejeitados especificamente PARA ESSE lançamento não
+    // voltam a aparecer aqui — mas continuam valendo como candidatos pra
+    // OUTROS lançamentos (a rejeição é por lançamento, não pela avaliação
+    // em si).
+    const rejeitadosDesteLancamento = new Set(
+      (candidatosRejeitados || [])
+        .filter(c => c.lancamento_id === lancamento.id)
+        .map(c => c.review_id)
+    );
+
     const scored = (reviews || [])
       .map(r => ({
         ...r,
         score: Math.max(diceScore(lancamento.cliente_nome_informado, r.author_name), includesToken(lancamento.cliente_nome_informado, r.author_name) ? 0.8 : 0)
       }))
-      .filter(r => r.score >= 0.35)
+      .filter(r => r.score >= 0.35 && !rejeitadosDesteLancamento.has(r.review_id))
       .sort((a, b) => b.score - a.score)
       .slice(0, 8);
 
@@ -1482,6 +1501,14 @@ async function buscarAvaliacaoParaLancamento(lancamento, btnEl) {
 
     setRowStatus(lancamento.id, `${scored.length} resultado(s) encontrado(s). Confira e confirme o correto.`, "ok");
     resultsArea.style.display = "block";
+
+    // Botão "Rejeitar tudo": descarta o LANÇAMENTO INTEIRO (cliente +
+    // funcionário) de uma vez, sem precisar escolher um resultado específico.
+    const rejeitarTudoRow = document.createElement("div");
+    rejeitarTudoRow.style.cssText = "display:flex;justify-content:flex-end;margin-bottom:10px;";
+    rejeitarTudoRow.innerHTML = `<button class="small danger" data-action="rejeitar-tudo">Rejeitar tudo (${escapeHtml(lancamento.cliente_nome_informado)} — ${escapeHtml(lancamento.vendedora)})</button>`;
+    rejeitarTudoRow.querySelector('[data-action="rejeitar-tudo"]').addEventListener("click", () => rejeitarLancamento(lancamento));
+    resultsArea.appendChild(rejeitarTudoRow);
 
     scored.forEach(r => {
       const already = takenReviewIds[r.review_id];
@@ -1501,13 +1528,13 @@ async function buscarAvaliacaoParaLancamento(lancamento, btnEl) {
         <div class="result-text">${r.review_text ? escapeHtml(r.review_text.substring(0, 220)) : "(sem texto)"}</div>
         ${already
           ? `<span class="badge taken">Já contabilizada para ${escapeHtml(already.vendedora)}${already.mes_referencia ? " (" + monthLabel(already.mes_referencia) + ")" : ""}</span>`
-          : `<div style="display:flex;gap:8px;"><button class="small" data-action="confirmar">Confirmar</button><button class="small danger" data-action="rejeitar">Rejeitar</button></div>`
+          : `<div style="display:flex;gap:8px;"><button class="small" data-action="confirmar">Confirmar</button><button class="small danger" data-action="rejeitar">Rejeitar esse</button></div>`
         }
       `;
 
       if (!already) {
         item.querySelector('[data-action="confirmar"]').addEventListener("click", () => confirmarLancamento(lancamento, r, item));
-        item.querySelector('[data-action="rejeitar"]').addEventListener("click", () => rejeitarLancamento(lancamento, r));
+        item.querySelector('[data-action="rejeitar"]').addEventListener("click", () => rejeitarCandidatoLancamento(lancamento, r));
       }
 
       resultsArea.appendChild(item);
@@ -1591,6 +1618,46 @@ async function rejeitarLancamento(lancamento, review) {
   } catch (err) {
     console.error(err);
     alert("Erro ao rejeitar: " + (err.message || err));
+  }
+}
+
+// Rejeitar um candidato ESPECÍFICO: só tira ele dos resultados desse
+// lançamento (fica registrado, pra não voltar a aparecer) — o lançamento
+// continua pendente, pra buscar de novo depois. Diferente de
+// rejeitarLancamento (que descarta o lançamento inteiro de uma vez).
+async function rejeitarCandidatoLancamento(lancamento, review) {
+  const autorizado = await requireAdminPassword();
+  if (!autorizado) return;
+
+  setRowStatus(lancamento.id, "Rejeitando candidato...", "loading");
+  try {
+    await writeWithRetry(
+      LANCAMENTOS_REJEICOES_PATH,
+      [],
+      (current) => {
+        const list = current || [];
+        const duplicado = list.find(c => c.lancamento_id === lancamento.id && c.review_id === review.review_id);
+        if (duplicado) return null;
+
+        const novoRegistro = {
+          id: genId(),
+          lancamento_id: lancamento.id,
+          cliente_nome_informado: lancamento.cliente_nome_informado,
+          vendedora: lancamento.vendedora,
+          review_id: review.review_id,
+          review_author_name: review.author_name || "",
+          review_text_snippet: (review.review_text || "").substring(0, 260),
+          rejected_at: new Date().toISOString()
+        };
+        return [...list, novoRegistro];
+      },
+      `Rejeita candidato ${review.review_id} do lançamento ${lancamento.id}`
+    );
+
+    buscarAvaliacaoParaLancamento(lancamento, document.querySelector(`#lancamento-${lancamento.id} [data-action="buscar"]`));
+  } catch (err) {
+    console.error(err);
+    setRowStatus(lancamento.id, "Erro ao rejeitar candidato: " + (err.message || err), "error");
   }
 }
 
@@ -2064,6 +2131,68 @@ async function reabrirLancamentoRejeitado(lancamento) {
     refreshRejeitadosFotosList();
     refreshLancamentosLists();
     refreshRankingPanel();
+  } catch (err) {
+    console.error(err);
+    alert("Erro ao reabrir: " + (err.message || err));
+  }
+}
+
+async function refreshRejeitadosCandidatosFotosList() {
+  const el = document.getElementById("rejeitadosCandidatosFotosList");
+  if (!isConfigured) {
+    el.innerHTML = `<div class="empty">Configure o token do GitHub para ver os rejeitados.</div>`;
+    return;
+  }
+  el.innerHTML = `<div class="empty">Carregando...</div>`;
+
+  try {
+    const { json: candidatos } = await githubGetJson(LANCAMENTOS_REJEICOES_PATH, []);
+    const ordenados = (candidatos || []).sort((a, b) => (b.rejected_at || "").localeCompare(a.rejected_at || ""));
+
+    if (ordenados.length === 0) {
+      el.innerHTML = `<div class="empty">Nenhum candidato de avaliação rejeitado.</div>`;
+      return;
+    }
+
+    el.innerHTML = "";
+    ordenados.forEach(c => {
+      const div = document.createElement("div");
+      div.className = "lancamento-item mencao-item";
+      const rejeitadoEm = c.rejected_at ? new Date(c.rejected_at).toLocaleString("pt-BR") : "-";
+      div.innerHTML = `
+        <div class="mencao-head">
+          <div>
+            <div class="lancamento-info">${escapeHtml(c.cliente_nome_informado || "")} — ${escapeHtml(c.vendedora || "")} <span style="color:var(--muted);font-weight:400;">— candidato: ${escapeHtml(c.review_author_name || "desconhecido")}</span></div>
+            <div class="mencao-meta">Rejeitado em ${rejeitadoEm}</div>
+            ${c.review_text_snippet ? `<div class="result-text" style="margin-top:8px;">${escapeHtml(c.review_text_snippet)}</div>` : ""}
+          </div>
+          <button class="small secondary" data-action="reabrir">Reabrir</button>
+        </div>
+      `;
+      div.querySelector('[data-action="reabrir"]').addEventListener("click", () => reabrirCandidatoRejeitado(c));
+      el.appendChild(div);
+    });
+
+  } catch (err) {
+    console.error(err);
+    el.innerHTML = `<div class="empty">Erro ao carregar: ${err.message || err}</div>`;
+  }
+}
+
+// "Reabrir" remove o registro de rejeitado — o candidato volta a poder
+// aparecer numa próxima busca desse mesmo lançamento.
+async function reabrirCandidatoRejeitado(candidato) {
+  const autorizado = await requireAdminPassword();
+  if (!autorizado) return;
+
+  try {
+    await writeWithRetry(
+      LANCAMENTOS_REJEICOES_PATH,
+      [],
+      (current) => (current || []).filter(c => c.id !== candidato.id),
+      `Reabre candidato rejeitado ${candidato.id}`
+    );
+    refreshRejeitadosCandidatosFotosList();
   } catch (err) {
     console.error(err);
     alert("Erro ao reabrir: " + (err.message || err));
