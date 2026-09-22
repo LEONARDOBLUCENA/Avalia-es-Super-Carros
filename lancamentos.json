@@ -1018,11 +1018,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Sebastián Muñoz",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25CcVMzWnRiRmd3Vm5ock4ydERURnBHTmprelNWRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-19T18:45:11.047Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-22T19:37:25.551Z"
   },
   {
     "id": "0d72af02-6f52-4b88-acdc-eb9df86951fe",
