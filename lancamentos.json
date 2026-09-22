@@ -1817,5 +1817,16 @@
     "mes_referencia": "2026-09",
     "created_at": "2026-09-22T19:45:53.498Z",
     "confirmed_at": "2026-09-22T19:50:38.457Z"
+  },
+  {
+    "id": "c30d6007-b6c6-4cab-8599-6c92460c0a25",
+    "setor": "Fotos",
+    "vendedora": "Indianara",
+    "cliente_nome_informado": "Patrícia dos Santos Silva Paty",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-22T20:19:03.475Z",
+    "confirmed_at": null
   }
 ]
