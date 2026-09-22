@@ -1123,17 +1123,6 @@
     "rejected_review_id": null
   },
   {
-    "id": "2e326344-1390-4050-a879-607b9a0eb473",
-    "setor": "Fotos",
-    "vendedora": "Cleide",
-    "cliente_nome_informado": "Davyd pistor magnago",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
-    "created_at": "2026-09-19T20:50:21.739Z",
-    "confirmed_at": null
-  },
-  {
     "id": "e05b6a6a-1aca-4604-8231-6c7dd1a813cb",
     "setor": "Fotos",
     "vendedora": "Eduarda",
