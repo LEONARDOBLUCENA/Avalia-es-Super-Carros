@@ -875,11 +875,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Jéssica rubin lazzari",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xOaVFsRm1TVU5MYzJOWmFIQldXVmR1WlVoWFZuYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-19T16:20:25.809Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-22T19:31:42.103Z"
   },
   {
     "id": "b2781cd7-1639-4cc3-9204-6d7d92c06f83",
