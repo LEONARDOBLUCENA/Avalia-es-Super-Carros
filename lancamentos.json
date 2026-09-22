@@ -730,11 +730,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Mauricio Quadros",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205RmVtMUlaR3BhY0RCT2VteEtaREo0Y0hWNE5WRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-19T14:26:33.348Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-22T18:45:54.398Z"
   },
   {
     "id": "73ca9f0f-5542-49da-b163-995bf28ebefa",
