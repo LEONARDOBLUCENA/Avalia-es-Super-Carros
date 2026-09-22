@@ -1769,5 +1769,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-22T15:58:38.631Z",
     "confirmed_at": null
+  },
+  {
+    "id": "1f0803bc-18c1-43e4-aa42-26ca2d7151ff",
+    "setor": "Fotos",
+    "vendedora": "Indianara",
+    "cliente_nome_informado": "Luciana",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-22T17:09:28.936Z",
+    "confirmed_at": null
   }
 ]
