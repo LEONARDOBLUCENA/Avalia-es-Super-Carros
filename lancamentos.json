@@ -587,11 +587,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Gustavo",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKdVdrWjNiR0pIZWpKVWJETjBYMVI2VjBkaVluYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-18T20:35:10.062Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-22T14:49:57.430Z"
   },
   {
     "id": "cdca2ad1-1dd1-42bd-a0bc-4347b808c3d6",
