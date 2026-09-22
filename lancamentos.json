@@ -708,11 +708,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Sandra Muller",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xkM1NuTldaRU51TUhSak1UWjFiV2d0VlhCMWFIYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-19T14:08:05.943Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-22T18:46:03.366Z"
   },
   {
     "id": "18ae17d6-a24b-4cb4-9995-f25e1773c7c2",
