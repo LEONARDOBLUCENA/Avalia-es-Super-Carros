@@ -1108,11 +1108,13 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Ludymilla Gonçalves",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-09-19T20:47:55.040Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-09-22T20:04:33.936Z",
+    "rejected_review_id": null
   },
   {
     "id": "2e326344-1390-4050-a879-607b9a0eb473",
