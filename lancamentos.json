@@ -1566,11 +1566,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Silvia Gonzalez",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xOUGVHNHlTV1ZQZFZKSWQwNVZPWFZrVEhFMFdGRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-21T16:53:07.658Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-22T14:46:58.148Z"
   },
   {
     "id": "891aab94-bbb7-44cd-a2b1-7b615abdf59d",
