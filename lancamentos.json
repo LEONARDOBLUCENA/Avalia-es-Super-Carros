@@ -1670,5 +1670,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-22T14:36:37.189Z",
     "confirmed_at": null
+  },
+  {
+    "id": "e7a9b886-7978-4d8e-9412-5964e8bb6111",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Thales",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-22T14:36:51.528Z",
+    "confirmed_at": null
   }
 ]
