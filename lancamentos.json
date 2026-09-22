@@ -1680,11 +1680,13 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Renato guilhermon",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-09-22T15:29:53.628Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-09-22T19:36:03.471Z",
+    "rejected_review_id": "Ci9DQUlRQUNvZENodHljRjlvT20xb1pHOXlTMFZ5V25OUlFXZFhlR3RvUVZkRmEwRRAB"
   },
   {
     "id": "942aea5e-ab77-45b1-bcf1-e63307960c08",
