@@ -1456,11 +1456,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "jean marcel",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKb1kzRm5hRUU1YlhVdGR6UmthWEpETjJSdloxRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-20T19:33:18.721Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-22T14:47:56.215Z"
   },
   {
     "id": "43c401a3-8288-4d5a-a494-040f71aef36b",
