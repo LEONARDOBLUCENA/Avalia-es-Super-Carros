@@ -1692,5 +1692,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-22T15:19:38.953Z",
     "confirmed_at": null
+  },
+  {
+    "id": "19f676c5-5785-48ec-ad48-b5a9e382bc8e",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Michelle silva",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-22T15:29:41.143Z",
+    "confirmed_at": null
   }
 ]
