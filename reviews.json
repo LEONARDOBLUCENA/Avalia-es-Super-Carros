@@ -1,5 +1,131 @@
 [
   {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WTWJrMWxkbUptUm1kSWJGZGliVFJHZDFGMlpIYxAB",
+    "author_name": "Márcio Adam",
+    "rating": 4,
+    "review_text": "Muito legal mas produtos muito caros",
+    "review_time": "2026-09-22T21:44:35.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pSSldYbFNRWGN3TTFBeFpGTm5TRXBNTFdJMWVHYxAB",
+    "author_name": "Patrícia dos Santos Silva Paty",
+    "rating": 4,
+    "review_text": "",
+    "review_time": "2026-09-22T20:17:25.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2taSU1FNXVXRnBaWm1aRk1WQlhUbmRTZDJ4TFRVRRAB",
+    "author_name": "Lari a",
+    "rating": 5,
+    "review_text": "Experiência top, vale a pena..",
+    "review_time": "2026-09-22T19:24:26.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pWWmJVNXdWR1JyUWxSb2NUVXRiak5UY1Y5bE9YYxAB",
+    "author_name": "MARIANA FRUTOS",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-22T18:31:53.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t3elIycGtRekF3V2preFkyNXNXRzVXUmpVMU5tYxAB",
+    "author_name": "Paulo Resende",
+    "rating": 5,
+    "review_text": "Ótimo, não pode deixar de curtir essa experiência.",
+    "review_time": "2026-09-22T16:46:01.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21OamJqSXpNV1JQWjNkWldEbDFaMUZGYW5sNVZYYxAB",
+    "author_name": "Luciana",
+    "rating": 5,
+    "review_text": "Top da galáxia!",
+    "review_time": "2026-09-22T16:43:22.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25CS2FYbGljVWx3UTFkWlFtRXlhbWQwUmpONGJrRRAB",
+    "author_name": "Bruno Gomes",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-22T15:55:22.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tJMFR5MXFWa3BmWkhjdFRDMHdkMmhyTW05b1RVRRAB",
+    "author_name": "Damian Piriz",
+    "rating": 5,
+    "review_text": "El instructor Lucas excepcional!!!<br>Todo muy bien sin inconvenientes!!!<br>Indianara, en selección de fotos todo muy correcto 12 fotos digitales y 2 impresas por 300 reales está correcto! Muchas gracias!!",
+    "review_time": "2026-09-22T15:51:14.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2twWVJUYzJlSE5CYUdOWVdVSnhhekJOWkZsV1dVRRAB",
+    "author_name": "Estefani Aguerre",
+    "rating": 5,
+    "review_text": "Excelente experiencia! El instructor Lucas nos trató muy amable. Indianara nos hizo las fotos muy amablemente. Recomiendo visitar este lugar.",
+    "review_time": "2026-09-22T15:50:29.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25KT1ZWVlpUWE0zY1dadFVUaG5XRFJITnkxS1ZWRRAB",
+    "author_name": "Renato Guilhermon",
+    "rating": 5,
+    "review_text": "Atendimento e hospitalidade excelentes! O time está de parabéns! Voltarei em breve!",
+    "review_time": "2026-09-22T15:32:20.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pGd1h6RnlZa290T0doNWVIWlFVMHM1Ym5JdFEwRRAB",
+    "author_name": "Michelle Silva",
+    "rating": 5,
+    "review_text": "Atendimento maravilhoso!",
+    "review_time": "2026-09-22T15:29:25.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21aMlRYZGlZbTlWY0MwNWFVcFRSSE5uZVd0QmQwRRAB",
+    "author_name": "Natália Maria",
+    "rating": 5,
+    "review_text": "Experiência ótima!",
+    "review_time": "2026-09-22T15:17:50.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGMlgwMU9iV1F4UkV0SlpqVkVTR1k1VTJKVWRuYxAB",
+    "author_name": "Pamella Ribeiro",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-22T14:59:21.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tRemNuUnhRM2RITWxKSldtUlJiVmhUWVZjd01rRRAB",
+    "author_name": "Larissa Rocha",
+    "rating": 5,
+    "review_text": "Amei a experiência em todo contexto andar de carro, fotos e vídeo. E o atendimento maravilhoso!!",
+    "review_time": "2026-09-22T14:41:18.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21aemVYWnpTa3hpY2w5dFNUSlhZMU41UWtaZmJIYxAB",
+    "author_name": "marco tullyo silva campos",
+    "rating": 5,
+    "review_text": "Top super recomendo",
+    "review_time": "2026-09-22T14:40:16.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25SbGFHZzJNRFpITVVSUGJDMXJXbFIxWmtJd2MzYxAB",
+    "author_name": "Dalber Telhon",
+    "rating": 5,
+    "review_text": "Amei a experiência e atendimento !!!",
+    "review_time": "2026-09-22T14:38:45.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xOTE5rMWZaMHh2T0daRk0xOWpXSGM0WDNwTGRGRRAB",
+    "author_name": "Thales",
+    "rating": 5,
+    "review_text": "Experiência maravilhosa com o Toyota supra ao lado do melhor instrutor Bruno Aguirre, méritos ao instrutor!! Equipe nota mil,",
+    "review_time": "2026-09-22T14:38:34.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25RelYxcEVTRGRKVFZSVGNUUTRSVW93WkVWM1EzYxAB",
+    "author_name": "Jessica Orozimbo",
+    "rating": 5,
+    "review_text": "Atendimento impecável! Instrutores atenciosos, equipe nota mil. Vale o investimento.",
+    "review_time": "2026-09-22T14:37:03.000Z"
+  },
+  {
     "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21VNVYySlFkVmR2Y0dRMk5rVnFjMmx3Wms5a1NHYxAB",
     "author_name": "Miriã Oliveira",
     "rating": 5,
