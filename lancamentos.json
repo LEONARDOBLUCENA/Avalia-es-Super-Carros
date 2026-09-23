@@ -1883,5 +1883,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-23T15:49:52.220Z",
     "confirmed_at": null
+  },
+  {
+    "id": "cd9d0902-71fe-4676-9cf9-9ca45ecf6f55",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "jean C. Galli",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-23T21:54:53.434Z",
+    "confirmed_at": null
   }
 ]
