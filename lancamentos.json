@@ -2125,5 +2125,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-24T14:38:24.064Z",
     "confirmed_at": null
+  },
+  {
+    "id": "51aa8d8f-42a7-44c2-8e25-ed6c945eb6a1",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Carlos Victor",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-24T14:38:37.616Z",
+    "confirmed_at": null
   }
 ]
