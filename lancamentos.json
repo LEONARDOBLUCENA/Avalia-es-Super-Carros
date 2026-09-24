@@ -1162,11 +1162,13 @@
     "setor": "Fotos",
     "vendedora": "Maíra",
     "cliente_nome_informado": "Alexandre loraschi",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-09-20T14:41:21.353Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-09-24T14:13:54.042Z",
+    "rejected_review_id": null
   },
   {
     "id": "ef1aa509-3d69-4804-9110-988506e7a82d",
