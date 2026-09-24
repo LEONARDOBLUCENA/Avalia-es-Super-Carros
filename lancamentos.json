@@ -2327,5 +2327,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-24T19:42:15.910Z",
     "confirmed_at": null
+  },
+  {
+    "id": "17fbeb4d-a93a-46b4-8414-20ecb8ac3f75",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Julyana santos",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-24T19:44:01.430Z",
+    "confirmed_at": null
   }
 ]
