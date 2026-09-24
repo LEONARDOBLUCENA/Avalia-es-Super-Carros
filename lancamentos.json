@@ -2074,11 +2074,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Niedja melo",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCd04yMVZaVkJMWmxwWFJuaEdRbk5qTkU0eVVFRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-24T14:37:08.213Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-24T18:24:38.920Z"
   },
   {
     "id": "5b41c46d-c66d-46aa-b587-62e7c9441027",
