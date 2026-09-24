@@ -2184,11 +2184,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Larissa lahas",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCM1NsVnNjMUZLV1hwdmJUVjJNMmxoZGxWRk5HYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-24T17:16:04.829Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-24T18:24:25.353Z"
   },
   {
     "id": "4c4816a5-9e8d-4e48-8a35-ff4d56aae5cd",
