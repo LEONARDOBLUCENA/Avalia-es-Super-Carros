@@ -1901,11 +1901,13 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "jean C. Galli",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-09-23T21:54:53.434Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-09-24T14:10:25.770Z",
+    "rejected_review_id": null
   },
   {
     "id": "2b2df2d6-5a3c-4a6d-bb61-01bc0fcd7d5c",
