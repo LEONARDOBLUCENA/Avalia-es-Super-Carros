@@ -2031,11 +2031,13 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Moacir Junior",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-09-23T21:57:02.042Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-09-24T14:13:22.050Z",
+    "rejected_review_id": null
   },
   {
     "id": "feb3cf6c-6426-4bc5-bc24-b9c0778f41eb",
