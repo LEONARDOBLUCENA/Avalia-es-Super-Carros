@@ -2164,11 +2164,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Rui Lira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pOYWIyVXdUR2xaTW5SV1IyeHdiR2RhZEhwa1RtYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-24T14:50:56.372Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-24T17:57:52.968Z"
   },
   {
     "id": "e68b0ad2-c366-441e-bb9a-5b6cc2dc7643",
