@@ -1702,11 +1702,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Bruno gomes",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25CS2FYbGljVWx3UTFkWlFtRXlhbWQwUmpONGJrRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-22T15:55:20.318Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-24T14:06:14.677Z"
   },
   {
     "id": "da2521c1-c516-415f-a939-70e7493f4d88",
