@@ -49,9 +49,33 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add reviews.json
-          if ! git diff --cached --quiet; then
-            git commit -m "Sincroniza avaliações do Google [automático]"
-            git push
-          else
+
+          if git diff --cached --quiet; then
             echo "Nenhuma avaliação nova — nada para commitar."
+            exit 0
           fi
+
+          git commit -m "Sincroniza avaliações do Google [automático]"
+
+          # A própria ferramenta (o index.html) grava direto no main via API
+          # do GitHub sempre que alguém usa o sistema (novo lançamento,
+          # confirmação, edição de funcionário etc.). Se isso acontecer perto
+          # do horário desta sincronização, o "git push" simples é recusado
+          # porque o main já mudou desde o checkout. Por isso, em caso de
+          # rejeição, atualiza com o que mudou (rebase) e tenta de novo —
+          # mesma lógica de "tentar de novo" que o index.html já usa
+          # (writeWithRetry) para lidar com gravações concorrentes.
+          tentativas=5
+          for i in $(seq 1 $tentativas); do
+            if git push; then
+              echo "Push feito com sucesso (tentativa $i)."
+              exit 0
+            fi
+            echo "Push rejeitado (tentativa $i de $tentativas) — o main mudou nesse meio tempo. Atualizando e tentando de novo..."
+            git fetch origin main
+            git rebase origin/main
+            sleep 3
+          done
+
+          echo "Não foi possível dar push depois de $tentativas tentativas."
+          exit 1
