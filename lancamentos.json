@@ -1765,11 +1765,11 @@
     "setor": "Fotos",
     "vendedora": "Indianara",
     "cliente_nome_informado": "Luciana",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21OamJqSXpNV1JQWjNkWldEbDFaMUZGYW5sNVZYYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-22T17:09:28.936Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-24T14:16:48.936Z"
   },
   {
     "id": "dd986d6b-c373-48a8-b93a-3149ecffb18c",
