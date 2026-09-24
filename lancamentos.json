@@ -2239,5 +2239,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-24T18:37:12.933Z",
     "confirmed_at": null
+  },
+  {
+    "id": "f25a1552-49ee-464a-8531-9e6811c69b65",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Matheus gamw",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-24T19:12:14.829Z",
+    "confirmed_at": null
   }
 ]
