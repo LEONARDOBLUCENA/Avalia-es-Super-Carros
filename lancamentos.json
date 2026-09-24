@@ -2283,5 +2283,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-24T19:20:02.672Z",
     "confirmed_at": null
+  },
+  {
+    "id": "771524b6-c302-486a-a7e0-5207e161dd1f",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Lucas Thieme",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-24T19:20:19.752Z",
+    "confirmed_at": null
   }
 ]
