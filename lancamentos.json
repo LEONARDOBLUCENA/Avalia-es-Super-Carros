@@ -2382,5 +2382,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-24T20:44:22.278Z",
     "confirmed_at": null
+  },
+  {
+    "id": "8391b395-e299-448c-a453-1f2d6a386c0f",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Tatiane Pimentel",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-24T21:18:00.425Z",
+    "confirmed_at": null
   }
 ]
