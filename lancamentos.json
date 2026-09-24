@@ -2228,5 +2228,16 @@
     "confirmed_at": null,
     "rejected_at": "2026-09-24T18:19:19.824Z",
     "rejected_review_id": null
+  },
+  {
+    "id": "8f37d3b6-f06d-49fa-add7-f890d9749b2e",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Enrique",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-24T18:37:12.933Z",
+    "confirmed_at": null
   }
 ]
