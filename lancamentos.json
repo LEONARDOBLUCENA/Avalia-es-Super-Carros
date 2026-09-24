@@ -1853,11 +1853,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Laura Fabiana Leites Martinez",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tSUE5XWTJlVmRSZG1KV09GTkpZbVE0VW1RMlZFRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-22T21:25:24.529Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-24T14:09:36.079Z"
   },
   {
     "id": "c9e0e5d0-6cf9-49ef-bcb8-f4ff35c751a7",
