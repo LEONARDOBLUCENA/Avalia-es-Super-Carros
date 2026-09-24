@@ -2109,11 +2109,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "jean C. Galli",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKQ01UTjBRVlp3VkVaV2NrTlVYMjFGTXpkMVVsRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-24T14:38:00.502Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-24T18:03:16.890Z"
   },
   {
     "id": "6fa0389d-b819-48aa-8536-bbd7f63ff2b6",
