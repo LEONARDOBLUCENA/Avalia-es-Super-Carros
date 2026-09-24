@@ -1781,11 +1781,13 @@
     "setor": "Fotos",
     "vendedora": "Fernanda",
     "cliente_nome_informado": "Sool Alvees",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-09-22T18:26:08.570Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-09-24T14:08:15.453Z",
+    "rejected_review_id": null
   },
   {
     "id": "f3c1c0c2-0ba6-4bb5-a47a-49603e635b75",
