@@ -1730,11 +1730,11 @@
     "setor": "Fotos",
     "vendedora": "Indianara",
     "cliente_nome_informado": "Estefani Aguerre",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2twWVJUYzJlSE5CYUdOWVdVSnhhekJOWkZsV1dVRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-22T15:58:08.375Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-24T14:16:16.271Z"
   },
   {
     "id": "f999a1e0-56c5-47bf-b6dc-164289225186",
