@@ -2180,5 +2180,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-24T14:53:05.281Z",
     "confirmed_at": null
+  },
+  {
+    "id": "80219a0d-de10-44a8-a531-c223accfb2c0",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Larissa Vitoria",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-24T14:53:17.775Z",
+    "confirmed_at": null
   }
 ]
