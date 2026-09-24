@@ -1752,12 +1752,12 @@
     "setor": "Fotos",
     "vendedora": "Indianara",
     "cliente_nome_informado": "Bruno Gomes",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-09-22T15:58:38.631Z",
     "confirmed_at": null,
-    "rejected_at": null,
+    "rejected_at": "2026-09-24T18:28:24.475Z",
     "rejected_review_id": null
   },
   {
