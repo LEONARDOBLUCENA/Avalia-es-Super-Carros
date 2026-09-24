@@ -1,5 +1,173 @@
 [
   {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCM1NsVnNjMUZLV1hwdmJUVjJNMmxoZGxWRk5HYxAB",
+    "author_name": "Larissa Lahas",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-24T17:15:30.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25aWVpXbDNSR2xTV2t4alVIaEhlV290WDFWblNYYxAB",
+    "author_name": "Silva Rodrigues",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-24T16:47:48.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2toVVZsVnZNa1pLT0dKcFVUVlFObGxaWWxFd2RVRRAB",
+    "author_name": "Luis Felipe Rodrigues",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-24T16:46:58.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t3elZGUjBaMFY1WTJvdFMwUnFVV1ZDTWtST1RXYxAB",
+    "author_name": "Lucas Thieme",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-24T15:35:34.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCd04yMVZaVkJMWmxwWFJuaEdRbk5qTkU0eVVFRRAB",
+    "author_name": "niedja melo dos Santos Alves",
+    "rating": 4,
+    "review_text": "Legal",
+    "review_time": "2026-09-24T14:36:47.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21aQmQxTmhVMGd3V2tSeFh6RmhNMkpKTkZsME4zYxAB",
+    "author_name": "Nayane Ellen",
+    "rating": 5,
+    "review_text": "Experiência sensacional",
+    "review_time": "2026-09-24T14:18:37.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25kM1dsQnhYMUp6UzJSeVlrcHpRM2gxTkhwdFJWRRAB",
+    "author_name": "LIVIA NOLETO",
+    "rating": 5,
+    "review_text": "Experiência diferenciada pra família inteira",
+    "review_time": "2026-09-24T13:48:18.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pZM2MwRm1ObXRwUVUxNU1XSnVaVlpKWWpjemFGRRAB",
+    "author_name": "Haniel Tenório",
+    "rating": 3,
+    "review_text": "A experiência em si de ver os carros, dirigir um super carro é muito massa! O que não é legal é que o pessoal fica a TODO momento querendo te empurrar alguma coisa, seja uma melhoria para andar num carro melhor ou gravação de vídeo, melhoria no simulador e etc… É chato e cansativo isso deles ficarem o tempo todo querendo que você gaste mais dinheiro lá, quando na verdade, você só quer olhar os carros e dirigir.",
+    "review_time": "2026-09-24T11:17:34.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tkUmFUVlNhamRNY3pSa2IydEliVk5vTTI4MGRtYxAB",
+    "author_name": "Henrique Branco",
+    "rating": 5,
+    "review_text": "Showw",
+    "review_time": "2026-09-23T21:45:23.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21OQ1JEbHJhMFY2UjNCUWVGOUhNRWx5TW1kMFZFRRAB",
+    "author_name": "heloisa reis",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-23T21:45:11.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21waGRuaFhhMjlOTkd4b1pYRkVhUzFYWjA1Rk5WRRAB",
+    "author_name": "Luiz Felipe lp",
+    "rating": 5,
+    "review_text": "Surreal, super carro 🚗 realiza sonhos !!!!",
+    "review_time": "2026-09-23T21:17:21.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tadmVDMXdPVWRuTTJaa2NqUnRiRWRNWjFwb1RVRRAB",
+    "author_name": "Miriã Rangel",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-23T20:39:32.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WSFRrUlZkbTFOVGxOclNGWnVNWEZyYjNVeWRWRRAB",
+    "author_name": "Luciana Prado",
+    "rating": 5,
+    "review_text": "Foi muito legap",
+    "review_time": "2026-09-23T20:30:25.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xoWFREVnVVM1ZPV0c5TmNtNXlWMFJxTFdKWmNIYxAB",
+    "author_name": "Moacir Junior",
+    "rating": 5,
+    "review_text": "Ótimos passeios e belas fotos tiradas pelos fotógrafos!",
+    "review_time": "2026-09-23T20:14:15.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKQ01UTjBRVlp3VkVaV2NrTlVYMjFGTXpkMVVsRRAB",
+    "author_name": "jean C. Galli",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-23T19:00:37.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kSU5tUmlRMW80TFdwQ1pXcGFUbkJvY21OR1YyYxAB",
+    "author_name": "Bruno Silva",
+    "rating": 5,
+    "review_text": "Top o passeio !! excelente atendimento pessoal antecioso.Meu filho e super apaixonado por carros amou a experiência",
+    "review_time": "2026-09-23T18:43:03.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pOYWIyVXdUR2xaTW5SV1IyeHdiR2RhZEhwa1RtYxAB",
+    "author_name": "Rui Lira",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-23T17:12:47.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tzeE5UQkVlSEJwWVdwck5VRndiRVJCUVRCbGJFRRAB",
+    "author_name": "Luana Said",
+    "rating": 5,
+    "review_text": "É caro mas vale a pena pela experiência",
+    "review_time": "2026-09-23T16:27:16.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poVVR6RnBOR3RHUVdaNWEzQnJla2RtZFRGTlMyYxAB",
+    "author_name": "Victória Domiciano",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-23T15:33:48.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5VVNrUm9XVXRET1dSZmFYTXlNbmhhT1RsMU0wRRAB",
+    "author_name": "Márcia Helena Garcia",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-23T15:27:33.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pWSWREUnJNRWh6UVZacWVuazRNR2RMUTJGb1QzYxAB",
+    "author_name": "Joel Silva",
+    "rating": 5,
+    "review_text": "Muito top!",
+    "review_time": "2026-09-23T15:09:41.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kxMFJFd3hNWEJLVkRaeFUzUkdla3ByYmxOWVNVRRAB",
+    "author_name": "Carlos Victor",
+    "rating": 5,
+    "review_text": "Ótimo",
+    "review_time": "2026-09-23T14:45:37.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2sxNmNrVkJTRTVXU3poNE1taE5Xa3R4YW5KMGFsRRAB",
+    "author_name": "Natan Brito",
+    "rating": 5,
+    "review_text": "Muito top, experiência sensacional, vale muito a penaa",
+    "review_time": "2026-09-23T14:02:57.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poNU9YWnNhbEZsUVVGelJGSmZUMmxqV0U0emFFRRAB",
+    "author_name": "Larissa Vitoria",
+    "rating": 5,
+    "review_text": "Experiência sensacional!!",
+    "review_time": "2026-09-23T14:01:11.000Z"
+  },
+  {
     "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WTWJrMWxkbUptUm1kSWJGZGliVFJHZDFGMlpIYxAB",
     "author_name": "Márcio Adam",
     "rating": 4,
