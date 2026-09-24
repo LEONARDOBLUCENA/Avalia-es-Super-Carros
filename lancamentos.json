@@ -2015,5 +2015,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-23T22:08:59.471Z",
     "confirmed_at": null
+  },
+  {
+    "id": "5035c82b-ec8f-49d5-b976-0c46021ea8ca",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Lívia noleto",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-24T13:47:50.213Z",
+    "confirmed_at": null
   }
 ]
