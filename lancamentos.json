@@ -2081,5 +2081,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-24T14:36:50.042Z",
     "confirmed_at": null
+  },
+  {
+    "id": "a15303c7-1fe2-4b1f-82ea-8371023cf28e",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Niedja melo",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-24T14:37:08.213Z",
+    "confirmed_at": null
   }
 ]
