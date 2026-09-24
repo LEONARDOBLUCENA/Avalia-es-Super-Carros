@@ -1886,11 +1886,13 @@
     "setor": "Fotos",
     "vendedora": "Indianara",
     "cliente_nome_informado": "Márcia Helena Garcia",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-09-23T15:49:52.220Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-09-24T14:08:48.938Z",
+    "rejected_review_id": null
   },
   {
     "id": "cd9d0902-71fe-4676-9cf9-9ca45ecf6f55",
