@@ -1813,11 +1813,11 @@
     "setor": "Fotos",
     "vendedora": "Indianara",
     "cliente_nome_informado": "Lari a",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2taSU1FNXVXRnBaWm1aRk1WQlhUbmRTZDJ4TFRVRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-22T19:25:26.663Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-24T14:17:19.321Z"
   },
   {
     "id": "75424457-4e5a-45f3-9ea1-fc46dac80325",
