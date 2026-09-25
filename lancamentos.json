@@ -2551,11 +2551,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Erik Felix da Silva",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21FeGFXaGlRMEU1U0hCaFRtazNla3RTY1dWUFIzYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-25T14:40:09.049Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-25T19:22:49.680Z"
   },
   {
     "id": "417e2077-8e0f-405e-a764-d0791a010837",
