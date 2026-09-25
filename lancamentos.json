@@ -3399,5 +3399,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-25T20:08:02.664Z",
     "confirmed_at": null
+  },
+  {
+    "id": "bce1c86a-1f07-4b14-a06c-0bfe780369fb",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Janine alvarenga Barbosa",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-25T20:08:51.161Z",
+    "confirmed_at": null
   }
 ]
