@@ -2573,11 +2573,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Marco Antônio contador",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21jMVNtZENXWFpUVUdKRllrVjNkbkZDYXpsVWQwRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-25T14:48:47.582Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-25T19:22:38.750Z"
   },
   {
     "id": "87660640-c79b-4d39-a831-d7de5d308a41",
