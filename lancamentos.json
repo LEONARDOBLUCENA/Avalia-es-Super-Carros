@@ -3520,5 +3520,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-25T23:04:11.881Z",
     "confirmed_at": null
+  },
+  {
+    "id": "fea39ccc-0faf-4908-9459-a701fd8ee64d",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Erik Felix da Silva",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-25T23:05:07.071Z",
+    "confirmed_at": null
   }
 ]
