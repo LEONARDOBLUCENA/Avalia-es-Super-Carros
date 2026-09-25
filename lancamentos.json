@@ -2397,11 +2397,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Julyana santos",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKUlZFZEhka28zTjNnMFYxaDJaSEJOWm5GcWFHYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-24T19:44:01.430Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-25T19:27:09.040Z"
   },
   {
     "id": "09404a92-5624-4dc3-aafd-467d41093dfb",
