@@ -3410,5 +3410,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-25T20:08:51.161Z",
     "confirmed_at": null
+  },
+  {
+    "id": "c4cf4253-7022-467d-8fde-237500554a26",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Dagoberto Rodrigues",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-25T22:57:52.152Z",
+    "confirmed_at": null
   }
 ]
