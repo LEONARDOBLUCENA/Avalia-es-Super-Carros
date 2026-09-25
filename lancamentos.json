@@ -2562,11 +2562,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Ericarla Muniz",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25RNFNUWXhTR2RoYVd0ZmQyYzVhbTFNZERRMWVrRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-25T14:47:46.004Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-25T19:23:48.227Z"
   },
   {
     "id": "21a31298-177c-4c10-8fa9-df63a275f193",
