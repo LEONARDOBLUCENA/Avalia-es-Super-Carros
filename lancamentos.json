@@ -2580,5 +2580,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-25T18:35:14.715Z",
     "confirmed_at": null
+  },
+  {
+    "id": "4d93e2a6-f790-49f4-928b-9e60d2e8a019",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Emanuela Lopes",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-25T18:37:10.400Z",
+    "confirmed_at": null
   }
 ]
