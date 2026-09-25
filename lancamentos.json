@@ -2393,5 +2393,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-24T21:18:00.425Z",
     "confirmed_at": null
+  },
+  {
+    "id": "a37a0210-8202-4f87-b16b-3155028f9654",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Yan Tomaz",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-25T13:22:35.277Z",
+    "confirmed_at": null
   }
 ]
