@@ -3509,5 +3509,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-25T23:03:05.825Z",
     "confirmed_at": null
+  },
+  {
+    "id": "fc6784df-2361-499f-951c-2f9f07dca689",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "facu goncalvez",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-25T23:04:11.881Z",
+    "confirmed_at": null
   }
 ]
