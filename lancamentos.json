@@ -2377,11 +2377,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Silva Rodrigues",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25aWVpXbDNSR2xTV2t4alVIaEhlV290WDFWblNYYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-24T19:41:40.682Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-25T19:39:09.396Z"
   },
   {
     "id": "3db7cd49-c8d7-47d7-b82f-47034d55d5c5",
