@@ -2386,11 +2386,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Thiago Coelho",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5dllYcEZTM1l6V1c5bVluRnJNVGQzZGswMVRWRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-24T19:42:15.910Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-25T19:27:18.148Z"
   },
   {
     "id": "17fbeb4d-a93a-46b4-8414-20ecb8ac3f75",
