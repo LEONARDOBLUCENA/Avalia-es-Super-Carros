@@ -2547,5 +2547,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-25T17:25:25.307Z",
     "confirmed_at": null
+  },
+  {
+    "id": "52b5e31b-1d66-4431-85cb-fdda27aa947f",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Ivan Oliveira",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-25T18:16:04.149Z",
+    "confirmed_at": null
   }
 ]
