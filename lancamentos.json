@@ -2540,11 +2540,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Nayara Marinho",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t4U01ESmphR3hxZEVOT2FVbEVjR1J5YzJGVFJXYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-25T14:39:37.589Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-25T19:23:57.953Z"
   },
   {
     "id": "e6297d8f-7482-4d49-bc25-dd7d9d184ef5",
