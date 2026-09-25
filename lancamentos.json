@@ -3194,21 +3194,6 @@
     "recuperado_status_anterior": "pendente (excluído)"
   },
   {
-    "id": "58c960dc-8819-4396-805b-afc73b93b66b",
-    "setor": "Fotos",
-    "vendedora": "Cleide",
-    "cliente_nome_informado": "Deborah Joice Silva",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
-    "created_at": "2026-09-21T20:31:32.897Z",
-    "confirmed_at": null,
-    "rejected_at": null,
-    "rejected_review_id": null,
-    "recuperado_em": "2026-09-25T18:03:31.000Z",
-    "recuperado_status_anterior": "pendente (excluído)"
-  },
-  {
     "id": "1d0114cc-008a-416e-b863-1848ff225dd0",
     "vendedora": "CLEIDE",
     "cliente_nome_informado": "Alex Souza",
