@@ -2525,5 +2525,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-25T16:58:35.256Z",
     "confirmed_at": null
+  },
+  {
+    "id": "db3a6f3b-1268-4725-af5c-f910649d0da3",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Omar da luz",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-25T17:24:43.570Z",
+    "confirmed_at": null
   }
 ]
