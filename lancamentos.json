@@ -3476,5 +3476,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-25T23:01:16.128Z",
     "confirmed_at": null
+  },
+  {
+    "id": "5f5f231d-c350-45b8-87c9-ea0f203e9cac",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Jimena Larrañaga",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-25T23:02:06.953Z",
+    "confirmed_at": null
   }
 ]
