@@ -3443,5 +3443,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-25T22:59:19.617Z",
     "confirmed_at": null
+  },
+  {
+    "id": "7cddbd11-b2d5-47da-831c-b8139e618333",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Gilvandro Filho",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-25T22:59:38.977Z",
+    "confirmed_at": null
   }
 ]
