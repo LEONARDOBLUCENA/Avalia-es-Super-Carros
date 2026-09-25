@@ -2507,11 +2507,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Teddy Bendahan",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pGTVMycEZVVWhuTTI1a01rNDNjMDVqWkhSRVFrRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-25T14:39:01.137Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-25T19:24:12.702Z"
   },
   {
     "id": "0e9e5597-a9a8-4211-8ad3-2e77a0e6f25b",
