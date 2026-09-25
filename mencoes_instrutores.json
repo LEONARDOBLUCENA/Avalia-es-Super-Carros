@@ -97,5 +97,16 @@
     "review_text_snippet": "El instructor Lucas excepcional!!!<br>Todo muy bien sin inconvenientes!!!<br>Indianara, en selección de fotos todo muy correcto 12 fotos digitales y 2 impresas por 300 reales está correcto! Muchas gracias!!",
     "mes_referencia": "2026-09",
     "confirmed_at": "2026-09-24T16:10:17.247Z"
+  },
+  {
+    "id": "203ef842-f27e-4aaa-97fb-cb86f4d06a84",
+    "instrutor_nome": "Lucas",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25ocVdFZDVkRzFUV0UxSVluWkhSREEwUmpCSVpuYxAB",
+    "review_author_name": "Osmar Koprovski",
+    "review_text_snippet": "Tivemos uma ótima experiência. O instrutor Lucas foi muito atencioso e querido com a gente. A Mayara também nos ajudou a escolher as melhores fotos. Gostamos bastante de tudo.",
+    "mes_referencia": "2026-09",
+    "confirmed_at": "2026-09-16T19:43:23.320Z",
+    "recuperado_em": "2026-09-25T18:03:31.000Z",
+    "recuperado_status_anterior": "confirmado (excluído) - deduplicado de 4 registros idênticos"
   }
 ]
