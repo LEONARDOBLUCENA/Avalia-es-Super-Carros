@@ -2569,5 +2569,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-25T18:18:47.238Z",
     "confirmed_at": null
+  },
+  {
+    "id": "1f56ae7e-37a4-47e6-abcb-843268fd75a8",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Sagradas letras",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-25T18:35:14.715Z",
+    "confirmed_at": null
   }
 ]
