@@ -3432,5 +3432,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-25T22:58:08.891Z",
     "confirmed_at": null
+  },
+  {
+    "id": "40868960-7fd4-4537-8f8f-eeac02d7aa99",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Gilvelena Guedess",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-25T22:59:19.617Z",
+    "confirmed_at": null
   }
 ]
