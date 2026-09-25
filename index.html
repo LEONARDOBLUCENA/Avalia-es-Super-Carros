@@ -1357,7 +1357,7 @@ function renderPendenteRow(lancamento) {
         <span class="badge pending">Pendente</span>
         <button class="small" data-action="buscar">Buscar Avaliação</button>
         <button class="small secondary" data-action="editar">Editar</button>
-        <button class="small danger" data-action="excluir">Excluir</button>
+        <button class="small danger" data-action="rejeitar">Rejeitar</button>
       </div>
     </div>
     <div class="row-status" id="rowstatus-${lancamento.id}"></div>
@@ -1371,7 +1371,7 @@ function renderPendenteRow(lancamento) {
     editingLancamentoId = lancamento.id;
     refreshLancamentosLists();
   });
-  div.querySelector('[data-action="excluir"]').addEventListener("click", () => excluirLancamento(lancamento));
+  div.querySelector('[data-action="rejeitar"]').addEventListener("click", () => rejeitarLancamento(lancamento));
 
   pendentesEl.appendChild(div);
 }
@@ -1436,19 +1436,25 @@ async function salvarEdicaoLancamento(id, funcionario, clienteNome) {
   }
 }
 
-async function excluirLancamento(lancamento) {
+// Exclusão DEFINITIVA — só existe dentro da aba Rejeitados, como última
+// etapa depois que o lançamento já foi rejeitado (revisado). Fora da aba
+// Rejeitados não existe opção de excluir, só "Rejeitar" (que preserva o
+// dado e pode ser desfeito) — os dados nunca podem ser perdidos sem essa
+// revisão explícita, já que a comissão das vendedoras depende deles.
+async function excluirLancamentoPermanente(lancamento) {
   const autorizado = await requireAdminPassword();
   if (!autorizado) return;
-  if (!confirm(`Excluir o lançamento de "${lancamento.cliente_nome_informado}"?`)) return;
+  if (!confirm(`Excluir PERMANENTEMENTE o lançamento de "${lancamento.cliente_nome_informado}"? Essa ação não pode ser desfeita.`)) return;
   try {
     await writeWithRetry(
       LANCAMENTOS_PATH,
       [],
       (current) => (current || []).filter(l => l.id !== lancamento.id),
-      `Exclui lançamento ${lancamento.id}`
+      `Exclui definitivamente lançamento ${lancamento.id}`
     );
     refreshLancamentosLists();
     refreshRankingPanel();
+    refreshRejeitadosFotosList();
   } catch (err) {
     console.error(err);
     alert("Erro ao excluir: " + (err.message || err));
@@ -1469,12 +1475,12 @@ function renderConfirmadoRow(lancamento) {
       </div>
       <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
         <span class="badge confirmed">Confirmado</span>
-        <button class="small danger" data-action="excluir">Excluir</button>
+        <button class="small danger" data-action="rejeitar">Rejeitar</button>
       </div>
     </div>
   `;
 
-  div.querySelector('[data-action="excluir"]').addEventListener("click", () => excluirLancamento(lancamento));
+  div.querySelector('[data-action="rejeitar"]').addEventListener("click", () => rejeitarLancamento(lancamento));
   confirmadosEl.appendChild(div);
 }
 
@@ -2019,10 +2025,10 @@ async function refreshMencoesConfirmadasList() {
             <div class="mencao-meta">Confirmado em ${confirmadoEm}${m.mes_referencia ? " · Mês ref.: " + monthLabel(m.mes_referencia) : ""}</div>
             ${m.review_text_snippet ? `<div class="result-text" style="margin-top:8px;">${escapeHtml(m.review_text_snippet)}</div>` : ""}
           </div>
-          <button class="small danger" data-action="excluir">Excluir</button>
+          <button class="small danger" data-action="rejeitar">Rejeitar</button>
         </div>
       `;
-      div.querySelector('[data-action="excluir"]').addEventListener("click", () => excluirMencaoInstrutor(m));
+      div.querySelector('[data-action="rejeitar"]').addEventListener("click", () => rejeitarMencaoConfirmada(m));
       el.appendChild(div);
     });
 
@@ -2032,14 +2038,41 @@ async function refreshMencoesConfirmadasList() {
   }
 }
 
-async function excluirMencaoInstrutor(mencao) {
-  if (!confirm(`Excluir o elogio confirmado para "${mencao.instrutor_nome}"?`)) return;
+// "Rejeitar" um elogio já confirmado nunca apaga o dado de vez — os dados
+// nunca podem ser perdidos (a contagem dos instrutores depende deles). Em
+// vez de remover o registro, isso move o elogio para a aba Rejeitados
+// (guardando confirmed_at e mes_referencia originais), de onde pode ser
+// reaberto a qualquer momento. Excluir de vez só é possível dentro da aba
+// Rejeitados.
+async function rejeitarMencaoConfirmada(mencao) {
+  const autorizado = await requireAdminPassword();
+  if (!autorizado) return;
+  if (!confirm(`Rejeitar o elogio confirmado para "${mencao.instrutor_nome}"? Ele vai para a aba Rejeitados e pode ser reaberto depois.`)) return;
   try {
+    // 1) Primeiro guarda uma cópia completa em rejeitados — só depois remove
+    // do arquivo de confirmados, pra nunca ficar num estado onde o dado foi
+    // removido de um lugar sem antes estar seguro no outro.
+    await writeWithRetry(
+      MENCOES_REJEITADAS_PATH,
+      [],
+      (current) => {
+        const list = current || [];
+        const jaExiste = list.find(m => m.id === mencao.id);
+        if (jaExiste) return null;
+        const registro = {
+          ...mencao,
+          estava_confirmado: true,
+          rejected_at: new Date().toISOString()
+        };
+        return [...list, registro];
+      },
+      `Move elogio ${mencao.id} para rejeitados (excluir)`
+    );
     await writeWithRetry(
       MENCOES_PATH,
       [],
       (current) => (current || []).filter(m => m.id !== mencao.id),
-      `Exclui elogio ${mencao.id}`
+      `Remove elogio ${mencao.id} de confirmados (excluído -> rejeitados)`
     );
     refreshMencoesConfirmadasList();
     refreshRankingInstrutores();
@@ -2140,7 +2173,7 @@ async function refreshRejeitadosFotosList() {
         </div>
       `;
       div.querySelector('[data-action="reabrir"]').addEventListener("click", () => reabrirLancamentoRejeitado(l));
-      div.querySelector('[data-action="excluir"]').addEventListener("click", () => excluirLancamento(l).then(refreshRejeitadosFotosList));
+      div.querySelector('[data-action="excluir"]').addEventListener("click", () => excluirLancamentoPermanente(l));
       el.appendChild(div);
     });
 
@@ -2261,13 +2294,18 @@ async function refreshRejeitadosInstrutoresList() {
         <div class="mencao-head">
           <div>
             <div class="lancamento-info">${escapeHtml(m.instrutor_nome)} <span style="color:var(--muted);font-weight:400;">— citado por ${escapeHtml(m.review_author_name || "desconhecido")}</span></div>
-            <div class="mencao-meta">Rejeitado em ${rejeitadoEm}</div>
+            <div class="mencao-meta">
+              ${m.estava_confirmado ? `<span class="badge confirmed" style="margin-right:6px;">Era elogio confirmado</span>` : ""}
+              Rejeitado em ${rejeitadoEm}
+            </div>
             ${m.review_text_snippet ? `<div class="result-text" style="margin-top:8px;">${escapeHtml(m.review_text_snippet)}</div>` : ""}
           </div>
           <button class="small secondary" data-action="reabrir">Reabrir</button>
+          <button class="small danger" data-action="excluir">Excluir</button>
         </div>
       `;
       div.querySelector('[data-action="reabrir"]').addEventListener("click", () => reabrirMencaoRejeitada(m));
+      div.querySelector('[data-action="excluir"]').addEventListener("click", () => excluirMencaoRejeitadaPermanente(m));
       el.appendChild(div);
     });
 
@@ -2277,13 +2315,32 @@ async function refreshRejeitadosInstrutoresList() {
   }
 }
 
-// "Reabrir" aqui remove o registro de rejeitada — a avaliação volta a poder
-// aparecer como candidata na próxima busca desse instrutor.
+// "Reabrir" tem dois comportamentos, dependendo da origem do registro:
+// - Se era um elogio CONFIRMADO que foi rejeitado (estava_confirmado), volta
+//   a ser um elogio confirmado (restaura em mencoes_instrutores.json com a
+//   data de confirmação e mês de referência originais).
+// - Se era só um candidato descartado durante a busca (nunca chegou a ser
+//   confirmado), reabrir apenas libera a avaliação para poder aparecer de
+//   novo como candidata na próxima busca desse instrutor.
 async function reabrirMencaoRejeitada(mencao) {
   const autorizado = await requireAdminPassword();
   if (!autorizado) return;
 
   try {
+    if (mencao.estava_confirmado) {
+      const { estava_confirmado, rejected_at, ...mencaoRestaurada } = mencao;
+      await writeWithRetry(
+        MENCOES_PATH,
+        [],
+        (current) => {
+          const list = current || [];
+          const jaExiste = list.find(m => m.id === mencaoRestaurada.id);
+          if (jaExiste) return null;
+          return [...list, mencaoRestaurada];
+        },
+        `Restaura elogio ${mencao.id} como confirmado (reabertura de rejeitado)`
+      );
+    }
     await writeWithRetry(
       MENCOES_REJEITADAS_PATH,
       [],
@@ -2291,9 +2348,31 @@ async function reabrirMencaoRejeitada(mencao) {
       `Reabre menção rejeitada ${mencao.id}`
     );
     refreshRejeitadosInstrutoresList();
+    refreshMencoesConfirmadasList();
+    refreshRankingInstrutores();
   } catch (err) {
     console.error(err);
     alert("Erro ao reabrir: " + (err.message || err));
+  }
+}
+
+// Exclusão DEFINITIVA — só existe dentro da aba Rejeitados.
+async function excluirMencaoRejeitadaPermanente(mencao) {
+  const autorizado = await requireAdminPassword();
+  if (!autorizado) return;
+  if (!confirm(`Excluir PERMANENTEMENTE este registro rejeitado de "${mencao.instrutor_nome}"? Essa ação não pode ser desfeita.`)) return;
+
+  try {
+    await writeWithRetry(
+      MENCOES_REJEITADAS_PATH,
+      [],
+      (current) => (current || []).filter(m => m.id !== mencao.id),
+      `Exclui definitivamente menção rejeitada ${mencao.id}`
+    );
+    refreshRejeitadosInstrutoresList();
+  } catch (err) {
+    console.error(err);
+    alert("Erro ao excluir: " + (err.message || err));
   }
 }
 
