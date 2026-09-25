@@ -2822,21 +2822,6 @@
     "recuperado_status_anterior": "pendente (excluído)"
   },
   {
-    "id": "f939a522-cbd1-45c1-809b-ce90d24508c1",
-    "setor": "Fotos",
-    "vendedora": "Indianara",
-    "cliente_nome_informado": "leonardo lucena",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
-    "created_at": "2026-09-17T14:39:27.849Z",
-    "confirmed_at": null,
-    "rejected_at": null,
-    "rejected_review_id": null,
-    "recuperado_em": "2026-09-25T18:03:31.000Z",
-    "recuperado_status_anterior": "pendente (excluído)"
-  },
-  {
     "id": "a41c7156-9c77-4add-b64f-b0a96d267b62",
     "vendedora": "MAIRA",
     "cliente_nome_informado": "Ramon Noe",
