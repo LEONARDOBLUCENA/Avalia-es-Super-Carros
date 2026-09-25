@@ -1002,6 +1002,42 @@ function wordScore(nameWord, textWord) {
   return diceScore(nameWord, textWord);
 }
 
+// Score de cliente (fluxo de Fotos): compara o nome informado no lançamento
+// com o nome de quem avaliou no Google.
+//
+// Antes, isso era feito com diceScore no texto inteiro (nome completo virado
+// uma string só). Isso gera falso positivo: nomes curtos como "Omar da Luz"
+// batem por acaso com nomes bem diferentes só porque compartilham sílabas
+// comuns em português ("da", "ar", "ma" etc.) — ex.: "Omar da Luz" batia 44%
+// com "Gilsomar de Souza Filho", sem nenhuma relação real entre os nomes.
+//
+// Agora comparamos PALAVRA POR PALAVRA (mesma lógica de wordScore usada na
+// busca de menções de instrutor), exigindo que a primeira letra de cada
+// palavra bata antes de calcular semelhança — isso elimina esse tipo de
+// coincidência, mas continua pegando erro de digitação real (ex.: "Josylaine
+// Luz" x "Josylane Luz") e nomes fora de ordem.
+const CLIENTE_STOPWORDS = new Set(["de", "da", "do", "dos", "das", "e"]);
+
+function clienteNomeScore(clienteNomeInformado, autorNomeAvaliacao) {
+  const normCliente = normalize(clienteNomeInformado);
+  const normAutor = normalize(autorNomeAvaliacao);
+  if (!normCliente || !normAutor) return 0;
+  if (normCliente === normAutor) return 1;
+  if (includesToken(clienteNomeInformado, autorNomeAvaliacao)) return 0.9;
+
+  const palavrasCliente = normCliente.split(" ").filter(w => w.length >= 2 && !CLIENTE_STOPWORDS.has(w));
+  const palavrasAutor = normAutor.split(" ").filter(w => w.length >= 2 && !CLIENTE_STOPWORDS.has(w));
+  if (palavrasCliente.length === 0 || palavrasAutor.length === 0) return 0;
+
+  let total = 0;
+  palavrasCliente.forEach(wc => {
+    let melhor = 0;
+    palavrasAutor.forEach(wa => { melhor = Math.max(melhor, wordScore(wc, wa)); });
+    total += melhor;
+  });
+  return total / palavrasCliente.length;
+}
+
 function mentionScore(instrutorNome, reviewText) {
   const normText = normalize(reviewText);
   const normName = normalize(instrutorNome);
@@ -1488,9 +1524,9 @@ async function buscarAvaliacaoParaLancamento(lancamento, btnEl) {
     const scored = (reviews || [])
       .map(r => ({
         ...r,
-        score: Math.max(diceScore(lancamento.cliente_nome_informado, r.author_name), includesToken(lancamento.cliente_nome_informado, r.author_name) ? 0.8 : 0)
+        score: clienteNomeScore(lancamento.cliente_nome_informado, r.author_name)
       }))
-      .filter(r => r.score >= 0.35 && !rejeitadosDesteLancamento.has(r.review_id))
+      .filter(r => r.score >= 0.5 && !rejeitadosDesteLancamento.has(r.review_id))
       .sort((a, b) => b.score - a.score)
       .slice(0, 8);
 
