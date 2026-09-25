@@ -2432,11 +2432,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Fernanda Vasconcelos",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xFNVRIQnJNRjg1ZG5WUVExOVFNM0E0VEdsamFFRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-24T20:19:45.203Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-25T19:40:25.749Z"
   },
   {
     "id": "4f802e8a-907c-4a73-948e-bb09a555298f",
