@@ -3531,5 +3531,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-25T23:05:07.071Z",
     "confirmed_at": null
+  },
+  {
+    "id": "3c34bf32-70a9-4f15-8cd7-1466a66d5ed3",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Nayara Marinho",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-25T23:05:23.507Z",
+    "confirmed_at": null
   }
 ]
