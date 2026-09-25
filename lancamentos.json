@@ -2492,5 +2492,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-25T14:40:09.049Z",
     "confirmed_at": null
+  },
+  {
+    "id": "417e2077-8e0f-405e-a764-d0791a010837",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Ericarla Muniz",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-25T14:47:46.004Z",
+    "confirmed_at": null
   }
 ]
