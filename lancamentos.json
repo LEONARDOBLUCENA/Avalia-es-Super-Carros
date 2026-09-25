@@ -3421,5 +3421,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-25T22:57:52.152Z",
     "confirmed_at": null
+  },
+  {
+    "id": "9b440ccf-481c-4723-8e3d-c04295a209b2",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Natália Locks",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-25T22:58:08.891Z",
+    "confirmed_at": null
   }
 ]
