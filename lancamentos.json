@@ -2404,5 +2404,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-25T13:22:35.277Z",
     "confirmed_at": null
+  },
+  {
+    "id": "ef58b524-4bf1-4309-8fec-95f270b6dd32",
+    "setor": "Fotos",
+    "vendedora": "Fernanda",
+    "cliente_nome_informado": "Marcelo Aguiar",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-25T14:08:12.028Z",
+    "confirmed_at": null
   }
 ]
