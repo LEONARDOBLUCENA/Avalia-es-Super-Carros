@@ -3663,5 +3663,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-27T00:37:44.300Z",
     "confirmed_at": null
+  },
+  {
+    "id": "2b8df738-52ca-4d24-bbd6-86c61db42c15",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Pr. Luiz almeida",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-27T00:38:33.555Z",
+    "confirmed_at": null
   }
 ]
