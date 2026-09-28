@@ -3702,11 +3702,13 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Thales Victor Martins leite",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-09-27T16:52:32.343Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-09-28T11:42:25.846Z",
+    "rejected_review_id": null
   },
   {
     "id": "72f81bb1-3994-4859-9a14-0989f663f0b7",
