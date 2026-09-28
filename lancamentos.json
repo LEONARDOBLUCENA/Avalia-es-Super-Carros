@@ -3842,5 +3842,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-28T17:38:01.519Z",
     "confirmed_at": null
+  },
+  {
+    "id": "98893161-8ccf-461e-8f9e-6495406e3c40",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Anonimon k.o",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-28T17:38:56.939Z",
+    "confirmed_at": null
   }
 ]
