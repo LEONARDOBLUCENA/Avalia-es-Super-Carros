@@ -2586,11 +2586,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "María soledad barizo",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xwa1RFbHZRVXBGU3poeFMwSnllazVRZGt4R01IYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-25T16:58:35.256Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-28T11:44:44.011Z"
   },
   {
     "id": "db3a6f3b-1268-4725-af5c-f910649d0da3",
