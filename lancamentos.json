@@ -3798,5 +3798,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-28T16:20:35.063Z",
     "confirmed_at": null
+  },
+  {
+    "id": "dd2aa8aa-07af-44fe-b7ac-daaa3f42830f",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Marenise quadros",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-28T16:37:42.689Z",
+    "confirmed_at": null
   }
 ]
