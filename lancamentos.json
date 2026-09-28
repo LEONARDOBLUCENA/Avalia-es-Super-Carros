@@ -3528,11 +3528,13 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Erik Felix da Silva",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-09-25T23:05:07.071Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-09-28T12:00:02.562Z",
+    "rejected_review_id": null
   },
   {
     "id": "3c34bf32-70a9-4f15-8cd7-1466a66d5ed3",
