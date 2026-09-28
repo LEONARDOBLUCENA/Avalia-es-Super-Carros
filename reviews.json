@@ -1,5 +1,96 @@
 [
   {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKSWQwdEJNMkpyV2pNNVUwWkNhRXcwYmtWV2FrRRAB",
+    "author_name": "Anonimon K.o",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-28T17:38:44.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2sxWFYwTlBaMUl0ZG5sSU4yd3pRMnRLTVZsU1RuYxAB",
+    "author_name": "Felipe Soares",
+    "rating": 5,
+    "review_text": "Incrível",
+    "review_time": "2026-09-28T17:37:31.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWbU5qVnZhM3BrVlVkeFptbDZOM0pMWTI1cldtYxAB",
+    "author_name": "Marenise Quadros",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-28T16:37:49.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21Jd1YyUkVVRE41TmtoeExXRlBXV05HWmtKUlkyYxAB",
+    "author_name": "Jaqueline Santana",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-28T16:20:32.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21nNE5GTjZiVVZVZWtkT1pHUXlOVFZNYzJKeFRtYxAB",
+    "author_name": "Valdir Alonso",
+    "rating": 5,
+    "review_text": "Atendimento top, e diversas experiências diferentes, com sulimuladores e carros reais. Recomendo!",
+    "review_time": "2026-09-28T16:19:03.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kclpUTXpXRmMzTTJGa1NsUm9iVlp6WVZFMmJIYxAB",
+    "author_name": "Maria Basilio",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-28T14:51:51.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25ndGJtcG1Tak10ZUZkeFNGcFNPVnBuTVV4RU0xRRAB",
+    "author_name": "Luis gustavo Da silva lima",
+    "rating": 5,
+    "review_text": "Eu e minha esposa amamos cada momento nesse lugar de um atendimento nota mil. Eu indico viver essa experiência única!!",
+    "review_time": "2026-09-28T14:47:54.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tsSWJIQkNXVjh3WVhGcVptVjNXV3c1ZW05RmJHYxAB",
+    "author_name": "Adriely Rodrigues",
+    "rating": 5,
+    "review_text": "Amei a experiência, o atendimento incrível!<br>Vale muito a pena.",
+    "review_time": "2026-09-28T14:47:04.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pkMmNEaHhOMDk1UTFodVMzQXRabWsxTFZCNGNWRRAB",
+    "author_name": "Erico pereira",
+    "rating": 5,
+    "review_text": "Muito incrível inesquecível",
+    "review_time": "2026-09-28T13:12:22.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21Sb05WZzNNM2N5ZUVsRWRVZzBPV1ZRV1hSelgyYxAB",
+    "author_name": "Rafaela Crispim de Souza",
+    "rating": 5,
+    "review_text": "Otima experiência",
+    "review_time": "2026-09-28T02:09:44.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t4TVZtSlpTMWhyZEdOc05FNVNaRzB4WkMxYWRWRRAB",
+    "author_name": "Yordy Nicolas",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-27T17:29:11.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pac2VXUTNOR0ZrVkdOVWJYVklia1ZRZEZOWFluYxAB",
+    "author_name": "Thales Victor Martins Leite",
+    "rating": 5,
+    "review_text": "experiência excepcional, simulador, atendimento, os carros, tudo de um nível divino, o barulho dos motores é BÍBLICO de tão incrível, melhor coisa q eu já fiz",
+    "review_time": "2026-09-27T16:53:38.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25kMlYxaHlNWGxhWVVkR1NFeFFTMGQzU2pWbmNGRRAB",
+    "author_name": "Bruna Martins Nascimento",
+    "rating": 5,
+    "review_text": "Muito bacana!",
+    "review_time": "2026-09-27T16:52:10.000Z"
+  },
+  {
     "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poWlJqVnlPRFJRV25kak5sRkZPSEpuV21zdFdtYxAB",
     "author_name": "Vinicius Lopes Viol",
     "rating": 2,
