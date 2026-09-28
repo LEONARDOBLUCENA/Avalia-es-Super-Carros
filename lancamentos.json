@@ -3572,11 +3572,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Felipe Rocha",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25KbGJWVm9aRkV5ZVZsNlMzSndVRkY0VERWQmVHYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-26T16:16:59.970Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-28T11:59:30.960Z"
   },
   {
     "id": "4aca07c0-3ead-4dda-b97e-6b20aca03709",
