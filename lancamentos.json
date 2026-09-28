@@ -2478,11 +2478,11 @@
     "setor": "Fotos",
     "vendedora": "Fernanda",
     "cliente_nome_informado": "Marcelo Aguiar",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT204eFozWnhkazU2ZHpoUlkzUm1YMmt3ZGxab2RtYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-25T14:08:12.028Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-28T11:56:22.677Z"
   },
   {
     "id": "d32561b1-299e-4975-a3d1-ec613da25767",
