@@ -3680,11 +3680,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "reverson dias",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5eU1tbHBOa1ZDUjJST2FHUTRjRzh3TVY5aFVtYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-27T00:39:22.246Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-28T11:42:32.916Z"
   },
   {
     "id": "4a7b3d03-49db-4581-a678-6551e8af55ec",
