@@ -3473,11 +3473,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "rosiane santos",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5VFJESndMVlJ5Wm1KeVpqUTVNVkZvWlY5QloxRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-25T23:01:16.128Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-28T12:00:46.842Z"
   },
   {
     "id": "5f5f231d-c350-45b8-87c9-ea0f203e9cac",
