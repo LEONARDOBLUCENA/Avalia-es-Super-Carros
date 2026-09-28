@@ -2445,11 +2445,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Said Alromhin Abreu",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25sQ2RXeHhlSFpoU0hsalJrazBWbXgwVGpCSFMzYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-24T20:44:22.278Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-28T12:02:48.841Z"
   },
   {
     "id": "8391b395-e299-448c-a453-1f2d6a386c0f",
