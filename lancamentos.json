@@ -3908,5 +3908,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-28T19:23:23.842Z",
     "confirmed_at": null
+  },
+  {
+    "id": "3986459c-bf9a-4e37-be09-b8a62a4c98f2",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Pedro Ivo",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-28T20:08:34.187Z",
+    "confirmed_at": null
   }
 ]
