@@ -3771,11 +3771,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Maria Basílio",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kclpUTXpXRmMzTTJGa1NsUm9iVlp6WVZFMmJIYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-28T14:51:55.890Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-28T20:00:18.533Z"
   },
   {
     "id": "19218c77-bc7b-48b8-a2eb-02a572aacbaa",
