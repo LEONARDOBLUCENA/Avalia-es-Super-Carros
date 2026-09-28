@@ -1707,11 +1707,37 @@ async function rejeitarCandidatoLancamento(lancamento, review) {
    PAINEL DE CONTAGEM MENSAL — Fotos
    ============================================================ */
 
+// O quadro de ranking (contagem por funcionário) só é exibido depois de
+// digitar a senha de administração — evita que qualquer pessoa com acesso
+// à tela veja quantas avaliações cada vendedora já tem no mês.
+let rankingFotosUnlocked = false;
+
+function renderRankingBloqueado(elId, onUnlock) {
+  const el = document.getElementById(elId);
+  el.innerHTML = `
+    <div class="empty" style="text-align:center;padding:18px 0;">
+      Ranking protegido por senha.<br>
+      <button class="small" data-action="ver-ranking" style="margin-top:10px;">Ver ranking</button>
+    </div>
+  `;
+  el.querySelector('[data-action="ver-ranking"]').addEventListener("click", onUnlock);
+}
+
 async function refreshRankingPanel() {
   const rankingBody = document.getElementById("rankingBody");
 
   if (!isConfigured) {
     rankingBody.innerHTML = `<div class="empty">Configure o token do GitHub para ver a contagem.</div>`;
+    return;
+  }
+
+  if (!rankingFotosUnlocked) {
+    renderRankingBloqueado("rankingBody", async () => {
+      const autorizado = await requireAdminPassword();
+      if (!autorizado) return;
+      rankingFotosUnlocked = true;
+      refreshRankingPanel();
+    });
     return;
   }
 
@@ -2086,11 +2112,23 @@ async function rejeitarMencaoConfirmada(mencao) {
    PAINEL DE CONTAGEM MENSAL — Instrutores
    ============================================================ */
 
+let rankingInstrutoresUnlocked = false;
+
 async function refreshRankingInstrutores() {
   const rankingBody = document.getElementById("rankingInstrutoresBody");
 
   if (!isConfigured) {
     rankingBody.innerHTML = `<div class="empty">Configure o token do GitHub para ver a contagem.</div>`;
+    return;
+  }
+
+  if (!rankingInstrutoresUnlocked) {
+    renderRankingBloqueado("rankingInstrutoresBody", async () => {
+      const autorizado = await requireAdminPassword();
+      if (!autorizado) return;
+      rankingInstrutoresUnlocked = true;
+      refreshRankingInstrutores();
+    });
     return;
   }
 
