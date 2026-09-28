@@ -2467,11 +2467,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Yan Tomaz",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poUGFHRnhYMDk0UW5aRU1GcFVZVUZSVERKWmExRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-25T13:22:35.277Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-28T11:58:59.415Z"
   },
   {
     "id": "ef58b524-4bf1-4309-8fec-95f270b6dd32",
