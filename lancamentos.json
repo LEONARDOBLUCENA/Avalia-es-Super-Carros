@@ -2608,11 +2608,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "*Laura*Ari",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tRMVoxTk1Nek54ZEZaUFVqUkdRV0pRUmt0cVgyYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-25T17:25:25.307Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-28T11:44:35.696Z"
   },
   {
     "id": "832875e0-ae6a-4c61-bd09-fa2fef6479f4",
