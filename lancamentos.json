@@ -2522,11 +2522,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "FERNANDA SUYANE",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tzM2FTMXRSWEV3VVZJMWJqbFdaak5mTFhZMGNrRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-25T14:39:12.747Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-28T12:02:33.697Z"
   },
   {
     "id": "b358bfe1-0ada-4243-937e-22c29cd279ed",
