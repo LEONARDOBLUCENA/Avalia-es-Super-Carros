@@ -3484,11 +3484,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Jimena Larrañaga",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2swdGJIRXRlV056VjE5cFJuQlVVV1ExWXpaM2FsRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-25T23:02:06.953Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-28T12:00:40.562Z"
   },
   {
     "id": "42768c90-2272-41ed-92c9-316d73c364ac",
