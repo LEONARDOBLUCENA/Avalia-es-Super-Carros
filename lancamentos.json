@@ -2533,11 +2533,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "lucia cardoso",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21aZmFVMTVVM295WVRKMFVWZHlYM2c1UVV0NFpHYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-25T14:39:24.378Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-28T12:02:25.889Z"
   },
   {
     "id": "646ea3a5-4af7-401a-84ec-83aed856e2c0",
