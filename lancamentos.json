@@ -3418,11 +3418,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Dagoberto Rodrigues",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2twM1N6WnBibUpJYWtVdFFraFdiME5xTFRkZmVuYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-25T22:57:52.152Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-28T12:01:51.540Z"
   },
   {
     "id": "9b440ccf-481c-4723-8e3d-c04295a209b2",
