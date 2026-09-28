@@ -3723,10 +3723,12 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Yordy nicolas",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-09-27T17:29:07.433Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-09-28T12:05:39.075Z",
+    "rejected_review_id": null
   }
 ]
