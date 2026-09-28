@@ -3743,5 +3743,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-28T13:34:28.428Z",
     "confirmed_at": null
+  },
+  {
+    "id": "cf6de7bf-9b36-4375-8101-bef0ecb8a01d",
+    "setor": "Fotos",
+    "vendedora": "Fernanda",
+    "cliente_nome_informado": "Adriely Rodrigues",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-28T14:47:48.814Z",
+    "confirmed_at": null
   }
 ]
