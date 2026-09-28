@@ -3495,11 +3495,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Eduardo Reis",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KclZFRjVlazB5ZFRoS01sUkhNV2xuZGxsV2FrRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-25T23:02:33.768Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-28T12:00:35.043Z"
   },
   {
     "id": "a9a92aea-8ba5-4899-a547-d0abec267835",
