@@ -3462,11 +3462,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Miriane Alves Valentim",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kM2RtNXlTalIwUjFocFJFZ3laVTUxUVhWdE5HYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-25T23:00:22.152Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-28T12:00:53.281Z"
   },
   {
     "id": "fb81600e-5d46-41d1-b4a6-4843314ea852",
