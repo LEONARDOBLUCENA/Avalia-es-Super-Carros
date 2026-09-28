@@ -2412,11 +2412,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "férias na roça",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poNWVsSXpWa00zYkRsS2QzazNVbFJJT1dWbU1uYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-24T20:07:05.785Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-28T12:02:56.229Z"
   },
   {
     "id": "3fc82cc4-ea41-4117-89ac-6500a5697a89",
