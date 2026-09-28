@@ -2456,11 +2456,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Tatiane Pimentel",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pVM2NuUmZRV2h4ZUVGMU1DMXFPVGhwVm5WamFIYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-24T21:18:00.425Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-28T12:02:41.337Z"
   },
   {
     "id": "a37a0210-8202-4f87-b16b-3155028f9654",
