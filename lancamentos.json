@@ -3396,11 +3396,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Djalma Gouvea",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25wcWNVZFdlRkZ6T1Mxb1VraDVWRWQ2ZG1WME5GRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-25T20:08:02.664Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-28T11:55:56.208Z"
   },
   {
     "id": "bce1c86a-1f07-4b14-a06c-0bfe780369fb",
