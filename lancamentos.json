@@ -2346,11 +2346,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Nayane Ellen",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21aQmQxTmhVMGd3V2tSeFh6RmhNMkpKTkZsME4zYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-24T19:20:02.672Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-28T12:03:03.862Z"
   },
   {
     "id": "771524b6-c302-486a-a7e0-5207e161dd1f",
