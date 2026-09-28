@@ -3738,11 +3738,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Erico Pereira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pkMmNEaHhOMDk1UTFodVMzQXRabWsxTFZCNGNWRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-28T13:34:28.428Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-28T19:59:46.386Z"
   },
   {
     "id": "cf6de7bf-9b36-4375-8101-bef0ecb8a01d",
