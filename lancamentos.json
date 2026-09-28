@@ -2599,11 +2599,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Omar da luz",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xoUWMweE5TVkJwWW1oS0xYbG9Ta3h5VDFwcE9YYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-25T17:24:43.570Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-28T11:55:47.813Z"
   },
   {
     "id": "6f391b9d-fc53-4bab-9600-89322a68182c",
