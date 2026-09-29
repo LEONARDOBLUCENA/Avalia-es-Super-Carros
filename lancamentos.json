@@ -4020,5 +4020,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-29T19:09:14.982Z",
     "confirmed_at": null
+  },
+  {
+    "id": "a0af075a-8f04-4774-836e-9dfeef45f3c3",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Arlesson oliveira",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-29T19:39:58.329Z",
+    "confirmed_at": null
   }
 ]
