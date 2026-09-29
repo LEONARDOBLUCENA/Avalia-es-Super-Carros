@@ -1,5 +1,75 @@
 [
   {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21SMVJGRk1PSE5WU1VoSGJsa3lNbEZ6UjAxNExVRRAB",
+    "author_name": "Ellen Ferrari Machado",
+    "rating": 5,
+    "review_text": "Experiência excelente, já não é a primeira vez que venho e recomendo de mais e o atendimento é 10 estrelas",
+    "review_time": "2026-09-29T14:57:21.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21GQ2RWZHFTMWR4YzJST1NWRkZNVnBXYzBWMGRIYxAB",
+    "author_name": "Mundo De Doug",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-29T12:02:14.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKRFRWTlhRV1JJTFZOQ1gwWmlNbVJoVDJKb2JYYxAB",
+    "author_name": "Luis Carlos Elchami",
+    "rating": 3,
+    "review_text": "Nossa experiência na Super Cars Gramado foi simplesmente incrível do começo ao fim! A equipe foi extremamente atenciosa e acolhedora desde o momento em que chegamos. Eles estavam sempre prontos para ajudar e garantir que tivéssemos todas as informações necessárias para aproveitar ao máximo a experiência.<br><br>O passeio em si foi sensacional. Nosso instrutor foi muito profissional e experiente, fornecendo instruções claras e garantindo nossa segurança e conforto durante todo o trajeto. Os carros estavam impecáveis, muito bem cuidados e em perfeito estado, o que contribuiu para uma experiência ainda mais agradável.<br><br>Outro destaque da nossa experiência foram as fotos incríveis que capturaram cada momento emocionante. Elas servirão como lembranças preciosas dessa aventura inesquecível. Além disso, ficamos muito felizes em receber um desconto generoso, o que tornou a experiência ainda mais acessível e agradável.<br><br>No geral, recomendamos muito a Super Cars Gramado para quem busca uma experiência emocionante e memorável com carros de alta qualidade e um atendimento excepcional.",
+    "review_time": "2026-09-29T03:32:07.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21reFIydHVhekZHWmw5UFpVVlRlRVpGWlZOMU1WRRAB",
+    "author_name": "Maristela Higino",
+    "rating": 5,
+    "review_text": "Maravilhoso!!!!",
+    "review_time": "2026-09-28T20:09:14.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pWZmFtcG9Wek5EZFhKblYxVkdTSGxWVXpaalkyYxAB",
+    "author_name": "Pedro Ivo",
+    "rating": 5,
+    "review_text": "Gostei do muito passeio de carros",
+    "review_time": "2026-09-28T20:05:19.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT214cVdFRnJWMGxHTWsxNVZrMUlRVE5SWmxBNWRuYxAB",
+    "author_name": "Maik Gomes",
+    "rating": 5,
+    "review_text": "Top demais",
+    "review_time": "2026-09-28T19:23:36.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tRdFExZFNSVmhETjA1b1ZFZEdVSE5oZUdWUWIxRRAB",
+    "author_name": "Fernando Brito",
+    "rating": 5,
+    "review_text": "Todos do Super Carros Gramado são muito atenciosos! Agradeço toda experiência vivida!",
+    "review_time": "2026-09-28T18:46:13.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pJM1VYRjZlR1pRUW10Qk5ucHBUMGg0UjE4MU5uYxAB",
+    "author_name": "Natália Ribeiro",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-28T18:45:36.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pscVNHRmhSbGgxY21aVFgyRkxRbE5XY2kxUVFYYxAB",
+    "author_name": "Felipe Costa",
+    "rating": 5,
+    "review_text": "Show demais!",
+    "review_time": "2026-09-28T18:17:10.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pZeVJVRlpaMFp0UzFoek1WTk9jekIxVVRCQk1tYxAB",
+    "author_name": "elane luiza",
+    "rating": 5,
+    "review_text": "A experiência é maravilhosa!",
+    "review_time": "2026-09-28T18:15:54.000Z"
+  },
+  {
     "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKSWQwdEJNMkpyV2pNNVUwWkNhRXcwYmtWV2FrRRAB",
     "author_name": "Anonimon K.o",
     "rating": 5,
@@ -12,6 +82,20 @@
     "rating": 5,
     "review_text": "Incrível",
     "review_time": "2026-09-28T17:37:31.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT210QlVWbEJkMHhyZFhRelpqZGxkbEUzVkZWTGNYYxAB",
+    "author_name": "Marcia Matos",
+    "rating": 1,
+    "review_text": "⭐⭐<br><br>Tive uma experiência extremamente decepcionante no Super Carros, em Gramado.<br><br>Viemos com a nossa empresa para comemorar uma conquista muito importante: o alcance da nossa meta. Era para ser um momento de celebração, descontração e uma experiência agradável entre colegas de trabalho. Infelizmente, o atendimento deixou muito a desejar e acabou sendo uma experiência bastante desagradável.<br><br>Eu e minhas colegas fomos atendidas com pouca cordialidade e, em diversos momentos, sentimos falta de educação, atenção e disposição por parte da equipe. É frustrante investir em um passeio justamente para comemorar uma conquista e ser recebida dessa maneira.<br><br>Faço questão de destacar que apenas duas pessoas da equipe foram realmente atenciosas e educadas conosco. E, sinceramente, educação, respeito e cordialidade são o mínimo que se espera de qualquer estabelecimento que trabalha diretamente com o público.<br><br>Não estamos falando de um pedido de tratamento especial ou de qualquer privilégio. Estamos falando de atendimento básico, respeito e profissionalismo.<br><br>Uma empresa que recebe turistas, famílias, grupos e, inclusive, empresas que escolhem o local para celebrar momentos importantes, deveria ter muito mais cuidado com a experiência que proporciona ao cliente.<br><br>O lugar pode até ter uma proposta interessante, mas uma boa experiência não depende apenas da estrutura ou das atrações. O atendimento faz toda a diferença — e, nesse aspecto, nossa experiência foi péssima.<br><br>Espero que a administração leve esse relato a sério e reveja a postura e o treinamento da equipe, porque ninguém merece sair de um momento que deveria ser especial com a sensação de ter sido maltratado como cliente.<br><br>Fica aqui o registro da nossa insatisfação e a expectativa de que outras pessoas não passem pela mesma situação.",
+    "review_time": "2026-09-28T16:55:01.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1MmEwb3lSemxwYjIxMGNXRTJXbWRCWVdSdFpIYxAB",
+    "author_name": "Fabiano Marques",
+    "rating": 5,
+    "review_text": "Ótimo passeio , atendimento",
+    "review_time": "2026-09-28T16:39:42.000Z"
   },
   {
     "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWbU5qVnZhM3BrVlVkeFptbDZOM0pMWTI1cldtYxAB",
