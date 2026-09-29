@@ -3954,5 +3954,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-29T14:42:52.344Z",
     "confirmed_at": null
+  },
+  {
+    "id": "05fe93a4-3675-4652-92c7-c2ac838ec4cd",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "João Vitor Elias",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-29T14:55:23.892Z",
+    "confirmed_at": null
   }
 ]
