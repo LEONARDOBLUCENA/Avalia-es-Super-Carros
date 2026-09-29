@@ -3998,5 +3998,16 @@
     "mes_referencia": null,
     "created_at": "2026-09-29T17:02:20.731Z",
     "confirmed_at": null
+  },
+  {
+    "id": "53ccdd53-3e6b-43cb-ab9a-e1e5586f69ec",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Lohanny cathalat",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-09-29T19:08:56.759Z",
+    "confirmed_at": null
   }
 ]
