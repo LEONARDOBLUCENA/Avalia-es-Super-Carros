@@ -4048,10 +4048,10 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Leonardo Barreto constantino",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xrd1lrcFdNRmN5YW5OcFNEVk5PVlJqWVd0dVgxRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-29T20:12:27.821Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-30T17:39:20.408Z"
   }
 ]
