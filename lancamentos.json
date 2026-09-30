@@ -3815,11 +3815,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Fabiano marques",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1MmEwb3lSemxwYjIxMGNXRTJXbWRCWVdSdFpIYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-28T16:38:43.039Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-30T17:34:53.311Z"
   },
   {
     "id": "6be27e58-9214-43fc-9c25-c4ca264aede0",
