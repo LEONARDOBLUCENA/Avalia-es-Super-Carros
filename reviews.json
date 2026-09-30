@@ -1,10 +1,101 @@
 [
   {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25reVFsaFhVMVUyTjBjd01HUjVPV3hTYkhGU1oxRRAB",
+    "author_name": "Jefferson Leandro",
+    "rating": 2,
+    "review_text": "Pouca variedade de carros para quem vai apenas ver, carros fechados, pouco acessivel... Vale a pena somente pra quem vai fazer o passeio, mas que também é um preço bem surreal para uma \"voltinha na avenida\", se fosse um passeio em pista onde desse para extrair a potência dos carros, acredito que valeria a pena",
+    "review_time": "2026-09-30T03:16:49.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21oaFQwUndYMDlUVkV3emNtRlZiMkZYZWtKSU5XYxAB",
+    "author_name": "Priscila Kramer",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-30T00:21:59.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT210RFZVMU9hRWxDU0VveVNuZzJWRWxDYlhoaFRHYxAB",
+    "author_name": "Juliana Pires",
+    "rating": 1,
+    "review_text": "Informações confusas, bilheteiro extremamente mal educado.",
+    "review_time": "2026-09-29T20:53:08.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xrd1lrcFdNRmN5YW5OcFNEVk5PVlJqWVd0dVgxRRAB",
+    "author_name": "Leonardo Barreto Constantino",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-29T20:12:39.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kM1kxcFhOV3BTV1RsdFdWOURlVnBGTTNkR2MyYxAB",
+    "author_name": "raquel ambrosio",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-29T19:40:57.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205M1VtRnZjRFZYV1hwS1JXNTZlRVZLWlhOTWJWRRAB",
+    "author_name": "Arlesson Oliveira",
+    "rating": 5,
+    "review_text": "Muuuito legal",
+    "review_time": "2026-09-29T19:39:08.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21GbE5YTk9kMVJFVTFsbExYcFpSbTF1YmsxSVkzYxAB",
+    "author_name": "J FS",
+    "rating": 5,
+    "review_text": "Muito legal a experiência!!",
+    "review_time": "2026-09-29T19:09:14.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tOVlQyMTNlazQ1TkdjNVFsRnRSMnBsY0VoZlFXYxAB",
+    "author_name": "Lohanny Cathalat",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-29T19:08:21.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tZMFJHTk5MVGMzUmxwelV6bE9NSEZQVDJkNFZtYxAB",
+    "author_name": "Leonardo Oliveira",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-29T17:02:12.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCSVVUbDViRnB6WVhFeVNqTnRObmhwV2pSbFFuYxAB",
+    "author_name": "Fernanda Rodrigues",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-29T17:00:57.000Z"
+  },
+  {
     "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21SMVJGRk1PSE5WU1VoSGJsa3lNbEZ6UjAxNExVRRAB",
     "author_name": "Ellen Ferrari Machado",
     "rating": 5,
     "review_text": "Experiência excelente, já não é a primeira vez que venho e recomendo de mais e o atendimento é 10 estrelas",
     "review_time": "2026-09-29T14:57:21.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201UFUwbG9OSFp2Tld4WWRFWTRiMnBtVWpGUVUxRRAB",
+    "author_name": "João vitor elias",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-29T14:55:23.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5S2RXMVJhWGRWWDJwb1ozUTVjemgzZVhSVGFHYxAB",
+    "author_name": "Rayka Marombas",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-09-29T14:42:55.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xSVGNtczNRM2xqVFY5Wk1FUlBOVkJ4YzNFdFFVRRAB",
+    "author_name": "Lucas Ampla",
+    "rating": 5,
+    "review_text": "Adoramos o passeio, e o simulador é muito real",
+    "review_time": "2026-09-29T14:34:53.000Z"
   },
   {
     "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21GQ2RWZHFTMWR4YzJST1NWRkZNVnBXYzBWMGRIYxAB",
