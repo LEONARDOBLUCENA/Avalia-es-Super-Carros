@@ -4026,11 +4026,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Arlesson oliveira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205M1VtRnZjRFZYV1hwS1JXNTZlRVZLWlhOTWJWRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-29T19:39:58.329Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-30T17:39:01.858Z"
   },
   {
     "id": "ce5873ba-9c92-492d-9393-349f5c7fdabf",
