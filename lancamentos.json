@@ -3960,11 +3960,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "João Vitor Elias",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201UFUwbG9OSFp2Tld4WWRFWTRiMnBtVWpGUVUxRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-29T14:55:23.892Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-30T17:37:59.742Z"
   },
   {
     "id": "ba8bc113-e768-4d3b-866c-01d61476fb92",
