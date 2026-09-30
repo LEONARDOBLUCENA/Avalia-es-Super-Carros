@@ -3905,11 +3905,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Maik Gomes",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT214cVdFRnJWMGxHTWsxNVZrMUlRVE5SWmxBNWRuYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-28T19:23:23.842Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-30T17:37:02.937Z"
   },
   {
     "id": "3986459c-bf9a-4e37-be09-b8a62a4c98f2",
