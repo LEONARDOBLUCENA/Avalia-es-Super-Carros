@@ -3861,11 +3861,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Elane luiza",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pZeVJVRlpaMFp0UzFoek1WTk9jekIxVVRCQk1tYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-28T18:15:37.438Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-30T17:35:03.671Z"
   },
   {
     "id": "ef4dabf5-9aa6-4b5c-9828-f11917312788",
