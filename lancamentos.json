@@ -3927,11 +3927,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Maristela Higino",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21reFIydHVhekZHWmw5UFpVVlRlRVpGWlZOMU1WRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-28T20:09:04.024Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-30T17:37:25.649Z"
   },
   {
     "id": "06b2af10-f2a7-427d-a578-e2721c14fc10",
