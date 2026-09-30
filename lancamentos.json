@@ -3993,11 +3993,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Leonardo Oliveira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tZMFJHTk5MVGMzUmxwelV6bE9NSEZQVDJkNFZtYxAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-29T17:02:20.731Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-30T17:38:31.335Z"
   },
   {
     "id": "53ccdd53-3e6b-43cb-ab9a-e1e5586f69ec",
