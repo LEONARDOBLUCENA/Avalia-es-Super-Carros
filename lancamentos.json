@@ -3938,11 +3938,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Lucas ampla",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xSVGNtczNRM2xqVFY5Wk1FUlBOVkJ4YzNFdFFVRRAB",
+    "mes_referencia": "2026-09",
     "created_at": "2026-09-29T14:34:49.386Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-09-30T17:37:39.415Z"
   },
   {
     "id": "de4cd06e-2c5b-407e-9d4e-9d530b226eb5",
