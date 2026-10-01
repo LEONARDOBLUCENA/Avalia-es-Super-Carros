@@ -4057,5 +4057,16 @@
     "mes_referencia": "2026-09",
     "created_at": "2026-09-29T20:12:27.821Z",
     "confirmed_at": "2026-09-30T17:39:20.408Z"
+  },
+  {
+    "id": "265a7148-c773-4dfb-b2f7-924835b6c9b8",
+    "setor": "Fotos",
+    "vendedora": "Fernanda",
+    "cliente_nome_informado": "Marcos Paulo",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-01T14:22:25.047Z",
+    "confirmed_at": null
   }
 ]
