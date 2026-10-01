@@ -4092,5 +4092,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-01T15:16:30.419Z",
     "confirmed_at": null
+  },
+  {
+    "id": "0412cc83-6ea8-4608-b046-fa5349ea2c2f",
+    "setor": "Fotos",
+    "vendedora": "Fernanda",
+    "cliente_nome_informado": "Gabriel Tavares",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-01T15:39:05.379Z",
+    "confirmed_at": null
   }
 ]
