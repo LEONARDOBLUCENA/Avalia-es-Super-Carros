@@ -4158,5 +4158,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-02T13:35:28.945Z",
     "confirmed_at": null
+  },
+  {
+    "id": "c196aa51-debe-47cf-b77a-7ea01fde3481",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Marina Souza",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-02T13:35:39.633Z",
+    "confirmed_at": null
   }
 ]
