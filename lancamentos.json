@@ -4076,11 +4076,11 @@
     "setor": "Fotos",
     "vendedora": "Fernanda",
     "cliente_nome_informado": "Beatriz Camilo",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCME5tTmhWRWwwVkdoV09EWkpia2hZWmtsQ1JWRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-01T14:57:20.060Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-02T12:30:11.447Z"
   },
   {
     "id": "4a8effe6-7715-409f-b283-857b8a4a344b",
