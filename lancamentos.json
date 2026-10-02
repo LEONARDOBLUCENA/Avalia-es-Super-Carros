@@ -4213,5 +4213,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-02T16:32:34.588Z",
     "confirmed_at": null
+  },
+  {
+    "id": "737b4152-1502-4485-93cf-4cbd873d8ce3",
+    "setor": "Fotos",
+    "vendedora": "Fernanda",
+    "cliente_nome_informado": "Tamires Tramontin",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-02T16:44:40.376Z",
+    "confirmed_at": null
   }
 ]
