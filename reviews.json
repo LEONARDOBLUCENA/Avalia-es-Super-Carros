@@ -1,10 +1,73 @@
 [
   {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xwTFl6VXhRMGd4VVRaQmExaExhbUpxTkVNeFNYYxAB",
+    "author_name": "Gabriel Vidal",
+    "rating": 5,
+    "review_text": "Excelente experiência. Vale a pena dar um rolê em um carro super esportivo.",
+    "review_time": "2026-10-02T15:42:55.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGRVprbFVaSFpGYmtOVFFXOXpkamQ1UlRST1dHYxAB",
+    "author_name": "Ernande Junior",
+    "rating": 5,
+    "review_text": "Nota 10",
+    "review_time": "2026-10-02T15:17:20.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21SWlUzUXpOVFJPYkhoQlFYSktlSGswYURSdlVYYxAB",
+    "author_name": "Marlon Eduardo Da Silva",
+    "rating": 5,
+    "review_text": "Ambiente muito interessante e legal.",
+    "review_time": "2026-10-02T15:01:24.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tkeVVtWXRRWFZxU2pJMFpWOXVSSHBFZFZwU00yYxAB",
+    "author_name": "Marina Souza",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-02T13:33:50.000Z"
+  },
+  {
     "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKVFMzQTJXSFZzVGpCWVdXWkRaMUkwWkdGWVRrRRAB",
     "author_name": "Gustavo Christ",
     "rating": 5,
     "review_text": "",
     "review_time": "2026-10-01T16:42:59.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1VVFqVndhVzlhTjFsbVlTMUViRVpDVmtSeE9VRRAB",
+    "author_name": "Solene Santos",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-01T16:02:27.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s4elkwWmFTVVJWZEMxV01HbFNTWGg1WW5OamMyYxAB",
+    "author_name": "Elgato Gamer",
+    "rating": 5,
+    "review_text": "Excelente",
+    "review_time": "2026-10-01T16:02:18.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25CM2VsOUhRVWw0UVdFd01VdEJWVVpwUlZneVdYYxAB",
+    "author_name": "Maicol Deutsch",
+    "rating": 5,
+    "review_text": "Otimo, principalmente a experiência de dirigir os carros",
+    "review_time": "2026-10-01T15:52:46.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT20xR1NYWjNabm90V0U0d1RXSm9TbGxDT0hwQmNHYxAB",
+    "author_name": "Gabriel Tavares",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-01T15:38:55.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2psRk9YQXhjRnBaVlRRd2VrMTVTbVp6V1cxd04xRRAB",
+    "author_name": "Aline Signorini",
+    "rating": 5,
+    "review_text": "Experiência sensacional.<br>Recomendamos!",
+    "review_time": "2026-10-01T15:16:05.000Z"
   },
   {
     "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCME5tTmhWRWwwVkdoV09EWkpia2hZWmtsQ1JWRRAB",
