@@ -4098,11 +4098,11 @@
     "setor": "Fotos",
     "vendedora": "Fernanda",
     "cliente_nome_informado": "Gabriel Tavares",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT20xR1NYWjNabm90V0U0d1RXSm9TbGxDT0hwQmNHYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-01T15:39:05.379Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-02T17:06:33.330Z"
   },
   {
     "id": "5e855e22-a5c8-4ea0-aa20-ac60dce2743a",
