@@ -4219,12 +4219,12 @@
     "setor": "Fotos",
     "vendedora": "Fernanda",
     "cliente_nome_informado": "Tamires Tramontin",
-    "status": "rejeitado",
+    "status": "pendente",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-10-02T16:44:40.376Z",
     "confirmed_at": null,
-    "rejected_at": "2026-10-02T17:04:52.620Z",
+    "rejected_at": null,
     "rejected_review_id": null
   }
 ]
