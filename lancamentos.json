@@ -4369,5 +4369,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-03T18:06:45.055Z",
     "confirmed_at": null
+  },
+  {
+    "id": "e70f9248-c5fb-4c7a-a4b8-ab1932fc14a1",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Douglas Andrade",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-03T19:42:35.122Z",
+    "confirmed_at": null
   }
 ]
