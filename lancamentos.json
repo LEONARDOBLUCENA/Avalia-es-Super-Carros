@@ -4270,5 +4270,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-03T15:41:50.716Z",
     "confirmed_at": null
+  },
+  {
+    "id": "1e9e643b-70a7-42f4-bd9f-497c2343980e",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Italo Barbosa",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-03T15:42:07.430Z",
+    "confirmed_at": null
   }
 ]
