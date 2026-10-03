@@ -4314,5 +4314,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-03T16:48:56.423Z",
     "confirmed_at": null
+  },
+  {
+    "id": "c2ed3158-0d95-44fd-bd65-2e613ea4ba14",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Flow gameplay",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-03T16:49:56.115Z",
+    "confirmed_at": null
   }
 ]
