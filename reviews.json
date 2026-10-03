@@ -1,5 +1,68 @@
 [
   {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25CaGNFZE9kMDlLUjJWQldEaHRYMUZUTTE5UmMwRRAB",
+    "author_name": "Janayna Aires",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-03T14:30:40.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kxbE9FRkthMlpHVFVOTGJrZFZNRE52T0U1dUxWRRAB",
+    "author_name": "Leonardo Brandao",
+    "rating": 5,
+    "review_text": "Esperiencia excepcional",
+    "review_time": "2026-10-03T13:08:46.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2prNE9HbDZiR2hNYUVaamRWTkpSMlU1UmxWQ2EwRRAB",
+    "author_name": "joelma Ramos",
+    "rating": 5,
+    "review_text": "Encantada com o Lico dos carros",
+    "review_time": "2026-10-02T20:16:26.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21Wa0xVZ3hORXh6WlZRNE5VWjJNbE5IV0VWVE9VRRAB",
+    "author_name": "João Paulo Cirne",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-02T20:08:07.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xaRmExbHNUakpOT1VreVNrZHllazh4T0dwNFFrRRAB",
+    "author_name": "Thiago Dias",
+    "rating": 1,
+    "review_text": "Nossa experiência no Supercarros, infelizmente, começou de uma forma bastante desagradável por conta do atendimento que recebemos da funcionária Cirlene, no qual ela disse que tem 2 nomes porque depende de quem pergunta.<br>Teria dupla personalidade também?!<br><br>Desde o primeiro contato, fomos atendidos de maneira extremamente grosseira, com pouca cordialidade e uma postura que, na nossa percepção, demonstrou total falta de preparo para lidar com o público. Não se trata de esperar tratamento especial, mas de algo básico: educação, respeito e disposição para atender bem.<br><br>O mais lamentável é que a forma como fomos recebidos acabou influenciando diretamente a nossa experiência no evento, nem usamos o simulador sendo que poderíamos ter utilizado. Você chega a um lugar esperando aproveitar, conhecer os carros e ter uma experiência positiva, mas uma pessoa responsável pelo atendimento consegue fazer com que a primeira impressão seja justamente a pior possível.<br><br>Espero sinceramente que a administração do Supercarros avalie esse tipo de situação e oriente melhor seus funcionários sobre atendimento ao cliente. Uma experiência desse tipo não deveria ser normalizada, principalmente em um estabelecimento voltado ao turismo e à experiência do visitante.<br><br>Fica aqui minha reclamação para que situações assim sejam revistas e para que outros clientes não passem pela mesma experiência.<br>Além disso, o recepcionista responsável apenas entregou as pulseiras e se retirou, sem fornecer instruções. Ao colocar a pulseira na minha esposa, fomos repreendidos, mesmo sem termos sido instruídos de forma diferente. Pela “atendente” que se intitula Cirlene, baixinha de óculos.",
+    "review_time": "2026-10-02T18:58:56.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pobmMxUnhibll4ZVhSM1pHeG9SVmg0VkhCVlptYxAB",
+    "author_name": "Vanessa Fernanda Reolon",
+    "rating": 5,
+    "review_text": "Foi uma experiência incrível!!!!!!",
+    "review_time": "2026-10-02T17:13:06.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25JMlYzZFhTMGRDUkd0R1FUSXpOVmRCUzBsUmFGRRAB",
+    "author_name": "Tamires Tramontin",
+    "rating": 5,
+    "review_text": "Excelente 🤩🤩! Adoramos a experiência.",
+    "review_time": "2026-10-02T16:44:06.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWRFoyNXJTbGRhUVVOWWNURkhOMGh2UkdWblVsRRAB",
+    "author_name": "Thiago Sprotte",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-02T16:36:09.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201WU4wdExNV2d4WjI1RFNuVnpTbWx6UkZsdlgwRRAB",
+    "author_name": "priscilla prestes",
+    "rating": 5,
+    "review_text": "Experiência maravilhosa, indico",
+    "review_time": "2026-10-02T16:31:44.000Z"
+  },
+  {
     "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xwTFl6VXhRMGd4VVRaQmExaExhbUpxTkVNeFNYYxAB",
     "author_name": "Gabriel Vidal",
     "rating": 5,
@@ -26,6 +89,13 @@
     "rating": 5,
     "review_text": "",
     "review_time": "2026-10-02T13:33:50.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21GMWVHOXNObVpyZEZGMWJuSkphbTFYY1VkeFlXYxAB",
+    "author_name": "Paulo Sérgio Souza",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-02T13:33:22.000Z"
   },
   {
     "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKVFMzQTJXSFZzVGpCWVdXWkRaMUkwWkdGWVRrRRAB",
