@@ -4303,5 +4303,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-03T16:47:24.788Z",
     "confirmed_at": null
+  },
+  {
+    "id": "cfc53916-6bd1-47dc-bad1-10ce2fecf70c",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Bianca santos",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-03T16:48:56.423Z",
+    "confirmed_at": null
   }
 ]
