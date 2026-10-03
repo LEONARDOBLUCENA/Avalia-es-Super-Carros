@@ -4281,5 +4281,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-03T15:42:07.430Z",
     "confirmed_at": null
+  },
+  {
+    "id": "7a748685-945c-4716-96ab-23eb267249ff",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Layane cristina Oliveira",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-03T16:25:46.975Z",
+    "confirmed_at": null
   }
 ]
