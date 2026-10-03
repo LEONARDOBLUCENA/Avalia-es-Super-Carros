@@ -4358,5 +4358,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-03T18:05:44.226Z",
     "confirmed_at": null
+  },
+  {
+    "id": "c544312f-6982-4f67-96f4-3799f86eac54",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Gizele Barbosa",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-03T18:06:45.055Z",
+    "confirmed_at": null
   }
 ]
