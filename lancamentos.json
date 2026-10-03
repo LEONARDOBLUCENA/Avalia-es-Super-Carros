@@ -4259,5 +4259,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-03T13:23:47.286Z",
     "confirmed_at": null
+  },
+  {
+    "id": "9872998f-ef91-4993-ba95-361020c6eaab",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Mellory",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-03T15:41:50.716Z",
+    "confirmed_at": null
   }
 ]
