@@ -4248,5 +4248,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-02T17:19:56.285Z",
     "confirmed_at": null
+  },
+  {
+    "id": "1df397b3-5c33-4647-99e9-47ff26ca1316",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Leonardo Brandao",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-03T13:23:47.286Z",
+    "confirmed_at": null
   }
 ]
