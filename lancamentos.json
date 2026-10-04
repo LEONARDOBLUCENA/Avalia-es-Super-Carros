@@ -4424,5 +4424,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-04T17:32:05.937Z",
     "confirmed_at": null
+  },
+  {
+    "id": "ed588813-060f-44c4-9871-d6dd278e261b",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Saulo melo",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-04T19:30:38.681Z",
+    "confirmed_at": null
   }
 ]
