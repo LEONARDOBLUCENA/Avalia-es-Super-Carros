@@ -4468,5 +4468,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-04T19:50:16.486Z",
     "confirmed_at": null
+  },
+  {
+    "id": "c7e318b9-76dd-4dbf-8f6b-2d69d1bfb8bf",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Raylenny Gomes",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-04T19:51:48.272Z",
+    "confirmed_at": null
   }
 ]
