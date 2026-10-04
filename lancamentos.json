@@ -4457,5 +4457,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-04T19:49:40.533Z",
     "confirmed_at": null
+  },
+  {
+    "id": "d49fb41c-8ed9-4791-b3f0-9f8cf609caf6",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Jonatha vieira",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-04T19:50:16.486Z",
+    "confirmed_at": null
   }
 ]
