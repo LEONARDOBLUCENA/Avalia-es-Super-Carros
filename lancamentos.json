@@ -4402,5 +4402,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-03T21:03:48.380Z",
     "confirmed_at": null
+  },
+  {
+    "id": "fc599578-2729-4ef6-939d-45a8bdb37208",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Márcia Silvana brum",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-04T17:30:39.806Z",
+    "confirmed_at": null
   }
 ]
