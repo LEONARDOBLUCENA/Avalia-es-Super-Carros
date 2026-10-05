@@ -4798,5 +4798,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-05T19:16:59.813Z",
     "confirmed_at": null
+  },
+  {
+    "id": "e0bf49e6-a5b9-4df7-a7fb-5332007687d4",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Daniel Ferreira Santos",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-05T19:18:08.247Z",
+    "confirmed_at": null
   }
 ]
