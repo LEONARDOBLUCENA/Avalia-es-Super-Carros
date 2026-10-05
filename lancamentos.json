@@ -4633,5 +4633,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-05T14:42:51.416Z",
     "confirmed_at": null
+  },
+  {
+    "id": "b381f988-9aa8-462e-b3b4-936c520dea9d",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Susana ramos",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-05T14:43:56.685Z",
+    "confirmed_at": null
   }
 ]
