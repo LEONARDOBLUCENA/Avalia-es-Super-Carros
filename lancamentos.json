@@ -4776,5 +4776,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-05T17:53:38.824Z",
     "confirmed_at": null
+  },
+  {
+    "id": "d3808504-da5a-49a7-8be5-cae1914a08bd",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "claudia goularte",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-05T18:35:52.358Z",
+    "confirmed_at": null
   }
 ]
