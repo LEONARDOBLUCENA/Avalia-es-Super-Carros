@@ -4897,5 +4897,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-05T21:03:48.459Z",
     "confirmed_at": null
+  },
+  {
+    "id": "8f8b0a0c-7eac-4606-93ca-21e723a8bc25",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Saulo De Santi Santana",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-05T21:45:32.210Z",
+    "confirmed_at": null
   }
 ]
