@@ -4919,5 +4919,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-05T21:45:58.059Z",
     "confirmed_at": null
+  },
+  {
+    "id": "b0c0e3b4-6acb-4049-8af4-5a3c17270472",
+    "setor": "Fotos",
+    "vendedora": "Fernanda",
+    "cliente_nome_informado": "Camila Camargo",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-05T21:46:02.273Z",
+    "confirmed_at": null
   }
 ]
