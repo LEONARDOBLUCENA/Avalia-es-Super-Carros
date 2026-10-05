@@ -4622,5 +4622,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-05T14:15:32.470Z",
     "confirmed_at": null
+  },
+  {
+    "id": "43dddd26-6b02-46cf-85f3-7227ace7f604",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "João Gabriel duarte Brandão",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-05T14:42:51.416Z",
+    "confirmed_at": null
   }
 ]
