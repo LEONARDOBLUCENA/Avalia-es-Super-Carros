@@ -4501,5 +4501,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-05T13:06:26.663Z",
     "confirmed_at": null
+  },
+  {
+    "id": "03b353a9-834a-4162-9a7f-39b4ffadd612",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Grazielle martins",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-05T13:06:37.860Z",
+    "confirmed_at": null
   }
 ]
