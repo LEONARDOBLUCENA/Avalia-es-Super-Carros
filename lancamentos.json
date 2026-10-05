@@ -4589,5 +4589,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-05T13:08:40.276Z",
     "confirmed_at": null
+  },
+  {
+    "id": "966aaae2-66f7-452f-add9-13856575d149",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "hannah silva",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-05T13:27:32.813Z",
+    "confirmed_at": null
   }
 ]
