@@ -4479,5 +4479,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-04T19:51:48.272Z",
     "confirmed_at": null
+  },
+  {
+    "id": "295ec6c0-4115-49db-90b3-b3b110ffec68",
+    "setor": "Fotos",
+    "vendedora": "Indianara",
+    "cliente_nome_informado": "MARIA CLARA",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-05T12:55:44.940Z",
+    "confirmed_at": null
   }
 ]
