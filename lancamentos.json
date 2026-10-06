@@ -4974,5 +4974,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-06T13:58:16.189Z",
     "confirmed_at": null
+  },
+  {
+    "id": "5bb61883-490d-4ac4-978b-edfc6431c188",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "nickolas henrique",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-06T13:59:23.893Z",
+    "confirmed_at": null
   }
 ]
