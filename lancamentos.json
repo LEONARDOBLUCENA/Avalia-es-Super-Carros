@@ -4996,5 +4996,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-06T13:59:25.553Z",
     "confirmed_at": null
+  },
+  {
+    "id": "2ff6163d-b369-4e2d-a50f-b9e01436aa18",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Ingridy Beatriz",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-06T14:54:05.080Z",
+    "confirmed_at": null
   }
 ]
