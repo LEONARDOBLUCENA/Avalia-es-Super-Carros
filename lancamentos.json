@@ -4963,5 +4963,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-06T13:16:48.874Z",
     "confirmed_at": null
+  },
+  {
+    "id": "f9620bf5-3569-493a-8e15-102b5df29c10",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Gislaine oliveira",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-06T13:58:16.189Z",
+    "confirmed_at": null
   }
 ]
