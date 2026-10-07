@@ -4331,11 +4331,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Leandro Santana",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pWWGFHZGhNMGhSYjB4NWJFSkROVmhqZG5NeVNWRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-03T18:05:12.269Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-07T17:25:20.978Z"
   },
   {
     "id": "537b89be-761e-4dbc-b2c3-10ff14423c6c",
