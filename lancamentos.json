@@ -4663,11 +4663,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Thallyson nascimento",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205WmIzRjBUekpFT0RjNGJFZDBhVXhzTVVoc1EyYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-05T15:32:58.875Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-07T17:32:32.109Z"
   },
   {
     "id": "a33801e7-9325-4de6-ab9a-7b2e19da5c46",
