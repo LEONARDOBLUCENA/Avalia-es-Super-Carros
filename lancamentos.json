@@ -4575,11 +4575,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Wagner alessanderson de oliveira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25ORmRWVk5UR2MzVG1oM1RqSkNSRmg0YzFaQ01GRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-05T13:08:19.780Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-07T17:30:55.674Z"
   },
   {
     "id": "1c6035b7-c17a-4ec1-8976-08bcf9cd9bc1",
