@@ -4399,11 +4399,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Giulia romano",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25kR2FtWjVlR3gxVUVSWGRVTTNWRmd5WWtkWGNuYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-03T21:03:48.380Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-07T17:27:11.530Z"
   },
   {
     "id": "fc599578-2729-4ef6-939d-45a8bdb37208",
