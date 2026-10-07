@@ -4243,11 +4243,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Vanessa fernanda reolon",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pobmMxUnhibll4ZVhSM1pHeG9SVmg0VkhCVlptYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-02T17:19:56.285Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-07T17:23:34.007Z"
   },
   {
     "id": "1df397b3-5c33-4647-99e9-47ff26ca1316",
