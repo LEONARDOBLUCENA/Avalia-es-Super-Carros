@@ -4265,11 +4265,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Mellory",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205MVlXaHNhVlJ0U2pOell6WmpaMlY2Y0c1dlNsRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-03T15:41:50.716Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-07T17:23:54.946Z"
   },
   {
     "id": "1e9e643b-70a7-42f4-bd9f-497c2343980e",
