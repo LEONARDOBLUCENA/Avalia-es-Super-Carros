@@ -4175,11 +4175,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Gabriel Vidal",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xwTFl6VXhRMGd4VVRaQmExaExhbUpxTkVNeFNYYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-02T15:45:58.719Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-07T17:21:38.263Z"
   },
   {
     "id": "0366f0af-df71-48eb-9307-da2e60d27c5f",
