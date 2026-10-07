@@ -4619,11 +4619,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Fabio Rigueira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2sxalRuWk5aemsxVEhJdFdUWnpkMHRFT1hwR1dWRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-05T14:15:32.470Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-07T17:31:52.936Z"
   },
   {
     "id": "43dddd26-6b02-46cf-85f3-7227ace7f604",
