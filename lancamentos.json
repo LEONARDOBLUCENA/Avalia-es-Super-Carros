@@ -4909,11 +4909,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Saulo De Santi Santana",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21jMVUxWXlMV3N6TkhwaWJEQk9OVGxLZG5VelYzYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-05T21:45:32.210Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-07T17:36:49.108Z"
   },
   {
     "id": "525e0f53-864b-49fe-b219-da4d84cb9571",
