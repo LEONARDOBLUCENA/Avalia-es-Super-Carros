@@ -4854,11 +4854,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Marcos Lima",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCRWRqWldVMkprVVRWb1JISkdkWE5uUkRJME1uYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-05T21:01:24.770Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-07T17:36:01.599Z"
   },
   {
     "id": "d2a318ba-06b0-4398-be68-259350afb785",
