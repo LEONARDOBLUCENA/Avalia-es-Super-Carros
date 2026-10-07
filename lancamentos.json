@@ -4810,11 +4810,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Daniel Ferreira Santos",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tvMlptaHdUbWQwTW5wYU5IcFJRMFU0VFV4cFpXYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-05T19:18:08.247Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-07T17:35:22.946Z"
   },
   {
     "id": "9040db64-b618-4c09-b6fb-1f61b867ee6a",
