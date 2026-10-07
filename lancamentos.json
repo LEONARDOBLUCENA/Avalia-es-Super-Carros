@@ -4832,11 +4832,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Gislaine Helena do nascimento Gislaine Helena 02",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2sxcGFHTkJWamhPZDI5aVlVSlFXakpNV0MxdFNXYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-05T19:43:38.968Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-07T17:35:43.058Z"
   },
   {
     "id": "3c0c7c98-0988-4806-9236-0d138a9de959",
