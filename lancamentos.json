@@ -4652,11 +4652,11 @@
     "setor": "Fotos",
     "vendedora": "Indianara",
     "cliente_nome_informado": "Caio Cerqueira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tOdlN6TllTWFpXWmpWd2VIRmZNamRRUWtkQlpVRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-05T14:44:03.949Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-07T17:32:21.273Z"
   },
   {
     "id": "79a1fb13-e63a-4790-af65-cbc29c4b56b4",
