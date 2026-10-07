@@ -4865,11 +4865,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Édrey Lucas dos Anjos Augusto",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KeGVUSjFPV0ZFVW5GS2FGWndUWGRVZFhGQ2VGRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-05T21:01:55.259Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-07T17:36:11.483Z"
   },
   {
     "id": "7fa7a58a-a3bf-43c3-a691-12ca42f40c2c",
