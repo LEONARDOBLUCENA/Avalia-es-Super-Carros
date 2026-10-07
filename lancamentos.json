@@ -5200,5 +5200,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-07T17:36:37.017Z",
     "confirmed_at": null
+  },
+  {
+    "id": "32b364ce-aa75-4801-a919-f1a8f73cac88",
+    "setor": "Fotos",
+    "vendedora": "Fernanda",
+    "cliente_nome_informado": "Luccas Manoel",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-07T19:52:00.624Z",
+    "confirmed_at": null
   }
 ]
