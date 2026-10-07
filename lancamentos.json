@@ -4364,11 +4364,13 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Gizele Barbosa",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-10-03T18:06:45.055Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-10-07T17:26:44.712Z",
+    "rejected_review_id": null
   },
   {
     "id": "e70f9248-c5fb-4c7a-a4b8-ab1932fc14a1",
