@@ -4465,11 +4465,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Jonatha vieira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2toaVdFZ3RPR2h3T1RNMVRYaE1jak42YVRoNmMyYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-04T19:50:16.486Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-07T17:29:04.407Z"
   },
   {
     "id": "c7e318b9-76dd-4dbf-8f6b-2d69d1bfb8bf",
