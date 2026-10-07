@@ -4186,11 +4186,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Ernande Junior",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGRVprbFVaSFpGYmtOVFFXOXpkamQ1UlRST1dHYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-02T15:46:17.626Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-07T17:21:47.769Z"
   },
   {
     "id": "4573b01c-0d54-4341-ada4-6937f8540419",
