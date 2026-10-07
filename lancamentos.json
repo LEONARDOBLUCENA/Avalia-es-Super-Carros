@@ -5085,11 +5085,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Blu u",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21JelYwWktVVTQ1VTJwVldWbGpaVEJpYVhOZldsRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-07T12:11:02.691Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-07T19:22:35.473Z"
   },
   {
     "id": "e1d97b8f-5376-4fc3-9d35-33e2244fe45c",
