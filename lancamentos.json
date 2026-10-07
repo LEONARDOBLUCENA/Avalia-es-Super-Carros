@@ -4388,11 +4388,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Guilherme cominatto",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2sxVGJIQmtXbFEzYjFKWmNEWldSa05rY1UxdFNVRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-03T21:02:59.911Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-07T17:27:02.614Z"
   },
   {
     "id": "a9fbd853-09fc-4025-9c2b-b5907bb85886",
