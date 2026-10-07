@@ -4964,11 +4964,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "You can / Juninho ferreira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xSdE0wUlVlRE55WnpocmJGSm5VMjlTYURGSFlrRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-06T13:16:48.874Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-07T17:39:09.765Z"
   },
   {
     "id": "f9620bf5-3569-493a-8e15-102b5df29c10",
