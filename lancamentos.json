@@ -4931,11 +4931,11 @@
     "setor": "Fotos",
     "vendedora": "Fernanda",
     "cliente_nome_informado": "Camila Camargo",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xVNVVERm9WVUp2WlUwelVYaDVjV1JqTlRWNmJFRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-05T21:46:02.273Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-07T17:38:42.014Z"
   },
   {
     "id": "22a77824-4032-4e2e-8e24-bc22038e0f9a",
