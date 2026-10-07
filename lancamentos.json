@@ -4432,11 +4432,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Saulo melo",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25kTlptdzFlVEJuT0V4TVdtdFplazB6VmkxQ1JWRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-04T19:30:38.681Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-07T17:28:33.396Z"
   },
   {
     "id": "0b4f594f-0537-4e09-8ffb-68c170712906",
