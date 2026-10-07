@@ -4597,11 +4597,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "hannah silva",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21GVFJERkNaMWRZVFVkeVEyMVhOMnN6UWtKb1kyYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-05T13:27:32.813Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-07T17:31:13.282Z"
   },
   {
     "id": "97703a97-b96e-4539-b150-a72fb1bc32fe",
