@@ -4720,11 +4720,11 @@
     "setor": "Fotos",
     "vendedora": "Fernanda",
     "cliente_nome_informado": "Jacqueline Oliveira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21sbmRtRnZhbGN3UnpWaFZIVjNjMUZCYXpZemJFRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-05T16:33:26.579Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-07T17:33:33.878Z"
   },
   {
     "id": "25257cf4-62d3-432d-9c7f-74bf03a7c12a",
