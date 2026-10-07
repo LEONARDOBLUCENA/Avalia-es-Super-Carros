@@ -4443,11 +4443,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Daniele Barbosa",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205V1NtTTVTVVZvVFZCTFMzbFhlWGh6WjIxSFpXYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-04T19:31:29.051Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-07T17:28:42.639Z"
   },
   {
     "id": "963abbd4-7634-4a52-a289-6d3bc5b30b77",
