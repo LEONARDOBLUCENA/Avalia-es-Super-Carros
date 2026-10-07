@@ -5162,11 +5162,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Karla Patrícia Ferreira Librelon",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25WclQxcGlWbXRQU1V4VFdITmpTVU5VYURaM1VXYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-07T16:25:31.292Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-07T19:23:47.991Z"
   },
   {
     "id": "d60ba6ed-c415-44c6-a9f1-3d022c08b03b",
