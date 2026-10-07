@@ -4276,11 +4276,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Italo Barbosa",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25relYyUXlaMWg1ZDIxalIyTlJSVEZhU1MxV1VVRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-03T15:42:07.430Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-07T17:24:05.038Z"
   },
   {
     "id": "7a748685-945c-4716-96ab-23eb267249ff",
