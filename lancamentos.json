@@ -5128,5 +5128,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-07T16:21:48.054Z",
     "confirmed_at": null
+  },
+  {
+    "id": "6fbd7567-df3f-4c4c-870b-706b629d0426",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Daniel Somensi",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-07T16:22:42.713Z",
+    "confirmed_at": null
   }
 ]
