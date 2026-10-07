@@ -4487,11 +4487,11 @@
     "setor": "Fotos",
     "vendedora": "Indianara",
     "cliente_nome_informado": "MARIA CLARA",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21OWldtVlBTelpKVGxsRldIUlNOVGxuTTFKelJtYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-05T12:55:44.940Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-07T17:29:24.173Z"
   },
   {
     "id": "99f2f591-f845-4fe7-8db5-dca2a78dff34",
