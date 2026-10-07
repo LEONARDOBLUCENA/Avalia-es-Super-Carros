@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "id": "98006cd0-a962-4d3b-b8b9-66bc00cff31c",
+    "lancamento_id": "b4c5c0f1-bf70-4e5d-94c3-c011f76fe491",
+    "cliente_nome_informado": "Elainne ladislau",
+    "vendedora": "Cleide",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21SWFpVMWhha3BsT0U5VlJuVk9XR05aZW01WE4xRRAB",
+    "review_author_name": "Elainne Ladislau",
+    "review_text_snippet": "Maravilhoso",
+    "rejected_at": "2026-10-07T17:34:07.222Z"
+  }
+]
