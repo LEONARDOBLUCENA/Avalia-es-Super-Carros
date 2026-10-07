@@ -4788,11 +4788,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "claudia goularte",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21NM1ZqQldkMVJHTUdKcldrTkVYekZmUW5OWllsRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-05T18:35:52.358Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-07T17:35:03.280Z"
   },
   {
     "id": "996c6681-5c23-4255-b9f4-4861d6e429c5",
