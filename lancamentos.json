@@ -5211,5 +5211,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-07T19:52:00.624Z",
     "confirmed_at": null
+  },
+  {
+    "id": "ebef3e01-d2b3-47ac-a5d3-065ad1d04a4b",
+    "setor": "Fotos",
+    "vendedora": "Fernanda",
+    "cliente_nome_informado": "Cibelle Camargo",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-07T19:52:39.897Z",
+    "confirmed_at": null
   }
 ]
