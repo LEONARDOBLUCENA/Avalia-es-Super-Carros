@@ -5144,11 +5144,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Daniel Somensi",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xwcWFHbG1jbFI0ZVRORVoyVXpRM1ptTlRsb1JtYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-07T16:22:42.713Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-08T18:40:42.333Z"
   },
   {
     "id": "dced5670-a252-4986-8f44-3083f223d6ef",
