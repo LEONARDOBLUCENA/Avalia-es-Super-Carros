@@ -5111,11 +5111,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Ronaldo chiba",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205Qk5HMVZWRlV0ZWxGemVsQjFPVW8zT0dRM1FVRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-07T16:05:01.367Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-08T18:40:20.513Z"
   },
   {
     "id": "61e042cc-17b1-4d38-8cd2-76242a67c32a",
