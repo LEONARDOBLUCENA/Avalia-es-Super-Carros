@@ -5201,11 +5201,11 @@
     "setor": "Fotos",
     "vendedora": "Indianara",
     "cliente_nome_informado": "Zeneide Silva",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21odFpGaFZkR3BKUkU1cVlrSTJRWEExU1dabVVGRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-07T17:36:37.017Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-08T18:41:21.504Z"
   },
   {
     "id": "32b364ce-aa75-4801-a919-f1a8f73cac88",
