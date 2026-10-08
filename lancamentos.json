@@ -5212,11 +5212,11 @@
     "setor": "Fotos",
     "vendedora": "Fernanda",
     "cliente_nome_informado": "Luccas Manoel",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "ChZDSUhNMG9nS0VJQ0FnSUNyeHE2TUtnEAE",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-07T19:52:00.624Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-08T18:41:28.352Z"
   },
   {
     "id": "ebef3e01-d2b3-47ac-a5d3-065ad1d04a4b",
