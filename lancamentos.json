@@ -5122,11 +5122,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Juliana R. M.",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCelUwdzRjMjVHZVVKSFFuTlZRbk53ZEZVMVZtYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-07T16:21:32.128Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-08T18:40:27.947Z"
   },
   {
     "id": "34871011-6c8c-4e37-abc3-3ea789f189d1",
