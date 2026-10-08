@@ -5222,5 +5222,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-07T19:52:39.897Z",
     "confirmed_at": null
+  },
+  {
+    "id": "b30d7f76-e245-4420-b53b-c3d79a9ffafc",
+    "setor": "Fotos",
+    "vendedora": "Maíra",
+    "cliente_nome_informado": "Oclair Junior Baccega",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-08T12:58:38.251Z",
+    "confirmed_at": null
   }
 ]
