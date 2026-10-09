@@ -5386,5 +5386,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-09T15:02:48.517Z",
     "confirmed_at": null
+  },
+  {
+    "id": "96cdb101-ba5a-41c7-8749-216a1f0642de",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Sala de Recursos Pedagógicos",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-09T15:10:53.112Z",
+    "confirmed_at": null
   }
 ]
