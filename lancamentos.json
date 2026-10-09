@@ -5542,5 +5542,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-09T18:27:19.790Z",
     "confirmed_at": null
+  },
+  {
+    "id": "d99ba29b-25e2-47d2-9cf9-cb8b32ccb191",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Michelle Paula Jorge",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-09T18:40:25.637Z",
+    "confirmed_at": null
   }
 ]
