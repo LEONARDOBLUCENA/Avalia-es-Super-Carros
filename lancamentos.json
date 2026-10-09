@@ -5482,11 +5482,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Patricia Zinco",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21SdVVETnFOazlaWVVweFpHdDZURVJUTlU4dFdFRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-09T16:47:31.500Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-09T18:05:42.851Z"
   },
   {
     "id": "688c5778-aeec-4959-8427-9d2bffd4057a",
