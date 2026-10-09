@@ -5449,11 +5449,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Clarice Andrade",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tSS2RUQjFTVTlQZDNVMFVIUmxTbHBrWjB0dFYyYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-09T15:54:23.235Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-09T18:04:58.519Z"
   },
   {
     "id": "897fe56a-567c-4279-bb5b-9f17e8ac0f57",
