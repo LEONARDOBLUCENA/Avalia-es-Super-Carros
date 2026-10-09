@@ -5364,5 +5364,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-09T14:16:07.397Z",
     "confirmed_at": null
+  },
+  {
+    "id": "a98e8cbe-f927-44a0-939e-af8ed4206da8",
+    "setor": "Fotos",
+    "vendedora": "Maíra",
+    "cliente_nome_informado": "Marcelo Claudio Mendes",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-09T14:17:38.227Z",
+    "confirmed_at": null
   }
 ]
