@@ -5188,11 +5188,11 @@
     "setor": "Fotos",
     "vendedora": "Indianara",
     "cliente_nome_informado": "Eder Christian",
-    "status": "pendente",
+    "status": "confirmado",
     "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poMFlVWlVPRWR2WkhCekxVMVNUbk5NVldsb04xRRAB",
     "mes_referencia": "2026-10",
     "created_at": "2026-10-07T17:36:04.239Z",
-    "confirmed_at": "2026-10-08T18:40:49.945Z",
+    "confirmed_at": "2026-10-09T13:24:01.223Z",
     "rejected_at": null,
     "rejected_review_id": null
   },
