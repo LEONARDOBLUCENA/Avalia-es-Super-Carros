@@ -5276,5 +5276,16 @@
     "mes_referencia": "2026-10",
     "created_at": "2026-10-09T12:22:24.763Z",
     "confirmed_at": "2026-10-09T13:24:29.372Z"
+  },
+  {
+    "id": "2e327974-1376-409e-9372-7b9349ee852b",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Cecília gehl",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-09T14:01:37.440Z",
+    "confirmed_at": null
   }
 ]
