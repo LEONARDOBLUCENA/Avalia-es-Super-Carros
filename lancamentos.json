@@ -5405,11 +5405,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "leticia lourencini",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t4UGQzazRTa1J6TTJ0a1IwVXliMlJqVDNkb1ZHYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-09T15:35:14.145Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-09T18:04:08.971Z"
   },
   {
     "id": "052c4941-3f3c-4cac-9492-d3908229565a",
