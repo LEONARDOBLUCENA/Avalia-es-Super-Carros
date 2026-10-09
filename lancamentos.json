@@ -5553,5 +5553,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-09T18:40:25.637Z",
     "confirmed_at": null
+  },
+  {
+    "id": "e302a58e-b2ef-48dd-9a50-5963f2a96346",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Márcia Araújo",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-09T19:07:22.411Z",
+    "confirmed_at": null
   }
 ]
