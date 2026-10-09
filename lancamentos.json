@@ -5419,5 +5419,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-09T15:35:33.153Z",
     "confirmed_at": null
+  },
+  {
+    "id": "13b55fbc-1608-487d-a1e8-ac37d9889249",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Cleicy Kelly Rodrigues",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-09T15:52:58.969Z",
+    "confirmed_at": null
   }
 ]
