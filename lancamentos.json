@@ -5383,11 +5383,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Matheus Soares",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xsak9GbE9NbGhEYW14Q2VWQkNZMkZ2ZG5JeGRsRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-09T15:02:48.517Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-09T18:02:42.908Z"
   },
   {
     "id": "96cdb101-ba5a-41c7-8749-216a1f0642de",
