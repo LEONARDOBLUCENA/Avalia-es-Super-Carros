@@ -5339,11 +5339,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Aline Fleck",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205cVRWWkJPRkpXY2tGUlVqQnJlR3MxVFVkQ1FWRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-09T14:12:17.743Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-09T18:02:03.661Z"
   },
   {
     "id": "af438c12-7f0c-490c-ae10-faf2da09d698",
