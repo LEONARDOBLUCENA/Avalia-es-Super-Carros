@@ -5350,11 +5350,11 @@
     "setor": "Fotos",
     "vendedora": "Maíra",
     "cliente_nome_informado": "Tailine Santos de Jesus Tay",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21sQ09IazFTRmgxZG1sWVFVaFhSVlk1TkdJeFZHYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-09T14:15:40.015Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-09T18:02:13.755Z"
   },
   {
     "id": "00f6ebf6-576b-4a47-8bdd-a14751e12388",
