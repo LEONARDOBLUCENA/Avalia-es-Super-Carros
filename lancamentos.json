@@ -5471,11 +5471,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Paula Mendes Toledo Sousa da",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tsYVltMUVXbDl2Vm05U2RETkNkRTVUUlZoMlNuYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-09T16:12:48.817Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-09T18:05:26.773Z"
   },
   {
     "id": "7a8b045e-6ab6-40cc-9667-e7a3470230b2",
