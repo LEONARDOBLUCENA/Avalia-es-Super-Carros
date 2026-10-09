@@ -5487,5 +5487,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-09T16:47:31.500Z",
     "confirmed_at": null
+  },
+  {
+    "id": "688c5778-aeec-4959-8427-9d2bffd4057a",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Cauzio Garibotti",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-09T16:49:35.964Z",
+    "confirmed_at": null
   }
 ]
