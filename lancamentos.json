@@ -5317,11 +5317,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Bernardo Fusi",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKWVpWbG1RV2RWZVVkRGJESXpZamgzWmkxa1QzYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-09T14:11:49.575Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-09T18:01:43.398Z"
   },
   {
     "id": "00ea1d41-71b3-40e6-abd9-7663924251bb",
