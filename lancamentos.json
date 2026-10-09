@@ -5287,5 +5287,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-09T14:01:37.440Z",
     "confirmed_at": null
+  },
+  {
+    "id": "29a840a1-95f2-4896-8c12-8590790aa275",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Thais Inês Mota",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-09T14:02:34.410Z",
+    "confirmed_at": null
   }
 ]
