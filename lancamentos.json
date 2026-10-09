@@ -5416,11 +5416,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Alicia Lopez",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0T0xWVlRkVFZzVDJOTlVERkNjMHBWVHkxc1RtYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-09T15:35:33.153Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-09T18:04:18.098Z"
   },
   {
     "id": "13b55fbc-1608-487d-a1e8-ac37d9889249",
