@@ -5641,5 +5641,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-09T23:04:53.022Z",
     "confirmed_at": null
+  },
+  {
+    "id": "77fe136e-533c-450f-9cef-2d5f7ba4fef9",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Evellyn Vergara",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-09T23:05:13.821Z",
+    "confirmed_at": null
   }
 ]
