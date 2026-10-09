@@ -5331,5 +5331,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-09T14:12:03.319Z",
     "confirmed_at": null
+  },
+  {
+    "id": "4b4e2522-a003-46ba-a9a0-bbb98c06819c",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Aline Fleck",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-09T14:12:17.743Z",
+    "confirmed_at": null
   }
 ]
