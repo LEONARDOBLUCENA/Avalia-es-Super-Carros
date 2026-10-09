@@ -5454,5 +5454,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-09T15:54:23.235Z",
     "confirmed_at": null
+  },
+  {
+    "id": "897fe56a-567c-4279-bb5b-9f17e8ac0f57",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Dr Bruno",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-09T16:11:00.151Z",
+    "confirmed_at": null
   }
 ]
