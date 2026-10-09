@@ -5619,5 +5619,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-09T21:36:49.125Z",
     "confirmed_at": null
+  },
+  {
+    "id": "9af92e5e-4813-419b-88e6-3f0e594b0dbb",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Angelica Bald",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-09T23:03:00.540Z",
+    "confirmed_at": null
   }
 ]
