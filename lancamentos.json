@@ -5260,11 +5260,13 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Jotaherlly Barroso Santos",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-10-08T16:10:13.950Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-10-09T15:55:38.071Z",
+    "rejected_review_id": null
   },
   {
     "id": "7918cc74-6c29-42df-9a29-eb2376494e0f",
