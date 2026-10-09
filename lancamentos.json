@@ -5460,11 +5460,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Dr Bruno",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21zM1FtUnljVzR6TWxkMlIwVmlabGw2UVhCWlQzYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-09T16:11:00.151Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-09T18:05:09.646Z"
   },
   {
     "id": "efc83de8-90ad-453e-9515-e9544713243e",
