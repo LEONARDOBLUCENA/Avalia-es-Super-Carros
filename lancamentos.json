@@ -5575,5 +5575,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-09T19:32:46.946Z",
     "confirmed_at": null
+  },
+  {
+    "id": "da57c984-7114-4247-964b-55d2d3d4b32e",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Barbie Aventureira",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-09T21:33:37.522Z",
+    "confirmed_at": null
   }
 ]
