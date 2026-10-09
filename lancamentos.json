@@ -5586,5 +5586,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-09T21:33:37.522Z",
     "confirmed_at": null
+  },
+  {
+    "id": "2dc4143b-83f7-411d-ac2d-0eb437c2ab41",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Mariane Ferreira",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-09T21:34:53.618Z",
+    "confirmed_at": null
   }
 ]
