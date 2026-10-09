@@ -5223,11 +5223,11 @@
     "setor": "Fotos",
     "vendedora": "Fernanda",
     "cliente_nome_informado": "Cibelle Camargo",
-    "status": "pendente",
+    "status": "confirmado",
     "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21OWlFtUlFiM1pRWlZOdVFrWm5NalE0UWtabWFuYxAB",
     "mes_referencia": "2026-10",
     "created_at": "2026-10-07T19:52:39.897Z",
-    "confirmed_at": "2026-10-08T18:41:38.711Z",
+    "confirmed_at": "2026-10-09T13:24:09.498Z",
     "rejected_at": null,
     "rejected_review_id": null
   },
