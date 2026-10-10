@@ -5806,5 +5806,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-10T19:22:49.395Z",
     "confirmed_at": null
+  },
+  {
+    "id": "a58c93f9-ac00-4e16-a881-a453d7161e7f",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Samuel Souza",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-10T19:31:47.799Z",
+    "confirmed_at": null
   }
 ]
