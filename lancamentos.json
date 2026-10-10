@@ -5927,5 +5927,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-10T19:51:11.330Z",
     "confirmed_at": null
+  },
+  {
+    "id": "1b7065a2-4474-49a7-95f8-15ffa4e4a354",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Kemillin oliveira",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-10T20:14:29.464Z",
+    "confirmed_at": null
   }
 ]
