@@ -5938,5 +5938,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-10T20:14:29.464Z",
     "confirmed_at": null
+  },
+  {
+    "id": "e2a6acb2-5937-462a-9c0c-e588cbf27074",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "RS turbos",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-10T20:15:20.281Z",
+    "confirmed_at": null
   }
 ]
