@@ -5685,5 +5685,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-09T23:06:38.533Z",
     "confirmed_at": null
+  },
+  {
+    "id": "a36fe470-5179-47fb-a047-a0d2d94b647b",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "clovis lewin",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-10T13:42:13.716Z",
+    "confirmed_at": null
   }
 ]
