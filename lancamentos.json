@@ -5729,5 +5729,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-10T17:25:44.033Z",
     "confirmed_at": null
+  },
+  {
+    "id": "50b2138e-c2c7-42ad-b8a9-7c4988f0e33e",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Agda madeira",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-10T17:56:11.862Z",
+    "confirmed_at": null
   }
 ]
