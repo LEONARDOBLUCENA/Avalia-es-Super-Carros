@@ -5773,5 +5773,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-10T18:38:19.662Z",
     "confirmed_at": null
+  },
+  {
+    "id": "b6bf5218-2899-4724-8b96-d4e543391b7c",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Solange dos reis",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-10T18:40:17.478Z",
+    "confirmed_at": null
   }
 ]
