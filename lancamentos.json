@@ -5916,5 +5916,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-10T19:34:10.932Z",
     "confirmed_at": null
+  },
+  {
+    "id": "d15ce20d-281d-4037-9b19-b181114edeb7",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Benício Moraes Viana",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-10T19:51:11.330Z",
+    "confirmed_at": null
   }
 ]
