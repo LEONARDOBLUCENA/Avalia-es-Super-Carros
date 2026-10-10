@@ -5861,5 +5861,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-10T19:32:51.236Z",
     "confirmed_at": null
+  },
+  {
+    "id": "6dfc065b-44a6-45bf-88eb-231197835c9d",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Hév Alves",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-10T19:33:06.673Z",
+    "confirmed_at": null
   }
 ]
