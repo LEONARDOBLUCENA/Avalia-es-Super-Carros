@@ -5839,5 +5839,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-10T19:32:23.204Z",
     "confirmed_at": null
+  },
+  {
+    "id": "dbd605e9-4e02-468a-9074-559e97da7f90",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Hellen Goncalves",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-10T19:32:44.293Z",
+    "confirmed_at": null
   }
 ]
