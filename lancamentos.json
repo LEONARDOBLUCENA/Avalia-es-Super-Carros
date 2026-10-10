@@ -5850,5 +5850,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-10T19:32:44.293Z",
     "confirmed_at": null
+  },
+  {
+    "id": "7b9917f2-ba8d-4b09-a6df-9bd477e18e25",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Solange Dos Reis",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-10T19:32:51.236Z",
+    "confirmed_at": null
   }
 ]
