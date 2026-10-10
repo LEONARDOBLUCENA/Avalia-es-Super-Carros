@@ -5971,5 +5971,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-10T20:45:56.177Z",
     "confirmed_at": null
+  },
+  {
+    "id": "a874ee90-0224-4db6-a910-906426ddc52e",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Mariana Londero",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-10T20:50:18.053Z",
+    "confirmed_at": null
   }
 ]
