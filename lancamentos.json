@@ -5784,5 +5784,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-10T18:40:17.478Z",
     "confirmed_at": null
+  },
+  {
+    "id": "e153bf4f-15ad-49ab-b2f4-2816ef1c7101",
+    "setor": "Fotos",
+    "vendedora": "Maíra",
+    "cliente_nome_informado": "Marielli Limeira",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-10T19:22:20.105Z",
+    "confirmed_at": null
   }
 ]
