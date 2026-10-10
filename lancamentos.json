@@ -5762,5 +5762,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-10T18:23:42.106Z",
     "confirmed_at": null
+  },
+  {
+    "id": "1188bd55-b8c5-46cc-990d-cafca1ee6d79",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Carburador games",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-10T18:38:19.662Z",
+    "confirmed_at": null
   }
 ]
