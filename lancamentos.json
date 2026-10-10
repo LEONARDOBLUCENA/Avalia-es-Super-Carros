@@ -5883,5 +5883,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-10T19:33:18.077Z",
     "confirmed_at": null
+  },
+  {
+    "id": "6a8599f0-9b53-443e-a3c9-b360a8039e69",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Maria Eduarda",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-10T19:33:28.460Z",
+    "confirmed_at": null
   }
 ]
