@@ -6313,5 +6313,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-11T16:58:37.427Z",
     "confirmed_at": null
+  },
+  {
+    "id": "fd53fe6c-749a-4426-ba95-cab70ae197f0",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Alessandra Lima",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-11T17:00:48.877Z",
+    "confirmed_at": null
   }
 ]
