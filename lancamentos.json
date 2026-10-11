@@ -6412,5 +6412,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-11T18:44:53.523Z",
     "confirmed_at": null
+  },
+  {
+    "id": "ebfb7ffb-e01e-47c6-be84-3c91b90c2520",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Virginia Pegoraro Bertoldo",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-11T18:57:32.154Z",
+    "confirmed_at": null
   }
 ]
