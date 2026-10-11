@@ -5625,11 +5625,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Angelica Bald",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kb1kxWnJPRmM1VTFKRVluY3hXR0ZuYmtJeU4wRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-09T23:03:00.540Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-11T15:13:31.960Z"
   },
   {
     "id": "13d1e9c2-404d-4406-8cca-1ea49b7f7747",
