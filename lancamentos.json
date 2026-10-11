@@ -5515,11 +5515,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Daniel marfortt",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xocFRGWllaVzE0WjFCelYzcENMWEJOVUhsa1RYYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-09T18:02:07.651Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-11T14:29:18.799Z"
   },
   {
     "id": "f7177d3c-a893-48bf-ab5f-9af8c0f356d3",
