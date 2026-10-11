@@ -5907,11 +5907,13 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Maria Eduarda",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-10-10T19:33:28.460Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-10-11T15:10:39.883Z",
+    "rejected_review_id": null
   },
   {
     "id": "a43274d3-a226-44c7-b8e2-96f2c4b74af3",
