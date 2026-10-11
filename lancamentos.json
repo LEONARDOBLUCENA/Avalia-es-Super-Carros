@@ -5680,11 +5680,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "PAC DE AGUIRRE COMERCIO E SERVIÇOS",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tOWk5FaEtZV0ZqT1dOMWNFbzRkMEpwZWxWWVNWRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-09T23:06:38.533Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-11T14:28:00.805Z"
   },
   {
     "id": "a36fe470-5179-47fb-a047-a0d2d94b647b",
