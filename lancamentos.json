@@ -6577,5 +6577,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-11T21:05:48.764Z",
     "confirmed_at": null
+  },
+  {
+    "id": "0f93d558-7e68-4395-850d-b14496d152ff",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Eduardo Schmitt",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-11T21:06:28.231Z",
+    "confirmed_at": null
   }
 ]
