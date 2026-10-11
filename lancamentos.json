@@ -6489,5 +6489,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-11T20:12:11.863Z",
     "confirmed_at": null
+  },
+  {
+    "id": "a6cdda68-a622-4cf2-9ae3-613dc84167c7",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Luis Cesar Fernandes Oliveira",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-11T20:13:12.750Z",
+    "confirmed_at": null
   }
 ]
