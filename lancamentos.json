@@ -5647,11 +5647,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Evellyn Vergara",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21wc1QzSnJRVTF0VFZselVuaDBXVmxEYjFWclFXYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-09T23:05:13.821Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-11T15:13:53.480Z"
   },
   {
     "id": "2dd954bf-e3bf-48a2-b8a9-e9db4a9b2d04",
