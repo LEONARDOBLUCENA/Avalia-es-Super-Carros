@@ -5592,11 +5592,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Mariane Ferreira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xnMFgwRTFTMlExZGkxRVlrY3hNRFI1ZVZOVU0xRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-09T21:34:53.618Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-11T14:58:07.744Z"
   },
   {
     "id": "a7eee710-f898-46d5-a2cf-87b0c7564f12",
