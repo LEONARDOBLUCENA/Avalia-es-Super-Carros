@@ -6159,5 +6159,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-11T15:12:07.151Z",
     "confirmed_at": null
+  },
+  {
+    "id": "94dafe63-4777-46f1-bbb4-ca2a4abc1176",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Gelson Pereira",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-11T15:21:42.659Z",
+    "confirmed_at": null
   }
 ]
