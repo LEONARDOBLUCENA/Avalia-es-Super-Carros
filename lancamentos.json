@@ -6269,5 +6269,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-11T16:50:27.707Z",
     "confirmed_at": null
+  },
+  {
+    "id": "11a728a6-fa06-4b46-9215-2517633013b0",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Christian Czyz",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-11T16:53:17.072Z",
+    "confirmed_at": null
   }
 ]
