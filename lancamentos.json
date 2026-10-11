@@ -6533,5 +6533,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-11T21:01:33.168Z",
     "confirmed_at": null
+  },
+  {
+    "id": "2afc6828-b043-4724-8dfd-15338aabb60d",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Maico Brito",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-11T21:03:16.348Z",
+    "confirmed_at": null
   }
 ]
