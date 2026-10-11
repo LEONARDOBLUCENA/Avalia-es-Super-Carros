@@ -5614,11 +5614,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Dayane Simoes",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKTlVtNWFaVUp5UjJVeWRscHZhMjUzZVUweFdYYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-09T21:36:49.125Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-11T14:58:27.421Z"
   },
   {
     "id": "9af92e5e-4813-419b-88e6-3f0e594b0dbb",
