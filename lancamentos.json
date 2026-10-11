@@ -6423,5 +6423,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-11T18:57:32.154Z",
     "confirmed_at": null
+  },
+  {
+    "id": "b44d00b4-5164-4aad-a493-d2b08544f77c",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Luciano Pinheiro",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-11T18:58:15.354Z",
+    "confirmed_at": null
   }
 ]
