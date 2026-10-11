@@ -6146,5 +6146,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-11T14:45:57.588Z",
     "confirmed_at": null
+  },
+  {
+    "id": "030f147d-9b64-4c66-a640-b116a94bce8e",
+    "setor": "Fotos",
+    "vendedora": "Fernanda",
+    "cliente_nome_informado": "Gisele2026",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-11T15:12:07.151Z",
+    "confirmed_at": null
   }
 ]
