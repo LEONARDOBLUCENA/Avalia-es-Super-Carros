@@ -5658,11 +5658,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Jose Alex",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21vMWFHaGxMV05CUlhod2RsaHVlVTl1YVRCNGRrRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-09T23:05:28.703Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-11T15:14:01.999Z"
   },
   {
     "id": "32efd45d-64df-42e2-a261-29bde8f8af2f",
