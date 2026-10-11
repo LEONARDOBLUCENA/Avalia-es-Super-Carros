@@ -6203,5 +6203,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-11T15:59:34.667Z",
     "confirmed_at": null
+  },
+  {
+    "id": "983e3b96-cb3c-4013-a22c-03ef44123d70",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Edson Brito",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-11T16:00:15.727Z",
+    "confirmed_at": null
   }
 ]
