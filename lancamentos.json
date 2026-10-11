@@ -6379,5 +6379,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-11T18:23:25.042Z",
     "confirmed_at": null
+  },
+  {
+    "id": "b59ddf77-a4ce-4e0d-aab7-657e444e2fb6",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Larissa dsros",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-11T18:44:06.974Z",
+    "confirmed_at": null
   }
 ]
