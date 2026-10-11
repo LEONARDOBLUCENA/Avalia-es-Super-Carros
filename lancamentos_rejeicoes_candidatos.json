@@ -18,5 +18,15 @@
     "review_author_name": "Eder Neves",
     "review_text_snippet": "",
     "rejected_at": "2026-10-08T18:41:01.705Z"
+  },
+  {
+    "id": "d5ea3ee7-22fa-4301-a3e1-d175e2540bd0",
+    "lancamento_id": "0eaf9c1b-d161-45d3-bb7a-ccc20de814d6",
+    "cliente_nome_informado": "Fernanda Dambros",
+    "vendedora": "Cleide",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT210TmJUSnZVMDVQUWw5cVYzRkpSa2RmUkRCYVoxRRAB",
+    "review_author_name": "Janaina Fernanda Gonçalves",
+    "review_text_snippet": "",
+    "rejected_at": "2026-10-11T14:29:35.203Z"
   }
 ]
