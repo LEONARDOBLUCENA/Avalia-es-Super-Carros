@@ -6445,5 +6445,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-11T18:58:31.522Z",
     "confirmed_at": null
+  },
+  {
+    "id": "d8ca9e79-da5a-4a6f-a13a-06994a3316fc",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Andréia Cátia Sbeghen",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-11T18:58:58.330Z",
+    "confirmed_at": null
   }
 ]
