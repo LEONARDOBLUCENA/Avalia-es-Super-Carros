@@ -5945,11 +5945,13 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Kemillin oliveira",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-10-10T20:14:29.464Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-10-11T14:42:40.658Z",
+    "rejected_review_id": null
   },
   {
     "id": "e2a6acb2-5937-462a-9c0c-e588cbf27074",
