@@ -5691,11 +5691,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "clovis lewin",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tsNmRsVTNWMHRDZURaQ1RFNVVXSHAyWHkxMWFGRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-10T13:42:13.716Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-11T14:59:01.470Z"
   },
   {
     "id": "a04a7aa6-7013-4229-93b1-db69250fac64",
