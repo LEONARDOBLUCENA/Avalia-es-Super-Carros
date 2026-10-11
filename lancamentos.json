@@ -5669,11 +5669,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Walter Gomes",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21ZNFNHaHRUMmxFZFZsdUxVc3lWakJrUzIxcU1HYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-09T23:05:49.978Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-11T15:14:11.532Z"
   },
   {
     "id": "b7374ed7-143a-4c9d-977f-54764e37b1d9",
