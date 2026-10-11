@@ -5896,11 +5896,13 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Lunard",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-10-10T19:33:18.077Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-10-11T15:16:29.438Z",
+    "rejected_review_id": null
   },
   {
     "id": "6a8599f0-9b53-443e-a3c9-b360a8039e69",
