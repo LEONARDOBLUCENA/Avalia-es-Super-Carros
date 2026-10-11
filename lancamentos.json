@@ -5861,11 +5861,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Hellen Goncalves",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25sTVJXbExaVTFHWldobmVWbGlVM2hYYkRKV1lYYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-10T19:32:44.293Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-11T15:14:36.225Z"
   },
   {
     "id": "7b9917f2-ba8d-4b09-a6df-9bd477e18e25",
