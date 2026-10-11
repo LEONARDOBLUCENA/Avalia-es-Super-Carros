@@ -6555,5 +6555,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-11T21:04:07.131Z",
     "confirmed_at": null
+  },
+  {
+    "id": "5a909cf0-d87a-4d08-8f20-968f5e37ac4f",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "flavio vaz maciel",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-11T21:05:09.907Z",
+    "confirmed_at": null
   }
 ]
