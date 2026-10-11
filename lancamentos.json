@@ -6566,5 +6566,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-11T21:05:09.907Z",
     "confirmed_at": null
+  },
+  {
+    "id": "6d89d7ff-e5af-4783-978f-b166e2a75cfd",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Angelica Cararo",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-11T21:05:48.764Z",
+    "confirmed_at": null
   }
 ]
