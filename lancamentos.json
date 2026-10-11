@@ -6456,5 +6456,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-11T18:58:58.330Z",
     "confirmed_at": null
+  },
+  {
+    "id": "b5aa4a8c-d563-4785-b3ad-ba4e9f87834f",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Pietro Rossato",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-11T18:59:13.386Z",
+    "confirmed_at": null
   }
 ]
