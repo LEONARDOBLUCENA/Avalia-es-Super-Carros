@@ -6390,5 +6390,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-11T18:44:06.974Z",
     "confirmed_at": null
+  },
+  {
+    "id": "40afc268-2d23-4235-b028-e24acdbb0c40",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Lauriane nascimento",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-11T18:44:34.573Z",
+    "confirmed_at": null
   }
 ]
