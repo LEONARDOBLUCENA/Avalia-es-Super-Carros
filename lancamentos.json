@@ -6004,5 +6004,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-10T21:11:57.997Z",
     "confirmed_at": null
+  },
+  {
+    "id": "3e85bce3-c6c6-4c9c-9b76-3f5f65bf54f5",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Brayan Pires da rosa",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-11T11:41:56.386Z",
+    "confirmed_at": null
   }
 ]
