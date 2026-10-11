@@ -6225,5 +6225,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-11T16:15:25.522Z",
     "confirmed_at": null
+  },
+  {
+    "id": "61d2ffde-2bb0-4a40-b8f7-3d34170e0225",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "《《Cauã primon》》",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-11T16:30:09.493Z",
+    "confirmed_at": null
   }
 ]
