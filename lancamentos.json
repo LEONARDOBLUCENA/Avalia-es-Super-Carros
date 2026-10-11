@@ -5636,11 +5636,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Marcio Casagrande",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2toWE1IRTRVVnBqVlRGcGRscGpNRVY0Y0hKSlYwRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-09T23:04:53.022Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-11T15:13:43.669Z"
   },
   {
     "id": "77fe136e-533c-450f-9cef-2d5f7ba4fef9",
