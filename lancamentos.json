@@ -6059,5 +6059,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-11T11:45:40.872Z",
     "confirmed_at": null
+  },
+  {
+    "id": "7d013556-e059-4ad1-af75-eb30f34873d0",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Rosiani uliana Marques",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-11T13:44:33.066Z",
+    "confirmed_at": null
   }
 ]
