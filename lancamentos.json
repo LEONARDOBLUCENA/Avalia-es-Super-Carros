@@ -5284,11 +5284,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Cecília gehl",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25waWIxRkZlRVZSYVROdlVrb3pZbXRtTUVGVUxWRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-09T14:01:37.440Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-11T14:28:44.411Z"
   },
   {
     "id": "29a840a1-95f2-4896-8c12-8590790aa275",
