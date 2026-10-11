@@ -6302,5 +6302,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-11T16:58:16.902Z",
     "confirmed_at": null
+  },
+  {
+    "id": "1d56337b-3907-479d-96f9-aa244906253b",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Alexandre Amorim",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-11T16:58:37.427Z",
+    "confirmed_at": null
   }
 ]
