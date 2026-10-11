@@ -6346,5 +6346,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-11T17:33:18.056Z",
     "confirmed_at": null
+  },
+  {
+    "id": "ec3ec5e2-aedd-4b0f-bb4a-a2d9bba1915d",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Lucas todeschine Gomes",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-11T17:42:40.834Z",
+    "confirmed_at": null
   }
 ]
