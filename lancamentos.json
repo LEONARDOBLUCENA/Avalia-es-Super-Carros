@@ -5934,11 +5934,13 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Benício Moraes Viana",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-10-10T19:51:11.330Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-10-11T14:43:03.791Z",
+    "rejected_review_id": null
   },
   {
     "id": "1b7065a2-4474-49a7-95f8-15ffa4e4a354",
