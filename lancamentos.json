@@ -6247,5 +6247,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-11T16:32:36.701Z",
     "confirmed_at": null
+  },
+  {
+    "id": "99cd0045-42d2-4c4b-bf0d-96aed52d312b",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Lunard",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-11T16:42:42.113Z",
+    "confirmed_at": null
   }
 ]
