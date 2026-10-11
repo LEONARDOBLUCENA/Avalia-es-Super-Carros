@@ -6522,5 +6522,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-11T20:44:31.314Z",
     "confirmed_at": null
+  },
+  {
+    "id": "ba463c38-aa12-4914-af6a-05e7f35fa6b6",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Clarissa Zabalveytia",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-11T21:01:33.168Z",
+    "confirmed_at": null
   }
 ]
