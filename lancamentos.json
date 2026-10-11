@@ -5848,11 +5848,13 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Daniele G",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-10-10T19:32:23.204Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-10-11T15:09:57.648Z",
+    "rejected_review_id": null
   },
   {
     "id": "dbd605e9-4e02-468a-9074-559e97da7f90",
