@@ -5603,11 +5603,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Guilherme Portugal",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21Sc2FsZHdVVEpVU2t4SWVYRkVORVJQVGxCb2RXYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-09T21:35:24.636Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-11T14:58:17.908Z"
   },
   {
     "id": "e553e3ef-ac78-4658-9ef3-bd875430ee45",
