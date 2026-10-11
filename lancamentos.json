@@ -5885,11 +5885,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Hév Alves",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xsUFdHWlRNV1ZUZVVsUFIxRTBUVXhDWDNkUFFYYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-10T19:33:06.673Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-11T15:16:00.332Z"
   },
   {
     "id": "1b18a8e2-7b0e-4a8b-b228-5cdb4145fa7b",
