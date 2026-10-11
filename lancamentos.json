@@ -5702,11 +5702,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Fernando Cunha",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2toWlRHSXdWRFprY1dGdlNVbFBWREZZY3pBeFJHYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-10T15:13:23.940Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-11T14:59:11.017Z"
   },
   {
     "id": "0eaf9c1b-d161-45d3-bb7a-ccc20de814d6",
