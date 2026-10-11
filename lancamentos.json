@@ -6291,5 +6291,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-11T16:57:58.058Z",
     "confirmed_at": null
+  },
+  {
+    "id": "e332668e-783a-4b77-bf9a-d52d72afbaf5",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Olavo",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-11T16:58:16.902Z",
+    "confirmed_at": null
   }
 ]
