@@ -5960,11 +5960,13 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "RS turbos",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-10-10T20:15:20.281Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-10-11T14:43:16.120Z",
+    "rejected_review_id": null
   },
   {
     "id": "3c7a02f2-2aa5-4303-af62-1c6e9b285095",
