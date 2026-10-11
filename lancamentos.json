@@ -5493,11 +5493,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Cauzio Garibotti",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2psMFptZENMWE5qU3kxRlVYRkxOV2RtVjJ0dFltYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-09T16:49:35.964Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-11T14:43:52.940Z"
   },
   {
     "id": "586fa730-74df-4189-b574-ee845216e7da",
