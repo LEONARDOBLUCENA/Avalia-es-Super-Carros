@@ -6599,5 +6599,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-11T21:26:38.866Z",
     "confirmed_at": null
+  },
+  {
+    "id": "3f4d1f82-cca5-484a-91ac-c328623bc90e",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Emanoel pedrotti",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-11T21:26:55.037Z",
+    "confirmed_at": null
   }
 ]
