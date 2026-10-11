@@ -6324,5 +6324,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-11T17:00:48.877Z",
     "confirmed_at": null
+  },
+  {
+    "id": "44f4836f-27c3-4d90-ab47-2047becc7101",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Jones ecco",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-11T17:15:46.870Z",
+    "confirmed_at": null
   }
 ]
