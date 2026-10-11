@@ -6434,5 +6434,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-11T18:58:15.354Z",
     "confirmed_at": null
+  },
+  {
+    "id": "958b17ea-d55a-427d-823d-ae0fb976947c",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Carolina Oliveira da Silva",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-11T18:58:31.522Z",
+    "confirmed_at": null
   }
 ]
