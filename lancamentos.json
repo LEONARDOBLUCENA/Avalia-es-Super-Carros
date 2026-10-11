@@ -5776,11 +5776,13 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Carburador games",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-10-10T18:38:19.662Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-10-11T14:42:11.893Z",
+    "rejected_review_id": null
   },
   {
     "id": "b6bf5218-2899-4724-8b96-d4e543391b7c",
