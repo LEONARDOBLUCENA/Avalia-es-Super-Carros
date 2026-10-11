@@ -5526,11 +5526,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Rodrigo Lacerda",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWSmJFRnNhRWhFVW5rNFgwcGlVRTh0YmxnM09GRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-09T18:13:51.911Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-11T14:44:04.187Z"
   },
   {
     "id": "d9b83272-8843-41f0-ac5e-0d4b7983ae36",
