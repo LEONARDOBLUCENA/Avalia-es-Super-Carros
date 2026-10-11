@@ -6123,5 +6123,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-11T14:34:37.403Z",
     "confirmed_at": null
+  },
+  {
+    "id": "ffa35e98-092a-4cde-9b97-dfa0f7b7a622",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Mourivaldo neto",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-11T14:45:57.588Z",
+    "confirmed_at": null
   }
 ]
