@@ -5295,11 +5295,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Thais Inês Mota",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5WWNsaHRTWGgzUjI1WE1HOXFjbVZOV0hsQ01sRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-09T14:02:34.410Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-11T14:29:09.257Z"
   },
   {
     "id": "681d69ed-4776-4451-92bc-0916eb64d6be",
