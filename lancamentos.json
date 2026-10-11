@@ -5548,11 +5548,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Michelle Paula Jorge",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5RmJYZDVYMGhaT0dwWFltSTBRVkExUlZOTlJGRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-09T18:40:25.637Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-11T14:44:24.268Z"
   },
   {
     "id": "e302a58e-b2ef-48dd-9a50-5963f2a96346",
