@@ -6852,5 +6852,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-12T20:19:57.907Z",
     "confirmed_at": null
+  },
+  {
+    "id": "6751f468-39bf-4f73-ab50-090d73a18252",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Chrystian bragatto",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-12T20:21:00.515Z",
+    "confirmed_at": null
   }
 ]
