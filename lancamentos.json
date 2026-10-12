@@ -7050,5 +7050,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-12T21:48:35.917Z",
     "confirmed_at": null
+  },
+  {
+    "id": "2ed54ff9-740d-4875-971f-523e001ad8f8",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Rodolfo Silveira",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-12T21:49:51.853Z",
+    "confirmed_at": null
   }
 ]
