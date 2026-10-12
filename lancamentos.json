@@ -6984,5 +6984,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-12T20:28:18.439Z",
     "confirmed_at": null
+  },
+  {
+    "id": "fd7d61d8-510e-47a6-b4df-c5dddf229d1d",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Natasha Ivantchuk",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-12T20:28:53.233Z",
+    "confirmed_at": null
   }
 ]
