@@ -7237,5 +7237,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-12T22:45:19.451Z",
     "confirmed_at": null
+  },
+  {
+    "id": "d95d86b4-a8d2-4ba1-b6c7-5adfec154a1a",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Vinicius Cezar Maria",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-12T22:46:07.664Z",
+    "confirmed_at": null
   }
 ]
