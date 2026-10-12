@@ -7259,5 +7259,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-12T22:49:26.173Z",
     "confirmed_at": null
+  },
+  {
+    "id": "429700c8-ff7f-429f-9439-187c6ae3b433",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Bruno Rangel Klosovski",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-12T22:49:55.368Z",
+    "confirmed_at": null
   }
 ]
