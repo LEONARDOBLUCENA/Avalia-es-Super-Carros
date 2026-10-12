@@ -6731,5 +6731,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-12T02:54:17.544Z",
     "confirmed_at": null
+  },
+  {
+    "id": "ed388801-3737-44fa-a9fd-c999335f7dea",
+    "setor": "Fotos",
+    "vendedora": "Indianara",
+    "cliente_nome_informado": "Beatriz Castanheiro",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-12T13:24:20.916Z",
+    "confirmed_at": null
   }
 ]
