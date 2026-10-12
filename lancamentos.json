@@ -6929,5 +6929,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-12T20:24:24.245Z",
     "confirmed_at": null
+  },
+  {
+    "id": "fd353049-8952-4679-9dd4-f43e021a9fa6",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Thiago Lopes",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-12T20:25:06.267Z",
+    "confirmed_at": null
   }
 ]
