@@ -6951,5 +6951,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-12T20:27:03.219Z",
     "confirmed_at": null
+  },
+  {
+    "id": "01d29d1e-07c0-4bfd-bb8e-ab6d51a2353e",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "pudym :3",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-12T20:27:22.667Z",
+    "confirmed_at": null
   }
 ]
