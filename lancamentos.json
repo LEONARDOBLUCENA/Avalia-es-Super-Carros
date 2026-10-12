@@ -7270,5 +7270,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-12T22:49:55.368Z",
     "confirmed_at": null
+  },
+  {
+    "id": "65c6961d-e16a-4025-913c-4ccfbd8b8dea",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Diego Cordeiro",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-12T22:50:30.241Z",
+    "confirmed_at": null
   }
 ]
