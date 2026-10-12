@@ -6907,5 +6907,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-12T20:23:28.412Z",
     "confirmed_at": null
+  },
+  {
+    "id": "029fad3c-5438-44eb-8b68-fe921ebf5f93",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Camila Resende Horacio",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-12T20:23:48.272Z",
+    "confirmed_at": null
   }
 ]
