@@ -6786,5 +6786,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-12T15:41:29.225Z",
     "confirmed_at": null
+  },
+  {
+    "id": "3e125ef7-8bc2-45b6-a4c6-30a7be656361",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Samuel frazao",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-12T16:13:32.747Z",
+    "confirmed_at": null
   }
 ]
