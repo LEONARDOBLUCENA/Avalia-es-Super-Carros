@@ -6808,5 +6808,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-12T17:46:30.882Z",
     "confirmed_at": null
+  },
+  {
+    "id": "1dfed7df-c76e-41c5-9f53-bccfb4b812ba",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Andre Rossi",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-12T17:46:44.112Z",
+    "confirmed_at": null
   }
 ]
