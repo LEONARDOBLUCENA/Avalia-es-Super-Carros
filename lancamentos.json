@@ -6709,5 +6709,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-12T02:52:51.521Z",
     "confirmed_at": null
+  },
+  {
+    "id": "f2b66ead-29db-4683-8bf2-4403f451cd01",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Suele Asevedo",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-12T02:53:14.436Z",
+    "confirmed_at": null
   }
 ]
