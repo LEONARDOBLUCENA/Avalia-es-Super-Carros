@@ -7039,5 +7039,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-12T21:46:11.287Z",
     "confirmed_at": null
+  },
+  {
+    "id": "5654334a-dbe2-4623-8fc9-c31fae8bfdb4",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Davi Silveira",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-12T21:48:35.917Z",
+    "confirmed_at": null
   }
 ]
