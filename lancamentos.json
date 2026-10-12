@@ -6654,5 +6654,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-12T02:47:18.632Z",
     "confirmed_at": null
+  },
+  {
+    "id": "e02c63f0-69f0-49f8-b642-0c0009c193cc",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Rafael",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-12T02:49:17.594Z",
+    "confirmed_at": null
   }
 ]
