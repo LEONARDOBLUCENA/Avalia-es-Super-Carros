@@ -6819,5 +6819,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-12T17:46:44.112Z",
     "confirmed_at": null
+  },
+  {
+    "id": "59043f82-8a0f-4b67-b487-a50f3c375805",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Ana Paula Alves",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-12T20:15:11.268Z",
+    "confirmed_at": null
   }
 ]
