@@ -7138,5 +7138,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-12T21:57:04.476Z",
     "confirmed_at": null
+  },
+  {
+    "id": "d07ce616-d7d3-4f34-8162-a01d705c3a42",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "franciele sanhudo",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-12T21:58:25.406Z",
+    "confirmed_at": null
   }
 ]
