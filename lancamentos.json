@@ -6973,5 +6973,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-12T20:27:40.886Z",
     "confirmed_at": null
+  },
+  {
+    "id": "5a2a599f-89fe-4076-a7c2-9aab68a816da",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Daniela Suzart",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-12T20:28:18.439Z",
+    "confirmed_at": null
   }
 ]
