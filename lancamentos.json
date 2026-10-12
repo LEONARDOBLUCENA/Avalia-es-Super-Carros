@@ -6962,5 +6962,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-12T20:27:22.667Z",
     "confirmed_at": null
+  },
+  {
+    "id": "845aa635-c545-44d1-b100-e04172218e47",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Drika da Silva R.",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-12T20:27:40.886Z",
+    "confirmed_at": null
   }
 ]
