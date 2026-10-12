@@ -7083,5 +7083,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-12T21:51:43.414Z",
     "confirmed_at": null
+  },
+  {
+    "id": "47988636-688a-4917-9494-25d91f2c5e11",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Wellington Cardozo",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-12T21:52:48.594Z",
+    "confirmed_at": null
   }
 ]
