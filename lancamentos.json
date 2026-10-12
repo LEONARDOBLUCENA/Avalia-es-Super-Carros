@@ -6841,5 +6841,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-12T20:15:21.965Z",
     "confirmed_at": null
+  },
+  {
+    "id": "47bad887-99fa-4ec6-9368-08b4bffb340e",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Alessandro Jr Silva",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-12T20:19:57.907Z",
+    "confirmed_at": null
   }
 ]
