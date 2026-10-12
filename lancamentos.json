@@ -6797,5 +6797,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-12T16:13:32.747Z",
     "confirmed_at": null
+  },
+  {
+    "id": "79fe436a-9802-4ba0-ba35-e47060bd6a01",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Jéssica Chimello",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-12T17:46:30.882Z",
+    "confirmed_at": null
   }
 ]
