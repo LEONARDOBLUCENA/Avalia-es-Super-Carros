@@ -6720,5 +6720,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-12T02:53:14.436Z",
     "confirmed_at": null
+  },
+  {
+    "id": "a00e5083-1e13-49cc-8eeb-c6adc3b88988",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Claudia Rocha",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-12T02:54:17.544Z",
+    "confirmed_at": null
   }
 ]
