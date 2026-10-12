@@ -7215,5 +7215,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-12T22:43:43.495Z",
     "confirmed_at": null
+  },
+  {
+    "id": "6f76b39d-1cf8-4336-9553-0eff344b116c",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Daiana Da Cruz Rocha",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-12T22:44:33.396Z",
+    "confirmed_at": null
   }
 ]
