@@ -6665,5 +6665,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-12T02:49:17.594Z",
     "confirmed_at": null
+  },
+  {
+    "id": "fb3ebbfe-a47d-4b06-8509-8401419a590a",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Victor Moraes",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-12T02:49:43.169Z",
+    "confirmed_at": null
   }
 ]
