@@ -7303,5 +7303,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-13T12:38:37.724Z",
     "confirmed_at": null
+  },
+  {
+    "id": "e16a7d68-c41c-40c6-9e71-8045fc379d42",
+    "setor": "Fotos",
+    "vendedora": "Indianara",
+    "cliente_nome_informado": "Eduardo José Silva",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-13T12:38:58.838Z",
+    "confirmed_at": null
   }
 ]
