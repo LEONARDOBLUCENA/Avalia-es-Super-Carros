@@ -7292,5 +7292,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-12T22:50:49.408Z",
     "confirmed_at": null
+  },
+  {
+    "id": "7296a549-e041-4324-bd90-7eb977eac8c2",
+    "setor": "Fotos",
+    "vendedora": "Indianara",
+    "cliente_nome_informado": "Suellen Jennifer Voss",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-13T12:38:37.724Z",
+    "confirmed_at": null
   }
 ]
