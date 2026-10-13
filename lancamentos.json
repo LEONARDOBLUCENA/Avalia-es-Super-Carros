@@ -7325,5 +7325,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-13T12:39:49.853Z",
     "confirmed_at": null
+  },
+  {
+    "id": "c0bde34d-c83b-47e3-b0b4-f521384b3245",
+    "setor": "Fotos",
+    "vendedora": "Indianara",
+    "cliente_nome_informado": "dilermando fernandes",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-13T12:51:25.378Z",
+    "confirmed_at": null
   }
 ]
