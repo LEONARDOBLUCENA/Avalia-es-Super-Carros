@@ -7336,5 +7336,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-13T12:51:25.378Z",
     "confirmed_at": null
+  },
+  {
+    "id": "8588fdab-ac86-46ad-89c3-de91a6bdb556",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Rafael Castro",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-13T13:33:45.562Z",
+    "confirmed_at": null
   }
 ]
