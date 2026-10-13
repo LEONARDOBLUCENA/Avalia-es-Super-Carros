@@ -7369,5 +7369,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-13T14:46:18.430Z",
     "confirmed_at": null
+  },
+  {
+    "id": "eb966f45-5800-41e0-818f-3f21983a757f",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Gustavo ritterbush",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-13T14:48:26.209Z",
+    "confirmed_at": null
   }
 ]
