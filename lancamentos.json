@@ -6508,11 +6508,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Conrado bender",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tWdVltRmpRa0U0YmpsWWNIQlpZbGRMY1V0UE5YYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-11T20:44:19.849Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T17:01:13.893Z"
   },
   {
     "id": "995bceb3-1c03-4901-ae86-b8c4108a9358",
