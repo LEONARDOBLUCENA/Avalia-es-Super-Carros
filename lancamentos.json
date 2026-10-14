@@ -7249,11 +7249,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Vinicius Cezar Maria",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0Tk9FNXBXRXRhT1hCWFlXbE5VSEkxUVhaMVFYYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-12T22:46:07.664Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T18:59:04.073Z"
   },
   {
     "id": "683243f3-1af5-4fbd-bb40-a16e8beda9b2",
