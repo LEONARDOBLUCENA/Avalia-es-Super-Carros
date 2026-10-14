@@ -7271,11 +7271,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Bruno Rangel Klosovski",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tka09GTkJSVVUzT1VnMWVHNVdhbEJWVWpJeGFuYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-12T22:49:55.368Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T18:59:42.666Z"
   },
   {
     "id": "65c6961d-e16a-4025-913c-4ccfbd8b8dea",
