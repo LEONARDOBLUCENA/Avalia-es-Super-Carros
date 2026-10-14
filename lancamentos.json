@@ -7359,11 +7359,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Alan Silva",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT210alRsUlhUV0U0TTFoVVkycDRVMGRRVFRCdFQxRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-13T14:04:15.088Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T19:04:04.804Z"
   },
   {
     "id": "c805c40d-e722-4aff-90af-5e1c5fe1cf44",
