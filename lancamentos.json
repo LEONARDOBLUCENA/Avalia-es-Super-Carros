@@ -7575,5 +7575,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-14T19:57:12.893Z",
     "confirmed_at": null
+  },
+  {
+    "id": "59af9951-c99e-4990-9c92-7b418ee72d4e",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Herbert Aleixo",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-14T22:08:25.819Z",
+    "confirmed_at": null
   }
 ]
