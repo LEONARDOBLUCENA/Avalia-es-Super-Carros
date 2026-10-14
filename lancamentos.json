@@ -7172,11 +7172,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Davi Gomes",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT210eE5IVlNiVlp2TkZoVFZHTk1TRkpoWnpGT01rRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-12T22:04:38.796Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T18:57:46.584Z"
   },
   {
     "id": "7593fb8d-c1bf-4fdb-a312-76b8a8b585d8",
