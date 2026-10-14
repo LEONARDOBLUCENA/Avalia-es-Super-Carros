@@ -7040,11 +7040,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Ithalo Evald",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGNVJWWmlURWhpV1RWT2EwbHhlbFJXWkhOR1YwRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-12T21:46:11.287Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T18:50:33.449Z"
   },
   {
     "id": "5654334a-dbe2-4623-8fc9-c31fae8bfdb4",
