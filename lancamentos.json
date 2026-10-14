@@ -6974,11 +6974,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Drika da Silva R.",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2psWVFtVlhRWHAzYVd0UFJuZHRaMWxNV25KSU5tYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-12T20:27:40.886Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T18:48:31.236Z"
   },
   {
     "id": "5a2a599f-89fe-4076-a7c2-9aab68a816da",
