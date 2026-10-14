@@ -6930,11 +6930,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Lucas Sa",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1RlFYVTJPRVZSUVdwSWFUVnZiamQyZUZKR2VFRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-12T20:24:24.245Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T18:47:47.227Z"
   },
   {
     "id": "fd353049-8952-4679-9dd4-f43e021a9fa6",
