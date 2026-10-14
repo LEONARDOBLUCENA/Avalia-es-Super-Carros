@@ -6787,11 +6787,11 @@
     "setor": "Fotos",
     "vendedora": "Indianara",
     "cliente_nome_informado": "Mauricio Mancio",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21jeFIzbHBXblpVUjFkSVlWa3hTVlpSVFVFNFdXYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-12T15:41:29.225Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T17:57:14.329Z"
   },
   {
     "id": "3e125ef7-8bc2-45b6-a4c6-30a7be656361",
