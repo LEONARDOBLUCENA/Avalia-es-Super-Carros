@@ -6816,11 +6816,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Andre Rossi",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25ScFNVeEJaakJ4TFZONE9HMTNYMnN0YzB3d2RYYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-12T17:46:44.112Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T17:04:18.175Z"
   },
   {
     "id": "59043f82-8a0f-4b67-b487-a50f3c375805",
