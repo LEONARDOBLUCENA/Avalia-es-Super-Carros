@@ -7507,5 +7507,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-14T18:43:45.658Z",
     "confirmed_at": null
+  },
+  {
+    "id": "c14c79ec-40f3-4366-92f0-ade1742ab640",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Nubia Silva",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-14T18:44:27.995Z",
+    "confirmed_at": null
   }
 ]
