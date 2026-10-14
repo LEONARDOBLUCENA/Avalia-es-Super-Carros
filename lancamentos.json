@@ -6303,11 +6303,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Olavo",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCc1N6ZEplVzVFUlU5aldEaG5jMHh0UTJSbWRuYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-11T16:58:16.902Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T17:51:17.571Z"
   },
   {
     "id": "1d56337b-3907-479d-96f9-aa244906253b",
