@@ -6699,11 +6699,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Robert Lopes",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poaFdtZEpiMUpWTVdKWmN5MDRPWFJQZFRWak1WRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-12T02:52:32.373Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T17:55:39.873Z"
   },
   {
     "id": "d3060294-c8ef-449a-8447-4272800e280b",
