@@ -6077,11 +6077,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Pedro Henrique",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poYWQzVjBhalJSZVVReFdWTlNkbGMyVG1FNFlXYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-11T11:44:14.270Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T17:48:16.946Z"
   },
   {
     "id": "a48800c0-91a6-41b7-ad86-e6ec0a68ae1b",
