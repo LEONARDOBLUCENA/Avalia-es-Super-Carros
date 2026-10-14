@@ -7062,11 +7062,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Rodolfo Silveira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCSVdteGtZVUZxWW5oVWRURXdlRTl0VGpsbmNGRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-12T21:49:51.853Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T18:50:56.541Z"
   },
   {
     "id": "f557c9c0-d679-4fcc-88b5-ba1eb1704eab",
