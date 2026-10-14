@@ -6171,11 +6171,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Gelson Pereira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21seVJXeG1Sa28xUTJrdE4wUjZOblJWZDJacFZYYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-11T15:21:42.659Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T17:50:06.083Z"
   },
   {
     "id": "9ce4aeef-40d6-4b4b-a296-a9aaa0032bdf",
