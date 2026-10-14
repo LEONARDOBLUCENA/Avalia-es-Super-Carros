@@ -7459,5 +7459,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-14T16:39:53.966Z",
     "confirmed_at": null
+  },
+  {
+    "id": "7999ce68-f064-460b-93d6-650feee98cc6",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Lélio Júnior",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-14T17:29:41.651Z",
+    "confirmed_at": null
   }
 ]
