@@ -6409,11 +6409,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Firmino daros",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poNWQxbG5lVlY2ZG1NeU9WSnJaSEpEY25ScmMyYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-11T18:44:53.523Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T17:00:38.694Z"
   },
   {
     "id": "ebfb7ffb-e01e-47c6-be84-3c91b90c2520",
