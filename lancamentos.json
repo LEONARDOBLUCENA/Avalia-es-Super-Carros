@@ -7337,11 +7337,11 @@
     "setor": "Fotos",
     "vendedora": "Indianara",
     "cliente_nome_informado": "dilermando fernandes",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1RVIwbDZUemh4TjBvMGFrdHNaM0Z1ZWxSWGEyYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-13T12:51:25.378Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T19:03:40.205Z"
   },
   {
     "id": "8588fdab-ac86-46ad-89c3-de91a6bdb556",
