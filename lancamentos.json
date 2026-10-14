@@ -7414,11 +7414,13 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "felipe soares",
-    "status": "confirmado",
+    "status": "rejeitado",
     "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xSVlpUaFFVelJTZEU5emN6a3liVVZGTlc5UFpsRRAB",
     "mes_referencia": "2026-09",
     "created_at": "2026-10-14T13:39:22.299Z",
-    "confirmed_at": "2026-10-14T19:05:51.666Z"
+    "confirmed_at": "2026-10-14T19:05:51.666Z",
+    "rejected_at": "2026-10-14T19:06:07.048Z",
+    "rejected_review_id": null
   },
   {
     "id": "046d4467-f84a-4b73-9bbc-ebc6b24ed0f1",
