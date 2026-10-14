@@ -6332,11 +6332,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Jones ecco",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tkVk1tdE1NSGhpZFdkV1VVUTFMUzFxV0ZGeGMxRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-11T17:15:46.870Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T16:59:26.544Z"
   },
   {
     "id": "9c89f7e3-77ca-488f-9595-1ddfac32f56f",
