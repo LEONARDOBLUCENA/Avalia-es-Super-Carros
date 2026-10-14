@@ -7370,11 +7370,11 @@
     "setor": "Fotos",
     "vendedora": "Indianara",
     "cliente_nome_informado": "Roney Souza",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21FdFEyUkdhRk5yTVRkQk9WWmtiR1JQTjFkWVFrRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-13T14:46:18.430Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T19:05:13.046Z"
   },
   {
     "id": "eb966f45-5800-41e0-818f-3f21983a757f",
