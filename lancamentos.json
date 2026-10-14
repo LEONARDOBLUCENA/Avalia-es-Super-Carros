@@ -6761,11 +6761,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Caroline Lira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poWFVqWk1OWGx0ZDFwS1YwSnRjM2xuUVVoSE1tYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-12T14:40:12.533Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T17:02:41.918Z"
   },
   {
     "id": "15a8f2de-497f-4dbb-862b-8ef76ba247e6",
