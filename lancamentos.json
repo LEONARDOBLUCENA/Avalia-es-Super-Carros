@@ -7413,5 +7413,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-14T13:39:22.299Z",
     "confirmed_at": null
+  },
+  {
+    "id": "046d4467-f84a-4b73-9bbc-ebc6b24ed0f1",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Preparatório divina aula",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-14T15:14:19.631Z",
+    "confirmed_at": null
   }
 ]
