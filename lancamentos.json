@@ -6178,11 +6178,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Artur Menon ciconetto",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tsd01YWnFNMWQzWTFKU1RVODBXbFprVlVSQmMzYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-11T15:44:48.209Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T16:58:11.830Z"
   },
   {
     "id": "b636b069-b836-4a67-9424-225bf2ceaa44",
