@@ -7018,11 +7018,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Vivia Ferreira De Azevedo Araújo",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tSd1gzZFdMVzVpVG1oU1pXVkhaRTU2WjBsdWNrRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-12T20:29:49.164Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T18:50:05.437Z"
   },
   {
     "id": "3f6533a3-9532-4fe0-81b8-a85b683ce300",
