@@ -7348,11 +7348,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Rafael Castro",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xwT0xVbHlYMWhyVVdwcVJGQTBNSGhoYlMxcE5uYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-13T13:33:45.562Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T19:03:50.493Z"
   },
   {
     "id": "3724187b-963e-40d9-af70-135f8e7dac6f",
