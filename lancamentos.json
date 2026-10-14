@@ -6567,11 +6567,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "flavio vaz maciel",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tFMFJWZHdZM1pJWWpadFZGQkpTa0ZpWVZSZloxRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-11T21:05:09.907Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T17:52:42.906Z"
   },
   {
     "id": "6d89d7ff-e5af-4783-978f-b166e2a75cfd",
