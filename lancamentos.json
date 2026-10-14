@@ -7424,5 +7424,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-14T15:14:19.631Z",
     "confirmed_at": null
+  },
+  {
+    "id": "f41fc455-3cfc-45a7-bf4a-17527fdb66aa",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Isidoro junior",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-14T15:16:14.853Z",
+    "confirmed_at": null
   }
 ]
