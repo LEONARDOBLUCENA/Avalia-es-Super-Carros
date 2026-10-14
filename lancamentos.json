@@ -6189,11 +6189,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Jocimar ciconetto",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25Bd1VtcG1Sa2RTWjJkdmNXdFdZbDkyYkU5eU9YYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-11T15:45:32.987Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T16:58:23.129Z"
   },
   {
     "id": "c685385e-86e8-4e4c-8360-6555d4181a44",
