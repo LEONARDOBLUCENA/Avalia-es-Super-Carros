@@ -6321,11 +6321,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Alessandra Lima",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pSVlZUZGlOVWhsWWtsSFNsaHdNbWhsUWkxUmVYYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-11T17:00:48.877Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T16:59:14.898Z"
   },
   {
     "id": "44f4836f-27c3-4d90-ab47-2047becc7101",
