@@ -7304,11 +7304,11 @@
     "setor": "Fotos",
     "vendedora": "Indianara",
     "cliente_nome_informado": "Suellen Jennifer Voss",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCWE4wUnFWa3BMTFRSb1NYQTRRVXhDZVVKMlFsRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-13T12:38:37.724Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T19:03:04.516Z"
   },
   {
     "id": "e16a7d68-c41c-40c6-9e71-8045fc379d42",
