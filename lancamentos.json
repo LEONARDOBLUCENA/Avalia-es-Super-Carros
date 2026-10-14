@@ -6354,11 +6354,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Lucas todeschine Gomes",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pjMWMwaHRhbk0yYUMxb1pGVlNiMFZuTURKSk9YYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-11T17:42:40.834Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T16:59:35.197Z"
   },
   {
     "id": "3610887b-592d-41c1-a7d1-40e5eb0c5f48",
