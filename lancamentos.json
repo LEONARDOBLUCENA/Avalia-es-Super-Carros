@@ -7227,11 +7227,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Daiana Da Cruz Rocha",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tWblYwTTRSVXcxVG5seFZtdFRURTFqUWpoalgzYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-12T22:44:33.396Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T18:58:39.792Z"
   },
   {
     "id": "d10c86d9-9b9d-4b44-9277-8ce4536bd781",
