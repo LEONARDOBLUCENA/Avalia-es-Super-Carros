@@ -7496,5 +7496,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-14T18:05:08.502Z",
     "confirmed_at": null
+  },
+  {
+    "id": "16a4be1c-1540-47ae-b1cc-8a504b9d5c8e",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Igor Silva",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-14T18:43:45.658Z",
+    "confirmed_at": null
   }
 ]
