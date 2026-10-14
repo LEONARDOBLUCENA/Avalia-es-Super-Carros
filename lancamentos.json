@@ -6596,11 +6596,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Emanuele pedrotti",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25kUFEwZEJVVFI2T0c4MWMwWmpWbWRxVldkM1dFRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-11T21:26:38.866Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T17:02:10.417Z"
   },
   {
     "id": "3f4d1f82-cca5-484a-91ac-c328623bc90e",
