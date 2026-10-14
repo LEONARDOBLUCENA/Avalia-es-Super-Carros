@@ -6453,11 +6453,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Andréia Cátia Sbeghen",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25SdWRUWnBjMUp1UmxCQ1JVNUJhM1J6YTJ0b1VVRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-11T18:58:58.330Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T17:46:46.547Z"
   },
   {
     "id": "b5aa4a8c-d563-4785-b3ad-ba4e9f87834f",
