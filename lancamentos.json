@@ -6721,11 +6721,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Suele Asevedo",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKMldXOW9ZV2gyUzFwaFRqWjNaR3BMUzJaMWRsRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-12T02:53:14.436Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T17:52:09.084Z"
   },
   {
     "id": "a00e5083-1e13-49cc-8eeb-c6adc3b88988",
