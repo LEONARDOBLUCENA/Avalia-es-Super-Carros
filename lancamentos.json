@@ -7029,11 +7029,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Nathan Bonfim Werling",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pWU1YxZFhaSGQyY1V0ek9FeGFiMlpUZEZaTE4yYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-12T20:31:31.123Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T18:50:22.420Z"
   },
   {
     "id": "b722853b-beb7-47f3-b925-c0a4562b153e",
