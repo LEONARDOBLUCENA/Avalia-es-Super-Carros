@@ -7315,11 +7315,11 @@
     "setor": "Fotos",
     "vendedora": "Indianara",
     "cliente_nome_informado": "Eduardo José Silva",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21rMGRrMXVlVFZLTUZSQ1RrcDNkemxtUjB0VGRtYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-13T12:38:58.838Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T19:03:15.891Z"
   },
   {
     "id": "31bbbb51-6642-4017-b025-d8fde14924ba",
