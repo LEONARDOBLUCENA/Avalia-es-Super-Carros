@@ -108,5 +108,14 @@
     "confirmed_at": "2026-09-16T19:43:23.320Z",
     "recuperado_em": "2026-09-25T18:03:31.000Z",
     "recuperado_status_anterior": "confirmado (excluído) - deduplicado de 4 registros idênticos"
+  },
+  {
+    "id": "5967bc23-c77d-404f-b511-16a04a76c631",
+    "instrutor_nome": "Brayan",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xwT0xVbHlYMWhyVVdwcVJGQTBNSGhoYlMxcE5uYxAB",
+    "review_author_name": "rafael castro",
+    "review_text_snippet": "Atendimento excelente !!! Elogios ao instrutor Bryan.",
+    "mes_referencia": "2026-10",
+    "confirmed_at": "2026-10-14T19:09:20.502Z"
   }
 ]
