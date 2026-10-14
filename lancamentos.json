@@ -6222,11 +6222,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Patrícia Ribeiro",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21aMVZsVXpSVXN6WkdsbFoya3llRU5IV1hrM1dFRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-11T16:15:25.522Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T16:58:55.004Z"
   },
   {
     "id": "61d2ffde-2bb0-4a40-b8f7-3d34170e0225",
