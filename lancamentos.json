@@ -7128,11 +7128,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Celoi Bunilha",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xsQmRYbERkV3R3YWtkamVEVXhkalpRVDFKWGVHYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-12T21:56:19.232Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T18:57:06.483Z"
   },
   {
     "id": "b479e68d-7322-4db9-9d87-0b709240af41",
