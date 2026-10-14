@@ -6860,11 +6860,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Chrystian bragatto",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25OTVdqZG1OM3BJTUVWTmNsTjZaVnBpTFRabFIzYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-12T20:21:00.515Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T17:05:06.730Z"
   },
   {
     "id": "8c9a7f1a-af07-45f1-b505-a9c4028607dc",
