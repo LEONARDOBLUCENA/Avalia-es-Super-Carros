@@ -7564,5 +7564,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-14T19:37:42.362Z",
     "confirmed_at": null
+  },
+  {
+    "id": "d884063f-c10e-4e42-9d99-d17fe5b5197d",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Cristina Diniz",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-14T19:57:12.893Z",
+    "confirmed_at": null
   }
 ]
