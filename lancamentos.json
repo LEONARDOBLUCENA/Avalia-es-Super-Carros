@@ -6022,11 +6022,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Sabrina sonemann",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2toWmF6RlhkbVJxWWpGVWRsaFNZa3h4UTFjelJtYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-10T21:10:58.009Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T16:55:18.786Z"
   },
   {
     "id": "9697005d-d107-43f8-8407-70d2bd17f177",
