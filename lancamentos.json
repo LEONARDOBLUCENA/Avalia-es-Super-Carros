@@ -7402,5 +7402,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-13T17:05:10.123Z",
     "confirmed_at": null
+  },
+  {
+    "id": "271b8658-8a32-4ac0-acff-6e7efaab145c",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "felipe soares",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-14T13:39:22.299Z",
+    "confirmed_at": null
   }
 ]
