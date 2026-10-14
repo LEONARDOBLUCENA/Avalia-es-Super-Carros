@@ -6464,11 +6464,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Pietro Rossato",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tsb2MwMDJkblJKYmpaSmJsaHdiRzFQV21KVk4zYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-11T18:59:13.386Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T17:46:57.072Z"
   },
   {
     "id": "2081bf86-dca7-409b-843c-a656c80e8e6b",
