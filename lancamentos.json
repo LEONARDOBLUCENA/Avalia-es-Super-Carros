@@ -6244,11 +6244,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Isadora D.Nogueira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21SSE9FeHhZVmRGT0VNNGIxY3hYMWxzV1dkRlpsRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-11T16:32:36.701Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T16:59:06.796Z"
   },
   {
     "id": "99cd0045-42d2-4c4b-bf0d-96aed52d312b",
