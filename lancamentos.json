@@ -7542,5 +7542,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-14T19:35:11.610Z",
     "confirmed_at": null
+  },
+  {
+    "id": "ca8618e6-1e8e-4eb5-aa43-24e387123e15",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Antônio Rizzi",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-14T19:36:51.578Z",
+    "confirmed_at": null
   }
 ]
