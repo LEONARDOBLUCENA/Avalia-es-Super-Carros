@@ -6996,11 +6996,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Natasha Ivantchuk",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xONlptVktVMkowZVRkbFMwOUVlVlJQYVZoaU5YYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-12T20:28:53.233Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T18:49:41.274Z"
   },
   {
     "id": "023f98cb-67f7-4c5a-aae0-5f7956c55934",
