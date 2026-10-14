@@ -6849,11 +6849,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Alessandro Jr Silva",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25KeVJUTk1hMVEyWWpaNU1qVTVVSGwxVkRsYU4wRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-12T20:19:57.907Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T17:04:55.647Z"
   },
   {
     "id": "6751f468-39bf-4f73-ab50-090d73a18252",
