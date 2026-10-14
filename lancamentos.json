@@ -6088,11 +6088,13 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "TIAGO MATØS",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-10-11T11:45:40.872Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-10-14T17:49:04.196Z",
+    "rejected_review_id": null
   },
   {
     "id": "7d013556-e059-4ad1-af75-eb30f34873d0",
