@@ -6897,11 +6897,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Luiz Fernando",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tsdWFHWnVhMGRHVlMxMlZEbG5ORFZUTlRSYVlVRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-12T20:22:49.397Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T18:47:17.845Z"
   },
   {
     "id": "d0fec2cf-2525-4ed8-ba0f-9132433e8a9d",
