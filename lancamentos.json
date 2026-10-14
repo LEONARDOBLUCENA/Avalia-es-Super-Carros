@@ -6886,11 +6886,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Guilherme Santos",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGcU0wUk5ZWFJEVDBSWlkyaFFOMmRMYjNKMlRuYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-12T20:22:13.839Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T18:46:58.417Z"
   },
   {
     "id": "8a98b120-a820-48fb-9132-dab31d298315",
