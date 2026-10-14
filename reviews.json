@@ -1,5 +1,47 @@
 [
   {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21jMU9FYzBSVEV6UVZCVWF6QjVZamQxVmtrMWExRRAB",
+    "author_name": "Raphael Saliba",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-14T14:49:35.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21OdU5DMUZWMDVVUTFaYU9GRmhjUzFvVjBjM05WRRAB",
+    "author_name": "Luiz Gustavo Lana",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-14T14:30:27.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pFMVNVWkhRbFZJYld0dVJXOHliVkZmWm5OeVlYYxAB",
+    "author_name": "Thales Victor",
+    "rating": 5,
+    "review_text": "Muito top",
+    "review_time": "2026-10-14T14:30:01.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w4MmRVOXdPVVV4YWt4cWNrbExaWFpqVDFGeWVIYxAB",
+    "author_name": "André Bergmann",
+    "rating": 5,
+    "review_text": "Só nave",
+    "review_time": "2026-10-14T11:02:17.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pob1VFVnZRV0pPZWkxeU5FbFlXSG8zUTFjMldFRRAB",
+    "author_name": "Wallace Dos Santos",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-13T19:56:31.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0WldVdDRORkpPYUhST2NVdFNSVGhKUmxWRlprRRAB",
+    "author_name": "Gaby Noble",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-13T17:28:31.000Z"
+  },
+  {
     "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tWWGJscFZUV013ZG5vdFZXMWxkVzAwUlcxcVJtYxAB",
     "author_name": "Lucas Kozma",
     "rating": 5,
