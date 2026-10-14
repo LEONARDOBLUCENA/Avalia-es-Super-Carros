@@ -7106,11 +7106,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Ramon Alexandre",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25kTmNXMDNZV2czVGw5SGJ6RmtSMVY0ZG5OdVRXYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-12T21:54:26.047Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T18:55:03.709Z"
   },
   {
     "id": "94f8bc52-6e23-4b02-9cc1-70d84fdb7e6e",
