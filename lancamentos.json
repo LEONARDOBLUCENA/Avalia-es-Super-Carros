@@ -7084,11 +7084,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Camily Bordim",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT200M00yNDNMV3Q2TWpndE5reFZlbFEwYnpZeFMxRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-12T21:51:43.414Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T18:53:57.225Z"
   },
   {
     "id": "47988636-688a-4917-9494-25d91f2c5e11",
