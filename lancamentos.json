@@ -7414,12 +7414,12 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "felipe soares",
-    "status": "rejeitado",
+    "status": "pendente",
     "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xSVlpUaFFVelJTZEU5emN6a3liVVZGTlc5UFpsRRAB",
     "mes_referencia": "2026-09",
     "created_at": "2026-10-14T13:39:22.299Z",
     "confirmed_at": "2026-10-14T19:05:51.666Z",
-    "rejected_at": "2026-10-14T19:06:07.048Z",
+    "rejected_at": null,
     "rejected_review_id": null
   },
   {
