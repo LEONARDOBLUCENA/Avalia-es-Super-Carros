@@ -6952,11 +6952,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "mariela lozi",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poNk16SlZSbEJaUVZwRVl6TnZWMjlxY0Y5VmJVRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-12T20:27:03.219Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T18:48:09.659Z"
   },
   {
     "id": "01d29d1e-07c0-4bfd-bb8e-ab6d51a2353e",
