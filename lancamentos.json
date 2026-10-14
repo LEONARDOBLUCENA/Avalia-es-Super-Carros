@@ -7095,11 +7095,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Wellington Cardozo",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tsUlNXUkxXRlZCYWxSMGRrRllSMUJGYjI1bVIwRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-12T21:52:48.594Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T18:54:08.953Z"
   },
   {
     "id": "37d206ac-bef9-4e68-bd20-1685b2c7bdc5",
