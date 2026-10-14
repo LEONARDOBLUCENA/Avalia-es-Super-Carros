@@ -7194,11 +7194,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Prof Ricardo",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21GeFpISTJhWEU1VUhKNlVWZEZXbWRDV1hoU1UzYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-12T22:42:12.412Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T18:58:09.173Z"
   },
   {
     "id": "805e19ca-28a3-4182-881f-f55d7276f823",
