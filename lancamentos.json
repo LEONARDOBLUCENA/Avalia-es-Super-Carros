@@ -6556,11 +6556,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Karen Pereira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WR1pGSmxkV2RYWVhjMFREZFNTRWwyTVZkbVUxRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-11T21:04:07.131Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-14T17:52:32.763Z"
   },
   {
     "id": "5a909cf0-d87a-4d08-8f20-968f5e37ac4f",
