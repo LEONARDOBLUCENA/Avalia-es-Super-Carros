@@ -7583,11 +7583,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Herbert Aleixo",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pGeE5GSXphM1I0UzNwdmFrWkZZME5hUnpsbmNGRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-14T22:08:25.819Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-15T14:58:21.700Z"
   },
   {
     "id": "149d0d93-9587-4496-99f7-b1f11db8e36c",
