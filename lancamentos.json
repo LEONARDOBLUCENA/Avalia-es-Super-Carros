@@ -7748,5 +7748,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-15T15:11:02.491Z",
     "confirmed_at": null
+  },
+  {
+    "id": "1014cd92-629d-4e77-bfb2-4d26bb1b0950",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Ednilson Ferreira Alves",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-15T17:33:29.267Z",
+    "confirmed_at": null
   }
 ]
