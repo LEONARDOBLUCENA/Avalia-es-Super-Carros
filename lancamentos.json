@@ -7627,11 +7627,13 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Chrystian Bragatto",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-10-15T02:44:41.797Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-10-15T14:59:28.983Z",
+    "rejected_review_id": null
   },
   {
     "id": "a62be3e6-aad4-415e-938b-74f18dae2236",
