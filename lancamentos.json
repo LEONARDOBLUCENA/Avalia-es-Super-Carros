@@ -7671,11 +7671,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Ricardo Carvalho",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKRWRVSjZkMmhqT1cxeE1rWlRWRVZzZEhCVVYwRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-15T02:51:33.056Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-15T14:59:12.490Z"
   },
   {
     "id": "6edbd0c0-e0bc-4f42-b942-82a24b17ef2b",
