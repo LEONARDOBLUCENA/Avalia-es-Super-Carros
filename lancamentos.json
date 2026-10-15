@@ -7451,11 +7451,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Tífani Bonatto",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0U1psOHhha3BFWkdWRFowTjNRMU5OZWpGZlNVRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-14T16:09:41.145Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-15T14:56:29.234Z"
   },
   {
     "id": "d32f94f7-1b26-4add-bdff-a027535b38e1",
