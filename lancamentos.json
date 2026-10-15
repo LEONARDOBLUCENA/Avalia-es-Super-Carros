@@ -7429,11 +7429,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Preparatório divina aula",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25GcE1WbGZjR0U1VG5CUlVFZGtPSFZIVUhkR1NtYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-14T15:14:19.631Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-15T14:56:10.734Z"
   },
   {
     "id": "f41fc455-3cfc-45a7-bf4a-17527fdb66aa",
