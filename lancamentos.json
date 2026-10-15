@@ -7685,5 +7685,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-15T02:53:39.075Z",
     "confirmed_at": null
+  },
+  {
+    "id": "57b239b9-be47-4969-b531-9e4b95d373bb",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Dheimerson Guedes",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-15T13:39:22.471Z",
+    "confirmed_at": null
   }
 ]
