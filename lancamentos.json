@@ -7663,5 +7663,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-15T02:47:04.449Z",
     "confirmed_at": null
+  },
+  {
+    "id": "81a97615-c625-4037-9d4f-f17eae5bc11d",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Ricardo Carvalho",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-15T02:51:33.056Z",
+    "confirmed_at": null
   }
 ]
