@@ -7720,5 +7720,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-15T14:23:44.189Z",
     "confirmed_at": null
+  },
+  {
+    "id": "d95122a6-782d-43ff-84d6-5c37a8dd1f46",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Cesar betonio",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-15T14:57:44.438Z",
+    "confirmed_at": null
   }
 ]
