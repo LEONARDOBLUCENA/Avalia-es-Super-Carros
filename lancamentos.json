@@ -7605,11 +7605,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Samuel Cruz",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kbU1ITnVRbkJ4WTA5RmFUSlZlVmRETTNCb1QzYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-14T22:10:15.300Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-15T14:58:38.019Z"
   },
   {
     "id": "e27eb4eb-42dd-4f14-90c1-668c950bca3b",
