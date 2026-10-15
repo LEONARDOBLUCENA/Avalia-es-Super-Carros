@@ -7649,11 +7649,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Stephany Gaetho",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25ObVZ6aHJkR0l5VGtWNVlXRnhiMDFUWTNZd2FHYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-15T02:46:05.394Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-15T14:59:02.518Z"
   },
   {
     "id": "e39d6fe7-6332-4f87-9d0e-8c1830d02423",
