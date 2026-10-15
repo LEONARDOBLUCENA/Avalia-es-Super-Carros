@@ -7517,11 +7517,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Nubia Silva",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKc1F6WkJaMHh2VkU5YWRXMXpiMlo1WlhWS1kzYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-14T18:44:27.995Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-15T14:57:28.974Z"
   },
   {
     "id": "f7577f6b-f23d-4ca2-ada4-a50cd673fe19",
