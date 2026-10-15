@@ -7473,11 +7473,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Lélio Júnior",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WTlpFOHhjbTFFTVVGcFFqRmlZamQ1TTI1TmJFRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-14T17:29:41.651Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-15T14:56:49.855Z"
   },
   {
     "id": "6a5e0f8f-eb71-47a4-9eca-74cc7e2fc1c9",
