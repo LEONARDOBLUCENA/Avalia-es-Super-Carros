@@ -7594,11 +7594,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "OxSimoesRafa",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25KSVJteFRiV3hxVm5aMWFFVndYM1pITUZOYU9IYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-14T22:09:11.761Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-15T14:58:28.575Z"
   },
   {
     "id": "7772ab04-d220-49fa-8391-4f3b9d831e28",
