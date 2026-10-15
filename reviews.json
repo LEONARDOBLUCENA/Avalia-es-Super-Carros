@@ -1,5 +1,194 @@
 [
   {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT210dWVUaFFVSEZNTkY5WldFSmpRMFUyTldoSGJtYxAB",
+    "author_name": "Cesar Betonio",
+    "rating": 5,
+    "review_text": "Atendimento fantástico!!! Lugar espetacular!",
+    "review_time": "2026-10-15T14:23:17.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pWQ2JrbEtSRWRqV1dONVIwZEpTR3MzV0ZOcE5VRRAB",
+    "author_name": "Brena Raiana",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-15T14:01:12.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGVWJtOVdjakl5UVhVeU1tbEthbVpZUkVOclZWRRAB",
+    "author_name": "José Ricardo",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-15T13:51:31.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WTVVucFROMTgzU1ZwVWRsUXlORlJFVW05U1lsRRAB",
+    "author_name": "Dheimerson Guedes",
+    "rating": 5,
+    "review_text": "Top experiência",
+    "review_time": "2026-10-15T13:39:24.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21oS0xXbHFkMVp4UlZJMFExQlVMV05zYVhKUmJHYxAB",
+    "author_name": "Grasyele Ferreira",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-15T13:39:12.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWT2JVZDJkRkJuUTFGMlJtNURkR3MwVm00NGIwRRAB",
+    "author_name": "Sérgio Henrique Godinho Silva",
+    "rating": 5,
+    "review_text": "Excelente experiência!! Valeu a pena!!",
+    "review_time": "2026-10-15T13:22:58.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25KSVJteFRiV3hxVm5aMWFFVndYM1pITUZOYU9IYxAB",
+    "author_name": "OxSimoesRafa",
+    "rating": 5,
+    "review_text": "Experiência incrivel, funcionários atenciosos. Recomendo muito.",
+    "review_time": "2026-10-15T02:18:16.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25OblVVRlVhRnBmWVVkTmJqRkNObFpSVVhBd2RuYxAB",
+    "author_name": "Vitória Lima",
+    "rating": 5,
+    "review_text": "Experiência incrível no Super Cars Gramado, agradecimento especial ao Vinicius, que realizou um excelente atendimento personalizado,  prestativo e muito atencioso.<br>Voltaremos mais vezes!",
+    "review_time": "2026-10-14T20:19:19.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21GZk1WWnljazl3VlRoNFdtbHVZMHR2Vm01TVdXYxAB",
+    "author_name": "André Kobayashi",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-14T20:07:57.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xsVFIwbHVWa1pmUXpKWVVVUTJXa3RrVGprMFFtYxAB",
+    "author_name": "Sabrina Pinheiro Paes",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-14T20:07:32.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tadVpWQjFNRVpsYW0xa2RIQk9OVWd6U0RObVNIYxAB",
+    "author_name": "Jean Duarte",
+    "rating": 5,
+    "review_text": "Atendimento bom, super indíco",
+    "review_time": "2026-10-14T19:58:33.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2paR2NEQXphVE5qVkVaVE1IUnpkVVJoWWtadmNFRRAB",
+    "author_name": "CRISTINA DINIZ",
+    "rating": 5,
+    "review_text": "Excelente!",
+    "review_time": "2026-10-14T19:57:07.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5S0xXcDRTelJqWDJaRWVuQkVSM1EyU1dOQ2NtYxAB",
+    "author_name": "Antônio Rizzi",
+    "rating": 5,
+    "review_text": "Top demais",
+    "review_time": "2026-10-14T19:36:57.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tWdWRUSllRM0I2YUhkVFlVZFhjalE1UTBGWVNGRRAB",
+    "author_name": "André Assis de Albuquerque",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-14T19:01:43.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKSWVVaFBhMUZFZUdZd2FURlBVa3hWYUVnd0xYYxAB",
+    "author_name": "Igor Silva",
+    "rating": 5,
+    "review_text": "Sensacional o Passeio e as fotos incríveis, super indico.",
+    "review_time": "2026-10-14T18:44:29.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKc1F6WkJaMHh2VkU5YWRXMXpiMlo1WlhWS1kzYxAB",
+    "author_name": "Núbia Silva",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-14T18:43:38.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCTlRUbFFaRlZMTjNSeGEwbHNVVmRmWW5oNVprRRAB",
+    "author_name": "Moacyr Junior",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-14T18:34:25.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1a2RsTlNOQzF5ZEVsc2RVUkVaR1J3ZWxRMmJIYxAB",
+    "author_name": "Katiane Semencio",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-14T18:00:36.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25aNlVFeG5RV2RrVmtOd2RXbGZNRk5SWVdzd1psRRAB",
+    "author_name": "Matheus Barros",
+    "rating": 5,
+    "review_text": "Ótimo atendimento",
+    "review_time": "2026-10-14T18:00:04.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tkak1tMUllR1pNZGs5aWJXdGljM1I2YWtVeU1YYxAB",
+    "author_name": "Paula Pereira",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-14T17:53:40.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pGeE5GSXphM1I0UzNwdmFrWkZZME5hUnpsbmNGRRAB",
+    "author_name": "Herbert Aleixo",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-14T17:44:38.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WTlpFOHhjbTFFTVVGcFFqRmlZamQ1TTI1TmJFRRAB",
+    "author_name": "Lélio Júnior",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-14T17:19:27.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kbU1ITnVRbkJ4WTA5RmFUSlZlVmRETTNCb1QzYxAB",
+    "author_name": "Samuel Cruz",
+    "rating": 5,
+    "review_text": "Top, experiência de milhões ❤️",
+    "review_time": "2026-10-14T16:55:23.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2podExXODBabEJyWlVabmRsRkRSSG96ZEdGU1VXYxAB",
+    "author_name": "fabio lima",
+    "rating": 4,
+    "review_text": "",
+    "review_time": "2026-10-14T16:37:56.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0U1psOHhha3BFWkdWRFowTjNRMU5OZWpGZlNVRRAB",
+    "author_name": "Tífani Bonatto",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-14T16:08:23.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25GcE1WbGZjR0U1VG5CUlVFZGtPSFZIVUhkR1NtYxAB",
+    "author_name": "PREPARATÓRIO DIVINA AULA",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-14T15:18:14.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xBdFVsOVNaRzB6VG1WTFptOWFRbWQwU1RZMFdFRRAB",
+    "author_name": "Isidoro Júnior",
+    "rating": 5,
+    "review_text": "Experiência única,  muito educados e gentis.",
+    "review_time": "2026-10-14T15:17:11.000Z"
+  },
+  {
     "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21jMU9FYzBSVEV6UVZCVWF6QjVZamQxVmtrMWExRRAB",
     "author_name": "Raphael Saliba",
     "rating": 5,
@@ -19,6 +208,13 @@
     "rating": 5,
     "review_text": "Muito top",
     "review_time": "2026-10-14T14:30:01.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2padVNtMUxPVTEyWWtWTmJYQmZhM0ZWZEhSalVXYxAB",
+    "author_name": "felipe soares",
+    "rating": 5,
+    "review_text": "Experiência sensacional!!!",
+    "review_time": "2026-10-14T13:01:05.000Z"
   },
   {
     "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w4MmRVOXdPVVV4YWt4cWNrbExaWFpqVDFGeWVIYxAB",
