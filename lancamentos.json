@@ -7638,11 +7638,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Elenice Bohn",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tkVldDMXRkVWhVTVcwdGJVMVRNemswV2pnd09FRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-15T02:45:39.568Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-15T14:58:45.467Z"
   },
   {
     "id": "088ed85b-52fa-4bbb-a9e5-a73678ddd91e",
