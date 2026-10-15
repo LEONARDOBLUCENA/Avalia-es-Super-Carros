@@ -7674,5 +7674,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-15T02:51:33.056Z",
     "confirmed_at": null
+  },
+  {
+    "id": "6edbd0c0-e0bc-4f42-b942-82a24b17ef2b",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "priscila gerhardt",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-15T02:53:39.075Z",
+    "confirmed_at": null
   }
 ]
