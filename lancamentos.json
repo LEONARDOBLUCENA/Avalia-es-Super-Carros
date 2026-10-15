@@ -7728,10 +7728,10 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Cesar betonio",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT210dWVUaFFVSEZNTkY5WldFSmpRMFUyTldoSGJtYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-15T14:57:44.438Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-15T15:02:08.510Z"
   }
 ]
