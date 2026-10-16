@@ -7765,11 +7765,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Fernanda Godinho",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25sbmJuUkJkWFJGY0Y4d09XcFhORTFPTkRGMlozYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-15T17:34:15.022Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-16T18:19:56.315Z"
   },
   {
     "id": "c5dc7eed-1c1d-488e-9a75-d10c551118df",
