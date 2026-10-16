@@ -7869,5 +7869,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-16T00:42:24.612Z",
     "confirmed_at": null
+  },
+  {
+    "id": "f8295ac9-301a-430f-b8da-2d7c748198a1",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Renata Córdova",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-16T00:43:06.802Z",
+    "confirmed_at": null
   }
 ]
