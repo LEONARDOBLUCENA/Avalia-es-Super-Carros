@@ -7886,11 +7886,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Augusto Sandini",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25wRFkzZHlWVWh2ZFhoV1QzZFlUalJoYkhsQlJVRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-16T00:43:33.572Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-16T18:26:08.720Z"
   },
   {
     "id": "6eaf5dc9-ae37-4921-ad35-31dddd67b5f6",
