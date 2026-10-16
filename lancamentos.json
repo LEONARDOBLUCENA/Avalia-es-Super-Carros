@@ -7864,11 +7864,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "LEANDRO DE LIMA",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KbWJWTkNPRTh5UTFocE9GYzFkMmxoUlVwSFdYYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-16T00:42:24.612Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-16T18:25:27.101Z"
   },
   {
     "id": "f8295ac9-301a-430f-b8da-2d7c748198a1",
