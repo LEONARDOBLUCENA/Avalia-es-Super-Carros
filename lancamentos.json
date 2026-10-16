@@ -8078,5 +8078,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-16T17:02:48.868Z",
     "confirmed_at": null
+  },
+  {
+    "id": "de8fa314-cc19-4eeb-af52-7e95a6450f26",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Marcos vinicius",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-16T17:04:02.327Z",
+    "confirmed_at": null
   }
 ]
