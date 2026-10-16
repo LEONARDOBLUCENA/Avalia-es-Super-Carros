@@ -7930,11 +7930,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "vladimir garcia",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21jeExYaFhlV053TTNseGJVNTVORjlFVlZkWVRuYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-16T00:45:17.165Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-16T18:27:31.611Z"
   },
   {
     "id": "3a63a7e2-39e9-4c22-a4a2-9dd64eaece21",
