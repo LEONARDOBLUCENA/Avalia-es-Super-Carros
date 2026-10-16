@@ -8012,5 +8012,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-16T15:07:23.863Z",
     "confirmed_at": null
+  },
+  {
+    "id": "b3a2fde1-4c8d-4c02-88ec-ed1c64d1d16e",
+    "setor": "Fotos",
+    "vendedora": "Maíra",
+    "cliente_nome_informado": "Danilo Santos’",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-16T15:07:42.548Z",
+    "confirmed_at": null
   }
 ]
