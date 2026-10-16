@@ -7803,5 +7803,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-16T00:39:38.375Z",
     "confirmed_at": null
+  },
+  {
+    "id": "d3e12fbd-45dc-470d-9000-96988d3646f5",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Jaderson Silveira",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-16T00:39:54.646Z",
+    "confirmed_at": null
   }
 ]
