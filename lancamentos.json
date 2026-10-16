@@ -8133,5 +8133,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-16T18:42:04.574Z",
     "confirmed_at": null
+  },
+  {
+    "id": "db07b966-c8ef-4b65-ac89-5dab8bd471b0",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Hevelyn Silva",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-16T18:58:07.342Z",
+    "confirmed_at": null
   }
 ]
