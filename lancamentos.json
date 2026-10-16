@@ -7908,11 +7908,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Claudiana De Carvalho Clau",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCeVV6UktNMDFrTlVOcGVqWjFOVTl1V1dWWVEzYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-16T00:44:31.269Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-16T18:26:25.419Z"
   },
   {
     "id": "2b8aca1e-abdc-4d6c-b308-8cb2e51bc9d8",
