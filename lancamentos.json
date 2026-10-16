@@ -8089,5 +8089,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-16T17:04:02.327Z",
     "confirmed_at": null
+  },
+  {
+    "id": "186223c3-01b3-41d6-b449-d7c0819e5c4b",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Ademir Souza da Silva Moura",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-16T18:03:28.719Z",
+    "confirmed_at": null
   }
 ]
