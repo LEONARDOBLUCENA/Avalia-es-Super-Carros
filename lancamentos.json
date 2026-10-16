@@ -7875,11 +7875,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Renata Córdova",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKRVdXOXpYMlp3Y0ZBemQzcGhOVk0zVjBsd2JrRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-16T00:43:06.802Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-16T18:25:35.485Z"
   },
   {
     "id": "f8dad13a-6918-47fe-82dd-5b58965a773f",
