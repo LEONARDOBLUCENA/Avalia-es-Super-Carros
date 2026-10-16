@@ -7798,11 +7798,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Priscila Proensa",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KdWNIZHplRGh6YUVwa1ExcHdXRVJKZVMxMWIyYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-16T00:39:38.375Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-16T18:24:18.125Z"
   },
   {
     "id": "d3e12fbd-45dc-470d-9000-96988d3646f5",
