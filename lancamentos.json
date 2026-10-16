@@ -8045,5 +8045,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-16T15:32:37.462Z",
     "confirmed_at": null
+  },
+  {
+    "id": "fb36dda6-39de-4e4e-bb58-94e9e3725052",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Catiucia andrade",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-16T16:42:39.801Z",
+    "confirmed_at": null
   }
 ]
