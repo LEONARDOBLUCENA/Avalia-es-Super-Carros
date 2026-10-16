@@ -7902,5 +7902,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-16T00:43:54.876Z",
     "confirmed_at": null
+  },
+  {
+    "id": "267007ec-5e2e-477c-986a-b0c5e57602c1",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Claudiana De Carvalho Clau",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-16T00:44:31.269Z",
+    "confirmed_at": null
   }
 ]
