@@ -7990,5 +7990,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-16T13:47:57.211Z",
     "confirmed_at": null
+  },
+  {
+    "id": "683cc884-c046-44a6-844c-bd3c49f7fbc7",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Thaty It up",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-16T14:34:09.728Z",
+    "confirmed_at": null
   }
 ]
