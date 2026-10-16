@@ -7820,11 +7820,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Paulo Wanderley 2020",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5U1QxbGtWVll4WVZsRVQwOWhNV3BxZDNOTVNXYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-16T00:40:25.851Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-16T18:24:34.272Z"
   },
   {
     "id": "27273686-16e9-4c0c-b35c-b71c9fbc01c1",
