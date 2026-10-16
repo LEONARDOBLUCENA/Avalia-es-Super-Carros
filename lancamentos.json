@@ -7880,5 +7880,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-16T00:43:06.802Z",
     "confirmed_at": null
+  },
+  {
+    "id": "f8dad13a-6918-47fe-82dd-5b58965a773f",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Augusto Sandini",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-16T00:43:33.572Z",
+    "confirmed_at": null
   }
 ]
