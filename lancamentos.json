@@ -7979,5 +7979,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-16T13:44:35.685Z",
     "confirmed_at": null
+  },
+  {
+    "id": "bd1e1029-d75e-45ff-a504-7db36dfb2b7d",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Romário Gimenes santos",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-16T13:47:57.211Z",
+    "confirmed_at": null
   }
 ]
