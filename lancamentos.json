@@ -8067,5 +8067,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-16T16:43:25.518Z",
     "confirmed_at": null
+  },
+  {
+    "id": "4ca4d4ee-d64d-4303-b892-67b4dedd2ca1",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Marina Macedo",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-16T17:02:48.868Z",
+    "confirmed_at": null
   }
 ]
