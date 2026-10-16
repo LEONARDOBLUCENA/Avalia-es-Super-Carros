@@ -8056,5 +8056,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-16T16:42:39.801Z",
     "confirmed_at": null
+  },
+  {
+    "id": "6143a17c-c979-4302-9525-692d3b83cd05",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Bruno coutinho",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-16T16:43:25.518Z",
+    "confirmed_at": null
   }
 ]
