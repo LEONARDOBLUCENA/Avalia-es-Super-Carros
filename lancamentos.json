@@ -7935,5 +7935,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-16T00:45:17.165Z",
     "confirmed_at": null
+  },
+  {
+    "id": "3a63a7e2-39e9-4c22-a4a2-9dd64eaece21",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Matheus Avila",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-16T00:45:33.294Z",
+    "confirmed_at": null
   }
 ]
