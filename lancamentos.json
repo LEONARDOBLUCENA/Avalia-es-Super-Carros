@@ -7836,5 +7836,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-16T00:41:04.224Z",
     "confirmed_at": null
+  },
+  {
+    "id": "14444826-3dab-4733-9474-28efcc2eb6f1",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "luan fontes",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-16T00:41:27.578Z",
+    "confirmed_at": null
   }
 ]
