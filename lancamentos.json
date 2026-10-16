@@ -7919,11 +7919,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Erick Alan",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KeVEwUkhjRUY2VG1NMlpWcHVObmhoY0RaR1kzYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-16T00:44:48.654Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-16T18:27:20.531Z"
   },
   {
     "id": "78af7a48-4c5e-4ca9-ba65-69d9bf009bcc",
