@@ -7754,11 +7754,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Ednilson Ferreira Alves",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21ab1NTMVVSMHhmY3pkRGFXODVOalF6UVd4dlgxRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-15T17:33:29.267Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-16T18:19:45.561Z"
   },
   {
     "id": "f7781bf4-8979-477f-aaf9-847e63dfe854",
