@@ -8144,5 +8144,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-16T18:58:07.342Z",
     "confirmed_at": null
+  },
+  {
+    "id": "b2eab268-c9a7-404a-8039-133d3cb41ab3",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Matheus",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-16T20:51:50.374Z",
+    "confirmed_at": null
   }
 ]
