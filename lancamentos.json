@@ -8485,5 +8485,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-17T19:55:58.451Z",
     "confirmed_at": null
+  },
+  {
+    "id": "eaa2fdb3-0161-4ee7-91d9-c6fc87ba198d",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "serviços despachante Ale",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-17T19:57:00.569Z",
+    "confirmed_at": null
   }
 ]
