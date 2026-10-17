@@ -8342,5 +8342,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-17T15:27:44.978Z",
     "confirmed_at": null
+  },
+  {
+    "id": "d00e15a5-cc6a-4c27-a762-461cf3bc27bc",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "wellington santos",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-17T17:39:21.930Z",
+    "confirmed_at": null
   }
 ]
