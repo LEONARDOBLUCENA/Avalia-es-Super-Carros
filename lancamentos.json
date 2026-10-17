@@ -8551,5 +8551,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-17T21:55:22.206Z",
     "confirmed_at": null
+  },
+  {
+    "id": "8806adf0-126f-4163-b954-cebfff4878f9",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Cleudo Gomes",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-17T21:55:35.701Z",
+    "confirmed_at": null
   }
 ]
