@@ -8309,5 +8309,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-17T12:47:56.547Z",
     "confirmed_at": null
+  },
+  {
+    "id": "1fc5c8a2-17be-45af-8478-01ca8ebf64fc",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Kelvin Martins",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-17T14:15:10.046Z",
+    "confirmed_at": null
   }
 ]
