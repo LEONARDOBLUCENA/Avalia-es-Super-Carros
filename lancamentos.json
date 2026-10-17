@@ -8562,5 +8562,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-17T21:55:35.701Z",
     "confirmed_at": null
+  },
+  {
+    "id": "295c2299-2344-48a7-bc2d-a5e60a3b1917",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Juliano Proença",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-17T21:55:52.859Z",
+    "confirmed_at": null
   }
 ]
