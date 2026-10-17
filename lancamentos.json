@@ -8529,5 +8529,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-17T21:54:50.148Z",
     "confirmed_at": null
+  },
+  {
+    "id": "24b7159b-8a30-4436-a1a0-dcfeb6755feb",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Elisangela Bernardes da Cruz",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-17T21:55:10.067Z",
+    "confirmed_at": null
   }
 ]
