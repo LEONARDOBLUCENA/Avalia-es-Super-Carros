@@ -8430,5 +8430,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-17T19:50:50.237Z",
     "confirmed_at": null
+  },
+  {
+    "id": "362342b5-fc90-4486-9767-38a57082f84c",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Pedro Teixeira",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-17T19:51:17.810Z",
+    "confirmed_at": null
   }
 ]
