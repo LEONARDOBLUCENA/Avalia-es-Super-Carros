@@ -1,5 +1,194 @@
 [
   {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pVeVJVRlpPVGxyTkU5NlRFUnVOME4zTXpkT2FsRRAB",
+    "author_name": "Ademir Souza da Silva Moura",
+    "rating": 5,
+    "review_text": "Experiência inesquecível no Super Carros Gramado!<br><br>Tive uma experiência excelente no Super Carros, em Gramado! Foi emocionante, uma sensação indescritível ao volante.<br><br>Quero deixar um agradecimento especial ao instrutor Thales, pela atenção, profissionalismo, segurança e excelente orientação durante toda a experiência. Sua dedicação fez toda a diferença!<br><br>Recomendo a todos que desejam viver momentos únicos e realizar o sonho de dirigir um supercarro. Nota 10! Parabéns a toda a equipe do Super Carros Gramado! 👏🏁",
+    "review_time": "2026-10-16T22:43:17.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21oSWRHUnhRblpTWDNWTVJWUk1RVkk0ZWs5blExRRAB",
+    "author_name": "Kaua ULI",
+    "rating": 5,
+    "review_text": "Excelente atendimento",
+    "review_time": "2026-10-16T21:26:20.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT20xMlVFbERWalJvYmxORmNrRm1VVE56VWpoUmJWRRAB",
+    "author_name": "Wesley Meireles da Silveira",
+    "rating": 5,
+    "review_text": "Atendimento muito bom. Oportunidade de dirigir veiculos em bom estado.",
+    "review_time": "2026-10-16T21:06:09.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kb1dYUTNVMFJ3VEcwemJrNUZkbTl6WDFKVU4yYxAB",
+    "author_name": "Matheus",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-16T20:25:26.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pacFpUaHdOVVpRTjNwQk5WVlpTMDFWZEhGYU5FRRAB",
+    "author_name": "Fernando Fraga",
+    "rating": 5,
+    "review_text": "Top demais!",
+    "review_time": "2026-10-16T20:12:33.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGelVVaGxRazF5ZURSQ0xXMTRYMDFKTjFFdE5XYxAB",
+    "author_name": "consorcio tim",
+    "rating": 5,
+    "review_text": "Atendimento top.. recomendo Vinicius",
+    "review_time": "2026-10-16T20:10:52.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21jdFZXMURTVUpKU0U4Mk1FVjNSMFJTU1ZKdlVtYxAB",
+    "author_name": "Meire Portela",
+    "rating": 5,
+    "review_text": "Passeio que vale a pena.<br>Muitos carros fantásticos!<br>Toda a família aproveita!",
+    "review_time": "2026-10-16T20:00:26.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCR1ZtUmpiR1JrYUZsck5FNVhYMGRqUW1ZM1lrRRAB",
+    "author_name": "Paolla Tavares",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-16T19:57:20.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2psTVVISlFWbVl5YWs5c01FRmFYMjVPTjJjMlNtYxAB",
+    "author_name": "João Gabriel",
+    "rating": 5,
+    "review_text": "Ótima",
+    "review_time": "2026-10-16T19:51:09.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKNk5UbFBkbXBsYVVJMmJIUTFNRmxuTWt0dGIxRRAB",
+    "author_name": "Hevelyn Silva",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-16T18:55:22.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xnNFlrdHZTa3BETmxsRWVGa3hVR0ZrYlVWc2NtYxAB",
+    "author_name": "Edu Turchiello",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-16T18:41:03.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xaQlRVZEdZbVo1Tlc1eVZFMVBVM0pYZERKSGEzYxAB",
+    "author_name": "Jhonata Fernandes",
+    "rating": 5,
+    "review_text": "Experiência única para quem é apaixonado por super carros e velocidade... Super recomendo",
+    "review_time": "2026-10-16T18:11:10.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xFeE1sTmZTV0Y1ZDJoS1YwRTVla1V6TURBMFJFRRAB",
+    "author_name": "Nicolly",
+    "rating": 5,
+    "review_text": "Foi incrível, atendimento maravilhoso",
+    "review_time": "2026-10-16T18:02:23.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tkYWNFWm1iVWxWVTB4MWJVWkxaMDF4YkRJMlQxRRAB",
+    "author_name": "Murilo Luckwu",
+    "rating": 5,
+    "review_text": "Muito bom, recomendo!!",
+    "review_time": "2026-10-16T17:48:42.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25vMWNIWndUemwwUzA5NGEwdFFYMHR1Y1VObE1tYxAB",
+    "author_name": "Michele Luckwu",
+    "rating": 5,
+    "review_text": "Maravilhosa! Muito divertido!",
+    "review_time": "2026-10-16T17:48:24.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5R1RqaHJkV3R4VUZVeFpFbHNVRWwxZVdRNFZWRRAB",
+    "author_name": "Isadalia Lima",
+    "rating": 5,
+    "review_text": "Foi uma experiência incrível",
+    "review_time": "2026-10-16T17:13:44.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t3dGFtRXlZWGt6V21FeVlVWndSMFJZYjAxa1dYYxAB",
+    "author_name": "Marcos Vinícius",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-16T17:03:16.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205aFVraFBSRXA1YjJsaVluZFJRMmRoTmt4bWNsRRAB",
+    "author_name": "Marina Macedo",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-16T17:02:38.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xONmRVY3paVVpOYjJobVVVWkZSell0YzFJd1IwRRAB",
+    "author_name": "Lyliane Guedes",
+    "rating": 5,
+    "review_text": "Sensacional. Adorei. Recomendo a experiência.",
+    "review_time": "2026-10-16T16:52:18.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xkdlJuWjNlR0ppT1dock9HZDRZak0xUzBKeWFWRRAB",
+    "author_name": "Bruno Coutinho",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-16T16:42:56.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xkS2FXbFRMVk5mZVhwWFJEVTRhamRrVjBacGVVRRAB",
+    "author_name": "Catiucia Andrade",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-16T16:42:39.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25OWk5WZGhZMDB5Y2kxV1RHZFFRaTE0T0hWUmExRRAB",
+    "author_name": "serviços despachante Ale",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-16T15:22:11.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tWQmIzQm1XVUpFT1U5eWFpMXRPR0U1YlU1a1UxRRAB",
+    "author_name": "Danilo Oliveira",
+    "rating": 5,
+    "review_text": "Muito top!!!!!",
+    "review_time": "2026-10-16T15:21:44.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xnemVVSklWbEZoYnpKSmJHRXdVV1Y2U1hveVNYYxAB",
+    "author_name": "Maryanna Ichii Paim Costa",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-16T15:11:54.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21saGMwZGpZMUpNWHpJMFZGZEZkRWgzYmtOV1JtYxAB",
+    "author_name": "Rahiane Ferreira",
+    "rating": 5,
+    "review_text": "Muito bom, os carros são lindos, e os profissionais super educados e gentis",
+    "review_time": "2026-10-16T15:05:02.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCVFMybG1jRlJ5TldwNlNuaGthRnBQYkVvMGEwRRAB",
+    "author_name": "Liliane Garcia Campos",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-16T15:04:00.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKbGRrUm1abTAxUmpGYVUyOVdaRmQ0V1VSNlpYYxAB",
+    "author_name": "Thaty it Up!",
+    "rating": 5,
+    "review_text": "Incrível!!",
+    "review_time": "2026-10-16T14:34:14.000Z"
+  },
+  {
     "review_id": "Ci9DQUlRQUNvZENodHljRjlvT200dGNqZEVUVE0xVlZCU1J6SmhTVTlXUWtRM01WRRAB",
     "author_name": "Danilo Santos'",
     "rating": 5,
@@ -12,6 +201,27 @@
     "rating": 5,
     "review_text": "",
     "review_time": "2026-10-16T14:15:47.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pGcmVISkVZbFJ3TlZrMU0wWnRVRGxYWjBSVFFrRRAB",
+    "author_name": "Romario Gimenes Santos Santos",
+    "rating": 5,
+    "review_text": "Excelente atendimento , muito obg",
+    "review_time": "2026-10-16T13:48:13.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKUmMxRkVhbkp5YjNjeE0wSldWWFZvV0RNd1dVRRAB",
+    "author_name": "Diego Rafael",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-16T13:41:19.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205b2JXbDBUR2xsVlRoZmJGOXFiVXRVV1d4VGIzYxAB",
+    "author_name": "Karol Lyra",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-16T13:41:11.000Z"
   },
   {
     "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCZlpGVnpiREZPWWtaME1uaHZOa05sVURORlZsRRAB",
