@@ -8166,5 +8166,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-17T12:00:16.393Z",
     "confirmed_at": null
+  },
+  {
+    "id": "93079eca-fc13-43a7-9ef4-bd02973a1e16",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Rahiane Ferreira",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-17T12:00:36.402Z",
+    "confirmed_at": null
   }
 ]
