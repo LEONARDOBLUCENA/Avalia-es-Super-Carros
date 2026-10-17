@@ -8507,5 +8507,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-17T21:53:20.743Z",
     "confirmed_at": null
+  },
+  {
+    "id": "1151f919-b3f8-480a-a768-430735f13323",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Alleph",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-17T21:53:30.396Z",
+    "confirmed_at": null
   }
 ]
