@@ -8177,5 +8177,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-17T12:00:36.402Z",
     "confirmed_at": null
+  },
+  {
+    "id": "1d26483f-adf5-40fa-a41e-c569bbc6d667",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Danilo Oliveira",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-17T12:00:56.087Z",
+    "confirmed_at": null
   }
 ]
