@@ -8441,5 +8441,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-17T19:51:17.810Z",
     "confirmed_at": null
+  },
+  {
+    "id": "251a4c2c-3488-4dbe-8740-a685071b00e3",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Winter Mendanha",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-17T19:52:49.304Z",
+    "confirmed_at": null
   }
 ]
