@@ -8276,5 +8276,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-17T12:15:13.781Z",
     "confirmed_at": null
+  },
+  {
+    "id": "2bfbccbd-c243-44f5-951f-47869765e555",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Paolla Tavares",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-17T12:46:35.639Z",
+    "confirmed_at": null
   }
 ]
