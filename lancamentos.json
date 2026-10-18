@@ -8639,5 +8639,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-18T18:03:33.739Z",
     "confirmed_at": null
+  },
+  {
+    "id": "e2ccdc80-958b-46ef-8f2c-6094fddc4dfb",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Jcplkaua@gmail.com Joao Carlos",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-18T18:05:00.570Z",
+    "confirmed_at": null
   }
 ]
