@@ -8804,5 +8804,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-18T22:59:13.884Z",
     "confirmed_at": null
+  },
+  {
+    "id": "12614ae3-36ff-4243-ba38-7d34b75519c9",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Franciele Fernandes",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-18T22:59:33.556Z",
+    "confirmed_at": null
   }
 ]
