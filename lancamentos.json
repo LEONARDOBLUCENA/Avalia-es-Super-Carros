@@ -8716,5 +8716,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-18T20:17:40.038Z",
     "confirmed_at": null
+  },
+  {
+    "id": "b61a85cb-4d4c-4c67-8a9d-f190610ea562",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Felipe torrão",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-18T20:26:54.878Z",
+    "confirmed_at": null
   }
 ]
