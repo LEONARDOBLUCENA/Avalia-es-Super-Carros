@@ -8892,5 +8892,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-18T23:03:12.408Z",
     "confirmed_at": null
+  },
+  {
+    "id": "71bbb843-ce45-4831-80f7-4a5adada1453",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Leonardo Neto",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-18T23:04:05.711Z",
+    "confirmed_at": null
   }
 ]
