@@ -8694,5 +8694,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-18T20:17:04.814Z",
     "confirmed_at": null
+  },
+  {
+    "id": "6de94f1d-6e6e-429f-a9fc-e222b8a17efe",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Leonardo Panceri",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-18T20:17:22.190Z",
+    "confirmed_at": null
   }
 ]
