@@ -8617,5 +8617,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-18T16:08:13.119Z",
     "confirmed_at": null
+  },
+  {
+    "id": "e9b673cc-4c50-45b0-8335-d2cef730ee95",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Sagga graphtts",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-18T16:08:56.384Z",
+    "confirmed_at": null
   }
 ]
