@@ -8727,5 +8727,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-18T20:26:54.878Z",
     "confirmed_at": null
+  },
+  {
+    "id": "718b3bdd-31aa-4902-a606-a5d34ea0dd06",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Josi Silva",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-18T22:53:46.048Z",
+    "confirmed_at": null
   }
 ]
