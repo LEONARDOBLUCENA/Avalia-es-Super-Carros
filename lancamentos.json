@@ -8914,5 +8914,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-18T23:04:24.055Z",
     "confirmed_at": null
+  },
+  {
+    "id": "82860889-2775-462b-9c1f-09425a92ba75",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Joelma C.alves",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-18T23:10:20.797Z",
+    "confirmed_at": null
   }
 ]
