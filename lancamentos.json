@@ -8793,5 +8793,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-18T22:57:37.940Z",
     "confirmed_at": null
+  },
+  {
+    "id": "3a8d4fc1-130c-48fc-9a50-1ba47251a0e2",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Guilherme Matheus da Rosa do Amaral",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-18T22:59:13.884Z",
+    "confirmed_at": null
   }
 ]
