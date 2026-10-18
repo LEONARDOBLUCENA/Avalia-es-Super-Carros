@@ -8705,5 +8705,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-18T20:17:22.190Z",
     "confirmed_at": null
+  },
+  {
+    "id": "1cef6b00-7cf8-40ce-997d-e472810a977b",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Amanda Brito de Moura",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-18T20:17:40.038Z",
+    "confirmed_at": null
   }
 ]
