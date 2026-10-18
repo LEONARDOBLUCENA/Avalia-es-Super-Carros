@@ -8584,5 +8584,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-18T12:30:04.061Z",
     "confirmed_at": null
+  },
+  {
+    "id": "3569580a-eb88-454e-9bfe-57f5ea236da3",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Francyellen Souza",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-18T14:12:14.043Z",
+    "confirmed_at": null
   }
 ]
