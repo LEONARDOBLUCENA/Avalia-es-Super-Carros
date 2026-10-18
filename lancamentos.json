@@ -8606,5 +8606,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-18T14:12:31.451Z",
     "confirmed_at": null
+  },
+  {
+    "id": "d8dde10a-f785-4af7-9133-babe6a721781",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Leandro sabido",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-18T16:08:13.119Z",
+    "confirmed_at": null
   }
 ]
