@@ -8672,5 +8672,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-18T18:38:56.764Z",
     "confirmed_at": null
+  },
+  {
+    "id": "65af35ec-4d39-4ea8-893e-0aeeb7c4b56b",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Vivian Pouey",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-18T20:16:44.022Z",
+    "confirmed_at": null
   }
 ]
