@@ -8771,5 +8771,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-18T22:56:18.299Z",
     "confirmed_at": null
+  },
+  {
+    "id": "3b04bfc9-876d-4c0d-9daa-86e759139d06",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Fagner Mietlick",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-18T22:57:17.126Z",
+    "confirmed_at": null
   }
 ]
