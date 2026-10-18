@@ -8815,5 +8815,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-18T22:59:33.556Z",
     "confirmed_at": null
+  },
+  {
+    "id": "8f585b6d-a427-439b-a3e3-d14d3791c432",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Elvira Quevedo",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-18T22:59:42.097Z",
+    "confirmed_at": null
   }
 ]
