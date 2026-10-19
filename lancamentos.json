@@ -9224,5 +9224,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-19T20:53:56.315Z",
     "confirmed_at": null
+  },
+  {
+    "id": "8eef09c6-257c-4ae6-86a1-19af4ef29a5f",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Matheus Damica Rodrigues Conceição",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-19T20:54:11.835Z",
+    "confirmed_at": null
   }
 ]
