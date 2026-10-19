@@ -8515,11 +8515,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Alleph",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKd1dtVkpXazg1V0doNVIzZFFka1J4YUdaekxVRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-17T21:53:30.396Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-19T19:04:29.765Z"
   },
   {
     "id": "333a207a-83c3-48e1-8326-047dc379f25c",
