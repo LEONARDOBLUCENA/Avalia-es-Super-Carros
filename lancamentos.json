@@ -8295,11 +8295,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Wesley Meireles da Silveira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT20xMlVFbERWalJvYmxORmNrRm1VVE56VWpoUmJWRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-17T12:47:38.281Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-19T19:01:02.739Z"
   },
   {
     "id": "37766313-e05e-41f1-af6b-88129ec18c74",
