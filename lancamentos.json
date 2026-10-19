@@ -8867,11 +8867,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Patrícia Calloni",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25WeVdsOVFSMVp0TlVOa05UWmZObGsyUmtWb2JtYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-18T23:02:42.835Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-19T19:09:35.897Z"
   },
   {
     "id": "2f11f3d7-af9b-4e65-997b-2b6fc74ccab3",
