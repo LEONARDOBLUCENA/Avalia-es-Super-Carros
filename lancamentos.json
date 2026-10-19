@@ -7985,11 +7985,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Romário Gimenes santos",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pGcmVISkVZbFJ3TlZrMU0wWnRVRGxYWjBSVFFrRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-16T13:47:57.211Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-19T18:56:09.353Z"
   },
   {
     "id": "683cc884-c046-44a6-844c-bd3c49f7fbc7",
