@@ -9002,5 +9002,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-19T14:32:31.562Z",
     "confirmed_at": null
+  },
+  {
+    "id": "d24dce9b-c38f-415a-b211-a81cd37c1a00",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Guilherme Matheus da Rosa do Amaral",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-19T14:32:47.058Z",
+    "confirmed_at": null
   }
 ]
