@@ -8117,11 +8117,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Edu Turchiello",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xnNFlrdHZTa3BETmxsRWVGa3hVR0ZrYlVWc2NtYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-16T18:41:45.751Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-19T18:58:03.255Z"
   },
   {
     "id": "d27b97c7-1a98-4e15-ab95-1d27791789ed",
