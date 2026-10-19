@@ -8282,11 +8282,13 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Paolla Tavares",
-    "status": "confirmado",
+    "status": "rejeitado",
     "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCR1ZtUmpiR1JrYUZsck5FNVhYMGRqUW1ZM1lrRRAB",
     "mes_referencia": "2026-10",
     "created_at": "2026-10-17T12:46:35.639Z",
-    "confirmed_at": "2026-10-19T19:00:33.524Z"
+    "confirmed_at": "2026-10-19T19:00:33.524Z",
+    "rejected_at": "2026-10-19T19:00:53.442Z",
+    "rejected_review_id": null
   },
   {
     "id": "01fcc1ef-2ca9-4792-8d7d-8fa1431c6560",
