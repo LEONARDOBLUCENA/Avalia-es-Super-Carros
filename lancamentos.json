@@ -8614,11 +8614,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Leandro sabido",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s4NFUyOWxabXhRYVhNdFpUTm5SVE50TFU0eWEwRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-18T16:08:13.119Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-19T19:05:51.658Z"
   },
   {
     "id": "e9b673cc-4c50-45b0-8335-d2cef730ee95",
