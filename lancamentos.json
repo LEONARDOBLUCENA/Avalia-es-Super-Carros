@@ -7996,11 +7996,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Thaty It up",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKbGRrUm1abTAxUmpGYVUyOVdaRmQ0V1VSNlpYYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-16T14:34:09.728Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-19T18:56:19.178Z"
   },
   {
     "id": "3d3de1c6-94ff-4489-89d6-ebb6900dfdc6",
