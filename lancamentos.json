@@ -8936,5 +8936,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-19T12:40:40.374Z",
     "confirmed_at": null
+  },
+  {
+    "id": "8416eae0-9718-40df-be93-b2c124bfd158",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Claudia bilhalvaoleques",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-19T14:15:45.090Z",
+    "confirmed_at": null
   }
 ]
