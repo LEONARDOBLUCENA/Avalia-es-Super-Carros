@@ -9024,5 +9024,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-19T15:08:06.453Z",
     "confirmed_at": null
+  },
+  {
+    "id": "fbe8e63b-9452-4372-9cb4-54b20ddb6d40",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "André Medeiros",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-19T15:08:26.638Z",
+    "confirmed_at": null
   }
 ]
