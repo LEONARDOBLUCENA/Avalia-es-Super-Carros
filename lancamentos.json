@@ -9134,5 +9134,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-19T16:43:43.436Z",
     "confirmed_at": null
+  },
+  {
+    "id": "022e61de-0fe9-4082-a652-21328885d3c1",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Laissa Cristina",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-19T16:44:07.664Z",
+    "confirmed_at": null
   }
 ]
