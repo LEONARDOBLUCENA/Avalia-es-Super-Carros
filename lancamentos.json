@@ -8713,11 +8713,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Amanda Brito de Moura",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCVWMzZzNPRmRWTXpCR09GSnhRMWhIV1ZKcWNVRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-18T20:17:40.038Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-19T19:07:12.971Z"
   },
   {
     "id": "b61a85cb-4d4c-4c67-8a9d-f190610ea562",
