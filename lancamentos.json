@@ -8548,11 +8548,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Vitor Lima",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xaNlJVZE5hekZmVGtWRVZXaFdUR2QzYW5kclJtYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-17T21:55:22.206Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-19T19:04:59.416Z"
   },
   {
     "id": "8806adf0-126f-4163-b954-cebfff4878f9",
