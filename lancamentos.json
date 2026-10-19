@@ -8328,11 +8328,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Jadson Lener",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWWVozRlVOa2hvUzNWbWFFSnFSRFJpZWtGQ01sRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-17T14:15:35.142Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-19T19:01:34.706Z"
   },
   {
     "id": "586577fb-be29-4752-87d9-659ac16a5c91",
