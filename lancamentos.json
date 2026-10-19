@@ -8878,11 +8878,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Ismael Sousa",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pOSWFUVmlNRE5JWlhKUFgxOWhTMUoxU1V4T2RsRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-18T23:02:52.141Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-19T19:09:44.715Z"
   },
   {
     "id": "82679f6a-2e7d-4c82-a345-2f598e5a63b8",
