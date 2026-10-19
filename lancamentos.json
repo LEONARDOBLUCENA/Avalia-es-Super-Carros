@@ -8073,11 +8073,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Marina Macedo",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205aFVraFBSRXA1YjJsaVluZFJRMmRoTmt4bWNsRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-16T17:02:48.868Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-19T18:57:25.386Z"
   },
   {
     "id": "de8fa314-cc19-4eeb-af52-7e95a6450f26",
