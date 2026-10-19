@@ -8394,11 +8394,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "PAULO PIRAMAR",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pWUVlqVTJObVJ0Wm1kcGRFaExMVFF5Y0RSclRXYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-17T19:49:16.186Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-19T19:02:47.350Z"
   },
   {
     "id": "e68d5e74-e838-4033-8c50-0a6d08f8eb65",
