@@ -9323,5 +9323,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-19T21:49:25.606Z",
     "confirmed_at": null
+  },
+  {
+    "id": "b8ccf98e-6b47-4c93-b6bc-1e357798a1a8",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Tatiane Esteves",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-19T21:50:25.112Z",
+    "confirmed_at": null
   }
 ]
