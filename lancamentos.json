@@ -8449,11 +8449,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Winter Mendanha",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25oVmEzTllUVVJ6WVhOUFpYQmFSM0JXTFhsSFZVRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-17T19:52:49.304Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-19T19:03:34.735Z"
   },
   {
     "id": "b8dc2bba-5caf-4571-9192-781015ac15ee",
