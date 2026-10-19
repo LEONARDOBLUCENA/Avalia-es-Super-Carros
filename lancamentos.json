@@ -9180,5 +9180,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-19T18:05:51.309Z",
     "confirmed_at": null
+  },
+  {
+    "id": "99a17122-1be9-4d13-a5a7-bbd9362c7bcc",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Lincoln Cunha",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-19T20:43:32.274Z",
+    "confirmed_at": null
   }
 ]
