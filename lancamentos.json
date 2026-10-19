@@ -8647,11 +8647,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Jcplkaua@gmail.com Joao Carlos",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21nMlEydDZTVGt4U25KTVMyeFVTMWh0UVRaUmNXYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-18T18:05:00.570Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-19T19:06:20.075Z"
   },
   {
     "id": "50a40d45-a0a8-4184-bec0-9bcd3efa8682",
