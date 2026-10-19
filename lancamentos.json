@@ -8669,11 +8669,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Kauã Novaes Hendges",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kdWNUaHRXSGxKWVVGSFExVnJVRlJoVXpoVE4wRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-18T18:38:56.764Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-19T19:06:38.256Z"
   },
   {
     "id": "65af35ec-4d39-4ea8-893e-0aeeb7c4b56b",
