@@ -8427,11 +8427,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Jiovana Alves",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCbFpYZEdXbmxqYkRkQ1lsVkVWblZzUTBzM1UxRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-17T19:50:50.237Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-19T19:03:16.322Z"
   },
   {
     "id": "362342b5-fc90-4486-9767-38a57082f84c",
