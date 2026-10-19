@@ -9101,5 +9101,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-19T16:22:51.512Z",
     "confirmed_at": null
+  },
+  {
+    "id": "f1cc98a9-2810-4c62-8a29-c57d47a228b7",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Igor Dos Santos",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-19T16:23:31.824Z",
+    "confirmed_at": null
   }
 ]
