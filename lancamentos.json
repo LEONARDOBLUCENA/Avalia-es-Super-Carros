@@ -8779,11 +8779,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Fagner Mietlick",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KcVZVZHdkVkV6UzNoaFNHNWlXVnBwUjBsd05tYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-18T22:57:17.126Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-19T19:08:17.104Z"
   },
   {
     "id": "a8e14e85-531e-41fa-820f-333436f0da81",
