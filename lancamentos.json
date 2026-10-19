@@ -8504,11 +8504,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Flavio Miranda",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21obFNtUXljRjlrUXpaek9HbGtjRlJsU0hSWloxRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-17T21:53:20.743Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-19T19:04:20.723Z"
   },
   {
     "id": "1151f919-b3f8-480a-a768-430735f13323",
