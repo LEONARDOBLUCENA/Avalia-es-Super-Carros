@@ -8405,11 +8405,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "João neto",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25wRVZucE9MVEJHTlVaSWFFdHljR3h6Y1ZacFIyYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-17T19:50:24.793Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-19T19:02:57.553Z"
   },
   {
     "id": "241b49f2-3c44-4cc7-8f78-0277ead91c6a",
