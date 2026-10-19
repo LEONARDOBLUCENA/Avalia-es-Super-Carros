@@ -7974,11 +7974,11 @@
     "setor": "Fotos",
     "vendedora": "Maíra",
     "cliente_nome_informado": "Karol Lyra",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205b2JXbDBUR2xsVlRoZmJGOXFiVXRVV1d4VGIzYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-16T13:44:35.685Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-19T18:55:56.701Z"
   },
   {
     "id": "bd1e1029-d75e-45ff-a504-7db36dfb2b7d",
