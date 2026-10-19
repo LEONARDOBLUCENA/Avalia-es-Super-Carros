@@ -9112,5 +9112,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-19T16:23:31.824Z",
     "confirmed_at": null
+  },
+  {
+    "id": "35cc66c7-8ac2-4790-a85d-c44ab965ab89",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Pedro Gomes",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-19T16:42:37.271Z",
+    "confirmed_at": null
   }
 ]
