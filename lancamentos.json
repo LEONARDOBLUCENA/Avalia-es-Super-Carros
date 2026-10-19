@@ -8306,11 +8306,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Kaua ULI",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21oSWRHUnhRblpTWDNWTVJWUk1RVkk0ZWs5blExRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-17T12:47:56.547Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-19T19:01:14.715Z"
   },
   {
     "id": "1fc5c8a2-17be-45af-8478-01ca8ebf64fc",
