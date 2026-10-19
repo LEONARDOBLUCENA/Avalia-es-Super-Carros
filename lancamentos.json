@@ -8757,11 +8757,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "claudio luiz Silveira da Silva",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xsR2FsRllaemh3TWtOV1lrTmxXVXBWTWtwaFFVRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-18T22:55:32.465Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-19T19:07:50.705Z"
   },
   {
     "id": "3f9b91de-0779-457a-8bc8-2b5c9f5aef54",
