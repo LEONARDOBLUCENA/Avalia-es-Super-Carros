@@ -8471,11 +8471,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Angela Silva Gonçalves",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xSbU9YRkxRMGR5YkdrMmNEZExRV2hoV0hwb01GRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-17T19:55:21.650Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-19T19:03:54.438Z"
   },
   {
     "id": "0c43bbaf-e0e6-4178-8bac-e552b2c20845",
