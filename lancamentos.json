@@ -8900,11 +8900,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Leonardo Neto",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGWWNGVldSRlpOWWtoU01sQTJSMWhpTWxWNGRYYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-18T23:04:05.711Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-19T19:10:01.877Z"
   },
   {
     "id": "ac546e80-be2a-4d49-900e-a6fec6ccadb8",
