@@ -8823,11 +8823,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Elvira Quevedo",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WamJsWkpXa1JsWmpGNGFEZ3hValZ1Tm01R1pYYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-18T22:59:42.097Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-19T19:08:54.907Z"
   },
   {
     "id": "ca2cc5b4-7214-4793-a540-a3207f157266",
