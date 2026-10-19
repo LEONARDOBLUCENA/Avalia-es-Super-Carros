@@ -8194,11 +8194,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Lyliane Guedes",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xONmRVY3paVVpOYjJobVVVWkZSell0YzFJd1IwRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-17T12:01:59.569Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-19T18:59:21.011Z"
   },
   {
     "id": "ebda1569-996e-48f1-a927-ba3e64c968a7",
