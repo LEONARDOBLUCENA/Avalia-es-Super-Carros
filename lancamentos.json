@@ -8969,5 +8969,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-19T14:28:52.953Z",
     "confirmed_at": null
+  },
+  {
+    "id": "5cb37ba2-75bb-451d-bffc-f669944ea53c",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Victor Bruno",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-19T14:30:45.897Z",
+    "confirmed_at": null
   }
 ]
