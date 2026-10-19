@@ -8139,11 +8139,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Hevelyn Silva",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKNk5UbFBkbXBsYVVJMmJIUTFNRmxuTWt0dGIxRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-16T18:58:07.342Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-19T18:58:22.850Z"
   },
   {
     "id": "b2eab268-c9a7-404a-8039-133d3cb41ab3",
