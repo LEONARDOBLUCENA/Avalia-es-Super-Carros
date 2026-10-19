@@ -8350,11 +8350,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "wellington santos",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kxcWFWbFVYM1IxVTJkNU5GVkRMVVZ6WjA1dWJGRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-17T17:39:21.930Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-19T19:01:55.285Z"
   },
   {
     "id": "a197a896-ea9d-4447-8af3-1d73df176a85",
