@@ -9290,5 +9290,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-19T20:56:23.811Z",
     "confirmed_at": null
+  },
+  {
+    "id": "57c9a8a8-89af-4031-ae02-6e11d4903263",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Thallys Eduardo de Miranda Teixeira",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-19T21:47:32.475Z",
+    "confirmed_at": null
   }
 ]
