@@ -9334,5 +9334,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-19T21:50:25.112Z",
     "confirmed_at": null
+  },
+  {
+    "id": "91e357f6-16e0-4b23-8e9d-84a2c791dec6",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Heloisa Vieira",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-19T21:50:43.574Z",
+    "confirmed_at": null
   }
 ]
