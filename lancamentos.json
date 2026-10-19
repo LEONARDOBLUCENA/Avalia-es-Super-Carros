@@ -8493,11 +8493,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "serviços despachante Ale",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25OWk5WZGhZMDB5Y2kxV1RHZFFRaTE0T0hWUmExRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-17T19:57:00.569Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-19T19:04:11.726Z"
   },
   {
     "id": "d1bafe18-b411-4815-ac2b-892427cf929a",
