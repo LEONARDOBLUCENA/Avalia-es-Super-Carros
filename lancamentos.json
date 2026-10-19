@@ -8317,11 +8317,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Kelvin Martins",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21OcU16QnRMVE10TTNKcWRpMURiRUZvYVRRMmFrRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-17T14:15:10.046Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-19T19:01:25.755Z"
   },
   {
     "id": "c6ad954c-e887-43f3-81b0-b3ba715eea48",
