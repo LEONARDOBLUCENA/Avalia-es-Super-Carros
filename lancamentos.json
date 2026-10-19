@@ -9013,5 +9013,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-19T14:32:47.058Z",
     "confirmed_at": null
+  },
+  {
+    "id": "3c2943e8-44a7-492b-a839-f0cabda20f52",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Nicolly Jardim Theodoro",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-19T15:08:06.453Z",
+    "confirmed_at": null
   }
 ]
