@@ -153,5 +153,14 @@
     "review_text_snippet": "Instrutor Thales, código 66. Instrutor top, muito atencioso, paciente e dedicado. Explica tudo com clareza e está sempre disposto a ajudar. Excelente profissional, recomendo!",
     "mes_referencia": "2026-10",
     "confirmed_at": "2026-10-19T19:15:04.046Z"
+  },
+  {
+    "id": "146e417e-3f12-492d-9252-668581841e64",
+    "instrutor_nome": "Tales",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pVeVJVRlpPVGxyTkU5NlRFUnVOME4zTXpkT2FsRRAB",
+    "review_author_name": "Ademir Souza da Silva Moura",
+    "review_text_snippet": "Experiência inesquecível no Super Carros Gramado!<br><br>Tive uma experiência excelente no Super Carros, em Gramado! Foi emocionante, uma sensação indescritível ao volante.<br><br>Quero deixar um agradecimento especial ao instrutor Thales, pela atenção, profis",
+    "mes_referencia": "2026-10",
+    "confirmed_at": "2026-10-19T19:15:13.262Z"
   }
 ]
