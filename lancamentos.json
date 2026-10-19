@@ -8991,5 +8991,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-19T14:31:15.145Z",
     "confirmed_at": null
+  },
+  {
+    "id": "cc03f23d-66ba-4220-8c8b-78180d030e23",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Helton Junior",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-19T14:32:31.562Z",
+    "confirmed_at": null
   }
 ]
