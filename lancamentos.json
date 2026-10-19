@@ -8958,5 +8958,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-19T14:16:12.720Z",
     "confirmed_at": null
+  },
+  {
+    "id": "356531cc-56dc-44a2-8c53-d4093b835000",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Jailton Junior",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-19T14:28:52.953Z",
+    "confirmed_at": null
   }
 ]
