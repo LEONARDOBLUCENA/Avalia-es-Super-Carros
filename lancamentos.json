@@ -9257,5 +9257,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-19T20:54:57.083Z",
     "confirmed_at": null
+  },
+  {
+    "id": "5005cb6d-6c9e-4742-a2c3-b0f93a63a199",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Joaquim Rodrigues",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-19T20:55:17.755Z",
+    "confirmed_at": null
   }
 ]
