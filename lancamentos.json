@@ -8128,11 +8128,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Jhonata Fernandes",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xaQlRVZEdZbVo1Tlc1eVZFMVBVM0pYZERKSGEzYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-16T18:42:04.574Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-19T18:58:13.768Z"
   },
   {
     "id": "db07b966-c8ef-4b65-ac89-5dab8bd471b0",
