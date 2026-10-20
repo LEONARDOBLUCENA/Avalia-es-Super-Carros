@@ -9831,5 +9831,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-20T19:14:22.827Z",
     "confirmed_at": null
+  },
+  {
+    "id": "6a1a1f1f-0ff6-4094-8f5a-9975d327b849",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Andrea Delgado",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-20T19:16:52.220Z",
+    "confirmed_at": null
   }
 ]
