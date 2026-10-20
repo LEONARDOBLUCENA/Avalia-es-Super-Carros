@@ -9919,5 +9919,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-20T20:28:55.357Z",
     "confirmed_at": null
+  },
+  {
+    "id": "1f347a6a-31fc-4066-a416-2e01f63e56de",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Nathalia Oliveira Ramos Vieira",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-20T21:17:24.717Z",
+    "confirmed_at": null
   }
 ]
