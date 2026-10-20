@@ -9787,5 +9787,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-20T18:37:38.830Z",
     "confirmed_at": null
+  },
+  {
+    "id": "da8a344f-f672-4a3f-9d3a-80da8bc0c69c",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Brenda Coelho",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-20T19:12:30.203Z",
+    "confirmed_at": null
   }
 ]
