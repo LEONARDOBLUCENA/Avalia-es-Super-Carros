@@ -9455,5 +9455,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-20T14:04:57.675Z",
     "confirmed_at": null
+  },
+  {
+    "id": "95aaf473-03d1-45fe-bea7-a0737997d757",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Abner Bissoli",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-20T14:06:55.595Z",
+    "confirmed_at": null
   }
 ]
