@@ -9732,5 +9732,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-20T18:22:59.305Z",
     "confirmed_at": null
+  },
+  {
+    "id": "22be6889-a2d4-49da-89f6-e69e6a177cf2",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Caroliny vitier",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-20T18:24:30.617Z",
+    "confirmed_at": null
   }
 ]
