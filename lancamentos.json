@@ -9378,5 +9378,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-19T21:52:09.403Z",
     "confirmed_at": null
+  },
+  {
+    "id": "e972e00c-5251-4f3b-a6e7-1cd488223ef8",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "KalineT Moraes",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-20T13:17:07.532Z",
+    "confirmed_at": null
   }
 ]
