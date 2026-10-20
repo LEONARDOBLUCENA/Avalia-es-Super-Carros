@@ -9699,5 +9699,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-20T17:48:54.296Z",
     "confirmed_at": null
+  },
+  {
+    "id": "186fc938-bdc0-4853-afa4-348a0deea545",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Lorena Araújo",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-20T17:49:05.834Z",
+    "confirmed_at": null
   }
 ]
