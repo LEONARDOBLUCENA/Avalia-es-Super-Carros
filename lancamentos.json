@@ -9411,5 +9411,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-20T14:02:15.717Z",
     "confirmed_at": null
+  },
+  {
+    "id": "aa488ec7-7694-4a7d-a3b4-bac272f57276",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "RICARDO LOPES DE CARVALHO",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-20T14:04:06.173Z",
+    "confirmed_at": null
   }
 ]
