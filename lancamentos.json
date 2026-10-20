@@ -8935,11 +8935,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Maria luiza de Oliveira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tsNk1YcFhWbTB6UVdKVUxUaHpVRTVtUTNsWVdHYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-19T12:40:40.374Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-20T16:10:23.301Z"
   },
   {
     "id": "8416eae0-9718-40df-be93-b2c124bfd158",
