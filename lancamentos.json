@@ -9655,5 +9655,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-20T16:36:37.659Z",
     "confirmed_at": null
+  },
+  {
+    "id": "ea80bd2d-ca4f-4c27-8df4-ac9a76428b12",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Nathaly prates",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-20T17:08:36.432Z",
+    "confirmed_at": null
   }
 ]
