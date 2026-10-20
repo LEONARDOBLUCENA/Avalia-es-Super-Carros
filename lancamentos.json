@@ -9776,5 +9776,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-20T18:37:27.427Z",
     "confirmed_at": null
+  },
+  {
+    "id": "2683bedf-0847-4d52-8517-408fabec8940",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Liza castro",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-20T18:37:38.830Z",
+    "confirmed_at": null
   }
 ]
