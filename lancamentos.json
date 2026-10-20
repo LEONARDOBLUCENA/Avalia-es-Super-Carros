@@ -9644,5 +9644,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-20T16:29:29.079Z",
     "confirmed_at": null
+  },
+  {
+    "id": "f915dffc-5251-494b-84b1-80f4a75e52bf",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Luigi levi",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-20T16:36:37.659Z",
+    "confirmed_at": null
   }
 ]
