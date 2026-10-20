@@ -9875,5 +9875,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-20T19:18:01.404Z",
     "confirmed_at": null
+  },
+  {
+    "id": "1113216a-307f-4ecf-ab10-c12000afbc1e",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Marcio Modena",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-20T19:18:23.420Z",
+    "confirmed_at": null
   }
 ]
