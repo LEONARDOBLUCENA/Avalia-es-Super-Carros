@@ -9754,5 +9754,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-20T18:29:19.081Z",
     "confirmed_at": null
+  },
+  {
+    "id": "bcde8292-5e38-4437-aaeb-fb78a6de4006",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Raquel aguiar",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-20T18:29:59.915Z",
+    "confirmed_at": null
   }
 ]
