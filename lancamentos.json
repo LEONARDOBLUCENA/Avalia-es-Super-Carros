@@ -9466,5 +9466,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-20T14:06:55.595Z",
     "confirmed_at": null
+  },
+  {
+    "id": "4460396e-6d34-4368-beca-4ce40f46f0c7",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Antônio Carlos Milagre Gonçalves",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-20T14:07:54.695Z",
+    "confirmed_at": null
   }
 ]
