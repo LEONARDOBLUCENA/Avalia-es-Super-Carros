@@ -9422,5 +9422,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-20T14:04:06.173Z",
     "confirmed_at": null
+  },
+  {
+    "id": "4d690b8e-508a-4edb-acd1-d306b98d29ef",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Gabriel Mollina",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-20T14:04:17.417Z",
+    "confirmed_at": null
   }
 ]
