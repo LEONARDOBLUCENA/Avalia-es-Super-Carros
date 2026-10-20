@@ -9477,5 +9477,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-20T14:07:54.695Z",
     "confirmed_at": null
+  },
+  {
+    "id": "a501e09a-a0f2-4f3c-a0c8-580a1d75f625",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Tobias _gabriel@gmail.con",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-20T14:11:33.254Z",
+    "confirmed_at": null
   }
 ]
