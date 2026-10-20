@@ -9886,5 +9886,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-20T19:18:23.420Z",
     "confirmed_at": null
+  },
+  {
+    "id": "7a4b3ad8-b59a-4270-8f50-697035f4d8d3",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Matheus Mascarenhas",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-20T19:20:39.724Z",
+    "confirmed_at": null
   }
 ]
