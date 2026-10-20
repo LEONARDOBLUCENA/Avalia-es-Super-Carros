@@ -8946,11 +8946,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Claudia bilhalvaoleques",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WNGVWcERYMjk0YTFCWFdYbFZVMWx4Y1c5b1lXYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-19T14:15:45.090Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-20T16:11:23.762Z"
   },
   {
     "id": "d90f978c-a8ed-4d8d-9111-6bdd5d8c52e9",
