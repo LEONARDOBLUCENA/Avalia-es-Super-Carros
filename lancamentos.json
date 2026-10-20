@@ -8957,11 +8957,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Isaque Gabriel",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKdGQwUjZVVXN0WW1WNE1VbDJXR3RHZURaWFJXYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-19T14:16:12.720Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-20T16:11:58.548Z"
   },
   {
     "id": "356531cc-56dc-44a2-8c53-d4093b835000",
