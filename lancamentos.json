@@ -9589,5 +9589,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-20T15:06:16.938Z",
     "confirmed_at": null
+  },
+  {
+    "id": "b3ccb2b3-0671-4b10-be2d-602f715f7c8e",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Karolayne oliveira",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-20T16:14:22.013Z",
+    "confirmed_at": null
   }
 ]
