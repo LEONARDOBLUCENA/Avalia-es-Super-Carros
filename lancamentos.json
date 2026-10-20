@@ -9765,5 +9765,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-20T18:29:59.915Z",
     "confirmed_at": null
+  },
+  {
+    "id": "5f809ff8-74f6-44f5-beb7-cf8036ff7828",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Anderson castro",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-20T18:37:27.427Z",
+    "confirmed_at": null
   }
 ]
