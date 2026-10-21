@@ -10169,5 +10169,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-21T19:26:51.733Z",
     "confirmed_at": null
+  },
+  {
+    "id": "ca3da34b-6de8-452e-ae4b-fcc42e99bbb4",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Marcelo morbeck",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-21T19:59:46.227Z",
+    "confirmed_at": null
   }
 ]
