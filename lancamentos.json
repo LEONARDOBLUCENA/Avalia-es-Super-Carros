@@ -9304,11 +9304,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Thallys Eduardo de Miranda Teixeira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21oR1RqSXRRVW96UW1aR1RHeDJiV2c0YWxCNldsRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-19T21:47:32.475Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T17:31:15.150Z"
   },
   {
     "id": "dd30c079-25da-4b0e-b0cc-8a2caf0a2a70",
