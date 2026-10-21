@@ -9172,11 +9172,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Isnara Mirene",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tsTVRXaHRUM3BFV25kRVRrdHZVM0k0YUc5ZlUzYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-19T18:05:18.909Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T17:20:57.309Z"
   },
   {
     "id": "8b2f66b5-5746-4704-b5ec-adf1d1805bfc",
