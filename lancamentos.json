@@ -9623,11 +9623,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Paola birmann",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2twZk1YUTFMV05qWjA1R01VeHBlSGs1ZFV0YWQyYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-20T16:19:02.857Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T17:36:28.187Z"
   },
   {
     "id": "9b9006e4-a036-4cbd-a1f9-242ee7376d45",
