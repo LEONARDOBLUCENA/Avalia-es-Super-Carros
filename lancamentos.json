@@ -9601,11 +9601,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Karolayne oliveira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205WWFsVmpablZ6TnpGNVdtSlRlRUpqWDJOaFZWRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-20T16:14:22.013Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T17:36:08.501Z"
   },
   {
     "id": "94e213fc-7e47-467b-8a0a-8ebf7059f9b7",
