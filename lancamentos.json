@@ -9933,11 +9933,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Nathalia Oliveira Ramos Vieira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWTU5GUlVaRlpJV2xwYVpWWktRVXhYUkVaS2FuYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-20T21:17:24.717Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T17:45:42.241Z"
   },
   {
     "id": "24057e43-4ac6-4e02-9d54-e4a5207b91de",
