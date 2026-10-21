@@ -9458,11 +9458,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Antonio Sá",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25WemIxaERYMEZtYzBsSlRtZDFlSFpPZVZaR1ZWRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-20T14:04:57.675Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T17:33:40.335Z"
   },
   {
     "id": "95aaf473-03d1-45fe-bea7-a0737997d757",
