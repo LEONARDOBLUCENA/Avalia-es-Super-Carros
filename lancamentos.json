@@ -9513,11 +9513,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Nathan Souza",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tZMFFYTXlZbFkyUldGd1JVOWpUbUZuUjIwMVlXYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-20T14:16:30.992Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T17:34:30.750Z"
   },
   {
     "id": "7d43b552-41bb-4b8a-97fd-92ab7ec15eba",
