@@ -9491,11 +9491,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Tobias _gabriel@gmail.con",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2taZmNUWlVka3BRTlU0eWNGVmlkbFkzUjBGZmVuYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-20T14:11:33.254Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T17:34:09.949Z"
   },
   {
     "id": "e33d56cc-d560-4caf-9691-2af1be312ba2",
