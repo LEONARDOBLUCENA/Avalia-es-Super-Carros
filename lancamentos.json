@@ -9359,11 +9359,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Dannilo Cardoso",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201VlNGbFFXVEpSZGpoSWNscElYMmhrTkRWMFIyYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-19T21:51:02.749Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T17:32:03.804Z"
   },
   {
     "id": "e93ad9f1-9ebf-45a5-8050-2a4dff3d7dff",
