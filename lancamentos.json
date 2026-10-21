@@ -9746,11 +9746,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Caroliny vitier",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25sUlVYTnJlR3hQUW5GNlVVaDJZMjVZVTFkbWVGRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-20T18:24:30.617Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T17:41:58.322Z"
   },
   {
     "id": "01f4348d-1e9e-453a-b1a6-091c67c5871a",
