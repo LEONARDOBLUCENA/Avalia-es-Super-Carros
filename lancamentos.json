@@ -9282,11 +9282,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Ludmila Evelyn",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25aRFFUaFFkMk5QU25kNlVFcGlURU5OVUZSeE1YYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-19T20:55:30.155Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T17:30:53.014Z"
   },
   {
     "id": "effe6ec3-e7ba-4760-ba5c-01ef2ac70206",
