@@ -9249,11 +9249,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Jakson Pereira da Silva",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tWck1IWlVRVGN0TFdZMlRsTm1UVEJyVjBReVdrRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-19T20:54:35.699Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T17:30:12.287Z"
   },
   {
     "id": "d9138a06-b56b-421d-b984-258187fa997a",
