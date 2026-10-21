@@ -10018,5 +10018,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-21T16:11:35.993Z",
     "confirmed_at": null
+  },
+  {
+    "id": "855e112b-9dca-47ca-aa93-a36e5eddd70e",
+    "setor": "Fotos",
+    "vendedora": "Indianara",
+    "cliente_nome_informado": "Henrique Carvalho",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-21T16:40:00.322Z",
+    "confirmed_at": null
   }
 ]
