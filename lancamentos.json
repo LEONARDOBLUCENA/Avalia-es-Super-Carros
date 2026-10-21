@@ -9535,11 +9535,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Gomes Rocha",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT214MlVWaE5hamRrVTFWc2VHWnhRa2hNVkZGZmVWRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-20T14:17:12.809Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T17:34:58.901Z"
   },
   {
     "id": "a447c878-a762-4e35-a572-5d3c6712c3d4",
