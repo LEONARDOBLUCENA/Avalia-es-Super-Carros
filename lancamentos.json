@@ -9713,11 +9713,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Lorena Araújo",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pkVmJIRnlSVzVUTkRWeE1GWndTbEJ0ZUdSblYyYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-20T17:49:05.834Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T17:38:39.001Z"
   },
   {
     "id": "14a415ff-67bd-4fcb-b07a-e55e1f2aee24",
