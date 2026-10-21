@@ -9012,11 +9012,13 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Guilherme Matheus da Rosa do Amaral",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-10-19T14:32:47.058Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-10-21T16:53:40.810Z",
+    "rejected_review_id": null
   },
   {
     "id": "3c2943e8-44a7-492b-a839-f0cabda20f52",
