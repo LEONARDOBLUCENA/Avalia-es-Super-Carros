@@ -9403,11 +9403,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Eduardo Dolejal",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xaTWVXaDVhV05DVkd4VGVrNUJiRTAwTFhWcVVGRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-20T14:01:52.024Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T17:32:47.032Z"
   },
   {
     "id": "b4972d42-7e1a-4cb5-b247-287e356d3923",
