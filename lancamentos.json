@@ -10213,5 +10213,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-21T20:10:37.197Z",
     "confirmed_at": null
+  },
+  {
+    "id": "ec6cbc1f-fd28-4e3e-be80-126102c3e1c0",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Igor Freitas",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-21T20:11:33.789Z",
+    "confirmed_at": null
   }
 ]
