@@ -9590,11 +9590,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Priscila Varjão Priscila varjao",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t4SU5ISnZVMVpIVDBod2FHbDFjbmx4Um1Sa1pWRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-20T15:06:16.938Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T17:35:51.330Z"
   },
   {
     "id": "b3ccb2b3-0671-4b10-be2d-602f715f7c8e",
