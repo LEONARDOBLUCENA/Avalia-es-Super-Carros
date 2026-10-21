@@ -10290,5 +10290,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-21T21:28:36.358Z",
     "confirmed_at": null
+  },
+  {
+    "id": "a0efae6d-fb01-456d-9e15-8070360b1704",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Concect mais mulher",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-21T21:29:52.844Z",
+    "confirmed_at": null
   }
 ]
