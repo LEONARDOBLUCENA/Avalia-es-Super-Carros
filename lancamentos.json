@@ -8968,11 +8968,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Jailton Junior",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xaYVpETndNMU00VlZKMVgzSXdNVkF6WDNacWNuYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-19T14:28:52.953Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T16:50:18.846Z"
   },
   {
     "id": "5cb37ba2-75bb-451d-bffc-f669944ea53c",
