@@ -9392,11 +9392,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "KalineT Moraes",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25oeFpHNTZjMVZhVmw4eFlXOUtNRzlvUm01cVgzYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-20T13:17:07.532Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T17:32:34.604Z"
   },
   {
     "id": "2ad2496d-d1f6-434e-a9c4-1b5973069502",
