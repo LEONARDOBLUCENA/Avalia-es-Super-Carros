@@ -9768,11 +9768,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Raquel aguiar",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2sxUFVIWXpVR2RVZW5kS05qaDZOa2hoU0hCeU1XYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-20T18:29:59.915Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T17:42:42.709Z"
   },
   {
     "id": "5f809ff8-74f6-44f5-beb7-cf8036ff7828",
