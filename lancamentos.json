@@ -9900,11 +9900,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Matheus Mascarenhas",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25CM1NGRjVNalZyWHpCQ1NscENZWE5FT0hKWFJHYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-20T19:20:39.724Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T17:45:08.896Z"
   },
   {
     "id": "0a13cebb-ce58-4cb2-8eed-0502f9a90c5d",
