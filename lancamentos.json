@@ -9845,11 +9845,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Andrea Delgado",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25oSGRIWjVha2haYXpGdGIyTlZaa2w0YTJSRlQwRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-20T19:16:52.220Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T17:44:11.716Z"
   },
   {
     "id": "e4ac1c5c-2022-43d6-8947-79f592466104",
