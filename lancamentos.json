@@ -9680,11 +9680,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Karoline amorim",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGdWJXbE1Sa3BRUW5kcGJ6SkJWekp3YW5oUVVXYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-20T17:32:56.387Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T17:37:48.037Z"
   },
   {
     "id": "95f3bdb6-bc60-4ecc-8f50-57aee946df87",
