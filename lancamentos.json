@@ -10235,5 +10235,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-21T20:11:46.709Z",
     "confirmed_at": null
+  },
+  {
+    "id": "b7dc47cd-e7f7-41d8-adba-ba72c33266a0",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Isabel Pinheiro",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-21T20:11:57.141Z",
+    "confirmed_at": null
   }
 ]
