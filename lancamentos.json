@@ -9911,11 +9911,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "ReJane Ernesto",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGc1JteEVXalpMVGtzd01VeFJhbmgxYWxGRk1tYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-20T19:21:40.060Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T17:45:18.549Z"
   },
   {
     "id": "b48fad07-98f2-4c43-a6a6-8caf50aac860",
