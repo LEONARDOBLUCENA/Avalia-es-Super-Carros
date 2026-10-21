@@ -9001,11 +9001,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Helton Junior",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKTmRGSnBNVU40Y1VaV1V6aE9aREZGU2tWaFowRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-19T14:32:31.562Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T16:51:14.558Z"
   },
   {
     "id": "d24dce9b-c38f-415a-b211-a81cd37c1a00",
