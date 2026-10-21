@@ -10029,5 +10029,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-21T16:40:00.322Z",
     "confirmed_at": null
+  },
+  {
+    "id": "71d78a2e-bd44-4952-abf2-83f349b6486e",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Samuel Gomes Aguiar",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-21T16:48:43.828Z",
+    "confirmed_at": null
   }
 ]
