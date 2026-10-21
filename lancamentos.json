@@ -9645,12 +9645,12 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Márcia Cristina",
-    "status": "rejeitado",
+    "status": "pendente",
     "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25GdlZqUjNkM1ZIWmxWNGVtdHFObEJCWjJKeWNHYxAB",
     "mes_referencia": "2026-09",
     "created_at": "2026-10-20T16:29:29.079Z",
     "confirmed_at": "2026-10-21T17:36:49.658Z",
-    "rejected_at": "2026-10-21T17:36:59.791Z",
+    "rejected_at": null,
     "rejected_review_id": null
   },
   {
