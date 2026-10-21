@@ -9812,11 +9812,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Maria Eduarda",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xZMWFsSXRhVlpaTlc1NGIwNXVURzVaVGt4Uk5sRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-20T19:13:23.003Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T17:43:35.324Z"
   },
   {
     "id": "feae662b-52c8-40c8-978c-ac20d1a6f447",
