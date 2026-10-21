@@ -9834,11 +9834,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Vandinha Silva belo",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKU1h6RldPRTlDU0ZZMFF6VTRUamRoYmtaTWRFRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-20T19:14:22.827Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T17:44:00.357Z"
   },
   {
     "id": "6a1a1f1f-0ff6-4094-8f5a-9975d327b849",
