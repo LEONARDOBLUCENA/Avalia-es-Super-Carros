@@ -9469,11 +9469,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Abner Bissoli",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xVM016UmFPWGRMTUZGUU4xZzBUbkZpZWxObmFWRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-20T14:06:55.595Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T17:33:50.799Z"
   },
   {
     "id": "4460396e-6d34-4368-beca-4ce40f46f0c7",
