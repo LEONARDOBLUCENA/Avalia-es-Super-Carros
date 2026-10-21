@@ -9568,11 +9568,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Julio Cesar",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t4VFQweEdRbTkxVUdKRmFWOXZRa0p4WlRRMFIzYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-20T14:37:34.307Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T17:35:29.325Z"
   },
   {
     "id": "d098e77a-fc2d-4e6c-8f74-fdf5499b18ce",
