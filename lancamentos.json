@@ -8990,11 +8990,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Vinícius Andrade de Azevedo Costa",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5M1EwWk9ZV1Z2UTE5dGJUTXhXa3BQVUVORFJsRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-19T14:31:15.145Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T16:51:03.550Z"
   },
   {
     "id": "cc03f23d-66ba-4220-8c8b-78180d030e23",
