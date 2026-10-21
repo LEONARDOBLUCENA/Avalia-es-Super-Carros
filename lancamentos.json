@@ -9941,5 +9941,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-21T12:49:20.639Z",
     "confirmed_at": null
+  },
+  {
+    "id": "4de8cfca-56e8-4855-8434-d9bfa7b9a156",
+    "setor": "Fotos",
+    "vendedora": "Indianara",
+    "cliente_nome_informado": "Francyelly Abílio Costa",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-21T12:50:40.625Z",
+    "confirmed_at": null
   }
 ]
