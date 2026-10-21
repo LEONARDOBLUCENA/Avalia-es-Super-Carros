@@ -9930,5 +9930,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-20T21:17:24.717Z",
     "confirmed_at": null
+  },
+  {
+    "id": "24057e43-4ac6-4e02-9d54-e4a5207b91de",
+    "setor": "Fotos",
+    "vendedora": "Indianara",
+    "cliente_nome_informado": "pedro maito",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-21T12:49:20.639Z",
+    "confirmed_at": null
   }
 ]
