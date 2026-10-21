@@ -9889,11 +9889,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Marcio Modena",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pOdFUxZEJlWFZQYjNrNFIxTnVPRUpFU2xGTlJrRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-20T19:18:23.420Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T17:44:53.531Z"
   },
   {
     "id": "7a4b3ad8-b59a-4270-8f50-697035f4d8d3",
