@@ -9985,5 +9985,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-21T15:43:10.883Z",
     "confirmed_at": null
+  },
+  {
+    "id": "2fa06b4e-fc19-40f2-ab60-b7efb8a07bfd",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Lucimarbiju2009@gmail.com Souza",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-21T15:57:28.775Z",
+    "confirmed_at": null
   }
 ]
