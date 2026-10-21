@@ -9634,11 +9634,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Elaine stequi Bueno",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25GNk1FNTJiM2syVjJkeE9UaHZUM0J4UVRSU1gzYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-20T16:27:58.171Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T17:36:40.280Z"
   },
   {
     "id": "29449677-bfe3-49cb-a07f-52267addcc09",
