@@ -10090,5 +10090,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-21T17:10:25.143Z",
     "confirmed_at": null
+  },
+  {
+    "id": "87222190-4238-40c9-8866-cf0143488ab4",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "ijoice honorato",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-21T17:23:40.019Z",
+    "confirmed_at": null
   }
 ]
