@@ -9955,11 +9955,11 @@
     "setor": "Fotos",
     "vendedora": "Indianara",
     "cliente_nome_informado": "Francyelly Abílio Costa",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2toa2FHdHFWVFJFYkRJM1RrOVJiVTVGVWprNE4yYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-21T12:50:40.625Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T17:46:02.257Z"
   },
   {
     "id": "5c9b74e8-3ee0-435b-ac0f-3c75c95d292b",
