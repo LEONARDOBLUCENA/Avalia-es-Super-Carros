@@ -9023,11 +9023,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Nicolly Jardim Theodoro",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25CYWRWbHJjVzEwYVdGTlYzaFBOVTB4TFRWU1RIYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-19T15:08:06.453Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T16:51:34.256Z"
   },
   {
     "id": "fbe8e63b-9452-4372-9cb4-54b20ddb6d40",
