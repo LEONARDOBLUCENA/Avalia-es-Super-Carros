@@ -9669,11 +9669,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Nathaly prates",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xSWk1qSkNRbFppUkVKQ01YZFpkM1J2TW5JelZVRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-20T17:08:36.432Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T17:37:37.100Z"
   },
   {
     "id": "0a8254c5-f4c0-4276-be9f-be10577ab802",
