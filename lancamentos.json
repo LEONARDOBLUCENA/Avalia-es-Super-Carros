@@ -9150,11 +9150,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Laissa Cristina",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205Wk1rUlVTRXRPUmpSMU1uSlhibXBSVm10UFRIYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-19T16:44:07.664Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T17:04:02.797Z"
   },
   {
     "id": "a0683a72-9ef0-46a8-af50-cdb3a935183f",
