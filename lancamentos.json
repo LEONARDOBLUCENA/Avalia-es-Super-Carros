@@ -9425,11 +9425,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "RICARDO LOPES DE CARVALHO",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25wUFgzaEdVMjFtWXkxaUxXNW1ZVmxOYlRaaU1tYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-20T14:04:06.173Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T17:33:07.961Z"
   },
   {
     "id": "4d690b8e-508a-4edb-acd1-d306b98d29ef",
