@@ -9944,11 +9944,11 @@
     "setor": "Fotos",
     "vendedora": "Indianara",
     "cliente_nome_informado": "pedro maito",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t4cVVGQTBTbG8yTVhwNGFteE5aRFZ2VEdwemNtYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-21T12:49:20.639Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T17:45:51.992Z"
   },
   {
     "id": "4de8cfca-56e8-4855-8434-d9bfa7b9a156",
