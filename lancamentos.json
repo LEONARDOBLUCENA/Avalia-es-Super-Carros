@@ -9480,11 +9480,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Antônio Carlos Milagre Gonçalves",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2twTVgzVndkbWxsYm05c1ZuZFhaVVo0Y0hOR1lWRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-20T14:07:54.695Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T17:34:00.751Z"
   },
   {
     "id": "a501e09a-a0f2-4f3c-a0c8-580a1d75f625",
