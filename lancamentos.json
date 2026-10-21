@@ -10068,5 +10068,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-21T16:51:14.656Z",
     "confirmed_at": null
+  },
+  {
+    "id": "0fe8f452-ccb8-424c-bc36-04035044d506",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Alex Sandro leal machota",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-21T17:09:02.087Z",
+    "confirmed_at": null
   }
 ]
