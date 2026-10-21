@@ -9447,11 +9447,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Karoline Azevedo",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xwWFRVWmFjVmRFZDFwVVNtWkZjekYzTnpGU04zYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-20T14:04:36.545Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T17:33:28.600Z"
   },
   {
     "id": "149de03e-74f3-4c8b-aaed-b5455c6463c5",
