@@ -10180,5 +10180,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-21T19:59:46.227Z",
     "confirmed_at": null
+  },
+  {
+    "id": "e89f80e8-144a-43fc-9483-e49b0dbd1b19",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Carolina nery",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-21T20:00:38.603Z",
+    "confirmed_at": null
   }
 ]
