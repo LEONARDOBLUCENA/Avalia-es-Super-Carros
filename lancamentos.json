@@ -10257,5 +10257,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-21T20:19:08.665Z",
     "confirmed_at": null
+  },
+  {
+    "id": "08fdde6e-dd21-4ae4-b239-f4f95db319a0",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Genaina nana",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-21T20:48:43.169Z",
+    "confirmed_at": null
   }
 ]
