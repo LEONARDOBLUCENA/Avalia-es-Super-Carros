@@ -9238,11 +9238,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Matheus Damica Rodrigues Conceição",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kwMlpFcEZVa2c1WVhkcE5HODJVMmszTUhKbWVIYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-19T20:54:11.835Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T17:29:27.274Z"
   },
   {
     "id": "3e09e4b3-40ed-44ab-9c07-8ed17885c804",
