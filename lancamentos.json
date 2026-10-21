@@ -10114,5 +10114,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-21T17:26:42.149Z",
     "confirmed_at": null
+  },
+  {
+    "id": "a7f67153-9f67-43e0-a9d6-7b64457666a8",
+    "setor": "Fotos",
+    "vendedora": "Indianara",
+    "cliente_nome_informado": "Rafael Cavalcante",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-21T18:50:16.624Z",
+    "confirmed_at": null
   }
 ]
