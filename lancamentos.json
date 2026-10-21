@@ -9315,11 +9315,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Nikoly Miranda",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tSR2ExUk9RbFpNVHpjNFZXOHlaR3hYWVdwR00zYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-19T21:48:17.740Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T17:31:24.045Z"
   },
   {
     "id": "eccc85cc-5d0b-42e4-b8d5-58ec7de0e071",
