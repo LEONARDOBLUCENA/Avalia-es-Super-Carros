@@ -9370,11 +9370,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Raphael Rampazzo",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xOM2VqSndRa1JxU0RGS1JuZGhSR3hXUjFkYVVWRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-19T21:51:39.876Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T17:32:14.173Z"
   },
   {
     "id": "b7665cfc-2f55-4ca4-beac-9089966a4348",
