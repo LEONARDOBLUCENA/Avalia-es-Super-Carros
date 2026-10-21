@@ -10279,5 +10279,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-21T20:49:47.904Z",
     "confirmed_at": null
+  },
+  {
+    "id": "5edaec86-3f7b-4bb3-abd1-1b308d8914ec",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Nágila miranda",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-21T21:28:36.358Z",
+    "confirmed_at": null
   }
 ]
