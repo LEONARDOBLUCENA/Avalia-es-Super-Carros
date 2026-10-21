@@ -9502,11 +9502,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Lilian Silva",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21ocWQySkxXRXhzUmtSNldrZEtaSE5OV2xwbk5tYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-20T14:11:50.435Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T17:34:20.449Z"
   },
   {
     "id": "8fa4af13-ae4a-4c16-b7bb-53c90f6b1fcc",
