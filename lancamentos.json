@@ -10202,5 +10202,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-21T20:09:46.094Z",
     "confirmed_at": null
+  },
+  {
+    "id": "52c0c721-cda8-49c9-ae4d-c66e828906d4",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "kleidsonn Dayann",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-21T20:10:37.197Z",
+    "confirmed_at": null
   }
 ]
