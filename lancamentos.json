@@ -9974,5 +9974,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-21T13:05:32.245Z",
     "confirmed_at": null
+  },
+  {
+    "id": "5436288a-b145-4b99-b39d-4ce2f3733053",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Audrey mauzole",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-21T15:43:10.883Z",
+    "confirmed_at": null
   }
 ]
