@@ -9779,11 +9779,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Anderson castro",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25wc00wSTJXakZEV2tsM2MwSnNUbmRZVm1KRlZsRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-20T18:37:27.427Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-21T17:42:52.082Z"
   },
   {
     "id": "2683bedf-0847-4d52-8517-408fabec8940",
