@@ -10551,5 +10551,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-22T19:37:28.276Z",
     "confirmed_at": null
+  },
+  {
+    "id": "14cc2b4a-68de-437f-a1ae-67023ec2ae70",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Adão Marcos",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-22T22:07:27.486Z",
+    "confirmed_at": null
   }
 ]
