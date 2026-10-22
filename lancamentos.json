@@ -10760,5 +10760,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-22T22:13:55.706Z",
     "confirmed_at": null
+  },
+  {
+    "id": "5b8e09a0-36b9-4c5b-8e14-e51089b869f5",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Iasmin Marcelle",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-22T22:14:05.833Z",
+    "confirmed_at": null
   }
 ]
