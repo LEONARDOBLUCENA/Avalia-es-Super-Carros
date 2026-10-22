@@ -10021,11 +10021,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Bianca preibe",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT214R2RuUldlWEl4UzNCeVUzWlFOV1k0TFU0eVIzYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-21T16:11:35.993Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-22T16:22:56.206Z"
   },
   {
     "id": "855e112b-9dca-47ca-aa93-a36e5eddd70e",
