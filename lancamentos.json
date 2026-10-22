@@ -10254,11 +10254,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Gabriel brommer",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT214WVRXOURVVjh4Wm5wWVlUTjZlakY0TUVaa1lsRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-21T20:19:08.665Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-22T18:45:56.685Z"
   },
   {
     "id": "08fdde6e-dd21-4ae4-b239-f4f95db319a0",
