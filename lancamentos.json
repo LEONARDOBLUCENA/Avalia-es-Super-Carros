@@ -10650,5 +10650,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-22T22:09:19.513Z",
     "confirmed_at": null
+  },
+  {
+    "id": "42293a98-4b7e-474c-9528-9fc8cd18cccb",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Cleide Rejane",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-22T22:09:28.724Z",
+    "confirmed_at": null
   }
 ]
