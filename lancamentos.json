@@ -10289,11 +10289,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Nágila miranda",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tnMlVrOTJkRzVKUlU5U04xOXpWR3RCUWpGVFgxRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-21T21:28:36.358Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-22T18:46:59.063Z"
   },
   {
     "id": "a0efae6d-fb01-456d-9e15-8070360b1704",
