@@ -10573,5 +10573,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-22T22:07:36.097Z",
     "confirmed_at": null
+  },
+  {
+    "id": "68cacbc9-ff2c-4b43-853c-86858957fcaf",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Gabriel Tibes",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-22T22:07:45.771Z",
+    "confirmed_at": null
   }
 ]
