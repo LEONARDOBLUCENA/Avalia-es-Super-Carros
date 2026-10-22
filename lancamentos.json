@@ -10312,5 +10312,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-21T21:36:48.447Z",
     "confirmed_at": null
+  },
+  {
+    "id": "53bb81bf-3656-434a-adb2-8a3164ab2d0b",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Ana Cecilia Penna Magalhaes",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-22T00:56:03.328Z",
+    "confirmed_at": null
   }
 ]
