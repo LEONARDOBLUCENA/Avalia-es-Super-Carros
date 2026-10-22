@@ -10694,5 +10694,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-22T22:10:33.296Z",
     "confirmed_at": null
+  },
+  {
+    "id": "44ad2387-9949-411b-99c8-ac5cec5cad1d",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Darlan Marostica",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-22T22:10:49.158Z",
+    "confirmed_at": null
   }
 ]
