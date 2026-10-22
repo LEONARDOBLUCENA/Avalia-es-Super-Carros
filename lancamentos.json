@@ -10324,11 +10324,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Ana Cecilia Penna Magalhaes",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tabFFWbGljWGwzYVRWcWRHbGlNeTF6TkhVeWFuYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-22T00:56:03.328Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-22T18:48:16.074Z"
   },
   {
     "id": "5c605d88-ce25-4183-86e2-31469f5e408d",
