@@ -10122,11 +10122,11 @@
     "setor": "Fotos",
     "vendedora": "Indianara",
     "cliente_nome_informado": "Rafael Cavalcante",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25obGJIaDZXV2g1ZFVaUE0yNUtSbkppYkdwV2NHYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-21T18:50:16.624Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-22T18:38:55.429Z"
   },
   {
     "id": "2350e608-57f1-48aa-9128-e31d8637d9db",
