@@ -10529,5 +10529,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-22T18:04:36.974Z",
     "confirmed_at": null
+  },
+  {
+    "id": "80ccf34a-a630-4e7b-8e85-f328176f7829",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Artur Carlos guerra cisneiros",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-22T19:36:44.397Z",
+    "confirmed_at": null
   }
 ]
