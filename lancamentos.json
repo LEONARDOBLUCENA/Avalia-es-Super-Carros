@@ -10727,5 +10727,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-22T22:12:25.418Z",
     "confirmed_at": null
+  },
+  {
+    "id": "db9e153a-e64c-4c6f-983d-6418b36e37cc",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Paulo Carvalho",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-22T22:12:53.986Z",
+    "confirmed_at": null
   }
 ]
