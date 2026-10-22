@@ -10738,5 +10738,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-22T22:12:53.986Z",
     "confirmed_at": null
+  },
+  {
+    "id": "7d2c5058-2b44-4236-ade3-a26b06efe79a",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "LUÍS CLÁUDIO COSTA",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-22T22:13:22.871Z",
+    "confirmed_at": null
   }
 ]
