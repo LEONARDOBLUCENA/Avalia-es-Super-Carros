@@ -9988,11 +9988,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Audrey mauzole",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKSlZUQm5RV1JWVDBWSlNtbFpOMUZIYUdKaFoxRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-21T15:43:10.883Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-22T16:22:17.170Z"
   },
   {
     "id": "2fa06b4e-fc19-40f2-ab60-b7efb8a07bfd",
