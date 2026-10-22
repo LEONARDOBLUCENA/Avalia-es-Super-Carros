@@ -10089,11 +10089,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Fabiana barreiro",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xaYVJXaHdaV2t3VW5JeldHVTFUa3RDWjNsMlpWRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-21T17:10:25.143Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-22T18:36:30.649Z"
   },
   {
     "id": "87222190-4238-40c9-8866-cf0143488ab4",
