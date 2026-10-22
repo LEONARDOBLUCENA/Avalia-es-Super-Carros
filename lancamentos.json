@@ -10683,5 +10683,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-22T22:10:08.964Z",
     "confirmed_at": null
+  },
+  {
+    "id": "4e086677-f8c9-4d3d-b3ee-dcc67bf18186",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Murilofreitas Murilofreitas",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-22T22:10:33.296Z",
+    "confirmed_at": null
   }
 ]
