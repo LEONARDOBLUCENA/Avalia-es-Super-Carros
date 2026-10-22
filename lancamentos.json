@@ -10210,11 +10210,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "kleidsonn Dayann",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25ScmNUWTBSa2hVVEVwVFFVMXNjbVV0Ym5ZMlVGRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-21T20:10:37.197Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-22T18:43:40.397Z"
   },
   {
     "id": "ec6cbc1f-fd28-4e3e-be80-126102c3e1c0",
