@@ -10749,5 +10749,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-22T22:13:22.871Z",
     "confirmed_at": null
+  },
+  {
+    "id": "a6ecde9e-4c2f-4ef8-9096-7ef699dc5d50",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Arthur Luiz costa",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-22T22:13:55.706Z",
+    "confirmed_at": null
   }
 ]
