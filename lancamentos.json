@@ -10540,5 +10540,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-22T19:36:44.397Z",
     "confirmed_at": null
+  },
+  {
+    "id": "e1096c1a-757a-4ba4-a791-d658bf1cff49",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Mateus cisneiros",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-22T19:37:28.276Z",
+    "confirmed_at": null
   }
 ]
