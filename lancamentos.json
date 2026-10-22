@@ -10378,5 +10378,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-22T14:50:39.753Z",
     "confirmed_at": null
+  },
+  {
+    "id": "c68067c6-f08b-4a6a-942f-53a5f1ab4b4d",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Fabian selllantes",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-22T14:58:18.221Z",
+    "confirmed_at": null
   }
 ]
