@@ -10243,11 +10243,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Isabel Pinheiro",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kxVlRqTmhWVmRsY3kxbWIwMHdRbWcxWnpKUlgyYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-21T20:11:57.141Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-22T18:45:38.683Z"
   },
   {
     "id": "4ee42e63-dd95-430e-9e10-4255ecf1af3d",
