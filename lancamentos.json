@@ -10584,5 +10584,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-22T22:07:45.771Z",
     "confirmed_at": null
+  },
+  {
+    "id": "d56d5802-a930-4be8-8e45-aca344647530",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Ricardo Neves",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-22T22:08:00.911Z",
+    "confirmed_at": null
   }
 ]
