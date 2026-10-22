@@ -10100,11 +10100,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "ijoice honorato",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25WTGRYSXhhM05OT0ZCaWVGZEVRMGRHWjNKc2QzYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-21T17:23:40.019Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-22T18:38:11.754Z"
   },
   {
     "id": "25878239-5e6c-48f2-bb6b-bb5d6c5d3bc6",
