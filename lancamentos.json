@@ -10672,5 +10672,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-22T22:09:55.973Z",
     "confirmed_at": null
+  },
+  {
+    "id": "56b783c6-9f82-46f0-96d8-8b5c4523e04f",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "bruno Nogueira",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-22T22:10:08.964Z",
+    "confirmed_at": null
   }
 ]
