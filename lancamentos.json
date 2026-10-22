@@ -10133,11 +10133,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Danyella Bueno",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s4dFIwWnBOM05HV1hWdWFreFdYMU16Ums1SVRHYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-21T19:21:46.302Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-22T18:39:16.837Z"
   },
   {
     "id": "2ce2c5eb-9c04-4a1f-b214-2c3d80a4ab48",
