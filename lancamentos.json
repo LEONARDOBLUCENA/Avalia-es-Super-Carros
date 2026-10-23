@@ -10381,11 +10381,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Guilherme Salomão",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKZlN6QllTVTV2V1ZSUWNEa3RSRVpUWTFJMWFtYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-22T14:50:39.753Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-23T17:03:24.239Z"
   },
   {
     "id": "c68067c6-f08b-4a6a-942f-53a5f1ab4b4d",
