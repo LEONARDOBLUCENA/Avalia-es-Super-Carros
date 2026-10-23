@@ -10425,11 +10425,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Jhonatan Nunes",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25KWVRYVlFlakEyUzFKMGFsaG9VV1ZCYURGTlMwRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-22T15:47:11.412Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-23T17:04:18.311Z"
   },
   {
     "id": "a6715a51-a26c-4075-930e-e862dc604ed6",
