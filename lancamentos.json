@@ -11006,5 +11006,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-23T20:21:06.299Z",
     "confirmed_at": null
+  },
+  {
+    "id": "58219aec-c32a-4398-aa6d-24670c360ff2",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Edison Batista",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-23T20:21:21.707Z",
+    "confirmed_at": null
   }
 ]
