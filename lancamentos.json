@@ -11127,5 +11127,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-23T20:25:10.992Z",
     "confirmed_at": null
+  },
+  {
+    "id": "7c1a6e69-8fb0-457e-8ba5-2e436f0fc0d7",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "HEITOR SIQUEIRA ANDRADE",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-23T20:25:54.705Z",
+    "confirmed_at": null
   }
 ]
