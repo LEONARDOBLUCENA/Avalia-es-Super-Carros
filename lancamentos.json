@@ -10973,5 +10973,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-23T19:28:04.651Z",
     "confirmed_at": null
+  },
+  {
+    "id": "dc3a48a6-f28d-4410-913b-843e3dbcca57",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Charles Fernandes",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-23T19:42:31.738Z",
+    "confirmed_at": null
   }
 ]
