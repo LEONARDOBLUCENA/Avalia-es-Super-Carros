@@ -10700,11 +10700,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Darlan Marostica",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xZMU4wOU5RalJQVkc5RmMyUktOVUZLWkhoMVJuYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-22T22:10:49.158Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-23T17:11:42.845Z"
   },
   {
     "id": "9f04c8e8-fb90-457e-bd85-ae8ab8331df8",
