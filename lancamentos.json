@@ -10359,11 +10359,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Michael Douglas da Silva Santos",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21oaFgycDBaVnBNWkVkWGRXZE9ZWGhGZEhoWlIwRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-22T14:18:34.834Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-23T17:03:58.713Z"
   },
   {
     "id": "5c6343b1-6614-4f41-ab04-3be90fe3fbe8",
