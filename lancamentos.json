@@ -11061,5 +11061,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-23T20:22:45.670Z",
     "confirmed_at": null
+  },
+  {
+    "id": "94fb8708-cae8-417c-818c-ea223870325b",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Hadassa Kauane",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-23T20:23:04.016Z",
+    "confirmed_at": null
   }
 ]
