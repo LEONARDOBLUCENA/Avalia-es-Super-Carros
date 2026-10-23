@@ -10815,5 +10815,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-23T13:50:18.979Z",
     "confirmed_at": null
+  },
+  {
+    "id": "38b43a33-3465-4deb-be35-2cbc692766cd",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Stephany Kelly",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-23T13:50:30.290Z",
+    "confirmed_at": null
   }
 ]
