@@ -10929,5 +10929,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-23T17:16:59.468Z",
     "confirmed_at": null
+  },
+  {
+    "id": "1f6a669f-686c-4faf-bd31-2ea70067f750",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Roberta Gerhard",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-23T18:06:27.705Z",
+    "confirmed_at": null
   }
 ]
