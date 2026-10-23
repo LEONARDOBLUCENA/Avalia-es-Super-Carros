@@ -10951,5 +10951,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-23T18:45:56.168Z",
     "confirmed_at": null
+  },
+  {
+    "id": "20c90adf-93d2-44ec-93ca-4ed5d5a9a8e6",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Andrea Rodrigues",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-23T18:58:27.209Z",
+    "confirmed_at": null
   }
 ]
