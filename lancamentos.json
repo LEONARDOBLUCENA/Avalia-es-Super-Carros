@@ -11171,5 +11171,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-23T20:26:41.912Z",
     "confirmed_at": null
+  },
+  {
+    "id": "928cb58a-4d46-4306-9c5b-1ca790e12a87",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Gustavo Gonsalves Da Motta",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-23T20:27:11.584Z",
+    "confirmed_at": null
   }
 ]
