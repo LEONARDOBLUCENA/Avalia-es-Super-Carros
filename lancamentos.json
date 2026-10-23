@@ -10848,5 +10848,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-23T13:52:01.041Z",
     "confirmed_at": null
+  },
+  {
+    "id": "433d37ee-3bb4-4077-8a6a-fea83fdd037d",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Giovana piovesan",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-23T14:15:40.516Z",
+    "confirmed_at": null
   }
 ]
