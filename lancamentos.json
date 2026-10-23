@@ -10403,11 +10403,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Eliana leyes",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21NNVVHbExWelZZUkU5dFFWRlZObkpqTm1VNVFYYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-22T14:59:55.724Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-23T17:03:48.832Z"
   },
   {
     "id": "aa655bfc-34e2-4181-a1be-e33eee266e1b",
