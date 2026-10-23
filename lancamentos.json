@@ -10825,11 +10825,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Stephany Kelly",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2paclpXeHVRM1pmVVhoWFgwbGFTa1ZFZDI1V1MwRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-23T13:50:30.290Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-23T17:13:56.703Z"
   },
   {
     "id": "4a58154e-c524-4621-b15a-a4cda6e72a4d",
