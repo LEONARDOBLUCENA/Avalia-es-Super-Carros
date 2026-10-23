@@ -10502,11 +10502,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Paulo carvalho",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KTVIyeGliVVZrVFZwRWEwTktZVEZCVUZwdE5WRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-22T17:42:53.151Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-23T17:05:32.206Z"
   },
   {
     "id": "138a0625-4e3f-4d28-b7e4-16c0d74c1fb4",
