@@ -10535,11 +10535,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Artur Carlos guerra cisneiros",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT20xUWFHOTFXSFZoU2xoMFpITnViekZZWm5SYU9XYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-22T19:36:44.397Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-23T17:06:04.106Z"
   },
   {
     "id": "e1096c1a-757a-4ba4-a791-d658bf1cff49",
