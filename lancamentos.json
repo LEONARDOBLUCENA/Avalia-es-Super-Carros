@@ -10793,5 +10793,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-22T22:15:50.764Z",
     "confirmed_at": null
+  },
+  {
+    "id": "618c4ed9-a514-411a-b0c7-8628c3bc8c15",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Luiz Augusto",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-23T13:24:25.155Z",
+    "confirmed_at": null
   }
 ]
