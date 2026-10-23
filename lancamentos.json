@@ -10568,11 +10568,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Pablo Zanir",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25wSE1tcEVibkEwVjJSdFdIUnVPSFEzTFVoVVptYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-22T22:07:36.097Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-23T17:07:07.967Z"
   },
   {
     "id": "68cacbc9-ff2c-4b43-853c-86858957fcaf",
