@@ -10513,11 +10513,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Hermano trigueiro",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21jMlpIZEZOa3hFYUVSMlVWQTFYMDFOU0RSVk0zYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-22T18:03:39.506Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-23T17:05:42.027Z"
   },
   {
     "id": "12cb30d0-b897-48d4-85f4-7e4fac6e660f",
