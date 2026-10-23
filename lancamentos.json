@@ -11149,5 +11149,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-23T20:26:07.944Z",
     "confirmed_at": null
+  },
+  {
+    "id": "7cf738e7-b8b5-4b20-86d8-82a0879a40d3",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Juliano Rockstrok",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-23T20:26:28.971Z",
+    "confirmed_at": null
   }
 ]
