@@ -10779,11 +10779,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "João Antônio Gomes",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tSTWJtTTNWMU5pVTJ0RFRrNWlTQzFMTjBSc1JYYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-22T22:15:24.184Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-23T17:13:03.244Z"
   },
   {
     "id": "fd5c2e42-5b23-4121-8dd5-2dbcb3d97c25",
