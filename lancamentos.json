@@ -11270,5 +11270,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-23T22:59:30.546Z",
     "confirmed_at": null
+  },
+  {
+    "id": "22d1fae1-8129-4ff5-ba51-d7bec9606239",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Diogo Silva dos Reis",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-23T22:59:49.487Z",
+    "confirmed_at": null
   }
 ]
