@@ -10722,11 +10722,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Arthur Andrade Braz",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kSU5GcHViazR3YjNSVWJHTnJXRlpHTWtKNFVuYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-22T22:12:25.418Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-23T17:12:01.893Z"
   },
   {
     "id": "db9e153a-e64c-4c6f-983d-6418b36e37cc",
