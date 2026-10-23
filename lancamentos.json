@@ -10859,5 +10859,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-23T14:15:40.516Z",
     "confirmed_at": null
+  },
+  {
+    "id": "4a0cb055-0420-45c2-8211-f1399f47e618",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Vinícius porcena",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-23T14:15:57.372Z",
+    "confirmed_at": null
   }
 ]
