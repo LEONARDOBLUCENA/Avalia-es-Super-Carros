@@ -10892,5 +10892,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-23T16:09:25.537Z",
     "confirmed_at": null
+  },
+  {
+    "id": "e1139242-2499-4741-a7b1-988239edf8f0",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Ivan ildo",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-23T16:11:05.047Z",
+    "confirmed_at": null
   }
 ]
