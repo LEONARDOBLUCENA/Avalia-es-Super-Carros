@@ -11237,5 +11237,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-23T22:57:08.384Z",
     "confirmed_at": null
+  },
+  {
+    "id": "7f12d2dc-2ffc-4093-9ccc-81d0fa7e2b11",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Kéllia Lucia Morais da Silva",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-23T22:57:39.524Z",
+    "confirmed_at": null
   }
 ]
