@@ -11138,5 +11138,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-23T20:25:54.705Z",
     "confirmed_at": null
+  },
+  {
+    "id": "f1437a17-f5ed-473d-a664-e78b9319cefe",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Lara Emanuele",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-23T20:26:07.944Z",
+    "confirmed_at": null
   }
 ]
