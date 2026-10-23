@@ -11072,5 +11072,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-23T20:23:04.016Z",
     "confirmed_at": null
+  },
+  {
+    "id": "7451e296-f22b-4896-a7ab-f82c95264c15",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Israel Santos",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-23T20:23:18.828Z",
+    "confirmed_at": null
   }
 ]
