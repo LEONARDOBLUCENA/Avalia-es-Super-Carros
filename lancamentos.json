@@ -11259,5 +11259,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-23T22:58:25.068Z",
     "confirmed_at": null
+  },
+  {
+    "id": "0a073691-5c23-4ed5-b5f8-e36f7ec98e25",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Tayane Bahury",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-23T22:59:30.546Z",
+    "confirmed_at": null
   }
 ]
