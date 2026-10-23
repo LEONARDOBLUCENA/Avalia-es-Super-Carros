@@ -10689,11 +10689,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Murilofreitas Murilofreitas",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tkdVdHbEhkVE16ZUZBdFQzbEhOV3RZTlVWQlpIYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-22T22:10:33.296Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-23T17:11:33.505Z"
   },
   {
     "id": "44ad2387-9949-411b-99c8-ac5cec5cad1d",
