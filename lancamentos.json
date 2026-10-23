@@ -10414,11 +10414,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Fabiana Laila",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KV1FrNTZkM1ZoZFRacGVYWXhNSEJVTnpRNE1HYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-22T15:46:47.175Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-23T17:04:08.756Z"
   },
   {
     "id": "66695da0-56e3-4b83-afee-43de139c32b0",
