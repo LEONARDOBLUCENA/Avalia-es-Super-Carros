@@ -11017,5 +11017,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-23T20:21:21.707Z",
     "confirmed_at": null
+  },
+  {
+    "id": "93567116-e000-48cd-96cb-e9207ca303aa",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Agatha Marcella",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-23T20:21:49.285Z",
+    "confirmed_at": null
   }
 ]
