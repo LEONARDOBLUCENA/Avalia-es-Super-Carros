@@ -11212,11 +11212,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Dalton Dalton",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKa2EzZHJWMUJRY0UxaFFXTjZZMXBOT1dSelJWRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-23T22:55:43.730Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-24T16:55:12.473Z"
   },
   {
     "id": "da5225ec-6f54-47f2-ada0-74bf3e0849bb",
