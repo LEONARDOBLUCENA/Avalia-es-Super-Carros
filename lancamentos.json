@@ -11001,11 +11001,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Eduardo Bartz",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tsNE5YaGlhWGMxYWxaaFkzcE9Wek5QZVRSUmVVRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-23T20:21:06.299Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-24T16:51:41.405Z"
   },
   {
     "id": "58219aec-c32a-4398-aa6d-24670c360ff2",
