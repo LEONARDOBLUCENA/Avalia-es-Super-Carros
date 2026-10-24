@@ -10946,11 +10946,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Sheila Rotolli",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xSck1XZDBla1JaTVZKVk5uaEpSMHBtTlROR00wRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-23T18:45:56.168Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-24T16:50:31.675Z"
   },
   {
     "id": "20c90adf-93d2-44ec-93ca-4ed5d5a9a8e6",
