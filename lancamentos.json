@@ -10957,11 +10957,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Andrea Rodrigues",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pkQmEzWXlWMVZmYVRGSldURmhVbFpWUnpaU1JtYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-23T18:58:27.209Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-24T16:50:42.721Z"
   },
   {
     "id": "97ed5489-90b8-49a5-aafe-1b4b73ee8ae1",
