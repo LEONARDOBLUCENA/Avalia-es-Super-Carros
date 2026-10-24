@@ -11448,5 +11448,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-24T17:54:34.509Z",
     "confirmed_at": null
+  },
+  {
+    "id": "670e6922-cac3-45c7-96dd-004e748ece27",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Lorenzo Ritter",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-24T17:54:56.415Z",
+    "confirmed_at": null
   }
 ]
