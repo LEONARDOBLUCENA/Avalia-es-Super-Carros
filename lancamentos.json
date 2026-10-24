@@ -11012,11 +11012,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Edison Batista",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5V1RFVTNjalp5YjBWaFZWUnVkamxCTW5waGNsRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-23T20:21:21.707Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-24T16:51:59.789Z"
   },
   {
     "id": "93567116-e000-48cd-96cb-e9207ca303aa",
