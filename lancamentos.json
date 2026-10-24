@@ -11190,11 +11190,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Eduarda Cake Donuts",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21wb1RFMDRiazFXUjBKNVoxSTNNMnRGVWkxNVpWRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-23T20:27:26.225Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-24T16:54:54.973Z"
   },
   {
     "id": "c9720914-884a-43e6-a891-cd1dcc7836a0",
