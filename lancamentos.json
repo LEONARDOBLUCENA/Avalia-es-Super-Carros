@@ -11034,11 +11034,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Juliana Roberta",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25oUlJrMDVYMlo2WXpGVmR6VnZRa2xFWjFoSFZtYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-23T20:22:12.625Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-24T16:52:30.873Z"
   },
   {
     "id": "a3fb0538-2332-4d20-aa59-0d077215b73d",
