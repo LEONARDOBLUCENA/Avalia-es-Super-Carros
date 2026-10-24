@@ -11201,11 +11201,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Ezio A. Junior",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25nelNWcE9WSEJwVFZFeVZWVk9TekZ1TWsxeVNHYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-23T22:55:30.108Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-24T16:55:03.194Z"
   },
   {
     "id": "23370cb0-01c9-4925-b8d3-fa3697959d7f",
