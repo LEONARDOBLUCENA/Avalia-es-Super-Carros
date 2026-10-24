@@ -11157,11 +11157,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Juliano Rockstrok",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tob1VVeE5jMFZETUhOMVNXVlZhRTFrY0UxcGRtYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-23T20:26:28.971Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-24T16:54:28.122Z"
   },
   {
     "id": "9b0e6d36-a930-4dc0-b84c-d58b0fec8a8e",
