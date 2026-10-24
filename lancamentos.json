@@ -11426,5 +11426,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-24T17:48:05.131Z",
     "confirmed_at": null
+  },
+  {
+    "id": "3ab1eb0b-66cd-40a2-a4aa-3f84612e7789",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Daniel Lopes",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-24T17:54:11.273Z",
+    "confirmed_at": null
   }
 ]
