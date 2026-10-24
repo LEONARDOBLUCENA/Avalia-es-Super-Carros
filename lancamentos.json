@@ -11580,5 +11580,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-24T18:57:45.142Z",
     "confirmed_at": null
+  },
+  {
+    "id": "387c3378-6f5d-4e21-b828-ba99aeb9e557",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Beatriz Fernandes",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-24T20:57:06.916Z",
+    "confirmed_at": null
   }
 ]
