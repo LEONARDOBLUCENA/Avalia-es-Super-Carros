@@ -11437,5 +11437,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-24T17:54:11.273Z",
     "confirmed_at": null
+  },
+  {
+    "id": "c367d9d8-dddd-41a6-a45f-c929580cbdaa",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Caroline Pereira",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-24T17:54:34.509Z",
+    "confirmed_at": null
   }
 ]
