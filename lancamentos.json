@@ -11056,11 +11056,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Jaison De vargas",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tSR1YzUXpUVjl5VnpkSVdrYzNRVXAzZEVrNVprRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-23T20:22:45.670Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-24T16:52:50.478Z"
   },
   {
     "id": "94fb8708-cae8-417c-818c-ea223870325b",
