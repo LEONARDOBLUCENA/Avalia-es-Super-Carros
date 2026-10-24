@@ -11113,11 +11113,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Rodrigo Ferreira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21oblltbG1WelF3YmxSM2NVaG1hblp3YkZkVVYwRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-23T20:24:37.380Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-24T16:53:47.960Z"
   },
   {
     "id": "1a7e04a7-6977-429c-9525-1037697c1087",
