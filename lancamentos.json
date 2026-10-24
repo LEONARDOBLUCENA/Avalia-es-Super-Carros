@@ -11624,5 +11624,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-24T20:57:47.078Z",
     "confirmed_at": null
+  },
+  {
+    "id": "2af5ec98-09e4-4d9f-86f9-3bba6ecdaf16",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Leilane Machado",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-24T20:58:01.744Z",
+    "confirmed_at": null
   }
 ]
