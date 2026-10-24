@@ -11102,11 +11102,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Raysse Silva",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25vNFQydHBkbU5SUkVkb1pHdGhXVkF5Y0dkU1VIYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-23T20:24:05.874Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-24T16:53:38.712Z"
   },
   {
     "id": "9e74527b-f1b7-4c27-85e7-7066555b50c1",
