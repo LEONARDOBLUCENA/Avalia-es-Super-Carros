@@ -11300,11 +11300,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Bravo Serviços",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25oYU5IaFVWMUJJVW1kTWVqUkRVMUpYTUhNMVJuYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-23T23:03:13.783Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-24T16:56:41.101Z"
   },
   {
     "id": "f6082e7e-25eb-4ea2-a25c-3778787b2987",
