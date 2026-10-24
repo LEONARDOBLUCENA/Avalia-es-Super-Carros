@@ -11267,11 +11267,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Tayane Bahury",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25oa1VGTTBVMFZDVmpCRE1WaGpTR3N4VXpGWE5GRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-23T22:59:30.546Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-24T16:56:05.579Z"
   },
   {
     "id": "22d1fae1-8129-4ff5-ba51-d7bec9606239",
