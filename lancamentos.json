@@ -11091,11 +11091,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Elaine Balbinot",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1UVVUYzFUbXMyVlVwME5FeHdMVU0xT0hadVdsRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-23T20:23:48.429Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-24T16:53:29.015Z"
   },
   {
     "id": "888c38a4-3df6-4fd9-8e51-846b5f70ea4f",
