@@ -11393,5 +11393,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-24T17:19:15.539Z",
     "confirmed_at": null
+  },
+  {
+    "id": "320509dd-092f-4a6e-a5e2-3f9cc63a2e50",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Eduarda Martinelli",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-24T17:45:18.843Z",
+    "confirmed_at": null
   }
 ]
