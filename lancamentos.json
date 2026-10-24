@@ -11613,5 +11613,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-24T20:57:32.079Z",
     "confirmed_at": null
+  },
+  {
+    "id": "51cf93d9-11d7-43b2-92e2-240454cea455",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Janete Aragao",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-24T20:57:47.078Z",
+    "confirmed_at": null
   }
 ]
