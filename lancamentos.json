@@ -11338,5 +11338,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-24T17:09:18.338Z",
     "confirmed_at": null
+  },
+  {
+    "id": "87f50326-4198-4f79-86f1-8a1da72ba5c0",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Felipe Zaccaron",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-24T17:13:55.787Z",
+    "confirmed_at": null
   }
 ]
