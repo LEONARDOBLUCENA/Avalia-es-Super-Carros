@@ -10924,11 +10924,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Liliane dornelas Nunes lima Ribeiro",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0d1MxOXVWbkpKY0RKcE1EaFZhR3BZVnpnMVQxRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-23T17:16:59.468Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-24T16:50:06.686Z"
   },
   {
     "id": "1f6a669f-686c-4faf-bd31-2ea70067f750",
