@@ -10935,11 +10935,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Roberta Gerhard",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21OdmRuSmZYM05KUTI1T1ZFZFlWMEpKVEVWUlpYYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-23T18:06:27.705Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-24T16:50:21.102Z"
   },
   {
     "id": "52125300-1135-4c47-a749-421352f4a791",
