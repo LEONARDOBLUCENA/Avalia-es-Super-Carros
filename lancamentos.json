@@ -11547,5 +11547,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-24T18:22:20.236Z",
     "confirmed_at": null
+  },
+  {
+    "id": "fe2c5954-9fe5-4558-80bb-0a61198e028a",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Mariana Lemes",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-24T18:22:44.848Z",
+    "confirmed_at": null
   }
 ]
