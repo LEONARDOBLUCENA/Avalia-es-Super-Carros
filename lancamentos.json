@@ -10979,11 +10979,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Charles Fernandes",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pGWmFqSXhRbWxxTTJoTVoyZHJWVzQxTkdsU1JVRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-23T19:42:31.738Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-24T16:51:19.955Z"
   },
   {
     "id": "0fc1e243-4a90-45b1-a444-5acec9750a93",
