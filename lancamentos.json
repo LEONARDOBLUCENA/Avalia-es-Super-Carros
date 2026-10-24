@@ -10968,11 +10968,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Adeilton santos",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCTVZtb3RSbGh4VUVacGFWWmhZM2hyVGpkaWFVRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-23T19:28:04.651Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-24T16:51:09.357Z"
   },
   {
     "id": "dc3a48a6-f28d-4410-913b-843e3dbcca57",
