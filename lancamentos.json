@@ -11303,5 +11303,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-23T23:03:13.783Z",
     "confirmed_at": null
+  },
+  {
+    "id": "f6082e7e-25eb-4ea2-a25c-3778787b2987",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Daniel Conserva",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-24T13:11:28.615Z",
+    "confirmed_at": null
   }
 ]
