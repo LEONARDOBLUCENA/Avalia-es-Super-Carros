@@ -11404,5 +11404,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-24T17:45:18.843Z",
     "confirmed_at": null
+  },
+  {
+    "id": "ba387f78-b846-42df-aa65-4b59cf4d3f3a",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Luana Gomes",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-24T17:45:40.083Z",
+    "confirmed_at": null
   }
 ]
