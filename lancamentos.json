@@ -10880,11 +10880,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Mateus souza",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCelV6RkplSGRaWDBVdGVXSlZiSG80VDNGVGFtYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-23T15:46:31.984Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-24T16:49:16.545Z"
   },
   {
     "id": "d81a5150-76fd-4a4f-b3ac-e6260e265566",
