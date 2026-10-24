@@ -11245,11 +11245,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Kéllia Lucia Morais da Silva",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25KTmJuSnpMVTlKV0dGdlV6VnJWREZUVW1wS2RIYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-23T22:57:39.524Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-24T16:55:42.708Z"
   },
   {
     "id": "71ccc377-e9ed-43db-8a67-5c467387e7bc",
