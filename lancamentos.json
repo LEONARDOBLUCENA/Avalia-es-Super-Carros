@@ -12042,5 +12042,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-25T18:46:46.511Z",
     "confirmed_at": null
+  },
+  {
+    "id": "9596b8f0-6229-436d-9b67-b4d458080bc7",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Vini ghost sperb",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-25T18:47:19.891Z",
+    "confirmed_at": null
   }
 ]
