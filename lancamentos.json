@@ -11723,5 +11723,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-25T14:06:05.164Z",
     "confirmed_at": null
+  },
+  {
+    "id": "3d6a7c55-21af-4f01-97f2-62b7c300aaf4",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Leonardo campos",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-25T14:07:10.990Z",
+    "confirmed_at": null
   }
 ]
