@@ -11701,5 +11701,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-25T13:31:12.609Z",
     "confirmed_at": null
+  },
+  {
+    "id": "c0f65858-66db-4d18-82c2-8598a89325b1",
+    "setor": "Fotos",
+    "vendedora": "Indianara",
+    "cliente_nome_informado": "Giovana Massarutte",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-25T13:31:25.929Z",
+    "confirmed_at": null
   }
 ]
