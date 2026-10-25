@@ -11877,5 +11877,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-25T16:01:57.432Z",
     "confirmed_at": null
+  },
+  {
+    "id": "33e3026a-74c3-49a2-871c-2650a313834c",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Renan macedo",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-25T16:02:14.635Z",
+    "confirmed_at": null
   }
 ]
