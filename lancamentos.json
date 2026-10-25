@@ -12020,5 +12020,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-25T18:04:20.705Z",
     "confirmed_at": null
+  },
+  {
+    "id": "3f2bf0e6-1ca8-4c81-8b74-a0281f83d326",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Andressa webber",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-25T18:35:46.433Z",
+    "confirmed_at": null
   }
 ]
