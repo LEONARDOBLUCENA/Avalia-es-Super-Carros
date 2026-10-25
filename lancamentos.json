@@ -11987,5 +11987,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-25T17:17:13.010Z",
     "confirmed_at": null
+  },
+  {
+    "id": "f8e6fbe0-3627-4a87-94ef-8763500c9615",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Douglas Ferreira lopes",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-25T17:17:22.027Z",
+    "confirmed_at": null
   }
 ]
