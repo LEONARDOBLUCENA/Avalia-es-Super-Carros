@@ -11976,5 +11976,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-25T17:16:38.959Z",
     "confirmed_at": null
+  },
+  {
+    "id": "2721c15d-f840-4e78-af83-bf9c31444ca8",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Vitória Aparecida nates do Carmo",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-25T17:17:13.010Z",
+    "confirmed_at": null
   }
 ]
