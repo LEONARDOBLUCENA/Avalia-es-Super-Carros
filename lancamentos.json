@@ -12108,5 +12108,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-25T20:00:03.379Z",
     "confirmed_at": null
+  },
+  {
+    "id": "beeff8b0-545c-427b-9c5b-93c588aac0d4",
+    "setor": "Fotos",
+    "vendedora": "Indianara",
+    "cliente_nome_informado": "Eloisa",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-25T20:09:22.740Z",
+    "confirmed_at": null
   }
 ]
