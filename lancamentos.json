@@ -11888,5 +11888,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-25T16:02:14.635Z",
     "confirmed_at": null
+  },
+  {
+    "id": "efd3fdc2-0525-4545-bd78-1ece5b1a33fd",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Pedro marchan",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-25T16:19:17.667Z",
+    "confirmed_at": null
   }
 ]
