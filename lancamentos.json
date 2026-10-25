@@ -11954,5 +11954,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-25T17:06:41.843Z",
     "confirmed_at": null
+  },
+  {
+    "id": "253083d9-c52f-448b-996c-a9ac46aff386",
+    "setor": "Fotos",
+    "vendedora": "Indianara",
+    "cliente_nome_informado": "adelaine fernandes",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-25T17:09:12.347Z",
+    "confirmed_at": null
   }
 ]
