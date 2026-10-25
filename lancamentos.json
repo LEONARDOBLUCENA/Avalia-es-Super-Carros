@@ -11910,5 +11910,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-25T16:25:29.986Z",
     "confirmed_at": null
+  },
+  {
+    "id": "27055c6d-2800-4f55-9455-8575d4aeabbd",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Robert lima",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-25T16:58:19.326Z",
+    "confirmed_at": null
   }
 ]
