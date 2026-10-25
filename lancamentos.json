@@ -11734,5 +11734,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-25T14:07:10.990Z",
     "confirmed_at": null
+  },
+  {
+    "id": "7db4aa90-3933-42e4-8fbf-faa98f575476",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Ana ligia",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-25T14:36:02.458Z",
+    "confirmed_at": null
   }
 ]
