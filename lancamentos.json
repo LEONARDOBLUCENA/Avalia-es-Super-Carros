@@ -11712,5 +11712,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-25T13:31:25.929Z",
     "confirmed_at": null
+  },
+  {
+    "id": "14859ade-97d7-4034-bda3-0bd5553878fc",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Ibcp casa de paz",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-25T14:06:05.164Z",
+    "confirmed_at": null
   }
 ]
