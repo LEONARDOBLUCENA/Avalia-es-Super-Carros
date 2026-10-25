@@ -12053,5 +12053,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-25T18:47:19.891Z",
     "confirmed_at": null
+  },
+  {
+    "id": "59d0e516-b9af-476a-a2d9-22f18c0172e4",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Murilo Domingues",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-25T19:08:18.327Z",
+    "confirmed_at": null
   }
 ]
