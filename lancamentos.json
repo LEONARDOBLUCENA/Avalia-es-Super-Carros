@@ -11855,5 +11855,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-25T15:46:50.294Z",
     "confirmed_at": null
+  },
+  {
+    "id": "b16837c3-52a0-4fff-91fc-21e5b66bccb8",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Breno rafael",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-25T15:59:42.340Z",
+    "confirmed_at": null
   }
 ]
