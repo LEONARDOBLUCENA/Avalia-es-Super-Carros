@@ -11789,5 +11789,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-25T15:06:25.975Z",
     "confirmed_at": null
+  },
+  {
+    "id": "8484b558-6563-4ee4-81f5-2b83636fb869",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Cristiane Almeida Borges",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-25T15:26:17.952Z",
+    "confirmed_at": null
   }
 ]
