@@ -11899,5 +11899,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-25T16:19:17.667Z",
     "confirmed_at": null
+  },
+  {
+    "id": "b4e59af3-eb85-4273-b781-6ca5fa80ba2b",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Samylla evangelista",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-25T16:25:29.986Z",
+    "confirmed_at": null
   }
 ]
