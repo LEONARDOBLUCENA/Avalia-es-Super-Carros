@@ -12086,5 +12086,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-25T19:57:24.842Z",
     "confirmed_at": null
+  },
+  {
+    "id": "29debd1f-8580-4ecf-9374-aa42c10b7034",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Italo de Souza Feitosa matta",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-25T19:59:04.931Z",
+    "confirmed_at": null
   }
 ]
