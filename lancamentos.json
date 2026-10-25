@@ -12009,5 +12009,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-25T18:02:33.680Z",
     "confirmed_at": null
+  },
+  {
+    "id": "97aba39e-d8ec-40e7-a46b-27cc6377ec08",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Paulista micropinturas",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-25T18:04:20.705Z",
+    "confirmed_at": null
   }
 ]
