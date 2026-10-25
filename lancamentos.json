@@ -12064,5 +12064,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-25T19:08:18.327Z",
     "confirmed_at": null
+  },
+  {
+    "id": "a5b7b548-24ff-4329-a201-e18da3103af9",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Yolanda frança",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-25T19:09:15.904Z",
+    "confirmed_at": null
   }
 ]
