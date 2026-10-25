@@ -11866,5 +11866,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-25T15:59:42.340Z",
     "confirmed_at": null
+  },
+  {
+    "id": "e93da5d0-60a3-48e4-a999-f24ca2a91ed5",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Rivanda Macedo",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-25T16:01:57.432Z",
+    "confirmed_at": null
   }
 ]
