@@ -11943,5 +11943,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-25T16:59:52.932Z",
     "confirmed_at": null
+  },
+  {
+    "id": "93d1b0ae-69fc-4ea8-b5c4-f9bab9aa7870",
+    "setor": "Fotos",
+    "vendedora": "Indianara",
+    "cliente_nome_informado": "Amanda Fogaca",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-25T17:06:41.843Z",
+    "confirmed_at": null
   }
 ]
