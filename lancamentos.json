@@ -11756,5 +11756,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-25T14:48:43.315Z",
     "confirmed_at": null
+  },
+  {
+    "id": "a18a7f41-caf2-471f-a6d1-0d5169b6f824",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Qn goias",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-25T14:48:59.330Z",
+    "confirmed_at": null
   }
 ]
