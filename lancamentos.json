@@ -12075,5 +12075,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-25T19:09:15.904Z",
     "confirmed_at": null
+  },
+  {
+    "id": "90acece3-1bc8-4d56-87e3-74b134818a0d",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Mariana arauo",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-25T19:57:24.842Z",
+    "confirmed_at": null
   }
 ]
