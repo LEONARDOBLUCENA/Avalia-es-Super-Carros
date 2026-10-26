@@ -12521,5 +12521,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-26T19:59:44.957Z",
     "confirmed_at": null
+  },
+  {
+    "id": "1bdf4ae2-f233-4d7d-aa76-f65b5194e752",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Renata Prete",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-26T19:59:58.379Z",
+    "confirmed_at": null
   }
 ]
