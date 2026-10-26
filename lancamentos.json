@@ -11502,11 +11502,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Helen Barros Almeida",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WTVJIZFRVMDlOUkZoNU1HRk5hSGxqVkRaNFZFRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-24T17:56:18.028Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-26T01:42:39.739Z"
   },
   {
     "id": "4a4e80e5-f952-4cd9-a2cb-c74fb7e31bb5",
