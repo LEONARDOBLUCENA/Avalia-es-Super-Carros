@@ -11634,11 +11634,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Leilane Machado",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21OdlZIVjZWRGh0WjI1MmJqTTJVR0pSWm5wNldFRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-24T20:58:01.744Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-26T01:37:26.687Z"
   },
   {
     "id": "ab1d7e22-f002-47ad-8336-9dd92710b625",
