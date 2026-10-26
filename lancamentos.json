@@ -12224,5 +12224,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-26T15:13:37.172Z",
     "confirmed_at": null
+  },
+  {
+    "id": "5eaa8dd3-6a5c-433e-aa6e-88b7071509eb",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Gabriel coletti vieira",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-26T15:13:56.121Z",
+    "confirmed_at": null
   }
 ]
