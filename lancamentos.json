@@ -11579,11 +11579,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Weslley Lima",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25kbFF6SmhNMFprVGsxd01VbE1kRVJYTkd3NFUwRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-24T18:57:45.142Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-26T01:44:06.124Z"
   },
   {
     "id": "387c3378-6f5d-4e21-b828-ba99aeb9e557",
