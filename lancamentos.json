@@ -11359,11 +11359,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Samara Barbosa",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25oT2NuRlNUalZtTmtWa1pXZHFTSFIxVUU1aE4wRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-24T17:14:39.794Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-26T01:37:17.834Z"
   },
   {
     "id": "8a531f94-d7f0-4041-af08-924048e43ab0",
