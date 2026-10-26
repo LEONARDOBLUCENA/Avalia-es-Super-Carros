@@ -11469,11 +11469,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Marco Ritter",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pWS1NHUjFaa053V0VoT1NXMUJiemgyTjAwemNHYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-24T17:55:08.425Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-26T01:42:03.900Z"
   },
   {
     "id": "068c687f-a2cb-40e1-b39f-f19812358f8f",
