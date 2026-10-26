@@ -11832,11 +11832,13 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Igor campos",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-10-25T15:43:58.445Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-10-26T01:37:40.593Z",
+    "rejected_review_id": null
   },
   {
     "id": "05d562e2-0469-4c8b-92d5-af4bdeb88fd0",
