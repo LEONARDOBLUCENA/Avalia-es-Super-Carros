@@ -12466,5 +12466,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-26T19:28:31.592Z",
     "confirmed_at": null
+  },
+  {
+    "id": "8f39e3c4-e198-46ce-ab62-3045a445832d",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Felipe Münniz",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-26T19:29:08.090Z",
+    "confirmed_at": null
   }
 ]
