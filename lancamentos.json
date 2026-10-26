@@ -12422,5 +12422,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-26T19:26:18.685Z",
     "confirmed_at": null
+  },
+  {
+    "id": "3921bcc5-8c27-43d4-a896-26edf9066ba5",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Vitor Hugo",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-26T19:27:12.416Z",
+    "confirmed_at": null
   }
 ]
