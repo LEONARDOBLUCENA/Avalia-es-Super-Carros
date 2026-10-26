@@ -12389,5 +12389,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-26T18:25:47.414Z",
     "confirmed_at": null
+  },
+  {
+    "id": "990e1fa3-810e-420d-ae7b-90a49460f434",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "L. Fernando Girola",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-26T19:22:26.622Z",
+    "confirmed_at": null
   }
 ]
