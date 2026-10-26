@@ -12312,5 +12312,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-26T17:06:38.211Z",
     "confirmed_at": null
+  },
+  {
+    "id": "10da5c45-1695-4c0a-91d0-2ae2ba168d0b",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Adler leal",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-26T17:30:08.047Z",
+    "confirmed_at": null
   }
 ]
