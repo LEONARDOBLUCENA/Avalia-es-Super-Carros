@@ -11447,11 +11447,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Caroline Pereira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKaVZuQXpiR1Z5UlZSUFdsRmpOVWRJTkZCNmRXYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-24T17:54:34.509Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-26T01:41:37.040Z"
   },
   {
     "id": "670e6922-cac3-45c7-96dd-004e748ece27",
