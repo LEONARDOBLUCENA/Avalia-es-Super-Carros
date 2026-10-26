@@ -12477,5 +12477,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-26T19:29:08.090Z",
     "confirmed_at": null
+  },
+  {
+    "id": "10fca847-56dd-4145-beee-ea4053e9e5db",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Andriele Ambrozi",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-26T19:29:25.550Z",
+    "confirmed_at": null
   }
 ]
