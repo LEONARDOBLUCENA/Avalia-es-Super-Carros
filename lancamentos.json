@@ -12323,5 +12323,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-26T17:30:08.047Z",
     "confirmed_at": null
+  },
+  {
+    "id": "aa07cab3-f18a-4a2e-b595-0dd77fcba5ba",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Marcílio porto",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-26T17:34:58.001Z",
+    "confirmed_at": null
   }
 ]
