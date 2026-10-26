@@ -11667,11 +11667,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Veronica Mendonça",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25aa2JXdFBZMjFPWVRacldqUnBhWEY0ZFVkSFFuYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-24T20:58:47.742Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-26T01:46:56.881Z"
   },
   {
     "id": "32173b07-2e23-4a9f-a46e-fdfb02f72041",
