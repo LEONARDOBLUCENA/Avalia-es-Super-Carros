@@ -12565,5 +12565,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-26T21:13:19.953Z",
     "confirmed_at": null
+  },
+  {
+    "id": "d0d90fe4-9802-465d-8a50-9725542f1387",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Fábio Mateus",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-26T21:36:31.415Z",
+    "confirmed_at": null
   }
 ]
