@@ -11370,11 +11370,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "why ?",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tOaVUyMVNNSFp3Y1ZNdGJVZzJYMkZEU0dodlJXYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-24T17:15:26.626Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-26T01:40:17.600Z"
   },
   {
     "id": "29a42fd1-c563-4104-8775-d805515c5b7c",
