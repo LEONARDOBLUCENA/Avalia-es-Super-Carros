@@ -11414,11 +11414,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Luana Gomes",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25wS2IzWmpZVUZGUkhOUmNFVkxRV3hOWlRrMlRFRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-24T17:45:40.083Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-26T01:40:54.472Z"
   },
   {
     "id": "946009b3-5126-4877-a618-a5abaa445278",
