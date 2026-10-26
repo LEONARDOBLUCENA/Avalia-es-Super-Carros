@@ -12235,5 +12235,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-26T15:13:56.121Z",
     "confirmed_at": null
+  },
+  {
+    "id": "3dcfa30b-4e3c-4d63-966e-5b81f75a9970",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Marcos Hygino",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-26T15:24:15.841Z",
+    "confirmed_at": null
   }
 ]
