@@ -11623,11 +11623,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Janete Aragao",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tWRFRYbHBlSFpzY0hscFZXUnJVekE1WDFGYWFtYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-24T20:57:47.078Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-26T01:44:52.226Z"
   },
   {
     "id": "2af5ec98-09e4-4d9f-86f9-3bba6ecdaf16",
