@@ -11590,11 +11590,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Beatriz Fernandes",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xacWQzcFdhVTkzYTBzeWVFbHFSa1JQUWs5S1NHYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-24T20:57:06.916Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-26T01:44:18.815Z"
   },
   {
     "id": "4c59a38c-ccc3-4ca9-9222-6f4eb2f279eb",
