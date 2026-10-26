@@ -11568,11 +11568,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Milena Ingrid",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pGWU5FUnNWVEZwZWpGbFQwZHlURzF1U2s0NVEwRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-24T18:57:05.169Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-26T01:43:56.731Z"
   },
   {
     "id": "d5bf71fd-1164-4893-84f0-b36501be4ea9",
