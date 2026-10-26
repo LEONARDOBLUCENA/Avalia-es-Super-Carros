@@ -11458,11 +11458,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Lorenzo Ritter",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25GWGJYVktkMHc0Y0RCSWVIVkZNRTlGUVd3d2VsRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-24T17:54:56.415Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-26T01:41:52.675Z"
   },
   {
     "id": "0a4ed90b-9657-4c36-bc4a-ba710a0bcad2",
