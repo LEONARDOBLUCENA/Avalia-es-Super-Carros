@@ -10860,12 +10860,12 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Giovana piovesan",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-10-23T14:15:40.516Z",
     "confirmed_at": null,
-    "rejected_at": null,
+    "rejected_at": "2026-10-26T01:40:04.732Z",
     "rejected_review_id": null
   },
   {
