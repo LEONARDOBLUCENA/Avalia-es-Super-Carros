@@ -11392,11 +11392,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Duda Club",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKb2VGVjVWREZOWjJKaVNHWlhUa2xPV1ZacmQyYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-24T17:19:15.539Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-26T01:40:30.472Z"
   },
   {
     "id": "320509dd-092f-4a6e-a5e2-3f9cc63a2e50",
