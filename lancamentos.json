@@ -12752,5 +12752,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-27T17:41:44.243Z",
     "confirmed_at": null
+  },
+  {
+    "id": "b825433f-8f99-4736-86dd-5c3c3d842cce",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Lucca santos",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-27T18:04:53.872Z",
+    "confirmed_at": null
   }
 ]
