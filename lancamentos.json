@@ -12642,5 +12642,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-27T14:53:09.546Z",
     "confirmed_at": null
+  },
+  {
+    "id": "020cd9ad-2e43-4589-9fc7-f904bfb44c11",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Gabrielkjkjkj",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-27T14:55:36.841Z",
+    "confirmed_at": null
   }
 ]
