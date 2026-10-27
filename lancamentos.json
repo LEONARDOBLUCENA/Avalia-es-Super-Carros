@@ -12818,5 +12818,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-27T19:17:53.506Z",
     "confirmed_at": null
+  },
+  {
+    "id": "8e649c19-e826-4f54-8b6c-0514eb5eb095",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Marco Antônio Xavier lopes Lopes",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-27T19:18:47.680Z",
+    "confirmed_at": null
   }
 ]
