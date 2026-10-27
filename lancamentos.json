@@ -12840,5 +12840,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-27T19:49:06.399Z",
     "confirmed_at": null
+  },
+  {
+    "id": "04c10a13-c239-4b86-9dd8-bd465b8185e1",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Nagyla Alves de Oliveira",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-27T19:49:35.448Z",
+    "confirmed_at": null
   }
 ]
