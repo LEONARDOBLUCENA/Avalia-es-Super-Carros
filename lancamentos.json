@@ -12862,5 +12862,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-27T20:12:30.077Z",
     "confirmed_at": null
+  },
+  {
+    "id": "a22be880-a962-4091-b29a-fbd349c48b0c",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Larissa Santo",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-27T20:12:46.180Z",
+    "confirmed_at": null
   }
 ]
