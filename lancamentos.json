@@ -12675,5 +12675,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-27T15:23:01.669Z",
     "confirmed_at": null
+  },
+  {
+    "id": "38a03240-b0f9-4008-a86f-e056184e6d81",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Jonas Jonas",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-27T15:48:57.297Z",
+    "confirmed_at": null
   }
 ]
