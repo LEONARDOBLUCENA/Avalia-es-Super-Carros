@@ -12774,5 +12774,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-27T18:05:49.608Z",
     "confirmed_at": null
+  },
+  {
+    "id": "8068ef99-8f38-42f0-ab67-e332ebc6060b",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Marcelo Medeiros",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-27T18:06:41.987Z",
+    "confirmed_at": null
   }
 ]
