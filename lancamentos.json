@@ -12851,5 +12851,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-27T19:49:35.448Z",
     "confirmed_at": null
+  },
+  {
+    "id": "fe22ebc9-bfda-44a9-b80f-4b56fb9faf97",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Gustavo Marcolino",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-27T20:12:30.077Z",
+    "confirmed_at": null
   }
 ]
