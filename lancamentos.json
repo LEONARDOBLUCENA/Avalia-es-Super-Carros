@@ -12785,5 +12785,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-27T18:06:41.987Z",
     "confirmed_at": null
+  },
+  {
+    "id": "e620cf93-11ff-463d-a1a3-59c7af5d1f51",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Matheus cidene",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-27T18:50:17.714Z",
+    "confirmed_at": null
   }
 ]
