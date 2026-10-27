@@ -12730,5 +12730,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-27T15:58:25.189Z",
     "confirmed_at": null
+  },
+  {
+    "id": "ff2ee78f-5e0e-48ce-9325-892d9c73b03d",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Débora Martins",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-27T17:41:24.827Z",
+    "confirmed_at": null
   }
 ]
