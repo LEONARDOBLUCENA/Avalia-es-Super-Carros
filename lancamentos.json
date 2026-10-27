@@ -12598,5 +12598,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-27T02:05:34.604Z",
     "confirmed_at": null
+  },
+  {
+    "id": "25fd4a61-fbb2-4b14-9763-fec6487b0019",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Bruno Martins",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-27T13:15:57.675Z",
+    "confirmed_at": null
   }
 ]
