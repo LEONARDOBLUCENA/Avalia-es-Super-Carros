@@ -12829,5 +12829,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-27T19:18:47.680Z",
     "confirmed_at": null
+  },
+  {
+    "id": "397acd00-ea35-4fd1-9b2d-953a691f55a8",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Fernando Nogueira",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-27T19:49:06.399Z",
+    "confirmed_at": null
   }
 ]
