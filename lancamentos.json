@@ -12796,5 +12796,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-27T18:50:17.714Z",
     "confirmed_at": null
+  },
+  {
+    "id": "67128599-00ca-415e-a0e3-5915df7f571b",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Giovanna arcuri",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-27T18:52:21.143Z",
+    "confirmed_at": null
   }
 ]
