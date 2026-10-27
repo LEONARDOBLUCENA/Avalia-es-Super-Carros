@@ -12763,5 +12763,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-27T18:04:53.872Z",
     "confirmed_at": null
+  },
+  {
+    "id": "d110603f-6b0e-4c5b-8729-976dee93d824",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Samela marcela",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-27T18:05:49.608Z",
+    "confirmed_at": null
   }
 ]
