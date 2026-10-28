@@ -12027,11 +12027,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Paulista micropinturas",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25aNlMwSndaekZKZHpGWk1VRm9XbE5HVGtaUVVXYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-25T18:04:20.705Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T17:30:45.424Z"
   },
   {
     "id": "3f2bf0e6-1ca8-4c81-8b74-a0281f83d326",
