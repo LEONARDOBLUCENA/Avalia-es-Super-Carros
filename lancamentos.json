@@ -12546,11 +12546,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "João Victor Ferreira de Souza",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5VGJIbEtTaTFRU1RoRFNqaEZjRm81YVdsV09HYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-26T20:00:31.490Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T17:44:31.307Z"
   },
   {
     "id": "0286c0fb-b810-4ae6-861d-c20230d2645c",
