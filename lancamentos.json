@@ -12810,11 +12810,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Giovanna arcuri",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tsQ2FsUm9ZMHcyTUV0dGFEZExPRlV3VnpaMFQzYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-27T18:52:21.143Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T18:26:56.535Z"
   },
   {
     "id": "2bf318af-9f25-4b7f-baac-09168e93c428",
