@@ -11902,11 +11902,13 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Pedro marchan",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-10-25T16:19:17.667Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-10-28T17:28:08.349Z",
+    "rejected_review_id": null
   },
   {
     "id": "b4e59af3-eb85-4273-b781-6ca5fa80ba2b",
