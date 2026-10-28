@@ -12524,11 +12524,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Pedro Henrique Batista neumann",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KekxVaDFSRzFwVEU1bFJtVTVMV1Z3VlhaTVIxRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-26T19:59:44.957Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T17:43:43.595Z"
   },
   {
     "id": "1bdf4ae2-f233-4d7d-aa76-f65b5194e752",
