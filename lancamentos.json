@@ -12909,11 +12909,11 @@
     "setor": "Fotos",
     "vendedora": "Indianara",
     "cliente_nome_informado": "Matheus A",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21SV1pWZEJVMnRwWjJwRFUwSmFjbkk0VUV4dmMyYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-28T12:27:29.039Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T18:31:17.648Z"
   },
   {
     "id": "0ebcbfdf-981d-4458-beaf-fff11cbfab94",
