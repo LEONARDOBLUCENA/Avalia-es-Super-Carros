@@ -12876,11 +12876,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Larissa Santo",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xkM2EwaERXbTh0V0cxa2QwUnFhVWxSTm1SWldrRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-27T20:12:46.180Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T18:28:10.947Z"
   },
   {
     "id": "a481a357-3b36-4a8f-98c5-f49e77ac2b7c",
