@@ -12181,11 +12181,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Thauany talaveira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1NVFtUmZVamhhYXpSSk5rNXhNMmxKWDFvMVJHYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-25T21:10:54.524Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T17:33:33.612Z"
   },
   {
     "id": "78975dcc-43c0-4d1d-ae4a-01d48365293f",
