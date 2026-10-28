@@ -12414,11 +12414,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Kauã 019",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWd1JEaEdZVUYyVnpGNFRuZFFNalpsYkd0TldtYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-26T19:25:39.440Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T17:41:33.666Z"
   },
   {
     "id": "7c027a49-fb69-4ee5-822f-7b0320cb84b2",
