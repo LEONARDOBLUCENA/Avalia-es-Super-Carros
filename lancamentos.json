@@ -12887,11 +12887,11 @@
     "setor": "Fotos",
     "vendedora": "Indianara",
     "cliente_nome_informado": "Roberto Guimarães",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xwWmVtaFJZMDFSTm5neWVtbERNbXBWVGtKeWVFRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-28T12:26:33.703Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T18:30:11.897Z"
   },
   {
     "id": "ee05b416-9113-4e51-a692-128b7fe19ea2",
