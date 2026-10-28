@@ -12126,11 +12126,11 @@
     "setor": "Fotos",
     "vendedora": "Indianara",
     "cliente_nome_informado": "Eloisa",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21Ob09UUnpWMGROVjNCRlEwOURabGswYkhKb2FFRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-25T20:09:22.740Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T17:32:37.460Z"
   },
   {
     "id": "5a122572-8838-4e15-9c9d-596e7506ffb6",
