@@ -12711,11 +12711,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Vinicius Costa",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tWcVJUQlRSSFV6TW1Kb1UwTlNTRTB4YUd0VmQyYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-27T15:49:31.673Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T17:49:32.533Z"
   },
   {
     "id": "3c84cc60-9d0c-4de0-9a7a-f770e345f9df",
