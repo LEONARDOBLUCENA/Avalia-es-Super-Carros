@@ -12766,11 +12766,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Lucca santos",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21jeWNrUnpTVVptTWtVd2FEVlVjVVUxYkVsTU0xRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-27T18:04:53.872Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T18:24:08.211Z"
   },
   {
     "id": "d110603f-6b0e-4c5b-8729-976dee93d824",
