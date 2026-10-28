@@ -12700,11 +12700,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Gustavo Chim",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xkMFEycExXazl4ZDJ4ZldURnBXbTFoVEV0WVdYYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-27T15:49:12.161Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T17:49:20.628Z"
   },
   {
     "id": "31962c70-cb45-4e76-a7eb-ee63bf73cd14",
