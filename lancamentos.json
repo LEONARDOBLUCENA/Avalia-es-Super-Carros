@@ -11810,11 +11810,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Tassio sousa",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pSZllreFNNR016U2xoT1YwaHdRek5YVUVkVFZtYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-25T15:27:13.489Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T17:22:16.947Z"
   },
   {
     "id": "7142d2a3-a732-444d-ba97-622a4555c63f",
