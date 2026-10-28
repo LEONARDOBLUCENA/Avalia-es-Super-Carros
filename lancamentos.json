@@ -12370,11 +12370,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "heitor oliveira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKR1YycFVTV2x2U205YVFsTmpSR0Z0WjNwSFJrRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-26T18:16:59.155Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T17:40:50.335Z"
   },
   {
     "id": "5664a8dc-4663-41a2-9990-3b4931adf492",
