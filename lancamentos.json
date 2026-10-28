@@ -12271,11 +12271,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Miguel da silveira purificação",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT20xV05GTm5RMHBaUkhkZkxVNURTVlpmV1RGdVVWRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-26T15:53:21.120Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T17:35:36.775Z"
   },
   {
     "id": "7f727259-2edc-41ba-92b4-c061cac1a0db",
