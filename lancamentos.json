@@ -12458,11 +12458,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Guilherme Sousa",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25WaFVtZHpkVlJsTVZKWGNVSkdNMGh3U1ZoZlYzYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-26T19:27:44.197Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T17:42:18.812Z"
   },
   {
     "id": "e1b20f6a-3523-49f8-87ba-47f224ecdae9",
