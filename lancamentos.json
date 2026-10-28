@@ -11777,11 +11777,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Franklin Silva",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pGWVFUTlpaMGRXV0MxUVFWTnViVXh4ZEVkalpGRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-25T15:06:16.746Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T17:21:13.189Z"
   },
   {
     "id": "ff11cf59-3b58-4349-a8ef-4e2192a1b85a",
