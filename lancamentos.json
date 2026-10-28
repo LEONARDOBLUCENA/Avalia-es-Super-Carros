@@ -11959,11 +11959,11 @@
     "setor": "Fotos",
     "vendedora": "Indianara",
     "cliente_nome_informado": "Amanda Fogaca",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGVVR6WkxSMU0xTlRsa01ucHpVMEZGUjFwQlQwRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-25T17:06:41.843Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T17:28:37.682Z"
   },
   {
     "id": "253083d9-c52f-448b-996c-a9ac46aff386",
