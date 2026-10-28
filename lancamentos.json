@@ -11678,11 +11678,11 @@
     "setor": "Fotos",
     "vendedora": "Indianara",
     "cliente_nome_informado": "Saymo Fontes",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tOTFRYcHhPWFJGZWxOR05uQktXSFJLVEZoRk1FRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-25T13:20:26.113Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T13:31:54.020Z"
   },
   {
     "id": "4188ae40-fb4b-42ae-84ee-f51e1dded395",
