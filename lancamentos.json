@@ -12502,11 +12502,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "NATHALIA ARANTES",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tneGRHeHFPRmh6UXpoMWNYRTBTamhuZVhKMlJXYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-26T19:31:01.072Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T17:43:13.075Z"
   },
   {
     "id": "119c26d1-4c62-4a34-8efd-7c9a1fc3fb67",
