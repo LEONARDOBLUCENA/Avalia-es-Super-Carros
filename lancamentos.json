@@ -11766,11 +11766,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Qn goias",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2sxVk1UUmZha1pwTUZveWRGVkhibGxWVVZGMU5WRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-25T14:48:59.330Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T17:21:01.229Z"
   },
   {
     "id": "aa509649-84dd-4023-9b24-cbda8f30ea04",
