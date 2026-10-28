@@ -13002,5 +13002,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-28T19:15:03.363Z",
     "confirmed_at": null
+  },
+  {
+    "id": "b7a3116d-2a96-45e2-8f8b-2c0ebdc93b98",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Neidianne lima",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-28T19:18:29.175Z",
+    "confirmed_at": null
   }
 ]
