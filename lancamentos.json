@@ -12049,11 +12049,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Julia Sperb schmidt",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2toUVluSmZRMjFLY201R2MxRmFkRVpsTVZwdE5YYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-25T18:46:46.511Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T17:31:15.031Z"
   },
   {
     "id": "9596b8f0-6229-436d-9b67-b4d458080bc7",
