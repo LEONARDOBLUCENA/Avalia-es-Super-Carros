@@ -12258,11 +12258,13 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Valter castro",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-10-26T15:25:01.284Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-10-28T17:35:13.834Z",
+    "rejected_review_id": null
   },
   {
     "id": "b9afbe1d-21a8-4126-b3f9-f490def75c23",
