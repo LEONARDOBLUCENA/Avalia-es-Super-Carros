@@ -12447,11 +12447,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Bruna Lopes",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t3d2FqUm1iazVxYUVGcE1sQTFRbFJQTTJ0dGQyYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-26T19:27:23.732Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T17:42:08.473Z"
   },
   {
     "id": "08650107-e9b4-4b5a-8647-d20bb85b8218",
