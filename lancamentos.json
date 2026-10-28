@@ -12722,11 +12722,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Douglas Moreira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25sSVNTMW9OMmt3ZVc0eU5sQlJabE5NUVZwbldrRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-27T15:55:10.739Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T18:19:46.550Z"
   },
   {
     "id": "adbd35cc-c05f-43dc-9943-b982f0164883",
