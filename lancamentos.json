@@ -11755,11 +11755,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Marcos Santana",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5MlV6UTFNbkF3TkVoWWRuazFWbWRzYWxKRU1WRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-25T14:48:43.315Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T16:56:52.646Z"
   },
   {
     "id": "a18a7f41-caf2-471f-a6d1-0d5169b6f824",
