@@ -12214,11 +12214,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Isamar Segredo",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2prMFF6UnVPRGRGWWpFMGNFOVJXRkJaWTJKcVNWRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-26T14:04:28.827Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T17:34:10.288Z"
   },
   {
     "id": "02790446-97c7-489a-b2c9-f84b7256917d",
