@@ -12003,11 +12003,13 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Douglas Ferreira lopes",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-10-25T17:17:22.027Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-10-28T17:30:24.651Z",
+    "rejected_review_id": null
   },
   {
     "id": "0c8e8197-1017-4074-9450-61f504424932",
