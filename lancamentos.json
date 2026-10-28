@@ -11878,11 +11878,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Rivanda Macedo",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5cVVHVkRkbnBCVjBjek5IcG5ka1ZNY0VkTFFXYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-25T16:01:57.432Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T17:26:03.361Z"
   },
   {
     "id": "33e3026a-74c3-49a2-871c-2650a313834c",
