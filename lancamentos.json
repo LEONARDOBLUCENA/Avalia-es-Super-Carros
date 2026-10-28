@@ -12082,11 +12082,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Yolanda frança",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pOaU15MW5jbEp2V2xOM1FrNHlaRzVwTjBKUGFHYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-25T19:09:15.904Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T17:31:43.231Z"
   },
   {
     "id": "90acece3-1bc8-4d56-87e3-74b134818a0d",
