@@ -11856,11 +11856,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Matheus matheuzin",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tobmJsSXlkRzlQY1ZNM1VFcHNjVzh5ZVhWdE1GRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-25T15:46:50.294Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T17:23:05.618Z"
   },
   {
     "id": "b16837c3-52a0-4fff-91fc-21e5b66bccb8",
