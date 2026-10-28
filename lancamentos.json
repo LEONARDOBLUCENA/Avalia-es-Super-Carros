@@ -12579,11 +12579,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Fábio Mateus",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2prd1oyczBOVTVyZFRNM1RucDZSbTlDTVVsS1dYYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-26T21:36:31.415Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T17:45:08.955Z"
   },
   {
     "id": "e0ad2b15-82b1-4647-adf1-c4cc48a3d623",
