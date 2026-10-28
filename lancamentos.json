@@ -12832,11 +12832,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Marco Antônio Xavier lopes Lopes",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21GTFFWbExRalowVkd4aFZqQjZlRjlUTlU1Uk1FRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-27T19:18:47.680Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T18:27:21.170Z"
   },
   {
     "id": "397acd00-ea35-4fd1-9b2d-953a691f55a8",
