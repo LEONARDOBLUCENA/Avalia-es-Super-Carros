@@ -12225,11 +12225,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Geovana Rodrigues coletti",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tOWWFWVnlWMlJ5VjBGRFRVdHZWR295WlZsR1lXYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-26T15:13:37.172Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T17:34:20.920Z"
   },
   {
     "id": "5eaa8dd3-6a5c-433e-aa6e-88b7071509eb",
