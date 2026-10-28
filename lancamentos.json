@@ -12843,11 +12843,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Fernando Nogueira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pSeVltczJXalpGWTJseE5tcG5SMlZaTW1acmEwRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-27T19:49:06.399Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T18:27:33.238Z"
   },
   {
     "id": "04c10a13-c239-4b86-9dd8-bd465b8185e1",
