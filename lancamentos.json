@@ -12958,5 +12958,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-28T18:08:24.665Z",
     "confirmed_at": null
+  },
+  {
+    "id": "948a03d6-21d8-4a05-8dba-ad6343f7c9aa",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Francine da Silva quiliao",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-28T18:08:51.472Z",
+    "confirmed_at": null
   }
 ]
