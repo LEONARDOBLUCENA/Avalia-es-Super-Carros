@@ -12947,5 +12947,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-28T17:36:39.607Z",
     "confirmed_at": null
+  },
+  {
+    "id": "14ac7685-f11e-4a5f-b44f-c91b82966d0c",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Lorenzo Silva trindade quiliao",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-28T18:08:24.665Z",
+    "confirmed_at": null
   }
 ]
