@@ -12326,11 +12326,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Adler leal",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KTlJ6QjJRbU15YzNaV05rbDFhVGh1WmxjNVVtYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-26T17:30:08.047Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T17:39:53.615Z"
   },
   {
     "id": "aa07cab3-f18a-4a2e-b595-0dd77fcba5ba",
