@@ -11970,11 +11970,11 @@
     "setor": "Fotos",
     "vendedora": "Indianara",
     "cliente_nome_informado": "adelaine fernandes",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21SWk5FZHNXa1J0ZW5STGIyUm1YM2RoWmtRelQzYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-25T17:09:12.347Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T17:28:50.677Z"
   },
   {
     "id": "66d6cf6c-0e55-404a-9269-536297e158c8",
