@@ -12436,11 +12436,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Vitor Hugo",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25GbmNEbEJibGhHUTA1YWVsWm5iazlwUkdkMWRWRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-26T19:27:12.416Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T17:41:58.846Z"
   },
   {
     "id": "29c49f5b-c821-415e-bc6c-890efce6dac9",
