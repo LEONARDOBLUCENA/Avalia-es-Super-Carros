@@ -11700,11 +11700,11 @@
     "setor": "Fotos",
     "vendedora": "Indianara",
     "cliente_nome_informado": "Silas Massarutte",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5S2VtbFBkSE5FV1hCYVR6SnNORXBsUVRCZldrRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-25T13:31:12.609Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T13:32:19.039Z"
   },
   {
     "id": "c0f65858-66db-4d18-82c2-8598a89325b1",
