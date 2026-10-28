@@ -12612,11 +12612,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Bruno Martins",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pkbllWRkJPRWhIWTFSemEyaGtSelZMYkc1ME4yYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-27T13:15:57.675Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T17:47:08.127Z"
   },
   {
     "id": "3ef23ca0-f7bd-4fca-abc5-712e6bc3e325",
