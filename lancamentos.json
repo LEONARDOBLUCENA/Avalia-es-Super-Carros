@@ -12016,11 +12016,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Carol diaz",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pkalZGcDNhR0ZMWWxFeU1qVmZWbTFaTXkxUU5GRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-25T18:02:33.680Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T17:30:35.712Z"
   },
   {
     "id": "97aba39e-d8ec-40e7-a46b-27cc6377ec08",
