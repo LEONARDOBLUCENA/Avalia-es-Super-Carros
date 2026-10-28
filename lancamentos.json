@@ -11913,11 +11913,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Samylla evangelista",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21rM2FqTk5NR3hyUTFvNWJ6VjJSRlJHWmtWSGVGRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-25T16:25:29.986Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T17:27:19.932Z"
   },
   {
     "id": "27055c6d-2800-4f55-9455-8575d4aeabbd",
