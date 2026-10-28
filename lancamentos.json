@@ -12337,11 +12337,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Marcílio porto",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25CeU0yWlVWVVpqWDJaMFJUUTJTRUpqUmtwNWVFRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-26T17:34:58.001Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T17:40:09.430Z"
   },
   {
     "id": "22eb3e1e-603c-453c-a04c-82de67277e72",
