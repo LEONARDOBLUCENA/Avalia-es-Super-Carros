@@ -12148,11 +12148,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Renato dias dzierva",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGU1UxWmpVbUYyTlRNMU0wbzJOMVZXWTFCMlNHYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-25T20:18:51.162Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T17:32:57.321Z"
   },
   {
     "id": "387e46c5-8e75-4f2c-a627-81bd78cf515a",
