@@ -12934,5 +12934,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-28T17:35:44.922Z",
     "confirmed_at": null
+  },
+  {
+    "id": "ebd5d242-a3c1-4458-8f63-eb2fa5fdd526",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Thamyres frayssat",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-28T17:36:39.607Z",
+    "confirmed_at": null
   }
 ]
