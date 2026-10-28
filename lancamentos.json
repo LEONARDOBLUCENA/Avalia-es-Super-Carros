@@ -12137,11 +12137,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Aline Jamile nossabein",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21OdlZGOVNTMVpZWVVaT1dqQm9kakJCVGtSM2FtYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-25T20:17:15.827Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T17:32:48.026Z"
   },
   {
     "id": "46ea613b-1afe-45ff-9f7b-89228155251a",
