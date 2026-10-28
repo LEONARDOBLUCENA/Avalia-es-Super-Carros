@@ -12906,5 +12906,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-28T12:27:29.039Z",
     "confirmed_at": null
+  },
+  {
+    "id": "0ebcbfdf-981d-4458-beaf-fff11cbfab94",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Douglas Henrique",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-28T16:44:11.203Z",
+    "confirmed_at": null
   }
 ]
