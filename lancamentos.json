@@ -12247,11 +12247,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Marcos Hygino",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poTlNtSlZlV0pLVFU1SldtbHRTa2hLY2tWaU1uYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-26T15:24:15.841Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T17:34:44.188Z"
   },
   {
     "id": "ad9064e5-52eb-40d0-bdb1-7ee17477aaeb",
