@@ -12568,11 +12568,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Matheus Marques",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2podVJXNXVOa2xzZDBaemEwOTRTSEpwVEZGSk5IYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-26T21:13:19.953Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T17:44:57.485Z"
   },
   {
     "id": "d0d90fe4-9802-465d-8a50-9725542f1387",
