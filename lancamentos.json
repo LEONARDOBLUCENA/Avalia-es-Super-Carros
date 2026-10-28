@@ -12777,11 +12777,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Samela marcela",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tOb1RVaHhMVXhKYzBGRExWWnFZMWc0VTFScVgxRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-27T18:05:49.608Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T18:24:20.095Z"
   },
   {
     "id": "8068ef99-8f38-42f0-ab67-e332ebc6060b",
