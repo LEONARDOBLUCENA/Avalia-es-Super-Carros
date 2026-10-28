@@ -11744,11 +11744,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Ana ligia",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5aVkycHdkbEZwV1cwNGFFUTFSVTQxZG1GMFFtYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-25T14:36:02.458Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-28T16:56:41.393Z"
   },
   {
     "id": "7f3a22f4-54c8-44ad-994d-53ed5317f970",
