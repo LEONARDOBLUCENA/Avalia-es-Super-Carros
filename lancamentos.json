@@ -13090,5 +13090,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-29T14:14:22.006Z",
     "confirmed_at": null
+  },
+  {
+    "id": "ad41619b-2628-4a2b-9ffb-c681491fff5d",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Claudia bariani",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-29T14:44:37.340Z",
+    "confirmed_at": null
   }
 ]
