@@ -12964,11 +12964,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Francine da Silva quiliao",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21SNlNEaFNiREJpTFc1VlZVVTRSbTltUTB0SWIwRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-28T18:08:51.472Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-29T17:54:34.987Z"
   },
   {
     "id": "87323e5f-e2da-4fb9-9221-b016605a2a84",
