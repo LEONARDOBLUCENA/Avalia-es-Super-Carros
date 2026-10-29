@@ -13123,5 +13123,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-29T16:14:28.378Z",
     "confirmed_at": null
+  },
+  {
+    "id": "6fe905a6-fe26-4b5e-82c3-b63a2db062e2",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Jonathan Felipe maia",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-29T17:30:37.138Z",
+    "confirmed_at": null
   }
 ]
