@@ -13211,5 +13211,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-29T17:48:47.083Z",
     "confirmed_at": null
+  },
+  {
+    "id": "847cd51b-d0a9-4ace-a08e-f4f11fd2a976",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Le Carvalho",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-29T17:48:58.806Z",
+    "confirmed_at": null
   }
 ]
