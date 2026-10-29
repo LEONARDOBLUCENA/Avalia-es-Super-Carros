@@ -12975,11 +12975,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Ketlyn scain",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21ORlVXUmtMWGx4VjBkNloxUktXVEI0UkhSallVRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-28T19:09:21.326Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-29T17:54:47.814Z"
   },
   {
     "id": "bacff07c-1966-49c7-b069-0cfb8ff0df5d",
