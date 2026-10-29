@@ -12931,11 +12931,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Italo Ayres",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2paYVgySlFZVkF4T1RRMk1uVlljMWRXVldOWGVVRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-28T17:35:44.922Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-29T17:53:17.014Z"
   },
   {
     "id": "ebd5d242-a3c1-4458-8f63-eb2fa5fdd526",
