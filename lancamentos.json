@@ -13266,5 +13266,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-29T18:59:29.031Z",
     "confirmed_at": null
+  },
+  {
+    "id": "f4e40050-28d1-46e9-bad4-e74f582e6461",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Ana Sofia Santiago de souza",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-29T19:10:47.685Z",
+    "confirmed_at": null
   }
 ]
