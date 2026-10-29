@@ -13030,11 +13030,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Priscila Lisboa",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKZk0wUTFUelp2V201b1ZrdE9ZVGgwZUZWQlZHYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-28T20:33:34.518Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-29T17:56:28.801Z"
   },
   {
     "id": "90f24c4b-2460-46b8-9bb8-3e34d8819cb3",
