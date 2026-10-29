@@ -13134,5 +13134,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-29T17:30:37.138Z",
     "confirmed_at": null
+  },
+  {
+    "id": "56e2c9f9-2d4a-47f7-b4a5-2003a2d2c6c8",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Natalieli ferreira",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-29T17:31:12.428Z",
+    "confirmed_at": null
   }
 ]
