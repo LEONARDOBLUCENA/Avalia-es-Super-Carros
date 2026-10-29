@@ -13107,11 +13107,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Naelson Cesar shekh de mesquita",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xFNVkwUnVPRnBCYnpKVE0xOWxUbk5QYXpodFNrRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-29T16:13:25.110Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-29T17:58:49.191Z"
   },
   {
     "id": "59e51572-6351-49af-9b91-a2ccb7fecf24",
