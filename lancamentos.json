@@ -12942,11 +12942,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Thamyres frayssat",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25kTWJDMVFka0ZHZWxCRGIxbGpUbWxUYVV4VFZFRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-28T17:36:39.607Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-29T17:53:26.360Z"
   },
   {
     "id": "14ac7685-f11e-4a5f-b44f-c91b82966d0c",
