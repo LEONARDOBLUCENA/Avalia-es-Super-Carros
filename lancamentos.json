@@ -13178,5 +13178,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-29T17:47:39.453Z",
     "confirmed_at": null
+  },
+  {
+    "id": "788de6a4-414e-4f78-8da1-a1693a1bf702",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Janielle Oliveira",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-29T17:47:54.506Z",
+    "confirmed_at": null
   }
 ]
