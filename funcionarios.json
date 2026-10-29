@@ -124,5 +124,11 @@
     "nome": "Giovane",
     "setor": "Instrutor",
     "created_at": "2026-10-28T18:33:09.509Z"
+  },
+  {
+    "id": "0fd3d664-6baa-4074-9f95-b6d5795a7315",
+    "nome": "Pedro",
+    "setor": "Instrutor",
+    "created_at": "2026-10-29T18:12:35.854Z"
   }
 ]
