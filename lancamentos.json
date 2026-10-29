@@ -13222,5 +13222,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-29T17:48:58.806Z",
     "confirmed_at": null
+  },
+  {
+    "id": "1660a818-5219-4ff7-9fc3-b082d1a02032",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Jaine Piruk",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-29T17:49:11.511Z",
+    "confirmed_at": null
   }
 ]
