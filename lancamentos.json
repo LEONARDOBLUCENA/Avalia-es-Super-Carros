@@ -13008,11 +13008,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Neidianne lima",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kxUU1WRTVMVXhYT0VGYWJIRm9MVzl2U2tGZmJVRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-28T19:18:29.175Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-29T17:55:16.011Z"
   },
   {
     "id": "47bf7622-9d41-4523-a828-f52eda584b25",
