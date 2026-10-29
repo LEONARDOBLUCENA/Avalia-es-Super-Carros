@@ -13233,5 +13233,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-29T17:49:11.511Z",
     "confirmed_at": null
+  },
+  {
+    "id": "5b44b010-28ba-4bd9-b274-e03ba9dcf28f",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "André Rodrigues Agente Autônomo de Investimentos",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-29T17:50:29.229Z",
+    "confirmed_at": null
   }
 ]
