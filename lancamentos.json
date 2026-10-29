@@ -13288,5 +13288,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-29T19:11:09.492Z",
     "confirmed_at": null
+  },
+  {
+    "id": "4733e72e-f329-4fe4-9f8d-eca039e6439b",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Hiago Horan",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-29T22:12:20.310Z",
+    "confirmed_at": null
   }
 ]
