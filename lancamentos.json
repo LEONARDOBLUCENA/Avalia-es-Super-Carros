@@ -13255,5 +13255,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-29T17:50:47.287Z",
     "confirmed_at": null
+  },
+  {
+    "id": "6400208c-2dbc-4cf0-9eea-7beb8b0ea2c4",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Natália Tavares",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-29T18:59:29.031Z",
+    "confirmed_at": null
   }
 ]
