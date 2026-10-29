@@ -13063,11 +13063,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Paula Bonfim",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KQmJIUkRTRXhqT0VnNFowUnFUbHBmY0dwdFNXYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-29T13:31:11.728Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-29T17:58:11.501Z"
   },
   {
     "id": "23e85c2c-f25b-40d1-b381-5b3d0e5544c8",
