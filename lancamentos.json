@@ -13074,11 +13074,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Leonardo Machado",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT200dFluaDZhVzVvTnpaaVprUkdaVTlQVmpaS2FrRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-29T14:13:40.033Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-29T17:58:21.271Z"
   },
   {
     "id": "1ee9fdf9-b0d0-44e6-bc4f-f1b0c09923e5",
