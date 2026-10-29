@@ -1,5 +1,208 @@
 [
   {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tWWGIzcEdWRGMxWmpRelVuQXpOMFZ0V21GSE4zYxAB",
+    "author_name": "André Rodrigues Agente Autônomo de Investimentos",
+    "rating": 4,
+    "review_text": "Ok",
+    "review_time": "2026-10-29T16:26:40.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGMVgzbFpSM1p0YkdFNWRYSmFiMjVCYURkTVVYYxAB",
+    "author_name": "Ana Mesquita",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-29T16:14:09.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xFNVkwUnVPRnBCYnpKVE0xOWxUbk5QYXpodFNrRRAB",
+    "author_name": "naelson cesar shekh de mesquita",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-29T16:12:41.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pkSWFXSnZhelpVTkhOMlgyZzRla1pXWXpsaVRVRRAB",
+    "author_name": "Jaine Piruk",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-29T15:12:31.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poalF6WXllbGhUWVZOQlNHRnZiVFJRWjNGUmVVRRAB",
+    "author_name": "Le Carvalho",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-29T14:51:11.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25KUWVUWmxTbEk1U21aTVJGWm9PSGRFZERCV2RYYxAB",
+    "author_name": "Walter Oliveira",
+    "rating": 5,
+    "review_text": "Ótimo muito top",
+    "review_time": "2026-10-29T14:49:42.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tWeU9UY3lWalpNYlZkSFMyZERZVEZ4UmxreGVsRRAB",
+    "author_name": "Claudia Bariani",
+    "rating": 5,
+    "review_text": "Muito boa. O passeio foi maravilhoso e o atendimento muito eficiente. Adoramos!!!!!",
+    "review_time": "2026-10-29T14:45:10.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25jeWFWTlRYMmhmWWxsclNWTjZiblJOWkZOT00zYxAB",
+    "author_name": "Alexandre Disraelle",
+    "rating": 5,
+    "review_text": "Vale cada centavo",
+    "review_time": "2026-10-29T14:21:41.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xOaGVIbG1hSGRhV0RsVmRqWlFTbUpsZG1velZYYxAB",
+    "author_name": "Ana Clara Freitas Guimarães",
+    "rating": 5,
+    "review_text": "Local bem agradável e profissionais maravilhosos, vale a visita!",
+    "review_time": "2026-10-29T14:17:33.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT200dFluaDZhVzVvTnpaaVprUkdaVTlQVmpaS2FrRRAB",
+    "author_name": "Leonardo Machado",
+    "rating": 5,
+    "review_text": "Excelente experiência de dirigir um super carro com atendimento bastante simpático de todos!",
+    "review_time": "2026-10-29T14:14:30.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2toSmNIQm5NMkppVTFBNGQwSmFOV1pHUzA1d1kzYxAB",
+    "author_name": "Janayna Moura (Nyna)",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-29T13:53:43.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pkMVVIazJTVE5oVVdnd2EyczRaakJZZGw5eWVWRRAB",
+    "author_name": "Patricia Schumacher",
+    "rating": 5,
+    "review_text": "Ótima!!!",
+    "review_time": "2026-10-29T13:39:51.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KQmJIUkRTRXhqT0VnNFowUnFUbHBmY0dwdFNXYxAB",
+    "author_name": "Paula Bonfim",
+    "rating": 5,
+    "review_text": "Excelente!",
+    "review_time": "2026-10-29T13:31:00.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KS09FNVVaR0V3YWpBeGNYcHdUak5xVURkQlRWRRAB",
+    "author_name": "Jaime Rodrigues",
+    "rating": 5,
+    "review_text": "Vale muito a pena",
+    "review_time": "2026-10-28T21:10:05.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21VNWIxOU1YelUzVTBaV2VFTmhMVXA1TURSak5FRRAB",
+    "author_name": "Tássia Silva",
+    "rating": 5,
+    "review_text": "Excelente ambiente.<br>Passeio super válido, amei.",
+    "review_time": "2026-10-28T21:01:10.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGUWVFVkxSVkJCZWtOemF6TjFWRFk0Y2tGdGIyYxAB",
+    "author_name": "Maykon Fernandes",
+    "rating": 5,
+    "review_text": "Inesquecível",
+    "review_time": "2026-10-28T20:36:46.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKZk0wUTFUelp2V201b1ZrdE9ZVGgwZUZWQlZHYxAB",
+    "author_name": "Priscila Lisboa",
+    "rating": 5,
+    "review_text": "Excelente experiência e atendimento!",
+    "review_time": "2026-10-28T20:33:32.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25GMFdVcGFXbkJyYXpORk1reEdjR2RZYjBZNE5FRRAB",
+    "author_name": "Pedro Augusto",
+    "rating": 5,
+    "review_text": "Excelente!",
+    "review_time": "2026-10-28T20:05:32.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1bGRYbEZTV05xYkdGSk5rRlNhRjlwVkRsV2NHYxAB",
+    "author_name": "Filipe Coutinho Fernandes",
+    "rating": 5,
+    "review_text": "Uma baita experiência que revive a sua \"criança interna\". Os funcionários são super atenciosos até pelo fato de quererem te vender algo mas também por personalidade mesmo. Fomos atendidos pela Fernanda, na venda do passeio guiado, pelo Eliézer como instrutor do veículos, por um rapaz alto na sessão de fotos na Lamborghini (não perguntei o nome) e pelo Rafael(não me do recordo o nome) no simulador estático. Todos super atenciosos. Recomendo!",
+    "review_time": "2026-10-28T19:44:25.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kxUU1WRTVMVXhYT0VGYWJIRm9MVzl2U2tGZmJVRRAB",
+    "author_name": "Neidianne Lima",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-28T19:18:33.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25CcU5HODJkMFZ4UVdoWFgwSnljV3hVY2w5R1YzYxAB",
+    "author_name": "EDNA BULL EDNA",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-28T19:15:08.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21Fd2EwOWFPRTFNTTBVd2FHNUVhMUZUYzBVelNVRRAB",
+    "author_name": "Edgar Jacob",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-28T19:11:01.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21ORlVXUmtMWGx4VjBkNloxUktXVEI0UkhSallVRRAB",
+    "author_name": "Ketlyn Scain",
+    "rating": 4,
+    "review_text": "",
+    "review_time": "2026-10-28T19:09:20.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KWWVrMVhaMHhCVTNZdFRVaEpSMU40TjNoZldrRRAB",
+    "author_name": "Lorenzo Silva Trindade Quilião",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-28T18:08:17.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21SNlNEaFNiREJpTFc1VlZVVTRSbTltUTB0SWIwRRAB",
+    "author_name": "Francine da Silva Quilião",
+    "rating": 5,
+    "review_text": "Otima",
+    "review_time": "2026-10-28T18:08:17.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2paYVgySlFZVkF4T1RRMk1uVlljMWRXVldOWGVVRRAB",
+    "author_name": "Ítalo Ayres",
+    "rating": 5,
+    "review_text": "Experiência Incrível!!! Os esportivos sao maravilhosos, lindos, diversos. Carros que mais curti foram ferrari portofino, maclaren, porsche boxter. Dirigi a porsche !!!! Queria deixar um elogio especial para Bruno e Cleide, o atendimento deles foi un diferencial.",
+    "review_time": "2026-10-28T17:39:22.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25kTWJDMVFka0ZHZWxCRGIxbGpUbWxUYVV4VFZFRRAB",
+    "author_name": "Thamyres Frayssat",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-10-28T17:36:46.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tSd01YZFhSSEoyYUdKS1RIbGtTM0J0UW1sS1IxRRAB",
+    "author_name": "Talita Carvalho",
+    "rating": 5,
+    "review_text": "Amamos! Os carros são lindos e de alta qualidade n",
+    "review_time": "2026-10-28T16:44:38.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tnemRGWnZOVmRtVTFkNmRUVXRPSFpJY25aNVdrRRAB",
+    "author_name": "Douglas Henrique",
+    "rating": 5,
+    "review_text": "Pessoal muito educado e cordial, experiência única",
+    "review_time": "2026-10-28T16:44:32.000Z"
+  },
+  {
     "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25WeU1FWTJTVE5UYm5oMFZVNW1iM2xVYjJkWmRVRRAB",
     "author_name": "Pedro Fedrigo",
     "rating": 3,
