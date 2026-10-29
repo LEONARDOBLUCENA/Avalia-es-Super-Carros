@@ -13112,5 +13112,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-29T16:13:25.110Z",
     "confirmed_at": null
+  },
+  {
+    "id": "59e51572-6351-49af-9b91-a2ccb7fecf24",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Ana mesquita",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-29T16:14:28.378Z",
+    "confirmed_at": null
   }
 ]
