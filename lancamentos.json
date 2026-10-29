@@ -13118,11 +13118,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Ana mesquita",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGMVgzbFpSM1p0YkdFNWRYSmFiMjVCYURkTVVYYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-29T16:14:28.378Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-29T17:58:58.603Z"
   },
   {
     "id": "6fe905a6-fe26-4b5e-82c3-b63a2db062e2",
