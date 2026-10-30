@@ -13241,11 +13241,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "André Rodrigues Agente Autônomo de Investimentos",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tWWGIzcEdWRGMxWmpRelVuQXpOMFZ0V21GSE4zYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-29T17:50:29.229Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-30T18:26:48.324Z"
   },
   {
     "id": "0c22868c-108c-4337-98e3-6c9d69df2c49",
