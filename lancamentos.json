@@ -13129,11 +13129,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Jonathan Felipe maia",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pad1MzaE9SRUZoTkMxdExUSjZhRmw0WlRGUmRGRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-29T17:30:37.138Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-30T18:24:55.371Z"
   },
   {
     "id": "56e2c9f9-2d4a-47f7-b4a5-2003a2d2c6c8",
