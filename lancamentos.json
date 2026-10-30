@@ -13541,5 +13541,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-30T17:33:47.719Z",
     "confirmed_at": null
+  },
+  {
+    "id": "125de741-7dda-4e15-8bcc-da7afca9d9b2",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "3 SGT PM Thiago Lopes",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-30T17:34:12.975Z",
+    "confirmed_at": null
   }
 ]
