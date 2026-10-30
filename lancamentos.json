@@ -13508,5 +13508,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-30T17:01:18.729Z",
     "confirmed_at": null
+  },
+  {
+    "id": "7f797a72-ba00-46bf-bff2-9e9e0a99f1e1",
+    "setor": "Fotos",
+    "vendedora": "Indianara",
+    "cliente_nome_informado": "Bruno Vasconcellos",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-30T17:24:34.259Z",
+    "confirmed_at": null
   }
 ]
