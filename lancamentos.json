@@ -13442,5 +13442,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-30T14:50:08.369Z",
     "confirmed_at": null
+  },
+  {
+    "id": "592578ed-fc8a-47c0-888f-2afe31943eeb",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Felipe Cabral",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-30T14:51:42.670Z",
+    "confirmed_at": null
   }
 ]
