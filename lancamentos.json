@@ -13296,11 +13296,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Hiago Horan",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pGVmNHWnpOR3d0UTJFM09FNWpieloyTlhGV2RVRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-29T22:12:20.310Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-30T18:27:36.297Z"
   },
   {
     "id": "4239ca96-46aa-49da-9bd0-e417493d443e",
