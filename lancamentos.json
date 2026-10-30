@@ -13420,5 +13420,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-30T14:43:55.126Z",
     "confirmed_at": null
+  },
+  {
+    "id": "70230923-16a2-4151-aeb0-690c70436b53",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Ewelyn Araújo Ferreira",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-30T14:44:20.760Z",
+    "confirmed_at": null
   }
 ]
