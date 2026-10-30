@@ -13373,11 +13373,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Lucas Silverol",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25sclRqRmhTVWd6UXpsNGJFUmxibmRIYUVoV1pVRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-30T14:10:39.607Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-30T18:29:03.481Z"
   },
   {
     "id": "eeb710ca-7d20-4ea5-ad30-9e94b3afdbae",
