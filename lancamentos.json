@@ -13708,5 +13708,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-30T20:16:45.855Z",
     "confirmed_at": null
+  },
+  {
+    "id": "c3741533-2fc3-4074-b25b-8a2c4044c38c",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Patricia martinez",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-30T20:18:16.037Z",
+    "confirmed_at": null
   }
 ]
