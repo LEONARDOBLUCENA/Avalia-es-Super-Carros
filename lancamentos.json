@@ -13376,5 +13376,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-30T14:10:39.607Z",
     "confirmed_at": null
+  },
+  {
+    "id": "eeb710ca-7d20-4ea5-ad30-9e94b3afdbae",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Ana Carla",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-30T14:10:59.176Z",
+    "confirmed_at": null
   }
 ]
