@@ -13329,11 +13329,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Leo RL",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21jMFRFaDJVelJLWnpSbVVIVm9OamMyWTFobVpXYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-29T22:15:12.633Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-30T18:28:02.868Z"
   },
   {
     "id": "b080f2c4-b550-46a8-b3da-845f95d3556f",
