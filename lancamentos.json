@@ -13151,11 +13151,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Patricia Schumacher",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pkMVVIazJTVE5oVVdnd2EyczRaakJZZGw5eWVWRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-29T17:46:49.834Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-30T18:25:14.302Z"
   },
   {
     "id": "dd2a30f5-a135-412c-8a00-6d0816313324",
