@@ -13398,5 +13398,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-30T14:11:15.148Z",
     "confirmed_at": null
+  },
+  {
+    "id": "79ee8a40-2191-4bb1-885e-36f287c2dbe3",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Maria Emyly",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-30T14:11:26.565Z",
+    "confirmed_at": null
   }
 ]
