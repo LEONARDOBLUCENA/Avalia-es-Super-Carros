@@ -13162,11 +13162,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Janayna Moura (Nyna)",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2toSmNIQm5NMkppVTFBNGQwSmFOV1pHUzA1d1kzYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-29T17:47:29.967Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-30T18:25:23.414Z"
   },
   {
     "id": "d60bf904-e9d9-49f6-b094-74d7bfa8a082",
