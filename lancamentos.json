@@ -13406,11 +13406,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Maria Emyly",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25SME5tODRWbVZWZWxreGMyNDVaV2RZY0dKZlZtYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-30T14:11:26.565Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-30T18:29:31.217Z"
   },
   {
     "id": "54a93b74-5e2c-4b2d-920d-b018dbbfe124",
