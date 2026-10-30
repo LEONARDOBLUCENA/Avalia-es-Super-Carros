@@ -13354,5 +13354,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-30T00:23:22.498Z",
     "confirmed_at": null
+  },
+  {
+    "id": "dab181a6-fbcd-4f22-984c-1bb5e850ea9b",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Leandro Barbosa",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-30T00:23:38.038Z",
+    "confirmed_at": null
   }
 ]
