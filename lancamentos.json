@@ -13173,11 +13173,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Laura Amorim",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pJd1dVNU5NRjlQY25nemJrdEdka3c1VERrd1dHYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-29T17:47:39.453Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-30T18:25:31.814Z"
   },
   {
     "id": "788de6a4-414e-4f78-8da1-a1693a1bf702",
