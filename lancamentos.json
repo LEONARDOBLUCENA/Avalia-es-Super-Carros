@@ -13140,11 +13140,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Natalieli ferreira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2psbFUwTlJNa2RDU2tGVlJWZFJTa1IzY0hSelRGRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-29T17:31:12.428Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-30T18:25:05.468Z"
   },
   {
     "id": "05e41a05-6b84-48bc-b740-c771bb199d4d",
