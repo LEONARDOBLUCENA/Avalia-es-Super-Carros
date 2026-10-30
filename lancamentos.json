@@ -13417,11 +13417,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Marcão paulino",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tkWk4wVldiRWhmZHpsRk5tNHpaSFZsZFRoV1RIYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-30T14:43:55.126Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-30T18:29:45.688Z"
   },
   {
     "id": "70230923-16a2-4151-aeb0-690c70436b53",
