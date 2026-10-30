@@ -13631,5 +13631,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-30T18:34:37.239Z",
     "confirmed_at": null
+  },
+  {
+    "id": "3ffe9960-a3f3-4dd3-8364-5d39e6710852",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Alexandre Oliveira",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-30T20:15:17.037Z",
+    "confirmed_at": null
   }
 ]
