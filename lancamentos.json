@@ -13519,5 +13519,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-30T17:24:34.259Z",
     "confirmed_at": null
+  },
+  {
+    "id": "8fd1367c-cc74-4c80-980a-29412e4bedd5",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Rafael Saar - Consultor",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-30T17:33:18.655Z",
+    "confirmed_at": null
   }
 ]
