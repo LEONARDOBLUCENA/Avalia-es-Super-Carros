@@ -13574,5 +13574,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-30T17:40:51.752Z",
     "confirmed_at": null
+  },
+  {
+    "id": "ec8fe75c-2352-4206-a6a9-e1212df5f00b",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Stanlley aguiar",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-30T18:18:35.727Z",
+    "confirmed_at": null
   }
 ]
