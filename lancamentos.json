@@ -13208,11 +13208,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Walter Oliveira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25KUWVUWmxTbEk1U21aTVJGWm9PSGRFZERCV2RYYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-29T17:48:47.083Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-30T18:26:19.632Z"
   },
   {
     "id": "847cd51b-d0a9-4ace-a08e-f4f11fd2a976",
