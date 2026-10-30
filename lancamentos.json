@@ -13607,5 +13607,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-30T18:23:09.130Z",
     "confirmed_at": null
+  },
+  {
+    "id": "90d66dc4-fc5f-42fc-9781-bc8986bb4b21",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Emerson de faria",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-30T18:23:59.347Z",
+    "confirmed_at": null
   }
 ]
