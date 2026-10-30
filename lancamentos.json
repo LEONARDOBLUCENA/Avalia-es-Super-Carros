@@ -13697,5 +13697,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-30T20:16:33.826Z",
     "confirmed_at": null
+  },
+  {
+    "id": "5df7bb98-c37a-4499-a454-a4c2b7f16632",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Bruna gauer",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-30T20:16:45.855Z",
+    "confirmed_at": null
   }
 ]
