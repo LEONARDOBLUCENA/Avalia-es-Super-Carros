@@ -13642,5 +13642,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-30T20:15:17.037Z",
     "confirmed_at": null
+  },
+  {
+    "id": "23b77074-fc25-4b4e-bed6-5ae95cc8b0ce",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Celiane pontes",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-30T20:15:29.488Z",
+    "confirmed_at": null
   }
 ]
