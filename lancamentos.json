@@ -13332,5 +13332,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-29T22:15:12.633Z",
     "confirmed_at": null
+  },
+  {
+    "id": "b080f2c4-b550-46a8-b3da-845f95d3556f",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Candle & Aroma",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-30T00:23:13.557Z",
+    "confirmed_at": null
   }
 ]
