@@ -13620,5 +13620,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-30T18:23:59.347Z",
     "confirmed_at": null
+  },
+  {
+    "id": "87086147-f70e-4b11-8f55-bf10ef8ef005",
+    "setor": "Fotos",
+    "vendedora": "Indianara",
+    "cliente_nome_informado": "Andre Felipe",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-30T18:34:37.239Z",
+    "confirmed_at": null
   }
 ]
