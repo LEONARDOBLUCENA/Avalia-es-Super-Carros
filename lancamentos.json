@@ -13741,5 +13741,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-30T20:19:28.640Z",
     "confirmed_at": null
+  },
+  {
+    "id": "3524cc26-1fe0-46b3-bef9-dae7c2036a65",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Guille Schneider",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-30T20:19:55.972Z",
+    "confirmed_at": null
   }
 ]
