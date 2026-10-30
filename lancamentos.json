@@ -13387,5 +13387,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-30T14:10:59.176Z",
     "confirmed_at": null
+  },
+  {
+    "id": "81ff922f-bd52-4c28-a51a-3bcaf61e4c8a",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Lucas Tojal Varjão",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-30T14:11:15.148Z",
+    "confirmed_at": null
   }
 ]
