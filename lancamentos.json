@@ -13230,11 +13230,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Jaine Piruk",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pkSWFXSnZhelpVTkhOMlgyZzRla1pXWXpsaVRVRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-29T17:49:11.511Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-30T18:26:37.471Z"
   },
   {
     "id": "5b44b010-28ba-4bd9-b274-e03ba9dcf28f",
