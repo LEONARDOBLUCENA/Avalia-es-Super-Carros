@@ -13409,5 +13409,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-30T14:11:26.565Z",
     "confirmed_at": null
+  },
+  {
+    "id": "54a93b74-5e2c-4b2d-920d-b018dbbfe124",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Marcão paulino",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-30T14:43:55.126Z",
+    "confirmed_at": null
   }
 ]
