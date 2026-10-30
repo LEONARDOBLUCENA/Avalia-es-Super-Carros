@@ -13384,11 +13384,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Ana Carla",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21OR1ZtWk9kM0ZPYVRSYWFqUmxlazF1WVVOeFMwRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-30T14:10:59.176Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-10-30T18:29:12.143Z"
   },
   {
     "id": "81ff922f-bd52-4c28-a51a-3bcaf61e4c8a",
