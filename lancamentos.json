@@ -13497,5 +13497,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-30T16:38:17.648Z",
     "confirmed_at": null
+  },
+  {
+    "id": "4cd9c850-ab73-488c-a899-15c40ce738f0",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Flávio Andrade",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-30T17:01:18.729Z",
+    "confirmed_at": null
   }
 ]
