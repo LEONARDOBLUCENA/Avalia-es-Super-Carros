@@ -13950,5 +13950,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-31T03:34:50.201Z",
     "confirmed_at": null
+  },
+  {
+    "id": "4d12c7e8-0b14-4183-9395-0a8e4221dcae",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "João Antônio Petry",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-31T03:35:36.271Z",
+    "confirmed_at": null
   }
 ]
