@@ -13939,5 +13939,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-31T03:33:34.437Z",
     "confirmed_at": null
+  },
+  {
+    "id": "290460ba-e204-483d-ae21-b6df0fda39da",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Matheus Emanuel",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-31T03:34:50.201Z",
+    "confirmed_at": null
   }
 ]
