@@ -13840,5 +13840,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-31T03:26:04.959Z",
     "confirmed_at": null
+  },
+  {
+    "id": "6d225cb6-bce9-4689-9bc0-c329983cf11a",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Mical Melo",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-31T03:27:46.497Z",
+    "confirmed_at": null
   }
 ]
