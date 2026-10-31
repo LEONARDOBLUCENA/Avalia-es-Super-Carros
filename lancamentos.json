@@ -14016,5 +14016,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-31T03:57:44.886Z",
     "confirmed_at": null
+  },
+  {
+    "id": "378fb475-c050-4deb-8659-54491ebe408d",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "leonardo choppa",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-31T03:58:25.691Z",
+    "confirmed_at": null
   }
 ]
