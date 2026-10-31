@@ -14082,5 +14082,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-31T22:57:28.496Z",
     "confirmed_at": null
+  },
+  {
+    "id": "88921f79-7f02-4001-8ce4-e1d2878a7dfb",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Bruno Vidal",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-31T22:59:17.668Z",
+    "confirmed_at": null
   }
 ]
