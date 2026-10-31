@@ -13807,5 +13807,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-30T21:57:11.102Z",
     "confirmed_at": null
+  },
+  {
+    "id": "5cb75563-9367-4550-a114-c9a0190df419",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "João Fantini",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-31T00:29:53.644Z",
+    "confirmed_at": null
   }
 ]
