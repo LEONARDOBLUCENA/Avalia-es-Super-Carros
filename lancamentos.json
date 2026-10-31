@@ -13983,5 +13983,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-31T03:45:49.865Z",
     "confirmed_at": null
+  },
+  {
+    "id": "bd6e4bf2-e460-4e5b-8be1-5e31cc335cbc",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Fábio De Paula",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-31T03:55:10.206Z",
+    "confirmed_at": null
   }
 ]
