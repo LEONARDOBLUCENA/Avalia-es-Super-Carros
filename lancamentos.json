@@ -13928,5 +13928,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-31T03:33:01.423Z",
     "confirmed_at": null
+  },
+  {
+    "id": "3a31255d-3336-4c42-a135-58b250a99e28",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Maryana Luzia Souto Barbosa",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-31T03:33:34.437Z",
+    "confirmed_at": null
   }
 ]
