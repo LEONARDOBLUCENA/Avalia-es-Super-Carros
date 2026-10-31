@@ -13906,5 +13906,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-31T03:30:53.537Z",
     "confirmed_at": null
+  },
+  {
+    "id": "5cb5705a-8c01-42d6-a212-09432a7b7e20",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Marina emanuele",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-31T03:32:34.165Z",
+    "confirmed_at": null
   }
 ]
