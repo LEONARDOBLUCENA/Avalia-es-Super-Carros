@@ -13972,5 +13972,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-31T03:35:58.200Z",
     "confirmed_at": null
+  },
+  {
+    "id": "d416a972-8005-4782-aeb4-84df79465adb",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "De Exe",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-31T03:45:49.865Z",
+    "confirmed_at": null
   }
 ]
