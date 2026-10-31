@@ -13851,5 +13851,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-31T03:27:46.497Z",
     "confirmed_at": null
+  },
+  {
+    "id": "3888a759-0bf7-4a75-afad-1b4b5b387d2a",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Vanessa Veronesi",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-31T03:28:03.236Z",
+    "confirmed_at": null
   }
 ]
