@@ -14214,5 +14214,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-31T23:07:04.482Z",
     "confirmed_at": null
+  },
+  {
+    "id": "785e3e6f-0775-4dfa-83f7-1613969d93de",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Luis Gustavo Narciso",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-31T23:08:54.754Z",
+    "confirmed_at": null
   }
 ]
