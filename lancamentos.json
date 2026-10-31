@@ -14203,5 +14203,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-31T23:06:12.410Z",
     "confirmed_at": null
+  },
+  {
+    "id": "a30009fd-6e64-4c63-836c-2f9bd33c6640",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Pedro henrique",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-31T23:07:04.482Z",
+    "confirmed_at": null
   }
 ]
