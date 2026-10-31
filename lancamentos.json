@@ -13829,5 +13829,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-31T00:30:13.366Z",
     "confirmed_at": null
+  },
+  {
+    "id": "8cfd46de-7904-4456-a439-98790c5c6cb9",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "RODRIGO CANDIDO SANTOS",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-31T03:26:04.959Z",
+    "confirmed_at": null
   }
 ]
