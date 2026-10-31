@@ -14071,5 +14071,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-31T22:56:47.323Z",
     "confirmed_at": null
+  },
+  {
+    "id": "70cf4b1a-9717-43b6-a0e2-8a3c71ce8497",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Andrea Mangoni",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-31T22:57:28.496Z",
+    "confirmed_at": null
   }
 ]
