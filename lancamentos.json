@@ -13895,5 +13895,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-31T03:30:23.715Z",
     "confirmed_at": null
+  },
+  {
+    "id": "82163916-1e5b-43d5-976a-b538fc400287",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Mariane Magalhães",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-31T03:30:53.537Z",
+    "confirmed_at": null
   }
 ]
