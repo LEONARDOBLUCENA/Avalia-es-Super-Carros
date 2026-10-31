@@ -14060,5 +14060,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-31T22:56:05.253Z",
     "confirmed_at": null
+  },
+  {
+    "id": "df7a3492-c2dd-4584-8bd0-05bdc4d6742d",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Leonardo Tito",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-31T22:56:47.323Z",
+    "confirmed_at": null
   }
 ]
