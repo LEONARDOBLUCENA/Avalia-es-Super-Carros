@@ -14038,5 +14038,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-31T03:59:02.813Z",
     "confirmed_at": null
+  },
+  {
+    "id": "18a21de8-a991-4394-8030-22d3a5bba365",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Tk saga",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-31T04:01:34.449Z",
+    "confirmed_at": null
   }
 ]
