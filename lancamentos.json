@@ -14093,5 +14093,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-31T22:59:17.668Z",
     "confirmed_at": null
+  },
+  {
+    "id": "2465028e-3361-4648-bc83-7feb6fd21794",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Felipe Aguiar",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-10-31T23:00:12.400Z",
+    "confirmed_at": null
   }
 ]
