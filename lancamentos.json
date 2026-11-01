@@ -14357,5 +14357,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-01T23:15:03.270Z",
     "confirmed_at": null
+  },
+  {
+    "id": "ab588926-374b-4054-9b28-a2bcc9509959",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Richard Roslaniec",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-01T23:17:41.884Z",
+    "confirmed_at": null
   }
 ]
