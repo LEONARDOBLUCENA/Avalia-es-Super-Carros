@@ -14390,5 +14390,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-01T23:19:07.507Z",
     "confirmed_at": null
+  },
+  {
+    "id": "c897a32e-654a-46a4-a29a-477c074467da",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Daiane schmegelmartins",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-01T23:19:47.477Z",
+    "confirmed_at": null
   }
 ]
