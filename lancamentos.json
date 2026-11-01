@@ -14511,5 +14511,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-01T23:24:54.742Z",
     "confirmed_at": null
+  },
+  {
+    "id": "de7377d2-cdbf-4cd3-80bc-e6dc477bb1d0",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Bruna albuquerque",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-01T23:25:30.060Z",
+    "confirmed_at": null
   }
 ]
