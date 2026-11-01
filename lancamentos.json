@@ -14236,5 +14236,16 @@
     "mes_referencia": null,
     "created_at": "2026-10-31T23:10:11.977Z",
     "confirmed_at": null
+  },
+  {
+    "id": "851095f0-0404-40e6-905d-e0e738819361",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "SULServer",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-01T13:28:18.725Z",
+    "confirmed_at": null
   }
 ]
