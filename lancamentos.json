@@ -14346,5 +14346,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-01T23:14:37.339Z",
     "confirmed_at": null
+  },
+  {
+    "id": "168689c6-5ad7-48f1-bedd-9ab3bff96397",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Sadayuki Yonekura",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-01T23:15:03.270Z",
+    "confirmed_at": null
   }
 ]
