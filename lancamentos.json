@@ -14423,5 +14423,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-01T23:20:54.637Z",
     "confirmed_at": null
+  },
+  {
+    "id": "5633a3a8-f572-4948-958f-8771b0ad1842",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Marco Antonio Matos",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-01T23:21:23.380Z",
+    "confirmed_at": null
   }
 ]
