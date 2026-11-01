@@ -14500,5 +14500,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-01T23:24:35.500Z",
     "confirmed_at": null
+  },
+  {
+    "id": "752ab983-7b3a-44fe-8f25-b183692a983a",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Amanda Rios Martins",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-01T23:24:54.742Z",
+    "confirmed_at": null
   }
 ]
