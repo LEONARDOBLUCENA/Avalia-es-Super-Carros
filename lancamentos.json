@@ -14132,11 +14132,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Alan Victor Freires",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pWUk55MVdlVlJ0WVVWd1VrWnBTRmxOYm1NME9HYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-31T23:03:05.637Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-02T16:42:25.344Z"
   },
   {
     "id": "b30e803b-b6a6-40a3-9235-1459b80fc4bd",
