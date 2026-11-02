@@ -14777,5 +14777,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-02T17:26:07.099Z",
     "confirmed_at": null
+  },
+  {
+    "id": "38fbe108-5b78-4afe-85fa-27dce9d16b15",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Denise paixao",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-02T17:26:16.418Z",
+    "confirmed_at": null
   }
 ]
