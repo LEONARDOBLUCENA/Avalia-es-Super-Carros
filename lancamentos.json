@@ -14997,5 +14997,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-02T22:48:51.768Z",
     "confirmed_at": null
+  },
+  {
+    "id": "e2f9dd2c-ab09-4418-a53c-3f3dfb8b5b8f",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Vinicius da Silva Mello",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-02T22:50:05.197Z",
+    "confirmed_at": null
   }
 ]
