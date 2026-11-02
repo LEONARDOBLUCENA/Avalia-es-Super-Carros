@@ -13857,11 +13857,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Vanessa Veronesi",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21OcmFESlVTek5SZFZCME56Vk9jbDlQTjJSM1kyYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-31T03:28:03.236Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-02T16:25:36.530Z"
   },
   {
     "id": "6a98b011-f492-4399-9de5-bdd848f82680",
