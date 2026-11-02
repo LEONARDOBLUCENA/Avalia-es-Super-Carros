@@ -13527,11 +13527,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Rafael Saar - Consultor",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25vNFFsWkJZbkV3TFV4a1RuZHVOVVEzWm1VM0xXYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-30T17:33:18.655Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-02T14:53:10.665Z"
   },
   {
     "id": "daf49a4b-f57f-4a99-bc87-09a94f30019d",
