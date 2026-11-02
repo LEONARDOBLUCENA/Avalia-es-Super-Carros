@@ -13703,11 +13703,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Bruna gauer",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25NM01sY3lTSFV5YUY5NVIyeExXbFZDVGpFNVJHYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-30T20:16:45.855Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-02T16:01:05.491Z"
   },
   {
     "id": "c3741533-2fc3-4074-b25b-8a2c4044c38c",
