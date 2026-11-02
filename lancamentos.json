@@ -14610,5 +14610,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-02T12:27:32.655Z",
     "confirmed_at": null
+  },
+  {
+    "id": "81f47caa-ba51-474f-8ad7-9c914849c632",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Mauro Corrêa Júnior",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-02T12:27:58.703Z",
+    "confirmed_at": null
   }
 ]
