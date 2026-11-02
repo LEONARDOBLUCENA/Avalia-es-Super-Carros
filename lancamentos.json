@@ -13901,11 +13901,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Mariane Magalhães",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xkZlNGRmhORTFtV0RBMExUUkxNak16YUdwVlIxRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-31T03:30:53.537Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-02T16:26:22.356Z"
   },
   {
     "id": "5cb5705a-8c01-42d6-a212-09432a7b7e20",
