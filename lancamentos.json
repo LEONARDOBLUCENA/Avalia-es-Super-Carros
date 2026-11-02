@@ -14088,11 +14088,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Bruno Vidal",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pkMVNtWllORGN0YWw5TVVqTjZSV3RmZDFwM2NuYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-31T22:59:17.668Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-02T16:35:31.054Z"
   },
   {
     "id": "2465028e-3361-4648-bc83-7feb6fd21794",
