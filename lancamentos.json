@@ -14099,11 +14099,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Felipe Aguiar",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t4TFVHRnJNbUV0UzJWbmRsVlNPVFpTT1ZoVlJsRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-31T23:00:12.400Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-02T16:40:57.737Z"
   },
   {
     "id": "02cce82f-60c5-4bf1-a0c7-d8e4e6342876",
