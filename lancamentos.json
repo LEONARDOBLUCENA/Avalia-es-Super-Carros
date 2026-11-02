@@ -13571,11 +13571,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Ana Carolina",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xwTU9WSkNSV1J0UldKeE9WWnFhWGN6VFUxWE5YYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-30T17:40:51.752Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-02T14:53:54.286Z"
   },
   {
     "id": "ec8fe75c-2352-4206-a6a9-e1212df5f00b",
