@@ -14209,11 +14209,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Pedro henrique",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WUVpVeFVTVkl3VUUxWVlubDZRa1pKYmpObk9VRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-31T23:07:04.482Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-02T16:49:16.012Z"
   },
   {
     "id": "785e3e6f-0775-4dfa-83f7-1613969d93de",
