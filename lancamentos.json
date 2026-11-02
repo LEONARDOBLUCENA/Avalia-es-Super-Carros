@@ -13648,11 +13648,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Celiane pontes",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT214UmJHaEJlRzFEV1VwNk5WSkZTV2RYU0RST1RtYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-30T20:15:29.488Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-02T16:00:03.439Z"
   },
   {
     "id": "c0e53d18-fdc1-467c-8a68-dedd6e743bc1",
