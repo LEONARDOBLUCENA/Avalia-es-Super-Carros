@@ -14687,5 +14687,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-02T14:29:24.804Z",
     "confirmed_at": null
+  },
+  {
+    "id": "9b1be464-4e34-4b87-9989-df1676381dce",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Paulo roballo",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-02T14:29:35.828Z",
+    "confirmed_at": null
   }
 ]
