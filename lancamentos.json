@@ -15008,5 +15008,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-02T22:50:05.197Z",
     "confirmed_at": null
+  },
+  {
+    "id": "2b0ccf41-97b6-4d32-93b4-870ba385ca72",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Fabi Santos",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-02T22:54:33.882Z",
+    "confirmed_at": null
   }
 ]
