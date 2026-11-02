@@ -14865,5 +14865,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-02T18:57:06.211Z",
     "confirmed_at": null
+  },
+  {
+    "id": "626ada5f-e1a6-4d22-8354-29f272e2b04a",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Jobe Rodrigo",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-02T19:49:24.733Z",
+    "confirmed_at": null
   }
 ]
