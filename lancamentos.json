@@ -14920,5 +14920,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-02T22:34:20.068Z",
     "confirmed_at": null
+  },
+  {
+    "id": "9ea750d8-0cf9-4f9d-90cf-47f606b8249d",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Loredana Olavarria",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-02T22:35:09.498Z",
+    "confirmed_at": null
   }
 ]
