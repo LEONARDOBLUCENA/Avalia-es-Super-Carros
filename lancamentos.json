@@ -13692,11 +13692,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Rahi Oliveira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKdFN5MURaR0prVHpWdVkwWk1VbmMwTUZsVU0wRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-30T20:16:33.826Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-02T16:00:55.063Z"
   },
   {
     "id": "5df7bb98-c37a-4499-a454-a4c2b7f16632",
