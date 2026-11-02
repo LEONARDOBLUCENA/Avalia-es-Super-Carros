@@ -14964,5 +14964,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-02T22:37:00.092Z",
     "confirmed_at": null
+  },
+  {
+    "id": "4062fee0-2e94-4b02-aa6f-5633da46be47",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Guilherme Brumatti",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-02T22:37:54.365Z",
+    "confirmed_at": null
   }
 ]
