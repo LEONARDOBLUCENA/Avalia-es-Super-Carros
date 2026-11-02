@@ -13978,11 +13978,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "De Exe",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21oa1MwRmxTV1pHZVhsMFFtaHFkVTlrTFZkS1NrRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-31T03:45:49.865Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-02T16:30:50.551Z"
   },
   {
     "id": "bd6e4bf2-e460-4e5b-8be1-5e31cc335cbc",
