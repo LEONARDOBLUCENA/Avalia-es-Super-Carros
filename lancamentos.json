@@ -13505,11 +13505,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Flávio Andrade",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCSGRqWnRRVzV6VDA0d05IcHJWbkpWWXpGRGNrRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-30T17:01:18.729Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-02T14:52:50.893Z"
   },
   {
     "id": "7f797a72-ba00-46bf-bff2-9e9e0a99f1e1",
