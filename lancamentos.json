@@ -14942,5 +14942,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-02T22:35:35.581Z",
     "confirmed_at": null
+  },
+  {
+    "id": "67de2723-c201-483d-8926-f2ad1343e76c",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Leticia Matias",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-02T22:36:08.454Z",
+    "confirmed_at": null
   }
 ]
