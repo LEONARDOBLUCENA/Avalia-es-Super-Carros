@@ -14788,5 +14788,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-02T17:26:16.418Z",
     "confirmed_at": null
+  },
+  {
+    "id": "2d863014-8e66-49f6-b03a-2d3f42602ce8",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Melissa Mathias",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-02T17:26:24.943Z",
+    "confirmed_at": null
   }
 ]
