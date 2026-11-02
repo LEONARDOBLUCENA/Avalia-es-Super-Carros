@@ -14887,5 +14887,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-02T19:49:32.944Z",
     "confirmed_at": null
+  },
+  {
+    "id": "577e08be-2bc9-4148-b8e9-74105d12d1d6",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Enzo Resende",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-02T22:33:50.945Z",
+    "confirmed_at": null
   }
 ]
