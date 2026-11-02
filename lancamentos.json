@@ -13549,11 +13549,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "3 SGT PM Thiago Lopes",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2taclZrZEhVek5LWTFOQllXSllSV1IwY3pKcVQyYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-30T17:34:12.975Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-02T14:53:30.371Z"
   },
   {
     "id": "1c6d7d40-3bf5-4a93-87a2-d6f538271d92",
