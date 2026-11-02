@@ -14319,11 +14319,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Makarena Souza",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25RMmRsQlljalZ1Y2taU1VreE5ZMTl0VjJKeU1WRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-01T23:13:59.521Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-02T16:51:54.246Z"
   },
   {
     "id": "cda4429a-6e6f-4fc9-98e9-24408d6d0b46",
