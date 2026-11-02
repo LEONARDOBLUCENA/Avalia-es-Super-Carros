@@ -14577,5 +14577,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-02T12:25:54.167Z",
     "confirmed_at": null
+  },
+  {
+    "id": "35f397b0-47ce-4d0d-b4c4-9776c2827fb4",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Tainara Lewandowski Cerveira",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-02T12:26:50.535Z",
+    "confirmed_at": null
   }
 ]
