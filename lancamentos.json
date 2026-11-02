@@ -14121,11 +14121,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Nicole Guimarães Herculano",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tsVVdHY3pUblYyWHpGaVEyaExhemx4YUhwa1lYYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-31T23:01:56.256Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-02T16:42:10.327Z"
   },
   {
     "id": "f085ffdd-d462-43c5-a466-bd36e01c64c1",
