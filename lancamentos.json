@@ -13582,11 +13582,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Stanlley aguiar",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2twRVUxQnBPV2t3VGtVMVIzcFZkamhrUVdJeGEyYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-30T18:18:35.727Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-02T14:54:02.828Z"
   },
   {
     "id": "cdf84fac-3a57-4efb-83ba-d6af95cc9515",
