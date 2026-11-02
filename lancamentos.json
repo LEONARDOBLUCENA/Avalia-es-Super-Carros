@@ -13637,11 +13637,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Alexandre Oliveira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21oaGFFcEZPV2d3YVhkc1MxbHdUVVZGV1ZCT1EwRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-30T20:15:17.037Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-02T15:59:46.760Z"
   },
   {
     "id": "23b77074-fc25-4b4e-bed6-5ae95cc8b0ce",
