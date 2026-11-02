@@ -13736,11 +13736,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Majo Monge",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205RFFVZGxNM0p2VW5WMVUwcHdOMFEyY1VkUk1sRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-30T20:19:28.640Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-02T16:02:09.308Z"
   },
   {
     "id": "3524cc26-1fe0-46b3-bef9-dae7c2036a65",
