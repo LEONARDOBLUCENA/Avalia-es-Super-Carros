@@ -14522,5 +14522,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-01T23:25:30.060Z",
     "confirmed_at": null
+  },
+  {
+    "id": "f3ccd783-026e-4a53-aec8-4ce9c54179e3",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Liriane Geringg",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-02T12:24:13.840Z",
+    "confirmed_at": null
   }
 ]
