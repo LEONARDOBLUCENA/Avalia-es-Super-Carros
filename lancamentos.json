@@ -14055,11 +14055,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Tamirys Pereira Azevedo",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0TVZ6TkRZVVZuUjFZM1YyeExORkphVDAweVYzYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-31T22:56:05.253Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-02T16:32:12.131Z"
   },
   {
     "id": "df7a3492-c2dd-4584-8bd0-05bdc4d6742d",
