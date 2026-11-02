@@ -14832,5 +14832,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-02T18:18:33.578Z",
     "confirmed_at": null
+  },
+  {
+    "id": "2ce8f2e8-98f6-4ec8-b832-4713b006ad17",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Mirian Costa",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-02T18:36:59.447Z",
+    "confirmed_at": null
   }
 ]
