@@ -14187,11 +14187,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "weslley kunzler das almas",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201MGNIaDZOV2RCYWt3d1dFWlZObFU0U1RkdlpIYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-31T23:05:52.769Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-02T16:43:18.556Z"
   },
   {
     "id": "44ddd0a3-19ad-4552-a2dc-2849193c0bf6",
