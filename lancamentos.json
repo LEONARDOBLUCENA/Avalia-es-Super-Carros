@@ -14341,11 +14341,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Sadayuki Yomekura",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2toUGRWOW9YMDVLUjFjMlZuZDZWMEZNUTFobmMwRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-01T23:14:37.339Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-02T16:52:13.462Z"
   },
   {
     "id": "168689c6-5ad7-48f1-bedd-9ab3bff96397",
