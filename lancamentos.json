@@ -14198,11 +14198,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Wallyson Alves",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KQmNUWlpja2R5Ym5aUFdEWlhiVkZ5YzAxblVHYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-31T23:06:12.410Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-02T16:44:56.681Z"
   },
   {
     "id": "a30009fd-6e64-4c63-836c-2f9bd33c6640",
