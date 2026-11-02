@@ -14533,5 +14533,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-02T12:24:13.840Z",
     "confirmed_at": null
+  },
+  {
+    "id": "a35cbb19-3aca-48d3-8abe-6b9198cb1592",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Beto Eu",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-02T12:24:37.391Z",
+    "confirmed_at": null
   }
 ]
