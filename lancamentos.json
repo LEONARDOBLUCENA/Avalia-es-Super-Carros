@@ -14011,11 +14011,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Eduarda",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xBNVMxcG5hMmxyVEc1cmJsUm9jVzE1TTFsdk1IYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-31T03:57:44.886Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-02T16:31:30.733Z"
   },
   {
     "id": "378fb475-c050-4deb-8659-54491ebe408d",
