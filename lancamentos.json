@@ -14544,5 +14544,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-02T12:24:37.391Z",
     "confirmed_at": null
+  },
+  {
+    "id": "0d3d264f-b01d-480b-9573-db63adc10575",
+    "setor": "Fotos",
+    "vendedora": "Eduarda",
+    "cliente_nome_informado": "Belly Sandri",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-02T12:24:52.863Z",
+    "confirmed_at": null
   }
 ]
