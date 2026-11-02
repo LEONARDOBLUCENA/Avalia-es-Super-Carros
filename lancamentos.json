@@ -13813,11 +13813,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "João Fantini",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKblkyczJkVzF2YWxoeVNrd3pjMjEyTFZWU0xVRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-31T00:29:53.644Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-02T16:08:08.092Z"
   },
   {
     "id": "d0924ed6-6137-4185-96cd-94950f54ad41",
