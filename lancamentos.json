@@ -14231,11 +14231,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Emanoela da Silva Breder Rodrigues",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tscllVMXplR3hNY25OTmVWTm5hazlIVW5KcWQwRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-31T23:10:11.977Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-02T16:49:58.977Z"
   },
   {
     "id": "851095f0-0404-40e6-905d-e0e738819361",
