@@ -14953,5 +14953,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-02T22:36:08.454Z",
     "confirmed_at": null
+  },
+  {
+    "id": "fce92ae8-3025-42ca-9475-39282285f486",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Felipe Henrique Bernardino",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-02T22:37:00.092Z",
+    "confirmed_at": null
   }
 ]
