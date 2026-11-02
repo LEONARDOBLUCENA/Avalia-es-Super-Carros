@@ -14264,11 +14264,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Marcelo Lopes",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWU1dUTkNRMjVDUW5kNE9VUjNhRkZZVTAxTWEzYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-11-01T13:29:45.742Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-02T16:51:00.127Z"
   },
   {
     "id": "4f01f041-d400-422e-895f-47ff26f9853f",
