@@ -14676,5 +14676,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-02T14:28:46.781Z",
     "confirmed_at": null
+  },
+  {
+    "id": "ec35ebef-0c44-4ffe-994b-0a82a5969218",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Mariana carmello",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-02T14:29:24.804Z",
+    "confirmed_at": null
   }
 ]
