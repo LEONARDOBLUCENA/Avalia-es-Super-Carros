@@ -13560,11 +13560,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Marcos Vinicius",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pGcUxXUjFOVTVxVTBrNVFscGZaa3gwY0RjdGVVRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-30T17:39:06.571Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-02T14:53:45.640Z"
   },
   {
     "id": "cf04f8b7-c310-4168-88ce-5ec372caecee",
