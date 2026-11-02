@@ -13835,11 +13835,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "RODRIGO CANDIDO SANTOS",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pGaFEwdEhPR1JuVDE5NldsaHNaMUJ2TjJabk5sRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-31T03:26:04.959Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-02T16:08:27.970Z"
   },
   {
     "id": "6d225cb6-bce9-4689-9bc0-c329983cf11a",
