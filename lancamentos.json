@@ -14044,11 +14044,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Tk saga",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2paTmMyaGhTM1IyWmxvdE0zRXhUSHBuUlZCMVNtYxAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-31T04:01:34.449Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-02T16:32:02.636Z"
   },
   {
     "id": "5f3ba2de-e040-46c1-ad5e-1a68c2678500",
