@@ -13879,11 +13879,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Mariane Hufen Salomone",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2psV1prTk9RVnBSVlZaRGFqZzRVMGRDYzBoUlYxRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-31T03:29:45.822Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-02T16:25:59.582Z"
   },
   {
     "id": "55cb1184-90c7-4fa2-ae75-6aca8b348560",
