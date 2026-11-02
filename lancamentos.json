@@ -13725,11 +13725,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Francisco Barre Martinez",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCd01ISTNjMUp6TVhSTGNUSnNUMVZUU2pkRWRWRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-30T20:19:16.005Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-02T16:01:40.769Z"
   },
   {
     "id": "bd7ee3b9-bb09-4dd5-9896-f255d40bf5da",
