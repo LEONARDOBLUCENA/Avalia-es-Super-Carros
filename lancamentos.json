@@ -14753,5 +14753,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-02T15:41:09.815Z",
     "confirmed_at": null
+  },
+  {
+    "id": "c24e504c-a8c3-48b6-9e8c-3123429f32de",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Lucas brandao",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-02T15:42:34.691Z",
+    "confirmed_at": null
   }
 ]
