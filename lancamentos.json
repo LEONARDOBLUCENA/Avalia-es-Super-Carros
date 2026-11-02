@@ -13824,11 +13824,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Mariana Borba",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKdFlpMVhkM28yY3pKTmRUVkRSamRXTUZWSGRrRRAB",
+    "mes_referencia": "2026-10",
     "created_at": "2026-10-31T00:30:13.366Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-02T16:08:18.214Z"
   },
   {
     "id": "8cfd46de-7904-4456-a439-98790c5c6cb9",
