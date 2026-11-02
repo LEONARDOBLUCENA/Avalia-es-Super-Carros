@@ -14799,5 +14799,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-02T17:26:24.943Z",
     "confirmed_at": null
+  },
+  {
+    "id": "1edd122d-f60e-4046-b2e9-bf009e615a27",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Claudinei borges",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-02T18:17:04.605Z",
+    "confirmed_at": null
   }
 ]
