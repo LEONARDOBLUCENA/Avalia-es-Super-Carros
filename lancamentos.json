@@ -14810,5 +14810,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-02T18:17:04.605Z",
     "confirmed_at": null
+  },
+  {
+    "id": "bdb4a2fd-7e8a-4c47-a407-c22c097a49e4",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Emanuelly Borges",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-02T18:17:47.623Z",
+    "confirmed_at": null
   }
 ]
