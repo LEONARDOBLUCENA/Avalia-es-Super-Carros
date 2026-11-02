@@ -14898,5 +14898,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-02T22:33:50.945Z",
     "confirmed_at": null
+  },
+  {
+    "id": "81b0bb02-e7d8-4b9c-9fb4-896af526410d",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Alexandre André",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-02T22:34:12.584Z",
+    "confirmed_at": null
   }
 ]
