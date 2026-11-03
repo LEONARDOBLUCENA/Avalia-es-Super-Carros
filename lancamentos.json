@@ -14743,11 +14743,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Aline rivas",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21aUmRYazBXR014ZERWbU5ubHdTRWhKTWprd1dsRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-02T15:06:19.316Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-03T14:06:55.237Z"
   },
   {
     "id": "de2023d5-94e0-4ed3-98d7-76c8db06235e",
