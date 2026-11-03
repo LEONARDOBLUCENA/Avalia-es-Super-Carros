@@ -14787,11 +14787,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Denise paixao",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25Ca1RubEVSSEoyYW05dU9YWnJTa0ZqVG5RNE1VRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-02T17:26:16.418Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-03T14:08:36.539Z"
   },
   {
     "id": "2d863014-8e66-49f6-b03a-2d3f42602ce8",
