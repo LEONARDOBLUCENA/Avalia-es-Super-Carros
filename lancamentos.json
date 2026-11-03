@@ -14842,11 +14842,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Mirian Costa",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25KTFRHUnNRVWt3YldwcU0xQkhUVEZwZEUxRmVYYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-02T18:36:59.447Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-03T14:09:20.731Z"
   },
   {
     "id": "d50112d4-4c04-44e9-aeb8-97174ff32f1e",
