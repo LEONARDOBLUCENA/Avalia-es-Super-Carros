@@ -15129,5 +15129,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-03T15:12:02.452Z",
     "confirmed_at": null
+  },
+  {
+    "id": "119ab9a2-2835-40d8-afb6-e3219d45b832",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Ana Lívia Meira Lima",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-03T15:13:02.827Z",
+    "confirmed_at": null
   }
 ]
