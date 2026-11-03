@@ -14585,11 +14585,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Tainara Lewandowski Cerveira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5aFF6UkZNa1pHU0Mxa1lqTktjRzFDYVVoUmJGRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-02T12:26:50.535Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-03T13:33:11.352Z"
   },
   {
     "id": "dc625231-1f67-4181-a9e7-2a26b0413dbf",
