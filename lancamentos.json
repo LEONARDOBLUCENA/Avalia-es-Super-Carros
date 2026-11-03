@@ -14732,11 +14732,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Pablo pintos",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tOUlNrNUthWEZXWVhCb09HeHBPWFIzY2s5TVpXYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-02T15:06:09.029Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-03T14:07:47.338Z"
   },
   {
     "id": "bb37d0ee-e11b-45d2-ae85-41252683cbbe",
