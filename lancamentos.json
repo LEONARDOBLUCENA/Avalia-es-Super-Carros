@@ -14831,11 +14831,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Cristiane Lopes",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT214bVRtTlRkVWhDU1dkcmNHOXlTbUY1T1hCeU5WRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-02T18:18:33.578Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-03T14:09:11.855Z"
   },
   {
     "id": "2ce8f2e8-98f6-4ec8-b832-4713b006ad17",
