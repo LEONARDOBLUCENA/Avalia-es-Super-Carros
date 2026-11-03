@@ -14376,11 +14376,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Marcolei Laube",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pSU1pGVnFVSGx6TldvM2EwOU9VblYyZGpjMldFRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-01T23:18:03.428Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-03T13:23:07.811Z"
   },
   {
     "id": "1e702062-b7b3-4f34-90b5-b7a64fac4253",
