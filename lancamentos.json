@@ -14710,11 +14710,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Games Sports",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25oRFgwTlVRVWxyVUd0d05IcDJlbTQzZUdkRFUzYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-02T14:34:10.964Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-03T14:07:17.175Z"
   },
   {
     "id": "c6961faf-873c-4e57-8b47-eafabe3c2570",
