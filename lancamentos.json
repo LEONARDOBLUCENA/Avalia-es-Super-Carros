@@ -14596,11 +14596,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Tarcio Lopes",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25OS2JFOTBjelZZYzNwTlJWQm9aR0Z6VkhJeGIwRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-02T12:27:14.487Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-03T13:39:38.647Z"
   },
   {
     "id": "3af15a32-deb6-4178-b545-f18d0e27cec1",
