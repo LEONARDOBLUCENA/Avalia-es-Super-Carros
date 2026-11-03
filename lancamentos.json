@@ -14330,11 +14330,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "paulolima",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2toWVFtcGphRkI1UjJJM2IybDJWR2QyUWsxVmVYYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-01T23:14:14.232Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-03T13:22:28.505Z"
   },
   {
     "id": "cb77e95e-92f1-494b-93c6-e313d00ee6ee",
