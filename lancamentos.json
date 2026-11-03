@@ -14644,11 +14644,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Marcelo José francez",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25aSVprcHBVbXRDVkd4S2FYQkxNRFJHWDI1UVRFRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-02T13:03:59.073Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-03T14:05:06.297Z"
   },
   {
     "id": "1e037b82-3ab2-4df8-98f0-48e43f31a358",
