@@ -14420,11 +14420,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Josiana Batschauer",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25KTlZtcHpZekk0U0c5ME4wTlNORXhaTFU1eVowRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-01T23:20:54.637Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-03T13:25:30.322Z"
   },
   {
     "id": "5633a3a8-f572-4948-958f-8771b0ad1842",
