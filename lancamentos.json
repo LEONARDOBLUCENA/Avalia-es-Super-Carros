@@ -15058,11 +15058,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Otica Visiva",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5c2VGRlFOMDlWWWtFeGRVaE1hVXB3WlVsSFdXYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-02T22:56:18.100Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-03T14:49:44.487Z"
   },
   {
     "id": "790ad1be-ae05-4471-bb8e-b3ee4444000d",
