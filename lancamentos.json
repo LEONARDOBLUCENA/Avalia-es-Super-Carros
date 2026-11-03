@@ -14387,11 +14387,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Lorena Pinho",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5Nk1rVkRPV1JGWjBOc1NqQkhlWHBTU2taNmMwRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-01T23:19:07.507Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-03T13:23:39.180Z"
   },
   {
     "id": "c897a32e-654a-46a4-a29a-477c074467da",
