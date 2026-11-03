@@ -15151,5 +15151,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-03T15:13:43.530Z",
     "confirmed_at": null
+  },
+  {
+    "id": "abe096a2-e57e-49a0-b9f1-63e068165cee",
+    "setor": "Fotos",
+    "vendedora": "Indianara",
+    "cliente_nome_informado": "Fabio Palomares",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-03T15:43:37.615Z",
+    "confirmed_at": null
   }
 ]
