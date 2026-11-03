@@ -14453,11 +14453,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "LAURA CRISTYNA SOUZA",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WUE5UaEJkRlZqU1dseE5YTjFWbVpzV1dSNU1YYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-01T23:22:47.378Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-03T13:26:40.296Z"
   },
   {
     "id": "dde4092d-22df-4fde-be2b-dd6c37316213",
