@@ -14886,11 +14886,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Poliana Medeiros",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201a2ExazNkbWQyUm5ZNVFuWnVXazlYT0hvdFoyYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-02T19:49:32.944Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-03T14:09:53.286Z"
   },
   {
     "id": "577e08be-2bc9-4148-b8e9-74105d12d1d6",
