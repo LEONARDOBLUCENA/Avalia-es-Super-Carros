@@ -15056,5 +15056,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-03T13:06:44.023Z",
     "confirmed_at": null
+  },
+  {
+    "id": "5d68ff33-a395-4173-a57a-2f8b60ea8b7f",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Cleidiane Alves",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-03T14:04:54.275Z",
+    "confirmed_at": null
   }
 ]
