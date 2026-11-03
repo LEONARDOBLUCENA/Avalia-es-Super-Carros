@@ -14940,11 +14940,13 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Loredana Olavarria",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-11-02T22:35:09.498Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-11-03T14:47:21.488Z",
+    "rejected_review_id": null
   },
   {
     "id": "17eb7131-e94d-44d3-a8fd-a55cf0b24b43",
