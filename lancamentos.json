@@ -14868,11 +14868,13 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Vinícius sprea moussa",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-11-02T18:57:06.211Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-11-03T14:46:23.091Z",
+    "rejected_review_id": null
   },
   {
     "id": "626ada5f-e1a6-4d22-8354-29f272e2b04a",
