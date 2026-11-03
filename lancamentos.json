@@ -14916,11 +14916,13 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Alexandre André",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-11-02T22:34:12.584Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-11-03T14:47:03.330Z",
+    "rejected_review_id": null
   },
   {
     "id": "cb3d75a7-f6f0-4ab7-a882-56965861fda8",
