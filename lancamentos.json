@@ -14699,11 +14699,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Paulo roballo",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21GaWJIRTVWVVkxVEhCRk5qQnFaMmxxTTNsTVZrRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-02T14:29:35.828Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-03T14:07:07.314Z"
   },
   {
     "id": "5ceb922c-ece2-44dd-bf69-eb0af030524e",
