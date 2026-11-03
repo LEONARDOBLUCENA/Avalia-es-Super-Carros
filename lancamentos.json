@@ -14688,11 +14688,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Mariana carmello",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201TU9XZFNZakExVTNSaVNsWkhaMVUxY0Zvd1NGRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-02T14:29:24.804Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-03T14:06:22.298Z"
   },
   {
     "id": "9b1be464-4e34-4b87-9989-df1676381dce",
