@@ -15036,11 +15036,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Fabi Santos",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pOV1gybzFVMDl2TjFCQldHcFpkV2syZW5CeFVYYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-02T22:54:33.882Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-03T14:49:24.812Z"
   },
   {
     "id": "a4c2eee9-cfe6-4a10-a0e3-8ce55ba358ea",
