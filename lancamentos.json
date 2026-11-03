@@ -14992,11 +14992,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Guilherme Brumatti",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xZM00wVlJRakZLY0hGbVJucG1MVkV0Ym5oUGFIYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-02T22:37:54.365Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-03T14:48:36.862Z"
   },
   {
     "id": "b55b2c81-220b-4a03-af0c-3e3e7c700f7f",
