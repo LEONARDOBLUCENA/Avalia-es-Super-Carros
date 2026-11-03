@@ -15078,5 +15078,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-03T14:05:37.724Z",
     "confirmed_at": null
+  },
+  {
+    "id": "29386bf7-892c-4264-b7ab-0d14f0a26b33",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Francine koch",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-03T14:36:51.020Z",
+    "confirmed_at": null
   }
 ]
