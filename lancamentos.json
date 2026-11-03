@@ -14754,11 +14754,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Renata lima",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xSTFkxWkdUMHBxYlVkTE1YRnFkbTVYYlVaZmFHYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-02T15:41:09.815Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-03T14:08:00.926Z"
   },
   {
     "id": "c24e504c-a8c3-48b6-9e8c-3123429f32de",
