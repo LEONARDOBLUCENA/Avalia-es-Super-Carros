@@ -14563,11 +14563,11 @@
     "setor": "Fotos",
     "vendedora": "Eduarda",
     "cliente_nome_informado": "Mayara Policena",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w4elNrZHFNV2QxTm1aYVFsUnlRamQ1YkRSMWNuYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-02T12:25:24.631Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-03T13:31:00.313Z"
   },
   {
     "id": "4af21685-b995-4d79-bc26-d30005916b34",
