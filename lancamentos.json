@@ -14953,11 +14953,13 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Maria Pereira",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-11-02T22:35:35.581Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-11-03T14:48:02.232Z",
+    "rejected_review_id": null
   },
   {
     "id": "67de2723-c201-483d-8926-f2ad1343e76c",
