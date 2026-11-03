@@ -1,5 +1,152 @@
 [
   {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT210UmVqRmhhVVpSVGtWR1dFTkxhVkpZVFVsMkxWRRAB",
+    "author_name": "Roberto Lima",
+    "rating": 5,
+    "review_text": "Experiência incrível!!",
+    "review_time": "2026-11-03T16:30:52.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2psNFRHWkRSWEJ0V2tWM1RYQTJZMVJhUkRJMVRWRRAB",
+    "author_name": "Fabio Palomares",
+    "rating": 5,
+    "review_text": "Sensacional, do começo ao fim !",
+    "review_time": "2026-11-03T15:24:36.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCSE1GbGZkVFZRUlZSZlMxZHpRM1pmV0dGRmFuYxAB",
+    "author_name": "Ednan Bispo",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-03T15:15:26.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2prMmIxbzJjMU01TWxwRGVGZERjRGhQWm1KbUxWRRAB",
+    "author_name": "Maria Fernanda Meira Lima",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-03T15:13:43.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2padldIbG1XbEp0ZFRoVWNWSlFabmxDWHpoc2RFRRAB",
+    "author_name": "Ana Lívia Meira Lima",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-03T15:12:59.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201alEwMW9WMjh5UzBRekxUZFdSRk4yYms1RVEyYxAB",
+    "author_name": "Elen Duran Silveira",
+    "rating": 1,
+    "review_text": "Tive uma péssima experiência com o instrutor Lucas.<br>Foi machista, achando que por ser mulher eu não sabia dirigir e nem tinha conhecimento do código de trânsito.<br>Não foi nada resiliente e foi super indelicado. Fiquei frustrada!<br>Vocês precisam dar mais letramento sobre feminismo aos seus monitores! Foi péssima minha experiência, não levarei ninguém mais até vcs!<br>Tivemos tbm uma fila na experiência dos simuladores. Além de pagar um valor alto, não fica ninguém cuidando, isso fez com que uma pessoa a nossa frente tivesse em um simulador e fez o simulador três vezes. Ninguém viu. Se não fôssemos nós irmos lá e falarmos com o responsável, acho que estaríamos na fila até agora (e não é pouca espera - levamos cerca de 40 minutos esperando o simulador).",
+    "review_time": "2026-11-03T14:41:15.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGVFgwMHlOVloxTUd4V09HeDFkV2RwV25KU1ZtYxAB",
+    "author_name": "Edson Koch",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-03T14:37:16.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s0d04zVnJjaTFGTTJsaVN6QkhhMlppZDNSaE9WRRAB",
+    "author_name": "Francine Koch",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-03T14:36:33.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21ZNU1VYzNhR3RqVVU5UFdubHlTbkp0WDBwRVVWRRAB",
+    "author_name": "Júlio Monteiro",
+    "rating": 5,
+    "review_text": "Tudo muito top ...experiência surreal ..",
+    "review_time": "2026-11-03T14:05:46.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xsNVpGZFFaVXhvYmt0MlIwRmlWV3gzZGpSSGRWRRAB",
+    "author_name": "Cleidiane Alves",
+    "rating": 5,
+    "review_text": "Experiência maravilhosa, recomendo sempre medo 👏👏👏👏👏",
+    "review_time": "2026-11-03T14:05:07.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25kblVuWklXVTVLTTBKemRVZHRaRFZFVEhwQ01XYxAB",
+    "author_name": "Marcos Camboim",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-02T22:49:31.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25sMGVrVk1MVEE0Wm1kaFdqSndTVFF6U1VOYWRYYxAB",
+    "author_name": "Vini Lavagem",
+    "rating": 5,
+    "review_text": "Parabéns a toda equipe<br>Os fotógrafo top. Chico e lohane Pedro, valeu",
+    "review_time": "2026-11-02T21:59:16.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2swdE5rZEVTVFpXU1ZGUlVEbDJWMjlHTmtwSGFWRRAB",
+    "author_name": "Maiany Vivante",
+    "rating": 5,
+    "review_text": "Lorrayne, foi muito gentil, e o Chico ótimo fotógrafo muito atencioso e com fotos lindas.",
+    "review_time": "2026-11-02T21:57:00.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WNVNVeHZMWEJaVTBGc2NsWklOVlp6ZEZCQ2VVRRAB",
+    "author_name": "Ticiane Medeiros",
+    "rating": 5,
+    "review_text": "Atendimento maravilhoso !!!",
+    "review_time": "2026-11-02T21:34:46.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT210WFJEZHliRk53WWxWVVZHY3dVbDlZY1RsMFEyYxAB",
+    "author_name": "Vania Endlich",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-02T21:18:15.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pRMGRtcEJOVkpTU21wMVJETTFYMjUyZG01a2NuYxAB",
+    "author_name": "Leticia Matias",
+    "rating": 5,
+    "review_text": "Sensacional atendimento tudo excelente",
+    "review_time": "2026-11-02T20:53:36.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tkdVRsWlBibUZaVlRoRVJteElWWFJhTTA1TVltYxAB",
+    "author_name": "Alexandre André",
+    "rating": 5,
+    "review_text": "Top!!! Máquinas de primeira. Experiência única e atendimento top !!!!",
+    "review_time": "2026-11-02T20:51:43.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2toeVJHaFJTbFkwTmtwc1ZIZHpZbXgzT0d0Tk0xRRAB",
+    "author_name": "Loredana Olavarria",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-02T20:31:53.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xoNmJWVkxRMjk0U2poNVRIcFBPRXBpYXpWQ1RXYxAB",
+    "author_name": "Enzo Resende",
+    "rating": 5,
+    "review_text": "Foi uma experiência incrível, o atendimento foi impecável, o simulador também era muito realista e parecia bastante com a vida real e os carros também eram lindos.",
+    "review_time": "2026-11-02T20:30:55.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201SVNVTmFNa1J1UlhsUVdHazVORlZOVDA0MWVVRRAB",
+    "author_name": "Maria Pereira",
+    "rating": 5,
+    "review_text": "Muito legalllll uma experiência incrível 💕💕",
+    "review_time": "2026-11-02T20:24:56.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tZdE0xWXdYM1pzWTFST05reFJXVmRaWnpWWWExRRAB",
+    "author_name": "Felipe Henrique Bernardino",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-02T19:57:41.000Z"
+  },
+  {
     "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201a2ExazNkbWQyUm5ZNVFuWnVXazlYT0hvdFoyYxAB",
     "author_name": "Poliana Medeiros",
     "rating": 5,
@@ -28,6 +175,13 @@
     "review_time": "2026-11-02T19:25:58.000Z"
   },
   {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5alJtcGFkMlZEVEd4NllsQndSakZFTWt4YVpsRRAB",
+    "author_name": "Vinícius Spréa Moussa",
+    "rating": 5,
+    "review_text": "Atendimento muito bom recomendo muito o passeio",
+    "review_time": "2026-11-02T18:58:59.000Z"
+  },
+  {
     "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2trM1VIVjZVREJvTlhveWVuTjNWekV3WkZsclowRRAB",
     "author_name": "Vitor Leão",
     "rating": 5,
@@ -54,6 +208,13 @@
     "rating": 5,
     "review_text": "Incrível a experiência!!! Voltaria novamente",
     "review_time": "2026-11-02T18:18:05.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25odFkyaHJSVkJUZEVWbWFuSklOelF4VTB4ZmNsRRAB",
+    "author_name": "Claudilei Borges",
+    "rating": 5,
+    "review_text": "Excelente, recomendo a todos",
+    "review_time": "2026-11-02T18:17:07.000Z"
   },
   {
     "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5eFowTlBXWFpwTTE5eFJucFNVVmhCYms1VFUxRRAB",
