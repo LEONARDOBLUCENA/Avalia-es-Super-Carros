@@ -14903,11 +14903,13 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Enzo Resende",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-11-02T22:33:50.945Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-11-03T14:46:45.653Z",
+    "rejected_review_id": null
   },
   {
     "id": "81b0bb02-e7d8-4b9c-9fb4-896af526410d",
