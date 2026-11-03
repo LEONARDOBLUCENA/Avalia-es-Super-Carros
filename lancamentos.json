@@ -14633,11 +14633,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Gustavo francês",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pSU1IyTlFWRkEzUVc1bWJqTnhWVk5TWlVFeVpGRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-02T12:59:40.863Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-03T14:04:54.788Z"
   },
   {
     "id": "1351424d-04d9-42ab-a20e-7b3dd8c06f2a",
