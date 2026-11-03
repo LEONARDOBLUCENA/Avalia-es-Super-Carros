@@ -14820,11 +14820,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Emanuelly Borges",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xaRUxWRkZhMUpvVkU1bVJrNXFhbEV5ZERKdVJWRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-02T18:17:47.623Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-03T14:09:02.378Z"
   },
   {
     "id": "06daa2a3-6a38-4b75-925a-327a23479628",
