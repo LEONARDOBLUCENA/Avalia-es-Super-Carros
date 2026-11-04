@@ -15146,11 +15146,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Maria Fernanda meira lima",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2prMmIxbzJjMU01TWxwRGVGZERjRGhQWm1KbUxWRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-03T15:13:43.530Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-04T17:32:51.267Z"
   },
   {
     "id": "abe096a2-e57e-49a0-b9f1-63e068165cee",
