@@ -15316,5 +15316,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-04T14:43:42.114Z",
     "confirmed_at": null
+  },
+  {
+    "id": "6833b2ef-c951-4376-8705-da95b3f3df37",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Valdimira marcelino",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-04T15:19:41.810Z",
+    "confirmed_at": null
   }
 ]
