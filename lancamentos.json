@@ -15247,11 +15247,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Jeane carvalho",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT20xbE5tdzRORTgxTm1SVFdIVkxRVTlWWjFsV01XYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-04T13:33:27.726Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-04T19:53:18.459Z"
   },
   {
     "id": "dc8056da-1a3b-4b09-9d61-4a2e922e7d28",
