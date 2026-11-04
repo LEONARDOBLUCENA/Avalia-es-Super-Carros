@@ -15373,5 +15373,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-04T19:49:08.414Z",
     "confirmed_at": null
+  },
+  {
+    "id": "2352d6b4-f39e-41e7-8337-bf2c4e728a58",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Erick cruz",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-04T19:49:51.272Z",
+    "confirmed_at": null
   }
 ]
