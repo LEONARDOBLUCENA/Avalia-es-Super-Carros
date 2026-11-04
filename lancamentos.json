@@ -15184,5 +15184,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-03T18:26:40.630Z",
     "confirmed_at": null
+  },
+  {
+    "id": "49000d6e-502e-49ee-bdef-02a7d86eedb9",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Aline tosa",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-04T12:34:06.531Z",
+    "confirmed_at": null
   }
 ]
