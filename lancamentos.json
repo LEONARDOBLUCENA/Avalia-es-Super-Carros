@@ -15217,5 +15217,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-04T13:05:24.158Z",
     "confirmed_at": null
+  },
+  {
+    "id": "5e391660-0c70-4b61-b646-907e58941eab",
+    "setor": "Fotos",
+    "vendedora": "Indianara",
+    "cliente_nome_informado": "Daniele Mori",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-04T13:05:38.798Z",
+    "confirmed_at": null
   }
 ]
