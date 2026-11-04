@@ -15261,5 +15261,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-04T13:40:40.162Z",
     "confirmed_at": null
+  },
+  {
+    "id": "7bcf21e9-fd0e-4d0f-ab77-44a5edfba9fe",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Bruna novakowski",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-04T13:46:43.358Z",
+    "confirmed_at": null
   }
 ]
