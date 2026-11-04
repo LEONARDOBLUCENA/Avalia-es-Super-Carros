@@ -15313,11 +15313,11 @@
     "setor": "Fotos",
     "vendedora": "Indianara",
     "cliente_nome_informado": "Sibeli Caldeira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25OM1JGSkZUMlpOYVcwNGJFSkpZVEZ4TjNGNVluYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-04T14:43:42.114Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-04T19:55:34.165Z"
   },
   {
     "id": "6833b2ef-c951-4376-8705-da95b3f3df37",
