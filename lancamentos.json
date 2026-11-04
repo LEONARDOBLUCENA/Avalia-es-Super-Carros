@@ -15327,5 +15327,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-04T15:19:41.810Z",
     "confirmed_at": null
+  },
+  {
+    "id": "cc64a0f9-e84d-493d-bcd2-abe1553d9b5d",
+    "setor": "Fotos",
+    "vendedora": "Indianara",
+    "cliente_nome_informado": "Manoel Reis",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-04T16:38:28.419Z",
+    "confirmed_at": null
   }
 ]
