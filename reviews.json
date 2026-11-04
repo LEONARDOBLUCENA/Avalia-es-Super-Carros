@@ -1,5 +1,215 @@
 [
   {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tzdFZXWjBNR1V0Y1UwMVVHUTRWbVJNWTJsWVprRRAB",
+    "author_name": "Ricardo Oliveira",
+    "rating": 5,
+    "review_text": "Excelente, funcionários muito simpáticos e profissionais. Ambiente condizente com o propósito da empresa. Estoque de carros sensaciona. Parabéns!!!!.",
+    "review_time": "2026-11-04T17:35:13.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25Kc2F6TnRhRWQwT1VkNGNuVXRTRVJCVEZKTmNGRRAB",
+    "author_name": "Cláudia Villar",
+    "rating": 5,
+    "review_text": "Super top!!",
+    "review_time": "2026-11-04T17:28:43.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2sxdk5HMDBVbHBGTUZWR1NtRlNTREJFU0hreFJsRRAB",
+    "author_name": "Manoel Reis",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-04T16:38:09.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21reVdFbEdaMUIyVERsYVZqVjRNUzFLTVZkMUxVRRAB",
+    "author_name": "Valdimira Marcelino",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-04T15:19:35.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25aMFZ6bGZWR2R5VmsxVFltRldiSFl5Wkhac1oxRRAB",
+    "author_name": "Nicolly Camile",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-04T14:52:25.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21VMGMyZE5XbDlGYkUxM1UwOTFlSHBvVjJvNE5uYxAB",
+    "author_name": "Marcos Daniel Vieira Silva",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-04T14:52:00.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25OM1JGSkZUMlpOYVcwNGJFSkpZVEZ4TjNGNVluYxAB",
+    "author_name": "Sibeli Caldeira",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-04T14:29:36.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tZNU0yeE5abVZXTFZKSlRreElWbUZ2TmtsSVlrRRAB",
+    "author_name": "Amanda Alves",
+    "rating": 5,
+    "review_text": "Atendimento excelente é uma experiência única! Vale cada momento! Parabéns a toda equipe.",
+    "review_time": "2026-11-04T14:18:59.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pseFVXbFFiamRFVm5SaE5VeHFTbGhIYlhGS0xWRRAB",
+    "author_name": "Gabriel Issa",
+    "rating": 5,
+    "review_text": "Experiência inesquecível, atendimento excelente com ótimos funcionários, recomendo!",
+    "review_time": "2026-11-04T14:16:08.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tOcGJsbFlkV3hVY0haa1dHazJNM1JLVG5ZdGNIYxAB",
+    "author_name": "Glamurosa Plus Size",
+    "rating": 5,
+    "review_text": "Ótimo",
+    "review_time": "2026-11-04T14:13:59.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25GWlZFNDBjRXR0VFdoV1F6TnFNR1EwVURRdE1GRRAB",
+    "author_name": "Gabriel Telles",
+    "rating": 5,
+    "review_text": "Experiência muito boa",
+    "review_time": "2026-11-04T14:07:44.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21aeVdXVXhWRGxJZW10d2JrMVJXVXRJVDBSYU5sRRAB",
+    "author_name": "Sonia Neto",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-04T14:01:27.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25wd1FtOVdRV3cyVlRaWVpURlZYMFprT0hCYU5YYxAB",
+    "author_name": "Éverton Pereira",
+    "rating": 5,
+    "review_text": "Uma baita experiência, recomendado",
+    "review_time": "2026-11-04T13:54:12.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25JeE9WZHdPRmhCVVV4UFZVZHVWVlZEZUZwYWNXYxAB",
+    "author_name": "Ricardo Felipe",
+    "rating": 5,
+    "review_text": "Experiência única",
+    "review_time": "2026-11-04T13:51:53.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t3M2JGOXdSV013VUZoU01rNHpjMnN0ZVROVWNFRRAB",
+    "author_name": "Bruna Novakowski",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-04T13:46:45.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25KZlUzQnJNMHBRZDJwa04ycHJMVzV6Wm01M1dHYxAB",
+    "author_name": "Marcia Cupertino",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-04T13:39:16.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21JNVJraEhTRTU2YlhwZlZFMTNWamxmYlZwM2MwRRAB",
+    "author_name": "Kelven Meira",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-04T13:37:47.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT20xbE5tdzRORTgxTm1SVFdIVkxRVTlWWjFsV01XYxAB",
+    "author_name": "Jeane Carvalho",
+    "rating": 5,
+    "review_text": "Atendimento maravilhoso! Uma experiência incrível!",
+    "review_time": "2026-11-04T13:33:46.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tOVVVqRllkRlZ2VW01alZXNXphMUp4VUVSUU9XYxAB",
+    "author_name": "Luciano Valladares",
+    "rating": 5,
+    "review_text": "Tooop",
+    "review_time": "2026-11-04T13:20:09.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGeWJHeGhRamxVTFVwaWFsSXhSVmMxU1RWNFZsRRAB",
+    "author_name": "Henzo Benhozzi",
+    "rating": 5,
+    "review_text": "Experiência única",
+    "review_time": "2026-11-04T13:16:50.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5S2VEZDROVlZNUm1WcFNUaGZhREpOTWxCVE1HYxAB",
+    "author_name": "Daniele Mori",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-04T13:04:30.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25SQlNtVmFiMDB6VmxKUVdteGpNbEpmTmxOWVMwRRAB",
+    "author_name": "Ana Paula Jerônimo",
+    "rating": 5,
+    "review_text": "Muito boooommmm",
+    "review_time": "2026-11-04T13:02:12.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xsNVZUQmphR2xCVVU5MVJtWnZSWGN3UlhsRU5HYxAB",
+    "author_name": "Lara Fideles",
+    "rating": 5,
+    "review_text": "Experiência excepcional",
+    "review_time": "2026-11-04T13:01:11.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xkQmFERmtXRzV2VFc5MVlVOWhlSFYxUzBkc1NVRRAB",
+    "author_name": "Indianara Spegiorin",
+    "rating": 5,
+    "review_text": "Maravilhosa",
+    "review_time": "2026-11-04T12:38:30.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tSUllsWk1UR1JJUVhCamRtVnFPVVZNTlUwM1NGRRAB",
+    "author_name": "Vilguiner Barbosa",
+    "rating": 5,
+    "review_text": "Foi uma experiência incrível e inesquecível.",
+    "review_time": "2026-11-04T12:36:26.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xnM2QwVkpOa04yUTI1RFVucGFUV2g1UkMxWFkzYxAB",
+    "author_name": "aline tosa",
+    "rating": 5,
+    "review_text": "Incrível",
+    "review_time": "2026-11-04T12:34:04.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1a2FtMVJhVzVqUlVOV1RURklRalpYV0c1Q1QzYxAB",
+    "author_name": "Aline Rodrigues",
+    "rating": 5,
+    "review_text": "Excelente experiência. Atendimento nota 10",
+    "review_time": "2026-11-04T12:21:09.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCMGRGVlhUbVZQU2tGTlRUZFhhbXhuTFVkeWMxRRAB",
+    "author_name": "Daniel Sodré",
+    "rating": 5,
+    "review_text": "Ótima experiência!!",
+    "review_time": "2026-11-03T21:01:34.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21wR1NVZ3pSV0pyYmtoRVdEUlNjMFppVVZoZlNXYxAB",
+    "author_name": "Julia Celini",
+    "rating": 5,
+    "review_text": "Atendimento excelente e experiência um diferencial! Lucas e Cleide ótimo atendimento!",
+    "review_time": "2026-11-03T18:26:25.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pGVmQyOWFlbUYyYkVGb2J6TmZWbmhrYVZkMWVsRRAB",
+    "author_name": "Guilherme Rodrigues Carbone",
+    "rating": 5,
+    "review_text": "Cleide muito atenciosa, local com profissionais de excelência!!",
+    "review_time": "2026-11-03T18:25:48.000Z"
+  },
+  {
     "review_id": "Ci9DQUlRQUNvZENodHljRjlvT210UmVqRmhhVVpSVGtWR1dFTkxhVkpZVFVsMkxWRRAB",
     "author_name": "Roberto Lima",
     "rating": 5,
