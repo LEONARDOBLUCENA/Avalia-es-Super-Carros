@@ -15324,11 +15324,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Valdimira marcelino",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21reVdFbEdaMUIyVERsYVZqVjRNUzFLTVZkMUxVRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-04T15:19:41.810Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-04T19:55:44.947Z"
   },
   {
     "id": "cc64a0f9-e84d-493d-bcd2-abe1553d9b5d",
