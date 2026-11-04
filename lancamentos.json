@@ -15203,11 +15203,11 @@
     "setor": "Fotos",
     "vendedora": "Indianara",
     "cliente_nome_informado": "Aline Rodrigues",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1a2FtMVJhVzVqUlVOV1RURklRalpYV0c1Q1QzYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-04T12:36:36.962Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-04T19:52:26.879Z"
   },
   {
     "id": "b390abe8-13d9-4d01-88b6-b544e7c19d85",
