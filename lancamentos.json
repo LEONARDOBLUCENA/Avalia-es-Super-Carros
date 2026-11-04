@@ -15192,11 +15192,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Aline tosa",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xnM2QwVkpOa04yUTI1RFVucGFUV2g1UkMxWFkzYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-04T12:34:06.531Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-04T19:50:01.901Z"
   },
   {
     "id": "fba98487-a16b-4787-a1aa-52e6f4c5086a",
