@@ -15195,5 +15195,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-04T12:34:06.531Z",
     "confirmed_at": null
+  },
+  {
+    "id": "fba98487-a16b-4787-a1aa-52e6f4c5086a",
+    "setor": "Fotos",
+    "vendedora": "Indianara",
+    "cliente_nome_informado": "Aline Rodrigues",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-04T12:36:36.962Z",
+    "confirmed_at": null
   }
 ]
