@@ -15349,5 +15349,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-04T18:40:14.816Z",
     "confirmed_at": null
+  },
+  {
+    "id": "0cf87aba-1524-47cb-a978-c8afd44e2618",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Manoela Duarte",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-04T18:40:37.900Z",
+    "confirmed_at": null
   }
 ]
