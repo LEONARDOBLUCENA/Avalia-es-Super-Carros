@@ -15091,11 +15091,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Julio monteiro",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21ZNU1VYzNhR3RqVVU5UFdubHlTbkp0WDBwRVVWRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-03T14:05:37.724Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-04T17:30:03.328Z"
   },
   {
     "id": "29386bf7-892c-4264-b7ab-0d14f0a26b33",
