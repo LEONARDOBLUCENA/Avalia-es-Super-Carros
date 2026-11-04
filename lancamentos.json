@@ -15113,11 +15113,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Edson koch",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGVFgwMHlOVloxTUd4V09HeDFkV2RwV25KU1ZtYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-03T14:37:17.217Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-04T17:32:22.974Z"
   },
   {
     "id": "5ce586a7-2710-4c10-bf53-947d2d6a74f3",
