@@ -15294,5 +15294,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-04T14:18:09.584Z",
     "confirmed_at": null
+  },
+  {
+    "id": "84ded8fe-a188-4300-80de-e7a887ba7723",
+    "setor": "Fotos",
+    "vendedora": "Indianara",
+    "cliente_nome_informado": "Sonia Neto",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-04T14:29:03.811Z",
+    "confirmed_at": null
   }
 ]
