@@ -15269,11 +15269,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Bruna novakowski",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t3M2JGOXdSV013VUZoU01rNHpjMnN0ZVROVWNFRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-04T13:46:43.358Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-04T19:53:39.566Z"
   },
   {
     "id": "495ff325-6e81-41d1-bdde-5023edfc7f29",
