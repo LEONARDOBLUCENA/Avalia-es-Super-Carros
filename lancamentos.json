@@ -15272,5 +15272,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-04T13:46:43.358Z",
     "confirmed_at": null
+  },
+  {
+    "id": "495ff325-6e81-41d1-bdde-5023edfc7f29",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Éverton Pereira",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-04T13:55:07.018Z",
+    "confirmed_at": null
   }
 ]
