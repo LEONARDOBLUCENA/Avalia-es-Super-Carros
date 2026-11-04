@@ -15225,11 +15225,11 @@
     "setor": "Fotos",
     "vendedora": "Indianara",
     "cliente_nome_informado": "Daniele Mori",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5S2VEZDROVlZNUm1WcFNUaGZhREpOTWxCVE1HYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-04T13:05:38.798Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-04T19:52:52.350Z"
   },
   {
     "id": "39c9ba25-cbcc-4840-9b07-35974fd562d2",
