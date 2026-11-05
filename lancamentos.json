@@ -15406,5 +15406,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-05T01:12:43.033Z",
     "confirmed_at": null
+  },
+  {
+    "id": "d176e7d8-4f3f-4f66-bce7-e039fa2a82f2",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Cláudia Villar",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-05T01:13:19.504Z",
+    "confirmed_at": null
   }
 ]
