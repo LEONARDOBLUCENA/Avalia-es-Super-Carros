@@ -15538,5 +15538,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-05T01:18:44.654Z",
     "confirmed_at": null
+  },
+  {
+    "id": "41b5c56a-b9ba-4d2b-8504-a47bdc0df4f6",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "André trevizan",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-05T17:00:12.970Z",
+    "confirmed_at": null
   }
 ]
