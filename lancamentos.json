@@ -15483,5 +15483,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-05T01:15:54.426Z",
     "confirmed_at": null
+  },
+  {
+    "id": "c53ee32c-940e-4fd8-8bf7-d20fc4d61afd",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Ricardo Felipe",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-05T01:16:15.132Z",
+    "confirmed_at": null
   }
 ]
