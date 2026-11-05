@@ -15527,5 +15527,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-05T01:18:29.153Z",
     "confirmed_at": null
+  },
+  {
+    "id": "8a56245d-7461-488f-9ed8-0b74d65d550e",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Vilguiner Barbosa",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-05T01:18:44.654Z",
+    "confirmed_at": null
   }
 ]
