@@ -15439,5 +15439,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-05T01:14:00.923Z",
     "confirmed_at": null
+  },
+  {
+    "id": "50d0b8b3-5314-4ad5-b13a-4d282c922264",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Marcos Daniel Vieira Silva",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-05T01:14:19.353Z",
+    "confirmed_at": null
   }
 ]
