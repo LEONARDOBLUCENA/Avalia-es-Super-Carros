@@ -15472,5 +15472,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-05T01:15:26.969Z",
     "confirmed_at": null
+  },
+  {
+    "id": "b2bf79aa-beba-49f2-821e-d19c2dc14562",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Glamurosa Plus Size",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-05T01:15:54.426Z",
+    "confirmed_at": null
   }
 ]
