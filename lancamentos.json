@@ -15604,5 +15604,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-06T03:26:11.475Z",
     "confirmed_at": null
+  },
+  {
+    "id": "ba9805a9-dded-4768-9200-ce85d45f3476",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "José Eduardo mahfoud",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-06T13:41:57.427Z",
+    "confirmed_at": null
   }
 ]
