@@ -15533,11 +15533,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Vilguiner Barbosa",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tSUllsWk1UR1JJUVhCamRtVnFPVVZNTlUwM1NGRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-05T01:18:44.654Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-06T17:29:16.884Z"
   },
   {
     "id": "41b5c56a-b9ba-4d2b-8504-a47bdc0df4f6",
