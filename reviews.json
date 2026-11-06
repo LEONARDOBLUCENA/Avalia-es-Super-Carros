@@ -1,5 +1,124 @@
 [
   {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KM1RGRlBTbE5GZDFkSlNqQmpNRzEzVXpkc01tYxAB",
+    "author_name": "Nelson Rodríguez",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-06T16:56:47.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25KT2NFbFRjVTQzVmpOYU1XbHdjRUV5UVc1MU9XYxAB",
+    "author_name": "Mateus Braga",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-06T16:29:21.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25SVGJtczVaelZWVTFvMldtbzBZMDFIZG13MFNWRRAB",
+    "author_name": "Levy Bomfim",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-06T16:21:16.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25WM2FXbEVUMmg2TjJSck1YaFlhSEkxV2tkZmJGRRAB",
+    "author_name": "Dona Bodega",
+    "rating": 5,
+    "review_text": "Perfeito!",
+    "review_time": "2026-11-06T16:12:57.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KeVdEaHdNVzgxUVZSeWJYSm1jazEzZDFwV2JYYxAB",
+    "author_name": "Aero Agrícola Banavale",
+    "rating": 5,
+    "review_text": "Incrível!!<br>Experiência unica",
+    "review_time": "2026-11-06T16:04:25.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25Oa2JIUjVRM1pNYVV4WVVuZzJhbmg0TFUxamFVRRAB",
+    "author_name": "Junior Sautareli",
+    "rating": 5,
+    "review_text": "Experiência ótima bom atendimento!",
+    "review_time": "2026-11-06T15:20:06.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25oekxWQlhYelZtYjBSaE1YaGZaRU5HU2tWTWFWRRAB",
+    "author_name": "Thiago Lima",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-06T14:53:35.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kwNWEzRmtSSEJNZW5oM1UwWmtZVzlaUzBOQlIwRRAB",
+    "author_name": "Edvaldo Nery",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-06T14:26:02.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5d1IwUnFlR2t3WVdKcGJXVnhXbmhMWkd0ZlFtYxAB",
+    "author_name": "Vinicius Dias",
+    "rating": 5,
+    "review_text": "Sensacional a experiência, sonho",
+    "review_time": "2026-11-06T14:23:52.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGUlRXZGxjVVIxWmtGVFpTMXZkbXRQUkZsSGNVRRAB",
+    "author_name": "Stefane Cardoso",
+    "rating": 5,
+    "review_text": "Foi muito legal a experiência!! Todos muito atenciosos e meu filho adorou o passeio!!",
+    "review_time": "2026-11-06T13:51:06.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201RmNuUkRTV3d0ZWtsWExVSjNTVVZtUW1wWlMxRRAB",
+    "author_name": "James Portela",
+    "rating": 5,
+    "review_text": "Uma super experiência. Vale super a pena. Uma dica, existem vários sites com condições especiais de pacotes 😉",
+    "review_time": "2026-11-06T13:45:31.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tWblRtTnRSMjlaY1ZRNVYwMXpkVUZFYWtSdWQxRRAB",
+    "author_name": "Ariane Reinauer",
+    "rating": 5,
+    "review_text": "Muito bacana! Amei a experiência",
+    "review_time": "2026-11-06T13:40:59.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pkWU1FYzBWM2xxWTNNd1MyTlBjbU5pT0c5b1RrRRAB",
+    "author_name": "José Eduardo Mahfoud",
+    "rating": 5,
+    "review_text": "Experiência maravilhosa, funcionários foram todos incríveis! Super recomendo",
+    "review_time": "2026-11-06T13:32:03.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2toTlduWmhVRXRVTVRCRFVERjBiREV0ZVdWbFYzYxAB",
+    "author_name": "Adriana Quiros",
+    "rating": 5,
+    "review_text": "Experiência maravilhosa.... Vale cada segundo<br>Super recomendo",
+    "review_time": "2026-11-06T13:26:53.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2psWVptdFFNMWsyU1daT01qTnBlWGxRWVMxT09XYxAB",
+    "author_name": "Emy Marjorie",
+    "rating": 5,
+    "review_text": "Atendimento maravilhoso!<br>Amamos o passeio, a paciência e o cuidado.<br>Fomos atendidos por Vinicius Barbosa, que tornou a experiência sensacional!",
+    "review_time": "2026-11-06T13:06:24.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21wVlNUZHBlVTlJVG0xbE9HdHJVVkZyY1V0QlNtYxAB",
+    "author_name": "victor arthur",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-05T17:57:13.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25GeU4wTm1RVGxQUWxCNk4yZFlWMjQ0YkVKSVRVRRAB",
+    "author_name": "Erick Nascimento",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-05T17:56:44.000Z"
+  },
+  {
     "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKTFJXTTBZVGRTVG14MVdsRXhjV0ZhTUVKVlFXYxAB",
     "author_name": "Fabio Schmitz",
     "rating": 5,
