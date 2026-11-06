@@ -15588,11 +15588,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Fabio Schmitz",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKTFJXTTBZVGRTVG14MVdsRXhjV0ZhTUVKVlFXYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-06T03:25:49.005Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-06T17:30:15.154Z"
   },
   {
     "id": "fbef713d-8c94-4c60-a4e5-3b36ab0e1de7",
