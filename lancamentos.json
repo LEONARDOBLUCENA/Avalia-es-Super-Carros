@@ -15615,5 +15615,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-06T13:41:57.427Z",
     "confirmed_at": null
+  },
+  {
+    "id": "c2f2e7c3-57df-4175-b506-c74c0256f05e",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Stefane cardoso",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-06T13:50:39.893Z",
+    "confirmed_at": null
   }
 ]
