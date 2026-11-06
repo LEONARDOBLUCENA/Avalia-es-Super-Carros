@@ -15571,5 +15571,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-06T03:25:17.422Z",
     "confirmed_at": null
+  },
+  {
+    "id": "6a6fe202-49d0-426a-97c8-cb1d5a963b51",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Erick Nascimento",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-06T03:25:31.753Z",
+    "confirmed_at": null
   }
 ]
