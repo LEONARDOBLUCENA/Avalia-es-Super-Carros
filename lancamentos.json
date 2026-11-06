@@ -15456,11 +15456,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Gabriel Issa",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pseFVXbFFiamRFVm5SaE5VeHFTbGhIYlhGS0xWRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-05T01:14:35.484Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-06T17:27:53.868Z"
   },
   {
     "id": "20158e2c-a172-461d-9bd5-53d555f8fdcb",
