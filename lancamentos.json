@@ -15610,11 +15610,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "José Eduardo mahfoud",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pkWU1FYzBWM2xxWTNNd1MyTlBjbU5pT0c5b1RrRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-06T13:41:57.427Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-06T17:30:39.566Z"
   },
   {
     "id": "c2f2e7c3-57df-4175-b506-c74c0256f05e",
