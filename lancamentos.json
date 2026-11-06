@@ -15500,11 +15500,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Kelven Meira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21JNVJraEhTRTU2YlhwZlZFMTNWamxmYlZwM2MwRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-05T01:16:44.891Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-06T17:28:39.685Z"
   },
   {
     "id": "6e54c569-374d-4be3-a0a6-434eb7b50ba4",
