@@ -15489,11 +15489,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Ricardo Felipe",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25JeE9WZHdPRmhCVVV4UFZVZHVWVlZEZUZwYWNXYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-05T01:16:15.132Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-06T17:28:27.301Z"
   },
   {
     "id": "7c5a4834-df2c-478b-8572-f40b75c0428c",
