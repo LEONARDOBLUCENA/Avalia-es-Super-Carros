@@ -15566,11 +15566,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "victor arthur",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21wVlNUZHBlVTlJVG0xbE9HdHJVVkZyY1V0QlNtYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-06T03:25:17.422Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-06T17:29:53.992Z"
   },
   {
     "id": "6a6fe202-49d0-426a-97c8-cb1d5a963b51",
