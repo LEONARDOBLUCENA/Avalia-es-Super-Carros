@@ -15670,5 +15670,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-06T15:19:56.418Z",
     "confirmed_at": null
+  },
+  {
+    "id": "b7ee95df-ec02-4e05-bd43-98399f65280b",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Célio Roberto Mendonça",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-06T15:22:09.430Z",
+    "confirmed_at": null
   }
 ]
