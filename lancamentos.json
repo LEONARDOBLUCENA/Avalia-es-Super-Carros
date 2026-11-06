@@ -15599,11 +15599,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Thyago Sales",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT20xVGVHaHNVRmhyYldSSGRHUnFUa2hYVkVkbFltYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-06T03:26:11.475Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-06T17:30:27.210Z"
   },
   {
     "id": "ba9805a9-dded-4768-9200-ce85d45f3476",
