@@ -15626,5 +15626,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-06T13:50:39.893Z",
     "confirmed_at": null
+  },
+  {
+    "id": "e762137d-e935-4b83-a609-51075327146d",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Ariane reinauer",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-06T14:12:34.514Z",
+    "confirmed_at": null
   }
 ]
