@@ -15692,5 +15692,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-06T15:23:46.812Z",
     "confirmed_at": null
+  },
+  {
+    "id": "588ca573-637f-471b-bbd4-2184127ff6d6",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Mateus Braga",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-06T16:31:02.572Z",
+    "confirmed_at": null
   }
 ]
