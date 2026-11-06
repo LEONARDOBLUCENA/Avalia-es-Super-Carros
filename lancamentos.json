@@ -15738,5 +15738,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-06T18:03:41.842Z",
     "confirmed_at": null
+  },
+  {
+    "id": "9b9e7b50-84ad-4ed2-8612-ae387dab8e14",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Rafaele custódio",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-06T19:16:29.915Z",
+    "confirmed_at": null
   }
 ]
