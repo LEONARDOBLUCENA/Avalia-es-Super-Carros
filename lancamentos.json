@@ -15445,11 +15445,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Marcos Daniel Vieira Silva",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21VMGMyZE5XbDlGYkUxM1UwOTFlSHBvVjJvNE5uYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-05T01:14:19.353Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-06T17:26:17.811Z"
   },
   {
     "id": "422251a2-012c-4da1-9a42-3909a6502c8d",
