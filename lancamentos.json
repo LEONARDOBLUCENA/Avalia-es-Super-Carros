@@ -15665,11 +15665,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Junior sautareli",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25Oa2JIUjVRM1pNYVV4WVVuZzJhbmg0TFUxamFVRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-06T15:19:56.418Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-06T17:31:33.334Z"
   },
   {
     "id": "b7ee95df-ec02-4e05-bd43-98399f65280b",
