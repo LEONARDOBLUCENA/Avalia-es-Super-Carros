@@ -15892,5 +15892,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-07T12:32:21.969Z",
     "confirmed_at": null
+  },
+  {
+    "id": "9cc8c194-68b8-4b63-9210-5668ba740506",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Thiago Lima",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-07T12:33:00.281Z",
+    "confirmed_at": null
   }
 ]
