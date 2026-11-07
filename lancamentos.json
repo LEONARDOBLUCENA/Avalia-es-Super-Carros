@@ -15859,5 +15859,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-07T12:30:07.979Z",
     "confirmed_at": null
+  },
+  {
+    "id": "483bf929-cbc9-44aa-86de-c4b55da7c8d2",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Nelson Rodriguez",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-07T12:30:52.430Z",
+    "confirmed_at": null
   }
 ]
