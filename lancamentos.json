@@ -15793,5 +15793,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-07T12:28:14.734Z",
     "confirmed_at": null
+  },
+  {
+    "id": "40f8f808-c7fd-4882-bf80-101cd8d0fdef",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Rodrigo Penna",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-07T12:28:35.225Z",
+    "confirmed_at": null
   }
 ]
