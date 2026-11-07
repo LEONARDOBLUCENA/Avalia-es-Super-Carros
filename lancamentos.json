@@ -15760,5 +15760,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-06T19:17:20.311Z",
     "confirmed_at": null
+  },
+  {
+    "id": "89590abf-dcef-450b-b6bc-47729bd8e8cb",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Arlindo Jr. Felix",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-07T12:27:47.054Z",
+    "confirmed_at": null
   }
 ]
