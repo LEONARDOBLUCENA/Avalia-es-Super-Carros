@@ -15903,5 +15903,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-07T12:33:00.281Z",
     "confirmed_at": null
+  },
+  {
+    "id": "db90d122-6a5e-40b4-9432-6e904963d493",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Sergio Rojas",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-07T12:34:25.232Z",
+    "confirmed_at": null
   }
 ]
