@@ -15881,5 +15881,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-07T12:31:09.444Z",
     "confirmed_at": null
+  },
+  {
+    "id": "2109b116-cbb5-45bb-85a2-bc15e3adc487",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Dona Bodega",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-07T12:32:21.969Z",
+    "confirmed_at": null
   }
 ]
