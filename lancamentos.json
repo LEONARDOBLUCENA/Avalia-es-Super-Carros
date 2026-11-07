@@ -15870,5 +15870,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-07T12:30:52.430Z",
     "confirmed_at": null
+  },
+  {
+    "id": "25c2749b-54b4-4dda-b738-9a862e160e48",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Wagner licciardi junior",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-07T12:31:09.444Z",
+    "confirmed_at": null
   }
 ]
