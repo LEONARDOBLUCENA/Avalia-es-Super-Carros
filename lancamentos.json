@@ -15848,5 +15848,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-07T12:29:49.239Z",
     "confirmed_at": null
+  },
+  {
+    "id": "bef15fb7-7f8e-4553-8c30-a8ad6caf5f7c",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Paôlla Dantas",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-07T12:30:07.979Z",
+    "confirmed_at": null
   }
 ]
