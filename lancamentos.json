@@ -15815,5 +15815,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-07T12:28:44.158Z",
     "confirmed_at": null
+  },
+  {
+    "id": "408e0e4e-df00-4d70-b274-4131176c5f46",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Paulo Ricardo",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-07T12:29:01.915Z",
+    "confirmed_at": null
   }
 ]
