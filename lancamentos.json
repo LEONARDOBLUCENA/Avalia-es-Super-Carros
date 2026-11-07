@@ -15782,5 +15782,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-07T12:27:56.759Z",
     "confirmed_at": null
+  },
+  {
+    "id": "1eb2ce81-37c9-4f21-81e2-e9fbc248dbd7",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Silvana Campos",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-07T12:28:14.734Z",
+    "confirmed_at": null
   }
 ]
