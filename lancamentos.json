@@ -15914,5 +15914,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-07T12:34:25.232Z",
     "confirmed_at": null
+  },
+  {
+    "id": "14fe89ab-96c9-482b-9091-6571634f324d",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "MAIOR DE MINAS",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-07T12:35:18.085Z",
+    "confirmed_at": null
   }
 ]
