@@ -1,5 +1,75 @@
 [
   {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21SaFdIVmxZV2hMZDBacFdGcGZOVE5EUVd4aE9GRRAB",
+    "author_name": "Giovanna de Oliveira",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-08T15:08:51.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25WVFlWbzVkblV6VTJkc2FrNXdOVUZrUkVab1RWRRAB",
+    "author_name": "yukie yokoyama",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-08T13:36:09.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21GNmVqTlVZbEYzUkdsbWVYRmtjVmROVEVwVFIxRRAB",
+    "author_name": "Thamy Santos",
+    "rating": 5,
+    "review_text": "Muito legal",
+    "review_time": "2026-11-07T21:06:54.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2psdWNuSndNRkkxU2xjeVkxTnFUakprTlZGQ1ZWRRAB",
+    "author_name": "Joice Bueck vieira",
+    "rating": 5,
+    "review_text": "Legal",
+    "review_time": "2026-11-07T20:03:41.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tWb2FVWmFZV05JWmxCUVJVbE9Va1J1WTNRellWRRAB",
+    "author_name": "luciano saraiva",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-07T17:27:34.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2toelNHY3RaaTFGT0dkMWRYSXpaa0pWTXpoc05FRRAB",
+    "author_name": "Rollan Gomes",
+    "rating": 5,
+    "review_text": "Muito bom recomendo",
+    "review_time": "2026-11-07T17:27:33.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25jd1dqRXlOMGg0VVRCR2FFZFNlV1U1Tm1od05GRRAB",
+    "author_name": "Guilherme Carvalho",
+    "rating": 5,
+    "review_text": "Experiência sensacional ❤️",
+    "review_time": "2026-11-07T17:04:50.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWMlN6WmxMVVZPV1RoelIybzFRamd0TmsxeVJHYxAB",
+    "author_name": "Gustavo Melgar",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-07T16:57:41.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xoZmRWWmlUVEJJY0VOS2IwdHlUbTlLZG5oeWFXYxAB",
+    "author_name": "Anderson Júnior",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-07T16:37:39.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21GNlYyNXpOMUZuUkdKaVUyZ3RMVk5XTkdZNU5tYxAB",
+    "author_name": "Maria Eduarda Saraiva",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-07T16:36:03.000Z"
+  },
+  {
     "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25GTk1GVXlYM1pWY1doQ1drdENNbVptVEdsZmFXYxAB",
     "author_name": "Gilberto Junior",
     "rating": 5,
