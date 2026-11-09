@@ -15836,11 +15836,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Tiago Ramon",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25WM2RGOWZPVGxxWmtaWWVWSmlZMHhJY0dSR1RuYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-07T12:29:27.232Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-09T19:25:12.779Z"
   },
   {
     "id": "37576021-42fa-4495-b218-a325ac3ed376",
