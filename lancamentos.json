@@ -15991,5 +15991,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-09T14:24:03.120Z",
     "confirmed_at": null
+  },
+  {
+    "id": "06cf4bcd-e209-4db1-a071-b881b827d9bc",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Rollan Gomes",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-09T14:25:34.528Z",
+    "confirmed_at": null
   }
 ]
