@@ -15579,11 +15579,13 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Erick Nascimento",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-11-06T03:25:31.753Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-11-09T18:41:40.510Z",
+    "rejected_review_id": null
   },
   {
     "id": "05b26258-fb40-408f-bb9f-7be079785593",
