@@ -15891,11 +15891,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Dona Bodega",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25WM2FXbEVUMmg2TjJSck1YaFlhSEkxV2tkZmJGRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-07T12:32:21.969Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-09T19:43:36.665Z"
   },
   {
     "id": "9cc8c194-68b8-4b63-9210-5668ba740506",
