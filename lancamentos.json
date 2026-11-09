@@ -15737,11 +15737,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Aisha blado kwiek Xavier",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21vMmFVWTFSV0k1U3kxbGRrWnFaRVpmU1haRmFtYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-06T18:03:41.842Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-09T18:42:33.719Z"
   },
   {
     "id": "9b9e7b50-84ad-4ed2-8612-ae387dab8e14",
