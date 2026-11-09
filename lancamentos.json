@@ -15869,11 +15869,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Nelson Rodriguez",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KM1RGRlBTbE5GZDFkSlNqQmpNRzEzVXpkc01tYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-07T12:30:52.430Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-09T19:43:15.018Z"
   },
   {
     "id": "25c2749b-54b4-4dda-b738-9a862e160e48",
