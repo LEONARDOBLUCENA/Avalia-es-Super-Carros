@@ -16002,5 +16002,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-09T14:25:34.528Z",
     "confirmed_at": null
+  },
+  {
+    "id": "6c59ba05-cb0a-46ea-ba18-2a26fc828a79",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "luciano saraiva",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-09T14:26:19.285Z",
+    "confirmed_at": null
   }
 ]
