@@ -16046,5 +16046,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-09T14:28:11.039Z",
     "confirmed_at": null
+  },
+  {
+    "id": "c70bb480-0b60-408a-b81b-c580f5348cc2",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Maria Eduarda Saraiva",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-09T14:28:59.812Z",
+    "confirmed_at": null
   }
 ]
