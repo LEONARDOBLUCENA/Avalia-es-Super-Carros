@@ -16035,5 +16035,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-09T14:27:45.419Z",
     "confirmed_at": null
+  },
+  {
+    "id": "7448b4b6-2056-4dc8-a817-384c3f23764b",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Anderson Júnior",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-09T14:28:11.039Z",
+    "confirmed_at": null
   }
 ]
