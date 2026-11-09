@@ -15969,5 +15969,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-09T13:42:13.946Z",
     "confirmed_at": null
+  },
+  {
+    "id": "c79e401c-b256-4a74-b51d-352e603873e8",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Ailton filho",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-09T14:21:44.091Z",
+    "confirmed_at": null
   }
 ]
