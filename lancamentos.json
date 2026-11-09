@@ -15792,11 +15792,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Silvana Campos",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25kWk5XdE9Ua05LUTFrdGVYWnJXamxRU2toTFZXYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-07T12:28:14.734Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-09T18:45:41.426Z"
   },
   {
     "id": "40f8f808-c7fd-4882-bf80-101cd8d0fdef",
