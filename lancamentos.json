@@ -15803,11 +15803,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Rodrigo Penna",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tReU9XYzFPRTFZZURKM1RsSTJORmN4ZGpsc1RYYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-07T12:28:35.225Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-09T19:24:11.695Z"
   },
   {
     "id": "80ae68f5-f7c5-4983-aeea-1948de89c454",
