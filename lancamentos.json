@@ -16116,5 +16116,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-09T18:50:16.786Z",
     "confirmed_at": null
+  },
+  {
+    "id": "c2494865-7a95-42ad-85dd-ad1dd4f714d6",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "robson pereira da silva",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-09T18:50:52.143Z",
+    "confirmed_at": null
   }
 ]
