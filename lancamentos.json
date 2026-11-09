@@ -16083,5 +16083,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-09T14:45:12.400Z",
     "confirmed_at": null
+  },
+  {
+    "id": "d543dd7a-7b00-42a3-acc7-0eefa0a53e6e",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Vinicius Marques",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-09T18:49:35.825Z",
+    "confirmed_at": null
   }
 ]
