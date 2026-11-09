@@ -16013,5 +16013,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-09T14:26:19.285Z",
     "confirmed_at": null
+  },
+  {
+    "id": "333a5894-93de-4bc4-b86c-f46e9d44083b",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Guilherme Carvalho",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-09T14:27:06.850Z",
+    "confirmed_at": null
   }
 ]
