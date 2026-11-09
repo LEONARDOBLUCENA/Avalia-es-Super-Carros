@@ -16024,5 +16024,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-09T14:27:06.850Z",
     "confirmed_at": null
+  },
+  {
+    "id": "e5abd1c6-170b-475f-8b04-c9944d540531",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Gustavo Melgar",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-09T14:27:45.419Z",
+    "confirmed_at": null
   }
 ]
