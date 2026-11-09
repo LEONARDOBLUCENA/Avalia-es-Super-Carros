@@ -16105,5 +16105,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-09T18:50:01.554Z",
     "confirmed_at": null
+  },
+  {
+    "id": "e0491ec5-a3c9-4861-bcf7-b62d2f318bad",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Marilena Brandao",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-09T18:50:16.786Z",
+    "confirmed_at": null
   }
 ]
