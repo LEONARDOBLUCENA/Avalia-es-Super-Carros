@@ -16068,5 +16068,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-09T14:29:13.455Z",
     "confirmed_at": null
+  },
+  {
+    "id": "4f312bf5-f709-4ab6-8ce8-2f4389704cdb",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Maria Beatriz",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-09T14:45:12.400Z",
+    "confirmed_at": null
   }
 ]
