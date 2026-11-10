@@ -16138,5 +16138,16 @@
     "mes_referencia": "2026-11",
     "created_at": "2026-11-09T18:52:59.019Z",
     "confirmed_at": "2026-11-10T12:28:54.462Z"
+  },
+  {
+    "id": "926f9437-79a3-4eec-8ca2-7850b442fa93",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Wander Amaral",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-10T14:02:33.081Z",
+    "confirmed_at": null
   }
 ]
