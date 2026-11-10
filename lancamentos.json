@@ -16111,11 +16111,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Marilena Brandao",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25vMlJtVmhSRTlFTm1RelgxRlpPVmxTZFdVeVYwRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-09T18:50:16.786Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-10T12:28:25.518Z"
   },
   {
     "id": "c2494865-7a95-42ad-85dd-ad1dd4f714d6",
