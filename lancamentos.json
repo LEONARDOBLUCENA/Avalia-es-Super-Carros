@@ -15968,11 +15968,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Jonatas pereira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xNdGRsWnVVMGxRZDJsWmVrWllWMlp4WmpKd1QzYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-09T13:42:13.946Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-10T12:25:56.671Z"
   },
   {
     "id": "c79e401c-b256-4a74-b51d-352e603873e8",
