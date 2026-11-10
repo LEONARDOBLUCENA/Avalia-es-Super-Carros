@@ -15979,11 +15979,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Ailton filho",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2toeldYQnpVWEEwTUhCSFptMVRiVVI2TlVwd0xVRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-09T14:21:44.091Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-10T12:25:30.532Z"
   },
   {
     "id": "c6f73dea-b2c5-4a1f-9dc9-815ef9c8e4f1",
