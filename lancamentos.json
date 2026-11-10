@@ -16067,11 +16067,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Cintia Vieira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCd1dTMUhWRkZOZEVGUlluUktZM2hRVUdoVGRrRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-09T14:29:13.455Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-10T12:27:37.475Z"
   },
   {
     "id": "4f312bf5-f709-4ab6-8ce8-2f4389704cdb",
