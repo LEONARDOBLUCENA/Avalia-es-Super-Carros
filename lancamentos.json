@@ -16078,11 +16078,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Maria Beatriz",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWc2IxcE9aRVIxYW5JMGVrZHFaWFZzWkhaa2JFRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-09T14:45:12.400Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-10T12:27:51.330Z"
   },
   {
     "id": "d543dd7a-7b00-42a3-acc7-0eefa0a53e6e",
