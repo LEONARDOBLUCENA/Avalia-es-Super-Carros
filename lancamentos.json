@@ -16012,11 +16012,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "luciano saraiva",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tWb2FVWmFZV05JWmxCUVJVbE9Va1J1WTNRellWRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-09T14:26:19.285Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-10T12:26:42.443Z"
   },
   {
     "id": "333a5894-93de-4bc4-b86c-f46e9d44083b",
