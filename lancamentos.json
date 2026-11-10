@@ -16160,5 +16160,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-10T14:04:01.791Z",
     "confirmed_at": null
+  },
+  {
+    "id": "59b66b07-316c-43b2-a096-1461c0efd0bc",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Nathalia Henriques",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-10T14:04:17.559Z",
+    "confirmed_at": null
   }
 ]
