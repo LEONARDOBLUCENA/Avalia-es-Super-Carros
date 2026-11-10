@@ -16171,5 +16171,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-10T14:04:17.559Z",
     "confirmed_at": null
+  },
+  {
+    "id": "ad79e7b6-7e21-4d16-9b3b-41bfed1e44dc",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Luciana dantas",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-10T18:02:22.301Z",
+    "confirmed_at": null
   }
 ]
