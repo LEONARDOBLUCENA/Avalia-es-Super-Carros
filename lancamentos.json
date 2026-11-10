@@ -16023,11 +16023,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Guilherme Carvalho",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25jd1dqRXlOMGg0VVRCR2FFZFNlV1U1Tm1od05GRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-09T14:27:06.850Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-10T12:26:52.616Z"
   },
   {
     "id": "e5abd1c6-170b-475f-8b04-c9944d540531",
