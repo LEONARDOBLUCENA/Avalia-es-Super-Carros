@@ -15990,11 +15990,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Karise Lucio",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xRMFp6SjJiVXBSTmtka04yZEZVRXQxUVhsb1lXYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-09T14:24:03.120Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-10T12:26:06.850Z"
   },
   {
     "id": "06cf4bcd-e209-4db1-a071-b881b827d9bc",
