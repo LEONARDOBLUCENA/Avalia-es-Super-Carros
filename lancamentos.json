@@ -16193,5 +16193,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-10T18:03:27.256Z",
     "confirmed_at": null
+  },
+  {
+    "id": "9bdc4992-c8b3-4bca-85f0-0683b0901bd8",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Victor Pablo",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-10T18:03:48.818Z",
+    "confirmed_at": null
   }
 ]
