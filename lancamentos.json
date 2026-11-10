@@ -16100,11 +16100,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Mariana Biasi",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25aYWRrZGpUREpEWnpKdlpXY3pWRUY2TTJaSGRWRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-09T18:50:01.554Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-10T12:28:09.687Z"
   },
   {
     "id": "e0491ec5-a3c9-4861-bcf7-b62d2f318bad",
