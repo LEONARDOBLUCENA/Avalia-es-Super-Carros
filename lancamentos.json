@@ -16144,11 +16144,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Wander Amaral",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2taRlJGTjNVRWRhZWxwa1ZGbzVUekJEUm5WbFpXYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-10T14:02:33.081Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-11T14:34:59.154Z"
   },
   {
     "id": "105e88f4-a4cd-43fd-8c08-b80944b13d96",
