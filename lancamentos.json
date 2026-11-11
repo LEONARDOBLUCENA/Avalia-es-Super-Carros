@@ -16190,11 +16190,13 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Michele",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-11-10T18:03:27.256Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-11-11T15:49:48.128Z",
+    "rejected_review_id": null
   },
   {
     "id": "9bdc4992-c8b3-4bca-85f0-0683b0901bd8",
