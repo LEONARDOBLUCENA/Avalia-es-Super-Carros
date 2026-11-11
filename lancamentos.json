@@ -16166,11 +16166,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Nathalia Henriques",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25VeFFrMUxSRTVtUlV0b1ptNTZUMlUzT1VweVJGRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-10T14:04:17.559Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-11T14:35:16.820Z"
   },
   {
     "id": "ad79e7b6-7e21-4d16-9b3b-41bfed1e44dc",
