@@ -16177,11 +16177,13 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Luciana dantas",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-11-10T18:02:22.301Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-11-11T15:49:38.208Z",
+    "rejected_review_id": null
   },
   {
     "id": "5e4b0cff-2145-4f5a-9165-65ae6a8d0cc0",
