@@ -16405,11 +16405,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Patricia Alves",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25sRk0wRlVOR1kxVkROTVkycExNVTl1V1dkRE5VRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-12T17:54:39.176Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-12T18:45:04.654Z"
   },
   {
     "id": "9fbe7514-3bc5-4b4b-b3a6-e342bb35e02f",
