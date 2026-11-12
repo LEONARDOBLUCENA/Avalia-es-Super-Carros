@@ -16366,5 +16366,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-12T03:22:20.208Z",
     "confirmed_at": null
+  },
+  {
+    "id": "d8393e81-9c81-4fea-bc62-2bfa05743bf0",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Be Melo",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-12T17:41:28.913Z",
+    "confirmed_at": null
   }
 ]
