@@ -16273,11 +16273,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Ingrid Almeida",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tReE1sSmlNV2hKWW5OR05rUkVOWFpOTVZKSlJYYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-12T03:10:58.838Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-12T18:43:32.276Z"
   },
   {
     "id": "83a65270-a193-48f8-90b6-4bd7b371433c",
