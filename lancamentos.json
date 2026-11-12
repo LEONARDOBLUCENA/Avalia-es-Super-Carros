@@ -16339,11 +16339,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "João Maiorial",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tad00wMURhVEU0YTNrMVgwTjRTVmR1VmpaVmRuYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-12T03:16:56.839Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-12T18:43:52.751Z"
   },
   {
     "id": "95eb0f4e-60d1-4135-9c70-9f038506d19e",
