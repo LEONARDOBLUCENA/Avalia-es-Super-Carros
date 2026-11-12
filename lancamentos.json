@@ -16295,11 +16295,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Jéssica Barbosa",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201U2R6RkNUREprYURnM2MzY3phbnB4VkRZemJGRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-12T03:11:41.190Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-12T13:40:17.582Z"
   },
   {
     "id": "aef690e5-3907-4b5c-ac5b-ba6e313f1388",
