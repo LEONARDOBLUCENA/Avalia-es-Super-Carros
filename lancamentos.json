@@ -16311,5 +16311,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-12T03:12:48.176Z",
     "confirmed_at": null
+  },
+  {
+    "id": "bbe2f2ec-295f-4826-8549-cf9b74f1369d",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Larissa Wilcenski",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-12T03:13:49.492Z",
+    "confirmed_at": null
   }
 ]
