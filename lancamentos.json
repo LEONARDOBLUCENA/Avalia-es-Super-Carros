@@ -16256,5 +16256,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-12T03:09:59.409Z",
     "confirmed_at": null
+  },
+  {
+    "id": "b66fd3c3-d409-497f-a0a0-10c39e3d9585",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Adriano Alves",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-12T03:10:10.930Z",
+    "confirmed_at": null
   }
 ]
