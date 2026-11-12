@@ -16322,5 +16322,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-12T03:13:49.492Z",
     "confirmed_at": null
+  },
+  {
+    "id": "ecf38df0-2505-4c47-b5f7-5724df4e5177",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "vander Amaral",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-12T03:15:01.258Z",
+    "confirmed_at": null
   }
 ]
