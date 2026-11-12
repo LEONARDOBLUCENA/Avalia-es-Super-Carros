@@ -16278,5 +16278,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-12T03:10:58.838Z",
     "confirmed_at": null
+  },
+  {
+    "id": "83a65270-a193-48f8-90b6-4bd7b371433c",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Isabela Prata",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-12T03:11:07.703Z",
+    "confirmed_at": null
   }
 ]
