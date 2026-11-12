@@ -16438,10 +16438,10 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Marciely Peters",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGcFZHOXdiWHAxYW1KallVRmlkVVJKZVVwWGFuYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-12T17:55:32.287Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-12T18:45:46.941Z"
   }
 ]
