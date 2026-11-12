@@ -16284,11 +16284,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Isabela Prata",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2paUk1WcFlReTFRTTJGbVlVWmthbWRSVHpkTE4wRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-12T03:11:07.703Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-12T18:43:42.240Z"
   },
   {
     "id": "a6e4dd34-b533-4304-9737-4a421cbb64b9",
