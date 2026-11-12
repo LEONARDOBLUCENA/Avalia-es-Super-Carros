@@ -16306,11 +16306,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Yasmim Santos",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGUlRGTXhWekF4TWxsUFN5MDBUMEp5Tm5WYVptYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-12T03:12:48.176Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-12T13:40:35.562Z"
   },
   {
     "id": "bbe2f2ec-295f-4826-8549-cf9b74f1369d",
