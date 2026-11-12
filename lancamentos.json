@@ -16372,11 +16372,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Be Melo",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKMFRtVnJWMUU1ZWtsR1VGTjVPRk5YVWtOM1ozYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-12T17:41:28.913Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-12T18:44:14.371Z"
   },
   {
     "id": "52bfdd64-92af-4b1d-95a4-ee8af85c4d0f",
