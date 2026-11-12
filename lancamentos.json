@@ -16245,5 +16245,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-11T20:45:52.316Z",
     "confirmed_at": null
+  },
+  {
+    "id": "f47ab797-8b4e-472f-a7a6-6fcde0b0c7e5",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Christian Felipe",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-12T03:09:59.409Z",
+    "confirmed_at": null
   }
 ]
