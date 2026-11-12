@@ -1,5 +1,103 @@
 [
   {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pJMFJrNDRTbHBLTFhaTVFsTm5ZVXc1VG1KdlJXYxAB",
+    "author_name": "Alexandre Catarino",
+    "rating": 3,
+    "review_text": "",
+    "review_time": "2026-11-12T17:32:56.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pWM1JHRlVlVXhRV0doaldFeHZObWRaV0dwbldIYxAB",
+    "author_name": "Cristyelly Rocha",
+    "rating": 5,
+    "review_text": "Perfeita",
+    "review_time": "2026-11-12T14:03:43.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25sRk0wRlVOR1kxVkROTVkycExNVTl1V1dkRE5VRRAB",
+    "author_name": "Patricia Alves",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-12T14:02:59.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pWQmJuVkROSHBwWVcxV1pqSndXSEpSVlVjelozYxAB",
+    "author_name": "André Luis",
+    "rating": 5,
+    "review_text": "Ótimo passeio, recomendo demais.",
+    "review_time": "2026-11-12T14:01:28.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKMFRtVnJWMUU1ZWtsR1VGTjVPRk5YVWtOM1ozYxAB",
+    "author_name": "Be Melo",
+    "rating": 5,
+    "review_text": "Experiência excepcional no Super Carros de Gramado! Atendimento ótimo desde a chegada até a finalização! Registro em alta qualidade de toda a experiência. Coração a mil dentro do carro, com acompanhamento de instrutor, com orientação e muita responsabilidade.",
+    "review_time": "2026-11-12T13:33:14.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGcFZHOXdiWHAxYW1KallVRmlkVVJKZVVwWGFuYxAB",
+    "author_name": "Marciely Peters",
+    "rating": 5,
+    "review_text": "Ótima",
+    "review_time": "2026-11-12T13:09:54.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tsallpMXpSVkJSUm1OYVJrOVJka1E1VTFsV1UwRRAB",
+    "author_name": "Amanda Julia de Moraes Nunes",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-11T20:42:28.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2taVU5rVmpRM1U1Y2xKcGJqbHlaM1JUUkhoSE9YYxAB",
+    "author_name": "Douglas Silva",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-11T20:41:42.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT210cFgwUkxUWFV4U1hwc05tbEJSVFphYlhkVk9YYxAB",
+    "author_name": "Christian Felipe",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-11T20:33:31.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCU1IzVjJZelJXUlRBeFEyMUVVa2ROT0ZSaWVtYxAB",
+    "author_name": "Adriano Alves",
+    "rating": 5,
+    "review_text": "Ótimo passeio, super recomendo!!<br>Ótimo atendimento e ótimo passeio...",
+    "review_time": "2026-11-11T20:20:29.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tad00wMURhVEU0YTNrMVgwTjRTVmR1VmpaVmRuYxAB",
+    "author_name": "João Maioral",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-11T19:08:45.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tReE1sSmlNV2hKWW5OR05rUkVOWFpOTVZKSlJYYxAB",
+    "author_name": "Ingrid Almeida",
+    "rating": 4,
+    "review_text": "",
+    "review_time": "2026-11-11T18:58:10.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2paUk1WcFlReTFRTTJGbVlVWmthbWRSVHpkTE4wRRAB",
+    "author_name": "Isabela Prata",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-11T18:40:01.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tSV1ExOUNVa2hZZEZOUVpuWXdWalpMZUZseWFGRRAB",
+    "author_name": "Rayanne F",
+    "rating": 3,
+    "review_text": "Bom mais porém as fotos digitais poderiam ser mais baratas",
+    "review_time": "2026-11-11T18:10:49.000Z"
+  },
+  {
     "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201U2R6RkNUREprYURnM2MzY3phbnB4VkRZemJGRRAB",
     "author_name": "Jéssica Barbosa",
     "rating": 5,
