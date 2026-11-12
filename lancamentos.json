@@ -16251,11 +16251,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Christian Felipe",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT210cFgwUkxUWFV4U1hwc05tbEJSVFphYlhkVk9YYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-12T03:09:59.409Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-12T18:43:13.401Z"
   },
   {
     "id": "b66fd3c3-d409-497f-a0a0-10c39e3d9585",
