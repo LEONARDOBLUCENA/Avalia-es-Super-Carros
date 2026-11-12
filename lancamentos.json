@@ -16383,11 +16383,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Alexandre Catarino",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pJMFJrNDRTbHBLTFhaTVFsTm5ZVXc1VG1KdlJXYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-12T17:54:03.040Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-12T18:44:25.248Z"
   },
   {
     "id": "726f420e-a36d-4134-a164-216671dd5938",
