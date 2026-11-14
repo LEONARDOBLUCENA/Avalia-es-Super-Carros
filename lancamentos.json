@@ -16674,5 +16674,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-14T19:48:44.402Z",
     "confirmed_at": null
+  },
+  {
+    "id": "59a6c9e4-0cff-4661-b389-b341069de30f",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Leandro Lombardi",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-14T19:49:01.017Z",
+    "confirmed_at": null
   }
 ]
