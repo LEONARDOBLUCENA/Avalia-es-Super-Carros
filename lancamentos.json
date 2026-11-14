@@ -16696,5 +16696,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-14T20:31:44.933Z",
     "confirmed_at": null
+  },
+  {
+    "id": "2ef00813-a9ed-4dcc-b47a-b7f895c76e23",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Jullye siquieri",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-14T20:32:08.070Z",
+    "confirmed_at": null
   }
 ]
