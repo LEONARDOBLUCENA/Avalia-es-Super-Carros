@@ -16630,5 +16630,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-14T17:05:50.237Z",
     "confirmed_at": null
+  },
+  {
+    "id": "bf759783-5d34-4b0f-b5e0-7702dc5aadd3",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "samara brasil",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-14T19:47:54.419Z",
+    "confirmed_at": null
   }
 ]
