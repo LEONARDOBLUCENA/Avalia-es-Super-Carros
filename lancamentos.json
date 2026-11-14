@@ -16443,5 +16443,16 @@
     "mes_referencia": "2026-11",
     "created_at": "2026-11-12T17:55:32.287Z",
     "confirmed_at": "2026-11-12T18:45:46.941Z"
+  },
+  {
+    "id": "c4fe03d7-db1a-4fd4-b9f0-25a4156b40ca",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "marlon adriano",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-14T02:57:29.751Z",
+    "confirmed_at": null
   }
 ]
