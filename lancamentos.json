@@ -16608,5 +16608,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-14T17:04:19.712Z",
     "confirmed_at": null
+  },
+  {
+    "id": "37add926-01e1-4641-a34a-9f169321a0e4",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Marcia Lopes",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-14T17:04:43.821Z",
+    "confirmed_at": null
   }
 ]
