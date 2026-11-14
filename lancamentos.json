@@ -16476,5 +16476,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-14T02:58:13.688Z",
     "confirmed_at": null
+  },
+  {
+    "id": "7cfa278e-c799-4199-977c-0db7c059c86c",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Davi Virla",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-14T02:58:31.955Z",
+    "confirmed_at": null
   }
 ]
