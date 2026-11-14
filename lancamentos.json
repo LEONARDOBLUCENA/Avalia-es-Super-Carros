@@ -16564,5 +16564,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-14T16:19:54.273Z",
     "confirmed_at": null
+  },
+  {
+    "id": "76ef3112-f103-49aa-aa06-8557815dc91a",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "DANIELLY ENEDINO PESSOA EVARISTO",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-14T17:03:36.109Z",
+    "confirmed_at": null
   }
 ]
