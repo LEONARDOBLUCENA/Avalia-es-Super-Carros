@@ -16531,5 +16531,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-14T16:17:14.329Z",
     "confirmed_at": null
+  },
+  {
+    "id": "7489557b-ea6f-4f90-a280-7ab3dd490ce9",
+    "setor": "Fotos",
+    "vendedora": "Indianara",
+    "cliente_nome_informado": "Guidiermo",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-14T16:17:37.377Z",
+    "confirmed_at": null
   }
 ]
