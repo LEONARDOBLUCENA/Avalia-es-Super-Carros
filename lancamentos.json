@@ -16740,5 +16740,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-14T20:52:48.389Z",
     "confirmed_at": null
+  },
+  {
+    "id": "01d115df-12fa-4016-af92-9bbbb4624036",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Thiago Daniel Varjão",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-14T20:53:24.783Z",
+    "confirmed_at": null
   }
 ]
