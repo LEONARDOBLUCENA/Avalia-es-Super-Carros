@@ -16663,5 +16663,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-14T19:48:31.530Z",
     "confirmed_at": null
+  },
+  {
+    "id": "889d3c6d-7895-425d-bf9b-18e31bd45e2a",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Heriton Oliveira",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-14T19:48:44.402Z",
+    "confirmed_at": null
   }
 ]
