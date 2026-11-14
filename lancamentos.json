@@ -16586,5 +16586,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-14T17:03:52.132Z",
     "confirmed_at": null
+  },
+  {
+    "id": "c3d18d62-c29a-4932-984e-5d01e1fd3ee4",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Alexandre Santiago",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-14T17:04:07.000Z",
+    "confirmed_at": null
   }
 ]
