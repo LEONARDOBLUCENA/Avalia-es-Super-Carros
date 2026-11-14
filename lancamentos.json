@@ -16498,5 +16498,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-14T02:58:40.059Z",
     "confirmed_at": null
+  },
+  {
+    "id": "f1866c73-8173-48f9-a71b-6888a28d25b3",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Victor Vieira",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-14T03:00:49.056Z",
+    "confirmed_at": null
   }
 ]
