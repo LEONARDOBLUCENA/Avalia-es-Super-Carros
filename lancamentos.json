@@ -16762,5 +16762,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-15T23:22:32.272Z",
     "confirmed_at": null
+  },
+  {
+    "id": "008e087a-0d9e-4365-bdab-7e58e3c53908",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Daniel Guessi Mazzuchello",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-15T23:22:49.407Z",
+    "confirmed_at": null
   }
 ]
