@@ -16773,5 +16773,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-15T23:22:49.407Z",
     "confirmed_at": null
+  },
+  {
+    "id": "ab318323-1e11-47c2-8982-29109d508489",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Erik Ramos de Oliveira",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-15T23:23:06.191Z",
+    "confirmed_at": null
   }
 ]
