@@ -16938,5 +16938,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-15T23:26:38.713Z",
     "confirmed_at": null
+  },
+  {
+    "id": "c0c2e613-3fed-4847-bfae-dc05d46d0943",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Emily Evely",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-15T23:27:34.847Z",
+    "confirmed_at": null
   }
 ]
