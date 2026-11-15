@@ -16927,5 +16927,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-15T23:26:23.404Z",
     "confirmed_at": null
+  },
+  {
+    "id": "8ac24eb5-4bba-4c91-92ca-0b2c95cd2a4a",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Andréa Romio",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-15T23:26:38.713Z",
+    "confirmed_at": null
   }
 ]
