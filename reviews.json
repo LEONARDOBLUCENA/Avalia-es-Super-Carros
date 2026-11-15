@@ -1,5 +1,110 @@
 [
   {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25scmRUY3hPVGRHYWxGMU5tTmphVlZ0Y21sVVJIYxAB",
+    "author_name": "Laís Martins",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-15T14:36:32.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2taTE9XOVRWbkZ1UzNkSlgyeFpVamczZW5aMlZIYxAB",
+    "author_name": "Andréa Romio",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-15T14:28:23.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGZkxVY3hZelJWZVROeFFYaDZVMWhYVm5nM09IYxAB",
+    "author_name": "marcelo ferreira vicentini",
+    "rating": 5,
+    "review_text": "EXCELENTE!",
+    "review_time": "2026-11-15T14:00:27.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1cmFtNXpjVU53U2tOb1ltbHFaMWxCUTBwU2JtYxAB",
+    "author_name": "Thiago Daniel Varjão",
+    "rating": 4,
+    "review_text": "Experiência bacana para aqueles que sempre quiseram ter a experiência de dirigir ou andar em superesportivos como Ferrari, Lamborghini, McLaren, Mustang e dentre outros. Os carros são bonitos. Sugiro os conversíveis.<br><br>​Como pontos negativos: o serviço terceirizado de fotografia oficial tem um valor totalmente fora da realidade (mesmo com os descontos que vão oferecendo na negociação e um vinho incluso como suposta 'cortesia'). Além disso, como o trajeto é feito em via urbana comum (Avenida das Hortênsias), com trânsito, lombadas e limite baixo da via, são poucos os momentos para sentir o desempenho real do carro, seria bem mais interessante se tivessem uma pista própria.",
+    "review_time": "2026-11-15T02:41:38.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xVek4xcFFSVzh6ZG1aV1ZGbzNZVWhtZG5wbE9XYxAB",
+    "author_name": "wesley Sanches",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-15T01:31:52.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25OTGJFUmhRbGR0ZEZkTlR6SXlObmMwYWtKTGFFRRAB",
+    "author_name": "Gerson Branco Palacio",
+    "rating": 5,
+    "review_text": "ótimo atendimento e experiência!",
+    "review_time": "2026-11-14T20:28:19.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25ZNFJtaENPR0ZGYmpOcFVrOXllR1ZoZWtOQ1ZXYxAB",
+    "author_name": "Fabiana Inocencio",
+    "rating": 3,
+    "review_text": "Apesar dos valores, a experiência foi muito boa! Os funcionários atenciosos, não tem muito carros na exposiçã, no geral gostamos.",
+    "review_time": "2026-11-14T19:55:49.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25SSVlrVmhlVTQwYVRsQ2QwNXBUVmhaVGpWbWEwRRAB",
+    "author_name": "Bryan Lucas",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-14T19:44:11.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCQmEwSXhkblJ3U0RGYU0zWXdVMUJpYkVOeFpsRRAB",
+    "author_name": "Jullye Siquieri",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-14T19:43:40.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5VFZYQk5jRmwxUlhWRGVWSlVUbWhEVDNaTE9HYxAB",
+    "author_name": "Emily Evely",
+    "rating": 5,
+    "review_text": "Ótima experiência",
+    "review_time": "2026-11-14T19:08:26.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCS00xQkpkV05uVTBSNVNuWnRkRE5tVkV0V2MzYxAB",
+    "author_name": "Leandro Lombardi",
+    "rating": 5,
+    "review_text": "Ótimo atendimento pessoal bem de boa principalmente o Tales instrutor",
+    "review_time": "2026-11-14T18:41:21.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1aldHVlpZM2M0WjNVeFJrcFVWRFpDWTNGR2VWRRAB",
+    "author_name": "Heriton Oliveira",
+    "rating": 5,
+    "review_text": "Recomendo",
+    "review_time": "2026-11-14T17:51:22.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5U2VWUnFlRkp0Um5vM1gzbFpTM1ZrV2pSSU9HYxAB",
+    "author_name": "adriana souza ribeiro",
+    "rating": 2,
+    "review_text": "Sou professora e fomos com um grupo de estudantes do ensino médio.  Um dos atendentes foi mau educado comigo e meus colegas professores.<br>Quando entramos o lugar tinha pouca gente, e esse funcionário não pareceu muito contente com a nossa chegada, como se os estudantes não fosse potenciais \"gastadores de dinheiro\" naquele local. Por fim, na saída existe apenas um caixa para deixar o local, e outras pessoas que tinham comprado produtos foram passadas em nossa frente.  Espero que melhorem o atendimento para grupos de estudantes.",
+    "review_time": "2026-11-14T17:46:58.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCSlJGVTNkMXBXU3pCQmFrTm5VMEpRUVV4Tk1uYxAB",
+    "author_name": "Nathan Neves",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-14T17:29:31.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT214cmVrSm9SMDR6TlVwdFdUZzBjRk01YW01V2JXYxAB",
+    "author_name": "carla rezende",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-14T17:05:05.000Z"
+  },
+  {
     "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205TFpsWldTR0Y0UlRCbGVtVlJNME5IZEZNMFNGRRAB",
     "author_name": "Alexander Henrique Silva",
     "rating": 5,
@@ -54,6 +159,20 @@
     "rating": 5,
     "review_text": "",
     "review_time": "2026-11-14T15:28:18.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xkelgwWlhWRTFzVVZGelRIYzJSMnhRVTJ4cldFRRAB",
+    "author_name": "Marcia Lopes",
+    "rating": 5,
+    "review_text": "Recepção muita prestativa desde da chegada até a saída",
+    "review_time": "2026-11-14T15:04:13.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25WWE1FOUdRbmN3UjJsUlRFMWZVMGMyTWxwek5YYxAB",
+    "author_name": "Edvaldo Oliveira",
+    "rating": 5,
+    "review_text": "Foi muito emocionante dirigir uma Lamborghini amei a experiência",
+    "review_time": "2026-11-14T15:04:05.000Z"
   },
   {
     "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25GdVFXMHlkbFptY0haWllsSkxjMFpNZUVOU1dGRRAB",
