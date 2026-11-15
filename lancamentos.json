@@ -16916,5 +16916,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-15T23:25:51.579Z",
     "confirmed_at": null
+  },
+  {
+    "id": "964add7e-6953-4b46-811e-540a50924901",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "marcelo ferreira vicentini",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-15T23:26:23.404Z",
+    "confirmed_at": null
   }
 ]
