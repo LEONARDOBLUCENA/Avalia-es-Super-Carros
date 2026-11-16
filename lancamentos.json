@@ -17103,5 +17103,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-16T22:34:33.754Z",
     "confirmed_at": null
+  },
+  {
+    "id": "ee299724-97a0-4eb3-962f-74a482917504",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Paolla Deusdedit",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-16T22:35:26.482Z",
+    "confirmed_at": null
   }
 ]
