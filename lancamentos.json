@@ -17092,5 +17092,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-16T22:32:06.868Z",
     "confirmed_at": null
+  },
+  {
+    "id": "a1eabfe9-cfde-431b-a348-fb41513fff7d",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Thais Lippert weirich",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-16T22:34:33.754Z",
+    "confirmed_at": null
   }
 ]
