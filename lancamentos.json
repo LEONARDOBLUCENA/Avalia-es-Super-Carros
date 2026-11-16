@@ -16971,5 +16971,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-16T13:10:27.406Z",
     "confirmed_at": null
+  },
+  {
+    "id": "3cc0c288-fb62-4d30-b211-0a00c6f3b76c",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Maria Luisa",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-16T13:57:23.876Z",
+    "confirmed_at": null
   }
 ]
