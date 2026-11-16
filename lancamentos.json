@@ -17070,5 +17070,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-16T22:30:04.646Z",
     "confirmed_at": null
+  },
+  {
+    "id": "2d8b8322-717e-4464-9237-c0ac98390b21",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Jacque Costa",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-16T22:30:21.214Z",
+    "confirmed_at": null
   }
 ]
