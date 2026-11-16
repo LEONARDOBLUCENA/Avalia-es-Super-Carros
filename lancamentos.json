@@ -17114,5 +17114,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-16T22:35:26.482Z",
     "confirmed_at": null
+  },
+  {
+    "id": "17fb1667-678d-445b-8e20-85650ecf2737",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "milyx",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-16T22:35:43.781Z",
+    "confirmed_at": null
   }
 ]
