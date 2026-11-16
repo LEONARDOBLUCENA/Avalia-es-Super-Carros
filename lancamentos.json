@@ -17081,5 +17081,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-16T22:30:21.214Z",
     "confirmed_at": null
+  },
+  {
+    "id": "233ceab2-e85d-4d85-8bc1-3c420c324da7",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Israel Lucas",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-16T22:32:06.868Z",
+    "confirmed_at": null
   }
 ]
