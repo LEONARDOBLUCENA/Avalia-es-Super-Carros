@@ -16982,5 +16982,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-16T13:57:23.876Z",
     "confirmed_at": null
+  },
+  {
+    "id": "a5cf7c67-adb2-4e76-bfc7-3ee4192056b9",
+    "setor": "Fotos",
+    "vendedora": "Cleide",
+    "cliente_nome_informado": "Rafael lima",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-16T13:57:33.002Z",
+    "confirmed_at": null
   }
 ]
