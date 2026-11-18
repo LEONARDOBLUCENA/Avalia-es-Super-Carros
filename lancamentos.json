@@ -17169,5 +17169,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-18T12:19:37.792Z",
     "confirmed_at": null
+  },
+  {
+    "id": "b0131ce1-87a5-490f-8566-7541370af50a",
+    "setor": "Fotos",
+    "vendedora": "Indianara",
+    "cliente_nome_informado": "Esther Oliveira",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-18T12:26:02.110Z",
+    "confirmed_at": null
   }
 ]
