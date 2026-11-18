@@ -17158,5 +17158,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-18T12:18:50.279Z",
     "confirmed_at": null
+  },
+  {
+    "id": "c37094db-2884-4a01-b27e-ceca07ef0815",
+    "setor": "Fotos",
+    "vendedora": "Indianara",
+    "cliente_nome_informado": "Ana Paula Anselmo",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-18T12:19:37.792Z",
+    "confirmed_at": null
   }
 ]
