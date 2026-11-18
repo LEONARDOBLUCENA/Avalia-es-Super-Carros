@@ -17213,5 +17213,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-18T17:30:42.828Z",
     "confirmed_at": null
+  },
+  {
+    "id": "5aa177b6-7cce-4f38-be30-d7d0a78812ae",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Alexandre Barbalho",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-18T17:32:12.203Z",
+    "confirmed_at": null
   }
 ]
