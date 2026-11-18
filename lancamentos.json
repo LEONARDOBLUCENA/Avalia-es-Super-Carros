@@ -17191,5 +17191,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-18T15:09:24.754Z",
     "confirmed_at": null
+  },
+  {
+    "id": "91a3be53-000c-4542-aba6-c18b952b9aa0",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Santo capitão",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-18T16:05:30.022Z",
+    "confirmed_at": null
   }
 ]
