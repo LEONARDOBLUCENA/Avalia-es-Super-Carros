@@ -17235,5 +17235,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-18T17:32:22.003Z",
     "confirmed_at": null
+  },
+  {
+    "id": "20abd425-ad16-43c0-992d-637bf09ae2eb",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Oberdan Junior",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-18T17:32:50.554Z",
+    "confirmed_at": null
   }
 ]
