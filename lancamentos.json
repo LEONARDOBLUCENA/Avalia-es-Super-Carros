@@ -17040,11 +17040,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Roberto Wagner Gomes Benicio Wagner",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w4eFUwWXpiVzV5T0ZWM1ozcE5aWG95VUZsdWJIYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-16T22:28:57.567Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-19T14:16:48.215Z"
   },
   {
     "id": "eb0daaa6-9477-4e6a-aeb3-b65c6f5c1bde",
