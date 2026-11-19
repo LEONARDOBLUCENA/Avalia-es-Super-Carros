@@ -16671,11 +16671,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Heriton Oliveira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1aldHVlpZM2M0WjNVeFJrcFVWRFpDWTNGR2VWRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-14T19:48:44.402Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-19T14:00:14.050Z"
   },
   {
     "id": "59a6c9e4-0cff-4661-b389-b341069de30f",
