@@ -16484,11 +16484,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Davi Virla",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5TmMxaHpWMmhqTWtVdFJVbzNNbGc0UVhoMmJIYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-14T02:58:31.955Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-19T13:48:51.428Z"
   },
   {
     "id": "289a70d4-6dd0-4aef-b003-95c2dabacbe1",
