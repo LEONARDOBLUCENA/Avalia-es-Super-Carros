@@ -16682,11 +16682,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Leandro Lombardi",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCS00xQkpkV05uVTBSNVNuWnRkRE5tVkV0V2MzYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-14T19:49:01.017Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-19T14:00:23.766Z"
   },
   {
     "id": "d82cf5e7-e97c-4b7f-bfda-cdc0d230c97c",
