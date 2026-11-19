@@ -16737,11 +16737,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Fabiana Inocencio",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25ZNFJtaENPR0ZGYmpOcFVrOXllR1ZoZWtOQ1ZXYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-14T20:52:48.389Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-19T14:01:23.691Z"
   },
   {
     "id": "01d115df-12fa-4016-af92-9bbbb4624036",
