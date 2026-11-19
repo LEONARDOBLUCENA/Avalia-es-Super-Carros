@@ -17291,5 +17291,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-18T20:40:38.576Z",
     "confirmed_at": null
+  },
+  {
+    "id": "3b1bce4e-a432-4c8d-83d5-d78425716afc",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Thiago Rocha",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-19T19:13:17.014Z",
+    "confirmed_at": null
   }
 ]
