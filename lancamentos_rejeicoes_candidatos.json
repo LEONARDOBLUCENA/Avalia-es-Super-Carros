@@ -18,5 +18,15 @@
     "review_author_name": "Mariana Petry Lohn",
     "review_text_snippet": "",
     "rejected_at": "2026-11-03T14:47:17.215Z"
+  },
+  {
+    "id": "60583624-c8a0-4f35-a9fe-3c37e5bfef55",
+    "lancamento_id": "b772f0e0-d25f-4fe0-ad92-ab19e93c1ee7",
+    "cliente_nome_informado": "Clayton Oliari",
+    "vendedora": "Lohane",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tWSFVrZ3pkbVUzY1VOV1lteHJZbGR5TTFwalEzYxAB",
+    "review_author_name": "Clayton Thiesen",
+    "review_text_snippet": "",
+    "rejected_at": "2026-11-19T14:16:20.928Z"
   }
 ]
