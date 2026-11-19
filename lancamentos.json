@@ -16959,11 +16959,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Giovanna Peruquetti",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pJMlFrbHhTVFJVTmxCYWFWbFBMVmR0Vld0cU0wRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-15T23:28:51.761Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-19T14:15:15.779Z"
   },
   {
     "id": "a40c3cf1-5fc4-4c9d-af88-bd593732a29a",
