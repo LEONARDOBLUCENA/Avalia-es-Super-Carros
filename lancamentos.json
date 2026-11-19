@@ -16871,11 +16871,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Cristina Duarte",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WTloxcHhSVlJzWW1KdlkydFlRWEJOU2t0SGFYYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-15T23:25:12.225Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-19T14:13:10.546Z"
   },
   {
     "id": "64d01ca5-c76c-4a75-839e-e3cb01869193",
