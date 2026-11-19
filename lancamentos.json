@@ -17335,5 +17335,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-19T22:06:02.095Z",
     "confirmed_at": null
+  },
+  {
+    "id": "a040a44b-8273-47f8-94da-c3259936acc0",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "elane machado",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-19T22:06:31.630Z",
+    "confirmed_at": null
   }
 ]
