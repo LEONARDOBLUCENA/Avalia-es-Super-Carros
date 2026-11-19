@@ -16770,11 +16770,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Daniel Guessi Mazzuchello",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21OV1lXd3dVMVpZVVZsaVJtRjNaMHRsV21WUmVWRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-15T23:22:49.407Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-19T14:01:53.924Z"
   },
   {
     "id": "ab318323-1e11-47c2-8982-29109d508489",
