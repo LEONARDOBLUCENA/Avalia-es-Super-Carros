@@ -16561,11 +16561,11 @@
     "setor": "Fotos",
     "vendedora": "Indianara",
     "cliente_nome_informado": "Cariane Oliveira Oliveira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2padE5tdHZObVJGUld4SFdsZHdZVzFLZEdoRlZsRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-14T16:19:54.273Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-19T13:57:15.818Z"
   },
   {
     "id": "76ef3112-f103-49aa-aa06-8557815dc91a",
