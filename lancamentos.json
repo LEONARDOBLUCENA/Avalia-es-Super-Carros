@@ -17379,5 +17379,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-19T22:07:26.273Z",
     "confirmed_at": null
+  },
+  {
+    "id": "e280de14-7750-4d63-80e5-25c301324c1c",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Richard Novais",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-19T22:07:53.492Z",
+    "confirmed_at": null
   }
 ]
