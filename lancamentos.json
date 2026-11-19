@@ -16904,11 +16904,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Darlan Kardeck",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poVFVYVk1XakkwUWtsSmFERTNabGhFVVd4c1NrRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-15T23:25:40.847Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-19T14:14:05.628Z"
   },
   {
     "id": "9efc2a3e-8d3a-4cb3-bb16-1c8d304142f9",
