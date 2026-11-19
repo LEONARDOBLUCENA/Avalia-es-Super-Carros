@@ -16473,11 +16473,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Maer Salal",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCYU1qRmZaMk5CVGpoelZWaFpkRWd0TFhCMFVtYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-14T02:58:13.688Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-19T13:48:40.392Z"
   },
   {
     "id": "7cfa278e-c799-4199-977c-0db7c059c86c",
