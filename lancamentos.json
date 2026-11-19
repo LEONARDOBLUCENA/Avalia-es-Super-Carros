@@ -17062,11 +17062,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Franciele Mocelin",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21SbmEwOTZOVFpNTVVKWmMyOVRNM2RyY0hBMlFVRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-16T22:29:51.281Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-19T14:17:08.565Z"
   },
   {
     "id": "58e3bc06-9871-4f76-a1f6-cab0d1756d73",
