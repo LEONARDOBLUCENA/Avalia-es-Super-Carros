@@ -17313,5 +17313,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-19T22:05:34.466Z",
     "confirmed_at": null
+  },
+  {
+    "id": "37456874-164f-4b30-8e54-0ea6e962d561",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Caio Nunes",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-19T22:05:42.866Z",
+    "confirmed_at": null
   }
 ]
