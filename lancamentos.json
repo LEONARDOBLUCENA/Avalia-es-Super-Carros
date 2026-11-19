@@ -16805,11 +16805,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Vinícius Passos",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21aZmRrb3dPSGhzWlU5Sk5XWTNZVUkzV0hWNVVWRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-15T23:23:39.395Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-19T14:02:37.013Z"
   },
   {
     "id": "679486b8-4b8d-4a7b-a83d-2eb143d83d9b",
