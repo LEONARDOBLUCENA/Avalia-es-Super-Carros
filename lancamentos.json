@@ -16660,11 +16660,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Nathan Neves",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCSlJGVTNkMXBXU3pCQmFrTm5VMEpRUVV4Tk1uYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-14T19:48:31.530Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-19T14:00:01.328Z"
   },
   {
     "id": "889d3c6d-7895-425d-bf9b-18e31bd45e2a",
