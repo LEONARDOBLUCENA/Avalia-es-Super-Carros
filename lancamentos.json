@@ -17154,11 +17154,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Lyniker rahone",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT214Q2RtTnZlWGR5WWtOU1pVSjFPVTl4VDBwdVJWRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-16T22:45:16.434Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-19T14:25:22.384Z"
   },
   {
     "id": "5c67df87-248e-4af9-abfc-9b1a143fce3f",
