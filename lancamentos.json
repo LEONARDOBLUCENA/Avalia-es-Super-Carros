@@ -16539,11 +16539,11 @@
     "setor": "Fotos",
     "vendedora": "Indianara",
     "cliente_nome_informado": "Guidiermo",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25CbWR6bHNhR1JUVG1RdFgyNWpWbTVTUzFoS1dFRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-14T16:17:37.377Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-19T13:56:56.805Z"
   },
   {
     "id": "8726276e-f3ff-4e23-96a9-ba4e6bd95fdf",
