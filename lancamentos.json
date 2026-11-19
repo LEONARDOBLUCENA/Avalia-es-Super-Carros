@@ -17346,5 +17346,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-19T22:06:31.630Z",
     "confirmed_at": null
+  },
+  {
+    "id": "31a873ed-a785-4d63-b595-56f0557d5c55",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Jaqueline Carvalho",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-19T22:07:01.267Z",
+    "confirmed_at": null
   }
 ]
