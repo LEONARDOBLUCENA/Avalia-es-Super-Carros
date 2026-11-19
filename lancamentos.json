@@ -16528,11 +16528,11 @@
     "setor": "Fotos",
     "vendedora": "Indianara",
     "cliente_nome_informado": "Izaac Oliveira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poNmNGQk5ibEpCYzJWNGRGcFVSVTFKY214RGMxRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-14T16:17:14.329Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-19T13:49:32.684Z"
   },
   {
     "id": "7489557b-ea6f-4f90-a280-7ab3dd490ce9",
