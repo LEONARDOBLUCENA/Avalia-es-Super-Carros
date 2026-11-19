@@ -16970,11 +16970,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Anderson Rohde",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25BMVRXOU1UUzB5WW10dGFrbGZZMDFOVFZKbmNWRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-16T13:10:27.406Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-19T14:15:26.236Z"
   },
   {
     "id": "3cc0c288-fb62-4d30-b211-0a00c6f3b76c",
