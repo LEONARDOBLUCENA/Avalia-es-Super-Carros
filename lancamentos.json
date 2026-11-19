@@ -16451,11 +16451,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "marlon adriano",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5aE1EQTBjbkZHTTBORFdVNVdRV1pNZEVGdExYYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-14T02:57:29.751Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-19T13:48:20.796Z"
   },
   {
     "id": "3a443a21-5c6b-4143-9be8-49a6c694ccbf",
