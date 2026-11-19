@@ -16838,11 +16838,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Gabrielly Soares",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKbVdtSnNkWGg1UzJSaVpVcHdXRzFvUkhwNVRtYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-15T23:24:15.594Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-19T14:03:05.234Z"
   },
   {
     "id": "74b4acbc-d007-4014-8efa-b259f450bcd7",
