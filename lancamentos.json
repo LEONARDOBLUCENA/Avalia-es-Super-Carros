@@ -17302,5 +17302,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-19T19:13:17.014Z",
     "confirmed_at": null
+  },
+  {
+    "id": "01c11e59-7011-4390-959d-f1b77f76e49f",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Paulo Pombo",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-19T22:05:34.466Z",
+    "confirmed_at": null
   }
 ]
