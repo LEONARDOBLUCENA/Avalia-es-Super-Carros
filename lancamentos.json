@@ -17187,11 +17187,11 @@
     "setor": "Fotos",
     "vendedora": "Indianara",
     "cliente_nome_informado": "Esther Oliveira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xoc1ozbDRUbmxtTkUxQk1ITndUR1F5Y2xCUlJIYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-18T12:26:02.110Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-19T14:25:47.551Z"
   },
   {
     "id": "428a14b1-b212-493a-961c-56a8ff79b395",
