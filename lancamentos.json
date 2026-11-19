@@ -17357,5 +17357,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-19T22:07:01.267Z",
     "confirmed_at": null
+  },
+  {
+    "id": "b70b413f-ff13-4b16-a9cf-20f7d3f87744",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Ricardo",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-19T22:07:10.437Z",
+    "confirmed_at": null
   }
 ]
