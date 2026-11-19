@@ -17051,11 +17051,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Alllan Dos Santtos",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25ObmEwZGZTazEwV0dob01EUTVZa1JCT1ROeFNsRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-16T22:29:17.205Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-19T14:16:58.937Z"
   },
   {
     "id": "c677610a-5d3b-4730-b15a-379eb41ec563",
