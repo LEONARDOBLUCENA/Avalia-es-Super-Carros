@@ -16915,11 +16915,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Laís Martins",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25scmRUY3hPVGRHYWxGMU5tTmphVlZ0Y21sVVJIYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-15T23:25:51.579Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-19T14:14:30.053Z"
   },
   {
     "id": "964add7e-6953-4b46-811e-540a50924901",
