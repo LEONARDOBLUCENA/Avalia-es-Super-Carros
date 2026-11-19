@@ -17086,11 +17086,13 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Jacque Costa",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-11-16T22:30:21.214Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-11-19T14:23:46.180Z",
+    "rejected_review_id": null
   },
   {
     "id": "233ceab2-e85d-4d85-8bc1-3c420c324da7",
