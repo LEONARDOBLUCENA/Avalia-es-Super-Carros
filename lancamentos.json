@@ -16638,11 +16638,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "samara brasil",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t3d2NGZ3pRVEZ0VmtVMlNHNVBNV2RzVFRNNVpHYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-14T19:47:54.419Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-19T13:58:33.152Z"
   },
   {
     "id": "11051778-a289-45f4-83cf-470f9cebb8de",
