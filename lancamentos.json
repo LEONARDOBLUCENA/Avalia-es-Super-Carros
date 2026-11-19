@@ -16992,11 +16992,11 @@
     "setor": "Fotos",
     "vendedora": "Cleide",
     "cliente_nome_informado": "Rafael lima",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tscFMwNURMUzFJVUZsU2QyZEliVXBxTm5sRU5XYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-16T13:57:33.002Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-19T14:15:45.033Z"
   },
   {
     "id": "750a38e1-6d63-40a4-bb5a-e18801d6fcb1",
