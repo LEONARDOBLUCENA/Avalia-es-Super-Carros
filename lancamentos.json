@@ -17143,11 +17143,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "evelyn oliveira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21aQllVcHRRMFpyU1ZZeU0wSmtTVlY2UkVKTFUzYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-16T22:35:59.739Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-19T14:25:12.180Z"
   },
   {
     "id": "8fe6cb7c-02f5-4920-8f6b-9bfc669b155c",
