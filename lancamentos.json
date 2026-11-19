@@ -16583,11 +16583,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Lee Santos",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xobU5qUklXVk4yT0RKYVNYVnZNRTFJYkcxT1owRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-14T17:03:52.132Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-19T13:57:38.023Z"
   },
   {
     "id": "c3d18d62-c29a-4932-984e-5d01e1fd3ee4",
