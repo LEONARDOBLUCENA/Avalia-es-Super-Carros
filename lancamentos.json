@@ -17254,11 +17254,13 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "George Lima",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-11-18T17:32:22.003Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-11-20T19:04:16.436Z",
+    "rejected_review_id": null
   },
   {
     "id": "20abd425-ad16-43c0-992d-637bf09ae2eb",
