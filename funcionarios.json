@@ -130,5 +130,11 @@
     "nome": "Pedro",
     "setor": "Instrutor",
     "created_at": "2026-10-29T18:12:35.854Z"
+  },
+  {
+    "id": "41bff05d-94de-40ca-bc14-34db1e64c4e9",
+    "nome": "Regiane",
+    "setor": "Fotos",
+    "created_at": "2026-11-20T19:53:55.644Z"
   }
 ]
