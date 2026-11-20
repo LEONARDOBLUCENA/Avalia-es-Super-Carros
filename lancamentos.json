@@ -17478,5 +17478,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-20T18:26:05.802Z",
     "confirmed_at": null
+  },
+  {
+    "id": "90220157-6baf-45ef-8b2c-9e3c1bd55b47",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Gabriel tessari",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-20T18:26:55.112Z",
+    "confirmed_at": null
   }
 ]
