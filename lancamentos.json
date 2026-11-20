@@ -17178,12 +17178,12 @@
     "setor": "Fotos",
     "vendedora": "Indianara",
     "cliente_nome_informado": "Ana Paula Anselmo",
-    "status": "rejeitado",
+    "status": "pendente",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-11-18T12:19:37.792Z",
     "confirmed_at": null,
-    "rejected_at": "2026-11-20T19:03:00.318Z",
+    "rejected_at": null,
     "rejected_review_id": null
   },
   {
