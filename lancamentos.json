@@ -17215,12 +17215,12 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Santo capitão",
-    "status": "rejeitado",
+    "status": "pendente",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-11-18T16:05:30.022Z",
     "confirmed_at": null,
-    "rejected_at": "2026-11-20T19:03:29.819Z",
+    "rejected_at": null,
     "rejected_review_id": null
   },
   {
