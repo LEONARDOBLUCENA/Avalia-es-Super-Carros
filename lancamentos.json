@@ -17540,5 +17540,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-20T20:25:47.370Z",
     "confirmed_at": null
+  },
+  {
+    "id": "76f211b2-42c0-475b-b472-e4406a37725d",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Marco Costa",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-20T22:46:28.395Z",
+    "confirmed_at": null
   }
 ]
