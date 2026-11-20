@@ -17332,11 +17332,13 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Uilton Oliveira",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-11-19T22:06:02.095Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-11-20T19:02:43.767Z",
+    "rejected_review_id": null
   },
   {
     "id": "a040a44b-8273-47f8-94da-c3259936acc0",
