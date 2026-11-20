@@ -17551,5 +17551,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-20T22:46:28.395Z",
     "confirmed_at": null
+  },
+  {
+    "id": "409442e1-bbb3-413f-877d-4efbf108c3e0",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Danielle Alves",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-20T22:46:45.335Z",
+    "confirmed_at": null
   }
 ]
