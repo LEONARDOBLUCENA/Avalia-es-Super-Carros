@@ -17445,5 +17445,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-20T14:24:47.554Z",
     "confirmed_at": null
+  },
+  {
+    "id": "8157ad67-ec1f-4b6d-8923-cef33a8ecf49",
+    "setor": "Fotos",
+    "vendedora": "Indianara",
+    "cliente_nome_informado": "Alessandra Müller",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-20T14:35:13.683Z",
+    "confirmed_at": null
   }
 ]
