@@ -17401,5 +17401,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-19T22:08:14.945Z",
     "confirmed_at": null
+  },
+  {
+    "id": "c1ea31d4-e1a5-4701-9057-c0b84c6d222f",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Bernardo bedin dassi",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-20T13:35:34.204Z",
+    "confirmed_at": null
   }
 ]
