@@ -17471,11 +17471,11 @@
     "setor": "Fotos",
     "vendedora": "Indianara",
     "cliente_nome_informado": "Alessandra Müller",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2twQmJtcHljVlZxYzBoQ2RYbzRMWEowVW5KcE5XYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-20T14:35:13.683Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-21T22:35:35.048Z"
   },
   {
     "id": "5ef568a4-6f5b-4479-b5e8-45b9ec9d7acb",
