@@ -17073,11 +17073,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "roberinho",
-    "status": "pendente",
+    "status": "confirmado",
     "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21saVZDMWtUbE5NZUdaWVIyZzFhMWs0V1dkb2QwRRAB",
     "mes_referencia": "2026-11",
     "created_at": "2026-11-16T22:30:04.646Z",
-    "confirmed_at": "2026-11-19T14:17:19.737Z",
+    "confirmed_at": "2026-11-21T22:33:11.012Z",
     "rejected_at": null,
     "rejected_review_id": null
   },
