@@ -17548,11 +17548,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Marco Costa",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21aT1JraFhXRGh4T1hWaFlUZzJhR1ZGU1VZeVZVRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-20T22:46:28.395Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-21T22:32:23.289Z"
   },
   {
     "id": "409442e1-bbb3-413f-877d-4efbf108c3e0",
