@@ -17537,11 +17537,11 @@
     "setor": "Fotos",
     "vendedora": "Indianara",
     "cliente_nome_informado": "Pablo André",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tneFdIWmllVE5MUW5aSGNqRTBVVEZYZFdoSlVYYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-20T20:25:47.370Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-21T22:34:40.943Z"
   },
   {
     "id": "76f211b2-42c0-475b-b472-e4406a37725d",
