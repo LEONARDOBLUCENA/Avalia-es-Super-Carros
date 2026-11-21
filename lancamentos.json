@@ -17416,11 +17416,13 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Vivian Adeli Novais Tassi Freitas",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-11-19T22:08:14.945Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-11-21T22:37:40.881Z",
+    "rejected_review_id": null
   },
   {
     "id": "c1ea31d4-e1a5-4701-9057-c0b84c6d222f",
