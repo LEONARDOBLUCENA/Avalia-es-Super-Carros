@@ -17504,11 +17504,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Gabriel tessari",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tock0xOWlVRFJOVmt0UlVXZzVkelJDWkY5bVgwRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-20T18:26:55.112Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-21T22:35:06.311Z"
   },
   {
     "id": "3e596c26-5bee-4760-a5a1-4079564f60b2",
