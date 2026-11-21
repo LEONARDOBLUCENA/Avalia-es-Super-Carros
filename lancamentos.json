@@ -17324,11 +17324,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Paulo Pombo",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25oNVJERlFTalpoV2xWelRGRnFNVFZTVURGNFoxRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-19T22:05:34.466Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-21T22:37:26.364Z"
   },
   {
     "id": "37456874-164f-4b30-8e54-0ea6e962d561",
