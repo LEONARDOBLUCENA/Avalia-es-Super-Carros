@@ -17370,11 +17370,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Jaqueline Carvalho",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tVM1FrbGFSVVo0VjNKRFpUazRUbEp6YmtwMFkxRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-19T22:07:01.267Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-21T22:38:39.370Z"
   },
   {
     "id": "b70b413f-ff13-4b16-a9cf-20f7d3f87744",
