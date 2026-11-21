@@ -17482,11 +17482,11 @@
     "setor": "Fotos",
     "vendedora": "Indianara",
     "cliente_nome_informado": "Anderson Correia",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGSE56STRkRlpPYkRjd1RXbFlhMDB3YTJ3Mk5tYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-20T17:43:02.894Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-21T22:35:23.215Z"
   },
   {
     "id": "75326c24-6680-40cd-8e0e-4c154f09100f",
