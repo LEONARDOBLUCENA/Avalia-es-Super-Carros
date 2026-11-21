@@ -17568,5 +17568,16 @@
     "mes_referencia": "2026-11",
     "created_at": "2026-11-20T22:46:45.335Z",
     "confirmed_at": "2026-11-21T22:32:12.359Z"
+  },
+  {
+    "id": "970e4b87-27fd-4109-89b2-3c1918bd4394",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Alexandra Queiroz",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-21T23:10:01.988Z",
+    "confirmed_at": null
   }
 ]
