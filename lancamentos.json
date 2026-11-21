@@ -17427,11 +17427,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Bernardo bedin dassi",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKZlJuWjRYM1J2TWs1TFdscFZhemsxV2xsYWFVRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-20T13:35:34.204Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-21T22:36:00.645Z"
   },
   {
     "id": "5f4101fc-6c85-4e2e-ab5e-97d98b640e92",
