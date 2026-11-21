@@ -17313,11 +17313,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Thiago Rocha",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25sblgyRk1VMDkwTUVwQk0yWm1VbTVmVkd4MFdWRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-19T19:13:17.014Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-21T22:36:54.120Z"
   },
   {
     "id": "01c11e59-7011-4390-959d-f1b77f76e49f",
