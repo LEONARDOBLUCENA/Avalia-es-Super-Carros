@@ -17449,11 +17449,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "c&c tech",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tObmEwVTFZMTlPVjA1c2MyaGpMVWhUTVdkdVkyYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-20T14:04:48.071Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-21T22:35:51.922Z"
   },
   {
     "id": "47997a75-e117-4592-aa50-82225f90498a",
