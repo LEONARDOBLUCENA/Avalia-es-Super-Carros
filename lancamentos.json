@@ -17620,11 +17620,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Eduardo bravim",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pGWk5EUnBUbkp0TFVKQ1IweGlTRUpFUzJKbVlWRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-22T03:10:08.068Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-22T21:39:27.532Z"
   },
   {
     "id": "6c531888-ea4b-4a63-943e-f1dcc482f70b",
