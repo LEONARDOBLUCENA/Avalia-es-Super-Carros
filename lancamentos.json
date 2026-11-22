@@ -17339,11 +17339,13 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Caio Nunes",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-11-19T22:05:42.866Z",
-    "confirmed_at": null
+    "confirmed_at": null,
+    "rejected_at": "2026-11-22T21:42:28.198Z",
+    "rejected_review_id": null
   },
   {
     "id": "9e31986a-190a-4e10-ae0f-415411eb7c64",
