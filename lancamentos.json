@@ -17736,11 +17736,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Franciele milbradt",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xSaE9XeG5OWFk1ZUdOeGRsSnlObGcyUkdSZlEyYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-22T17:40:19.210Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-22T21:49:54.270Z"
   },
   {
     "id": "ff2441c6-2adc-4e4e-b28c-d0726dd2a46d",
