@@ -17228,12 +17228,12 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Vitória Albuquerque",
-    "status": "pendente",
+    "status": "rejeitado",
     "review_id": null,
     "mes_referencia": null,
     "created_at": "2026-11-18T17:30:42.828Z",
     "confirmed_at": null,
-    "rejected_at": null,
+    "rejected_at": "2026-11-22T21:41:13.024Z",
     "rejected_review_id": null
   },
   {
