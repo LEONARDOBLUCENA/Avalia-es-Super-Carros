@@ -17593,11 +17593,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Herman Bruno",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pSa2RFSXlUVXB4VTJwbmFXOVRlalZPWDJGc1EyYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-21T23:11:05.436Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-22T21:45:13.827Z"
   },
   {
     "id": "0fd1bff9-0f61-456b-b11a-801dc27c5a16",
