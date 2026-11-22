@@ -17711,5 +17711,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-22T17:39:32.376Z",
     "confirmed_at": null
+  },
+  {
+    "id": "6bfb2c2e-6ab5-4498-b2ce-7c70b0a8e844",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Gabriel durigon",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-22T17:39:48.680Z",
+    "confirmed_at": null
   }
 ]
