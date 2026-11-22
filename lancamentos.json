@@ -17755,5 +17755,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-22T18:06:29.986Z",
     "confirmed_at": null
+  },
+  {
+    "id": "f26a8ed8-e828-4583-aabb-5b0285a08766",
+    "setor": "Fotos",
+    "vendedora": "Indianara",
+    "cliente_nome_informado": "Elisabete Correa",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-22T18:07:02.474Z",
+    "confirmed_at": null
   }
 ]
