@@ -17612,5 +17612,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-22T03:09:55.545Z",
     "confirmed_at": null
+  },
+  {
+    "id": "95d7478a-4530-4021-aff0-74929055bca5",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Eduardo bravim",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-22T03:10:08.068Z",
+    "confirmed_at": null
   }
 ]
