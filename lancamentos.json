@@ -17766,5 +17766,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-22T18:07:02.474Z",
     "confirmed_at": null
+  },
+  {
+    "id": "310885ae-279d-4a62-8b43-f46757e7c16e",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Helder formiga",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-22T19:15:12.434Z",
+    "confirmed_at": null
   }
 ]
