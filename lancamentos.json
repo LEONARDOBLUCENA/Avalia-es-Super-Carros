@@ -17758,11 +17758,11 @@
     "setor": "Fotos",
     "vendedora": "Indianara",
     "cliente_nome_informado": "Kethellen Laurencio",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKNlMyTTRSVEphVkdGbmRYVTNUakJmVDNkd1JHYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-22T18:06:29.986Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-22T21:51:05.471Z"
   },
   {
     "id": "f26a8ed8-e828-4583-aabb-5b0285a08766",
