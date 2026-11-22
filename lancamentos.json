@@ -17763,11 +17763,11 @@
     "setor": "Fotos",
     "vendedora": "Indianara",
     "cliente_nome_informado": "Elisabete Correa",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t4bU56QlVhRTFOZHpaM1pDMUhkREJVVjBOUGEyYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-22T18:07:02.474Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-22T21:39:08.861Z"
   },
   {
     "id": "310885ae-279d-4a62-8b43-f46757e7c16e",
