@@ -17601,5 +17601,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-21T23:11:49.116Z",
     "confirmed_at": null
+  },
+  {
+    "id": "6d9d4532-8f6a-4c97-be67-fd984cda0b1b",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Carina Machado",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-22T03:09:55.545Z",
+    "confirmed_at": null
   }
 ]
