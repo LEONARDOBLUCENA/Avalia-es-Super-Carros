@@ -17700,5 +17700,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-22T17:09:03.467Z",
     "confirmed_at": null
+  },
+  {
+    "id": "4d591224-4ae3-4542-83f5-0b10a35c3760",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Guilherme alexandrino",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-22T17:39:32.376Z",
+    "confirmed_at": null
   }
 ]
