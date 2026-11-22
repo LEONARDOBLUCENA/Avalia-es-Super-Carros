@@ -17582,11 +17582,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Alexandra Queiroz",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21wVWVVMWtjMkoxTWpobGExSTNObXBzVFhWb2VHYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-21T23:10:01.988Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-22T21:45:00.043Z"
   },
   {
     "id": "b3fe6635-9093-41af-8555-ecfd2e296d62",
