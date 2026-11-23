@@ -17906,5 +17906,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-23T18:04:41.549Z",
     "confirmed_at": null
+  },
+  {
+    "id": "972d3049-a265-4c6f-b866-4c61f6621df1",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Josilene fernandes",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-23T19:45:49.236Z",
+    "confirmed_at": null
   }
 ]
