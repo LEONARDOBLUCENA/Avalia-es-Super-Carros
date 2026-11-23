@@ -17813,10 +17813,10 @@
     "setor": "Fotos",
     "vendedora": "Indianara",
     "cliente_nome_informado": "larissa Dimas",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25CS2VHUlJXVFpYYUU5dllrRlVUREZIVlVrMGFIYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-23T11:59:20.038Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-23T14:33:28.255Z"
   }
 ]
