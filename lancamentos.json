@@ -17807,5 +17807,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-23T11:58:55.390Z",
     "confirmed_at": null
+  },
+  {
+    "id": "60700528-2c0c-4245-8061-fec485ed8740",
+    "setor": "Fotos",
+    "vendedora": "Indianara",
+    "cliente_nome_informado": "larissa Dimas",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-23T11:59:20.038Z",
+    "confirmed_at": null
   }
 ]
