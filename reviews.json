@@ -1,5 +1,61 @@
 [
   {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tOSVpsTmhNMHN3TlhGUU9URnBhRGRmV1RSdGRIYxAB",
+    "author_name": "Mises Santos",
+    "rating": 5,
+    "review_text": "Excelente atendimento!! Mayara excelente atendente e com um compromisso fora da curva.",
+    "review_time": "2026-11-24T17:38:41.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25wdE5XeGhkVmxYUVdKM1YzRlhjalYwV1VkS2NsRRAB",
+    "author_name": "Jessica Fiuza",
+    "rating": 4,
+    "review_text": "",
+    "review_time": "2026-11-24T17:04:51.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201MGFFMURiazVZYkZCa01sWlJUREJsTjBJMmQyYxAB",
+    "author_name": "Claudio Bastos",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-24T16:33:17.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xNNFMxZHVaWFJCUTBKUVgxTm9ieTAzU1Zka1JrRRAB",
+    "author_name": "Raphael Stefanelli",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-24T14:37:57.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w4MWRHNURWMUJIWlVRMVpGWlJZMVJvUTFwTFptYxAB",
+    "author_name": "Nathalia Proni",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-24T13:58:28.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1dlkwWmFWMHhUWkRSeWRWcHZSV2swUVVoTlRIYxAB",
+    "author_name": "Edilberto Mendes Loiola",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-24T13:38:24.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21wbFREbEJkMmhVV0ROTGRHSmtkMVJhWVdwVGJHYxAB",
+    "author_name": "Anaryelle Reis",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-24T13:12:08.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tjMGREVnJNMGMzTTNRd01qYzJObXAyYUdKTWNWRRAB",
+    "author_name": "Pedro Lucas",
+    "rating": 5,
+    "review_text": "Salão do super carros é muito superestimado. Tem uns carros muito bonitos, porém é uma visitação mais pra quem ta disposto a pagar pelo passeio.",
+    "review_time": "2026-11-24T02:11:25.000Z"
+  },
+  {
     "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25KMk0ybFBRbk5UTVRObWFGUnRTV3RUVDBRNWMwRRAB",
     "author_name": "Maria Carla",
     "rating": 5,
@@ -12,6 +68,13 @@
     "rating": 4,
     "review_text": "Excelentes máquina e pessoas atenciosas, peca muito na demora para iniciar o passeio e depois nas escolha das fotos, 2 pessoas atendendo. Pelo menos minha experiência foi assim.",
     "review_time": "2026-11-23T21:27:02.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tjd2RGVnhXRkY2TWtkbE1HbFBiek5pWW1oaE5IYxAB",
+    "author_name": "Josilene Fernandes",
+    "rating": 5,
+    "review_text": "Maravilhosa!!!!!",
+    "review_time": "2026-11-23T19:38:20.000Z"
   },
   {
     "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xsV2RIQTJlRmMzVm1odk56aGlVM0p6ZG5neldWRRAB",
