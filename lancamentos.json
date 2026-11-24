@@ -17983,5 +17983,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-24T14:41:27.378Z",
     "confirmed_at": null
+  },
+  {
+    "id": "f7e0ac03-9c21-4553-be23-fd457810bf69",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Mises Santos",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-24T18:05:22.529Z",
+    "confirmed_at": null
   }
 ]
