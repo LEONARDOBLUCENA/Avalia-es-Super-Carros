@@ -17747,11 +17747,11 @@
     "setor": "Fotos",
     "vendedora": "Indianara",
     "cliente_nome_informado": "Felipe Xavier",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xoMGQzTmtUVmxpUWtkNWN6Tk1hbGQwT1dsWmNHYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-22T18:05:44.299Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-24T12:47:59.257Z"
   },
   {
     "id": "f1bca046-aaed-47c0-9a18-ad86586221be",
