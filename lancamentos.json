@@ -17848,11 +17848,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Paulo pardo",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pGT2IxZEdXVGMwTTJveFkyVXdiSE5oUVRBMlYyYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-23T16:32:53.644Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-25T17:34:20.155Z"
   },
   {
     "id": "c5008255-cf8f-4625-b060-de6b354b7ce3",
