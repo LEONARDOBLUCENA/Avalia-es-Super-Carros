@@ -17714,11 +17714,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Guilherme alexandrino",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21oMloydE9jbXd0Wm14NWRHa3pla3hMUVVJd1VuYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-22T17:39:32.376Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-25T14:10:50.925Z"
   },
   {
     "id": "6bfb2c2e-6ab5-4498-b2ce-7c70b0a8e844",
