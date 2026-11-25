@@ -17826,11 +17826,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Juliana Lopes",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kc1h6UlZOV1ZmZUUxa2RWQmpUVTAyU0MxNFdIYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-23T14:41:34.960Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-25T17:33:58.396Z"
   },
   {
     "id": "fe766293-2531-4f78-802c-b89080005e83",
