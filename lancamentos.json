@@ -17725,11 +17725,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Gabriel durigon",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGTlFYUllPQzB4Vm5GbGVWQkhiWEJsUm01WExWRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-22T17:39:48.680Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-25T14:10:59.678Z"
   },
   {
     "id": "3f00a0dd-3d25-4b68-b1bf-27b87c3d3e03",
