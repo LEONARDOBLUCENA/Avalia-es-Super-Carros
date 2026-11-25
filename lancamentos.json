@@ -17881,11 +17881,11 @@
     "setor": "Fotos",
     "vendedora": "Indianara",
     "cliente_nome_informado": "Diogo Pavão",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tsMk4yWndVbk0yZVd4R1VHbzRjRE5GVEc0ME9IYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-23T18:02:01.653Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-25T17:34:50.647Z"
   },
   {
     "id": "ee5d1df9-0340-4464-9f7d-f9174af710bd",
