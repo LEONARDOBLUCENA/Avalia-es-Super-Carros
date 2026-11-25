@@ -17914,11 +17914,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Josilene fernandes",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tjd2RGVnhXRkY2TWtkbE1HbFBiek5pWW1oaE5IYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-23T19:45:49.236Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-25T17:35:35.745Z"
   },
   {
     "id": "8c51375a-d4a1-4c44-af37-e256ae47398a",
