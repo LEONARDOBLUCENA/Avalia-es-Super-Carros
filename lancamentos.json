@@ -17991,10 +17991,10 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Mises Santos",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tOSVpsTmhNMHN3TlhGUU9URnBhRGRmV1RSdGRIYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-24T18:05:22.529Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-25T17:36:53.735Z"
   }
 ]
