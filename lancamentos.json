@@ -17837,11 +17837,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Maiara Souza zanardi",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25ObWJIWlNVVmh0Y1U5R1JGUnFWRlJGYld4VWNHYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-23T14:41:55.523Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-25T17:34:09.598Z"
   },
   {
     "id": "b4597249-b0de-44c6-92d9-04de3925aac1",
