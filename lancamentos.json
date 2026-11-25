@@ -17925,11 +17925,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Maria Carla",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25KMk0ybFBRbk5UTVRObWFGUnRTV3RUVDBRNWMwRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-24T12:23:11.257Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-25T17:35:45.556Z"
   },
   {
     "id": "d80970e1-dbad-409a-88bd-61cd5a6cb130",
