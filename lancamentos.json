@@ -17892,11 +17892,11 @@
     "setor": "Fotos",
     "vendedora": "Indianara",
     "cliente_nome_informado": "Prontini Pedidos de Embalagens",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xsYVFrcGxOVEpNWkRSMFlXYzBNM1JvVWtwdE9IYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-23T18:03:49.605Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-25T17:34:59.959Z"
   },
   {
     "id": "bf969d3e-d749-4963-a1e2-db0f30b3a01d",
