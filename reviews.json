@@ -1,5 +1,61 @@
 [
   {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tONFVIRnZlbkZoZEVabFZWSmhkMU5LV2tZMllYYxAB",
+    "author_name": "Matheus Henrique",
+    "rating": 5,
+    "review_text": "Extremamente organizado, veículos impecáveis, instrutores altamente preparados e treinados.",
+    "review_time": "2026-11-26T18:24:08.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WaGJIbGpUbGR4VVdkb1MwMTFhR2xmUVVoaWFYYxAB",
+    "author_name": "ruyter",
+    "rating": 5,
+    "review_text": "top demais, experiência unica",
+    "review_time": "2026-11-26T16:35:12.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT210bFUySnVaMlZDVDNkd1JpMHpNaTFYVld0SWQwRRAB",
+    "author_name": "Joao Pedro",
+    "rating": 5,
+    "review_text": "Super recomendo 😃 .<br>Experiência incrível",
+    "review_time": "2026-11-26T15:49:52.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25nM1JTMXNNa0pVVEZCV2JYVlhWWE51YUZKUVluYxAB",
+    "author_name": "Yukari Elise",
+    "rating": 3,
+    "review_text": "Os funcionários são muito solícitos, o acompanhante do motorista é muito simpático e sabe bem direcionar, para onde ir com o carro e em que momentos dá para acelerar, o fotógrafo é ótimo e os carros realmente estão bem cuidados e conservados, mas além disso o local é razoável.<br>Se você compra o ingresso apenas para a visitação, para ver a exposição de carros, não vale a pena, são mais de 100 reais por ingresso, e não são tantos carros assim para observar, o que vale a pena é pagar para dirigir ou ter uma carona em um dos carros.<br>E a respeito das fotos, o que experiênciei na hora de vê-las foi uma funcionária tentando me convencer a todo custo a comprar elas, mais de 300 reais em fotos, ela ficou insistindo para vermos uma por uma, para no final ser vergonhoso recusar ou escolher poucas.",
+    "review_time": "2026-11-26T14:47:04.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCa00xQnpZbmxUUlhwYVJWWjVRWEJ2U21zeE1FRRAB",
+    "author_name": "Caio César",
+    "rating": 5,
+    "review_text": "Ótima experiência",
+    "review_time": "2026-11-26T13:56:25.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2psTE5UUldWMmRCWTNGT05HOURlRXRXUlZKNGRrRRAB",
+    "author_name": "Wellington Bruno da Silva",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-26T12:02:47.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2toQk9GYzFSbkV0Um1oemIwTnlObVpWTkhGUE1tYxAB",
+    "author_name": "Tais de Mello Furtado da Costa",
+    "rating": 5,
+    "review_text": "Os meninos curtem mt. O rapaz da recepção foi bem legal. Meu esposo fez o passeio de carro com as crianças e eles colocaram \"cadeirinha\" para segurança do meu filho. Achei bem legal isso<br>Sem contar que eles são SUPER honestos. Meu filho esqueceu a pulseirinha de ouro no carro. Eles viram e fizeram questão de devolver. Tem várias atrações paga a parte lá dentro é bem legal",
+    "review_time": "2026-11-25T21:42:16.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25kbWFqTkNabFY1Y0U5QlRVRmtlRnAwWVdWTk0xRRAB",
+    "author_name": "Daniel Thuler",
+    "rating": 5,
+    "review_text": "Foi uma experiência bem legal… pessoal super atencioso",
+    "review_time": "2026-11-25T18:31:35.000Z"
+  },
+  {
     "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t4aUxXUmxUMTg0UjNWa01WSjZUM2RuWjFWQmJYYxAB",
     "author_name": "thais gomes",
     "rating": 5,
