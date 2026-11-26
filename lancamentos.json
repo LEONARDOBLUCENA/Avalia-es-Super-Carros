@@ -17996,5 +17996,16 @@
     "mes_referencia": "2026-11",
     "created_at": "2026-11-24T18:05:22.529Z",
     "confirmed_at": "2026-11-25T17:36:53.735Z"
+  },
+  {
+    "id": "b553feb5-c623-4f27-bbe6-e6916d9ba7ec",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Joao Pedro",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-26T15:52:56.432Z",
+    "confirmed_at": null
   }
 ]
