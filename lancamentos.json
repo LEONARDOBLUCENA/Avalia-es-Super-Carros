@@ -18051,5 +18051,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-26T19:16:10.838Z",
     "confirmed_at": null
+  },
+  {
+    "id": "069c9173-35f3-4719-9c1c-cb999bb1b9c9",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Diego Peixoto",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-26T19:16:23.405Z",
+    "confirmed_at": null
   }
 ]
