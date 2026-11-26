@@ -18029,5 +18029,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-26T19:15:04.335Z",
     "confirmed_at": null
+  },
+  {
+    "id": "27005c21-7f82-4f73-8cd0-5af03b5af805",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Daniel Thuler",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-26T19:15:51.893Z",
+    "confirmed_at": null
   }
 ]
