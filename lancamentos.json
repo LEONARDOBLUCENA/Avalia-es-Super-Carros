@@ -18018,5 +18018,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-26T17:50:36.169Z",
     "confirmed_at": null
+  },
+  {
+    "id": "926c901b-e87a-4b21-8e9f-6ce5629fe77e",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "RAFAELA CRISTINA FILIPPI",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-26T19:15:04.335Z",
+    "confirmed_at": null
   }
 ]
