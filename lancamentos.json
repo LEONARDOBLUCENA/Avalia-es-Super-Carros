@@ -18073,5 +18073,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-26T19:16:49.261Z",
     "confirmed_at": null
+  },
+  {
+    "id": "eb018255-4293-46f7-8a65-9b086a1917ca",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Bernardo Romano Xavier",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-26T19:17:18.503Z",
+    "confirmed_at": null
   }
 ]
