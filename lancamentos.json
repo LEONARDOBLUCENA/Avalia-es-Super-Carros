@@ -18040,5 +18040,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-26T19:15:51.893Z",
     "confirmed_at": null
+  },
+  {
+    "id": "a6c495dd-15b1-4c7f-b153-4f7d4e1ae8d4",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "thais gomes",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-26T19:16:10.838Z",
+    "confirmed_at": null
   }
 ]
