@@ -18062,5 +18062,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-26T19:16:23.405Z",
     "confirmed_at": null
+  },
+  {
+    "id": "d2b37b54-c804-4ed3-9d2b-5e701604a648",
+    "setor": "Fotos",
+    "vendedora": "Lohane",
+    "cliente_nome_informado": "Zilanda Beatriz Mendes Pereira",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-26T19:16:49.261Z",
+    "confirmed_at": null
   }
 ]
