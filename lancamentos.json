@@ -18002,11 +18002,11 @@
     "setor": "Fotos",
     "vendedora": "Mayara",
     "cliente_nome_informado": "Joao Pedro",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT210bFUySnVaMlZDVDNkd1JpMHpNaTFYVld0SWQwRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-26T15:52:56.432Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-27T17:17:39.376Z"
   },
   {
     "id": "7eab15de-15b9-4047-a686-f67b090f6070",
