@@ -18035,11 +18035,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Daniel Thuler",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25kbWFqTkNabFY1Y0U5QlRVRmtlRnAwWVdWTk0xRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-26T19:15:51.893Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-27T18:12:49.008Z"
   },
   {
     "id": "a6c495dd-15b1-4c7f-b153-4f7d4e1ae8d4",
