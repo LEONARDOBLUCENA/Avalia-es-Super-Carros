@@ -18090,11 +18090,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Gamer",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCMk9HeGxOa2R2YkdGVmFHNUdTakZYY1ZkRGVIYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-26T19:21:02.687Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-27T18:14:11.371Z"
   },
   {
     "id": "3fa83eeb-26e8-4f03-9f1a-7e33f8be2a80",
