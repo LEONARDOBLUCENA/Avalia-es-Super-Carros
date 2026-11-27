@@ -18106,5 +18106,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-27T13:43:40.902Z",
     "confirmed_at": null
+  },
+  {
+    "id": "ce06efbb-1654-4175-b47c-aea34e6c4628",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Francisco Valter Araújo Leite Rocha",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-27T15:58:00.805Z",
+    "confirmed_at": null
   }
 ]
