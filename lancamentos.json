@@ -18095,5 +18095,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-26T19:21:02.687Z",
     "confirmed_at": null
+  },
+  {
+    "id": "3fa83eeb-26e8-4f03-9f1a-7e33f8be2a80",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Mateus Santos",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-27T13:43:40.902Z",
+    "confirmed_at": null
   }
 ]
