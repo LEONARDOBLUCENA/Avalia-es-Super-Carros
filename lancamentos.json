@@ -18046,11 +18046,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "thais gomes",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t4aUxXUmxUMTg0UjNWa01WSjZUM2RuWjFWQmJYYxAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-26T19:16:10.838Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-27T18:13:07.941Z"
   },
   {
     "id": "069c9173-35f3-4719-9c1c-cb999bb1b9c9",
