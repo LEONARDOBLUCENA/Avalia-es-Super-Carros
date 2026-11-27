@@ -18068,11 +18068,11 @@
     "setor": "Fotos",
     "vendedora": "Lohane",
     "cliente_nome_informado": "Zilanda Beatriz Mendes Pereira",
-    "status": "pendente",
-    "review_id": null,
-    "mes_referencia": null,
+    "status": "confirmado",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tOWGJ6ZHZSbTVOTjJSRWRuUkxNR0Y0WjJkbVdVRRAB",
+    "mes_referencia": "2026-11",
     "created_at": "2026-11-26T19:16:49.261Z",
-    "confirmed_at": null
+    "confirmed_at": "2026-11-27T18:13:37.833Z"
   },
   {
     "id": "eb018255-4293-46f7-8a65-9b086a1917ca",
