@@ -18117,5 +18117,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-27T15:58:00.805Z",
     "confirmed_at": null
+  },
+  {
+    "id": "9c42ebf3-26e0-45d8-93ea-14a355064c3f",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Danilo Oliveira",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-27T15:58:16.784Z",
+    "confirmed_at": null
   }
 ]
