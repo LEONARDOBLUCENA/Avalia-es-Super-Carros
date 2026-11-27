@@ -18128,5 +18128,16 @@
     "mes_referencia": null,
     "created_at": "2026-11-27T15:58:16.784Z",
     "confirmed_at": null
+  },
+  {
+    "id": "d729d107-18c4-4593-a660-fbe0b8e21de7",
+    "setor": "Fotos",
+    "vendedora": "Mayara",
+    "cliente_nome_informado": "Lucas Oliveira",
+    "status": "pendente",
+    "review_id": null,
+    "mes_referencia": null,
+    "created_at": "2026-11-27T18:03:58.388Z",
+    "confirmed_at": null
   }
 ]
