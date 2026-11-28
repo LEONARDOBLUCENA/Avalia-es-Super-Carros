@@ -1,5 +1,61 @@
 [
   {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21Sa2RtcHNTMDkyV1VkeWNtSllXVlJ4Y0ZaMldtYxAB",
+    "author_name": "Rodrigo Capobiango",
+    "rating": 5,
+    "review_text": "Excelente...<br>Tudo ótimo",
+    "review_time": "2026-11-28T15:31:45.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGRFNWSjRPVmQyTW1OU1lrWkpMVzVCYmw5dVdsRRAB",
+    "author_name": "Anderson Martins Flores",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-28T14:37:25.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21adlRETm1Ra3RUYlc0MmIwWXlabXhMV0VSNlFrRRAB",
+    "author_name": "Gustavo Borges",
+    "rating": 5,
+    "review_text": "",
+    "review_time": "2026-11-28T14:13:52.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tsa1kzWnphRUpoTVVsUGIyMUxkVTU2UmtGS05GRRAB",
+    "author_name": "Fábio Henrique",
+    "rating": 5,
+    "review_text": "Passeio muito bacana, equipe da Super Carros estão de parabéns pelo atendimento",
+    "review_time": "2026-11-28T13:49:03.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xwdk0zaENiVkJtU200M09XdHdWMEU1ZDNSRFlWRRAB",
+    "author_name": "Evandro Karvat",
+    "rating": 4,
+    "review_text": "Abafado",
+    "review_time": "2026-11-28T00:18:14.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25ZM2Qxa3diMEZ0VjB4M1ZqWjBZalppWDBjNWNrRRAB",
+    "author_name": "Douglas Affonso",
+    "rating": 4,
+    "review_text": "",
+    "review_time": "2026-11-27T22:45:00.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xwS0xWZ3dkVzVtZFZOb2NsQlJjekpQTjJ4c2IxRRAB",
+    "author_name": "Emiliano Souza",
+    "rating": 5,
+    "review_text": "Show!",
+    "review_time": "2026-11-27T20:24:14.000Z"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t4S1YwWlNSRkUxTTJadE5VbHVNblpOTFhOd2JuYxAB",
+    "author_name": "Ademar Junior",
+    "rating": 5,
+    "review_text": "Muito bom",
+    "review_time": "2026-11-27T20:08:15.000Z"
+  },
+  {
     "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCbFRUQlBZemxWWnkxS2JuVlpURGcyYUVsYWIxRRAB",
     "author_name": "Vinicius Bernardo",
     "rating": 5,
